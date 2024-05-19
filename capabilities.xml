@@ -1,0 +1,94 @@
+<!--
+    Theme capabilities for Symbolic-es-de
+-->
+
+<themeCapabilities>
+   
+   <themeName>Symbolic</themeName>
+
+   <aspectRatio>16:9</aspectRatio>
+   <aspectRatio>16:10</aspectRatio>
+
+   <fontSize>small</fontSize>
+   <fontSize>medium</fontSize>
+   <fontSize>large</fontSize>
+   <fontSize>x-large</fontSize>
+
+   <colorScheme name="light">
+      <label>Light</label>
+   </colorScheme>
+   <colorScheme name="dark">
+      <label>Dark</label>
+   </colorScheme>
+   <colorScheme name="neon">
+      <label>Neon</label>
+   </colorScheme>
+   <colorScheme name="pastel">
+      <label>Pastel</label>
+   </colorScheme>
+   <colorScheme name="sony">
+      <label>Sony</label>
+   </colorScheme>
+   <colorScheme name="snes">
+      <label>SNES</label>
+   </colorScheme>
+   <colorScheme name="famicom">
+      <label>Famicom</label>
+   </colorScheme>
+   <colorScheme name="retro">
+      <label>Retro</label>
+   </colorScheme>
+
+
+   
+   <transitions name="transitions">
+      <label>transitions</label>
+      <selectable>false</selectable>
+      <systemToSystem>instant</systemToSystem>
+      <systemToGamelist>instant</systemToGamelist>
+      <gamelistToGamelist>instant</gamelistToGamelist>
+      <gamelistToSystem>instant</gamelistToSystem>
+      <startupToSystem>instant</startupToSystem>
+      <startupToGamelist>instant</startupToGamelist>
+   </transitions>
+   <suppressTransitionProfiles>
+      <entry>builtin-instant</entry>
+      <entry>builtin-slide</entry>
+      <entry>builtin-fade</entry>
+   </suppressTransitionProfiles>
+
+
+   <variant name="art-grid-game-textlist">
+      <label>[Art] Grid w/ Textlist</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="art-grid-game-grid">
+      <label>[Art] Grid w/ Grid</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="art-carousel-game-textlist">
+      <label>[Art] Carousel w/ Textlist</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="art-carousel-game-grid">
+      <label>[Art] Carousel w/ Grid</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="icon-grid-game-textlist">
+      <label>[Icon] Grid w/ Textlist</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="icon-grid-game-grid">
+      <label>[Icon] Grid w/ Grid</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="icon-carousel-game-textlist">
+      <label>[Icon] Carousel w/ Textlist</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="icon-carousel-game-grid">
+      <label>[Icon] Carousel w/ Grid</label>
+      <selectable>true</selectable>
+   </variant>
+
+</themeCapabilities>
