@@ -1,10 +1,10 @@
 <!--
-    Theme capabilities for Artistic-es-de
+    Theme capabilities for Backdrop-es-de
 -->
 
 <themeCapabilities>
    
-   <themeName>Artistic</themeName>
+   <themeName>Backdrop</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
@@ -62,35 +62,35 @@
 
 
    <variant name="art-grid-game-textlist">
-      <label>Art Grid w/ Textlist</label>
+      <label>Art Grid - Textlist</label>
       <selectable>true</selectable>
    </variant>
    <variant name="art-grid-game-grid">
-      <label>Art Grid w/ Grid</label>
+      <label>Art Grid - Grid</label>
       <selectable>true</selectable>
    </variant>
    <variant name="art-carousel-game-textlist">
-      <label>Art Carousel w/ Textlist</label>
+      <label>Art Carousel - Textlist</label>
       <selectable>true</selectable>
    </variant>
    <variant name="art-carousel-game-grid">
-      <label>Art Carousel w/ Grid</label>
+      <label>Art Carousel - Grid</label>
       <selectable>true</selectable>
    </variant>
    <variant name="icon-grid-game-textlist">
-      <label>Icon Grid w/ Textlist</label>
+      <label>Icon Grid - Textlist</label>
       <selectable>true</selectable>
    </variant>
    <variant name="icon-grid-game-grid">
-      <label>Icon Grid w/ Grid</label>
+      <label>Icon Grid - Grid</label>
       <selectable>true</selectable>
    </variant>
    <variant name="icon-carousel-game-textlist">
-      <label>Icon Carousel w/ Textlist</label>
+      <label>Icon Carousel - Textlist</label>
       <selectable>true</selectable>
    </variant>
    <variant name="icon-carousel-game-grid">
-      <label>Icon Carousel w/ Grid</label>
+      <label>Icon Carousel - Grid</label>
       <selectable>true</selectable>
    </variant>
 
