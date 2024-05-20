@@ -58,9 +58,9 @@
    </colorScheme>
    <colorScheme name="light">
       <variables>
-         <helpTextColor>FFFFFF</helpTextColor>
+         <helpTextColor>555555</helpTextColor>
          <backgroundColor>373737</backgroundColor>
-         <systemInfoColor>FFFFFF</systemInfoColor>
+         <systemInfoColor>555555</systemInfoColor>
          <systemCarouselTextColor>FFFFFF</systemCarouselTextColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <systemCarouselSelectorColor>FFFFFF</systemCarouselSelectorColor>
@@ -73,9 +73,9 @@
          <gamelistPrimaryColor>666666</gamelistPrimaryColor>
          <gamelistSecondaryColor>404040</gamelistSecondaryColor>
          <gameMetadataColor>666666</gameMetadataColor>
-         <BadgeColor>FFFFFF</BadgeColor>
+         <BadgeColor>555555</BadgeColor>
          <backgroundArtPath>./wallpapers/light.webp</backgroundArtPath>
-         <backgroundArtOpacity>0.5</backgroundArtOpacity>
+         <backgroundArtOpacity>0.8</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
@@ -86,8 +86,9 @@
          <systemInfoColor>5b5a58</systemInfoColor>
          <systemCarouselTextColor>5b5a58</systemCarouselTextColor>
          <systemCarouselTextBackgroundColor>404040</systemCarouselTextBackgroundColor>
-         <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
+         <systemCarouselSelectorColor>93cbb7</systemCarouselSelectorColor>
          <gamelistLogoColor>5b5a58</gamelistLogoColor>
+         <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>488788</gamelistSelectorColor>
