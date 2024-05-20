@@ -38,7 +38,8 @@ Symbolic is a theme for EmulationStation-DE theme that aims to provide a modern 
  
    - `[Icons] Carousel w/ Grid` - A system carousel of logos with a grid for games. `Large` and `X-Large` font will disable metadata and show only the boxart.
 
-- `Theme Color Scheme` - There are 3 types of color schemes that are used for the overall theme on all views, Light, Dark, and Retro-Gray.  Each of these color schemes allow you to choose from: Classic, Modern, or Custom. This will indicate which art style to use. Classic uses more official game art while Modern uses updated renders of characters. Custom allows user-defined artwork that can be mixed without being reset when updating the theme.
+- `Theme Color Scheme` - There are 8 color schemes to choose from that change the color palette of the theme across all views. Each of these include a wallpaper that can easily be swapped out by the user for further customization. 
+  
    - `Light` - A light grayscale color scheme.
    - `Dark` - A dark grayscale color scheme.
    - `Neon` - A retro-style neon color scheme.
