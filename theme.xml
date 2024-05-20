@@ -102,6 +102,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <color>${systemInfoColor}</color>
          <zIndex>10</zIndex>
          <visible>${gamescount}</visible>
+         <opacity>0.8</opacity>
       </text>
       <image name="gamesicon">
          <origin>1 0.5</origin>
@@ -109,6 +110,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <opacity>1</opacity>
          <color>${systemInfoColor}</color>
          <visible>${gamescount}</visible>
+         <opacity>0.8</opacity>
       </image>
    </view>
       <fontSize name="small,medium,large">
