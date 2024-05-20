@@ -1,5 +1,5 @@
 # Backdrop (ES-DE Version)
-Backdrop is a theme for EmulationStation-DE theme that aims to provide a modern and easy to use interface with a variety of color schemes. It also provides easy customization for users to swap out wallpapers and art styles.
+Backdrop is a theme for EmulationStation-DE theme that aims to provide a modern and easy to use interface with a variety of color schemes. It also provides easy customization for users to swap out wallpapers to their own liking.
 
 ## **Preview**
 
