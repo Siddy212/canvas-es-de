@@ -1,5 +1,5 @@
-# Artistic (ES-DE Version)
-Artistic is a theme for EmulationStation-DE theme that aims to provide a modern and easy to use interface with a variety of color schemes. It also provides easy customization for users to swap out wallpapers and art styles.
+# Backdrop (ES-DE Version)
+Backdrop is a theme for EmulationStation-DE theme that aims to provide a modern and easy to use interface with a variety of color schemes. It also provides easy customization for users to swap out wallpapers and art styles.
 
 ## **Preview**
 
@@ -20,23 +20,23 @@ Artistic is a theme for EmulationStation-DE theme that aims to provide a modern 
    - `19.5:9`
    - `1:1` (In Progress)
      
-- `Theme Variant` - Artistic features combinations of a grid/carousel system view and a textlist/grid gamelist view. Additionally, two styles of system logos are available: Art or Icons. All variants will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens:
+- `Theme Variant` - Backdrop features combinations of a grid/carousel system view and a textlist/grid gamelist view. Additionally, two styles of system logos are available: Art or Icons. All variants will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens:
   
-   - `[Art] Grid w/ Textlist` - A system grid of game art with a simple text list with metadata for games. `X-Large` font will disable metadata and show only the boxart.
+   - `Art Grid - Textlist` - A system grid of game art with a simple text list with metadata for games.
 
-   - `[Art] Grid w/ Grid` - A system grid of game art with a grid for games. `Large` and `X-Large` font will disable metadata and show only the boxart.
+   - `Art Grid - Grid` - A system grid of game art with a grid for games.
      
-   - `[Art] Carousel w/ Textlist` - A system carousel of game art with a simple text list with metadata for games. `X-Large` font will disable metadata and show only the boxart.
+   - `Art Carousel - Textlist` - A system carousel of game art with a simple text list with metadata for games.
  
-   - `[Art] Carousel w/ Grid` - A system carousel ofgame art with a grid for games. `Large` and `X-Large` font will disable metadata and show only the boxart.
+   - `Art Carousel - Grid` - A system carousel ofgame art with a grid for games.
      
-   - `[Icons] Grid w/ Textlist` - A system grid of logos with a simple text list with metadata for games. `X-Large` font will disable metadata and show only the boxart.
+   - `Icons Grid - Textlist` - A system grid of logos with a simple text list with metadata for games.
 
-   - `[Icons] Grid w/ Grid` - A system grid of logos with a grid for games. `Large` and `X-Large` font will disable metadata and show only the boxart.
+   - `Icons Grid - Grid` - A system grid of logos with a grid for games.
      
-   - `[Icons] Carousel w/ Textlist` - A system carousel of logos with a simple text list with metadata for games. `X-Large` font will disable metadata and show only the boxart.
+   - `Icons Carousel - Textlist` - A system carousel of logos with a simple text list with metadata for games..
  
-   - `[Icons] Carousel w/ Grid` - A system carousel of logos with a grid for games. `Large` and `X-Large` font will disable metadata and show only the boxart.
+   - `Icons Carousel - Grid` - A system carousel of logos with a grid for games.
 
 - `Theme Color Scheme` - There are 8 color schemes to choose from that change the color palette of the theme across all views. Each of these include a wallpaper that can easily be swapped out by the user for further customization. 
   
@@ -70,25 +70,15 @@ This theme allows customizations to artwork without the need to edit the source 
 
 **Artwork was designed and created by the following artists and credit is provided to them.**
    - A lot of the original artwork and layouts were designed and created by [fagnerpc](https://github.com/fagnerpc)
-   - Earthworm Jim: Created by [Robert Fink](https://finklematter.artstation.com/) 
-   - Super Metroid background SNES: Created by [Mark Van Haitsma](https://www.artstation.com/mvhaitsma)
    - Donkey Kong Country 2 art for SNES: Created by [Renato Giacomo](https://www.artstation.com/renatogiacomini)
    - Yoshi Mario Kart on Wii: Modifications made to art by [Yoshiyaki](https://www.deviantart.com/yoshiyaki) & [Renato Giacomo](https://www.artstation.com/renatogiacomini)
-      NES background: Created by [m4d3](https://www.reddit.com/r/gaming/comments/1kspxe/my_take_on_super_mario_wallpaper_3d_rendering/)
    - Delfino Plaza wallpaper on Gamecube: Created by [Vincent Moubeche](https://www.artstation.com/artwork/Xn4Xo3)
    - Mario on Gamecube: Created by [SonicJeremy](https://www.deviantart.com/sonicjeremy)
-   - Balloon Fighter Render: Created by [Hydro-Plumber](https://www.deviantart.com/hydro-plumber/gallery)
-   - Chrono on SFC: Created by [Pik](https://gamebanana.com/mods/383835)
-   - Mario on NES: (https://www.freepnglogos.com/images/mario-11641.html)
-   - Multiple character renders: [Nibroc-Rock](https://www.deviantart.com/nibroc-rock)
-   - Mario Curtain for Now--Playing: [Blueamnesiac](https://www.deviantart.com/blueamnesiac/art/SMB3-Curtain-Wallpaper-369156625)
-   - Pit on Famicom and Banjo Kazooie on N64: [Adverse56](https://www.deviantart.com/adverse56)
    - Tyranitar for GBC Hacks: [Chris Silva](https://www.artstation.com/artwork/obBlyB)
    - Wallpaper for Gameboy Hacks: [trollkarl3] (https://www.deviantart.com/trollkarl3/art/Realistic-Super-Mario-Bros-1-first-stage-Wallpaper-375538304)
    - Haohmaru for ngp - [jlcryu](https://www.deviantart.com/jlcryu/art/Haohmaru-919703925)
    - Glados for Steam - [EliteRobo](https://www.deviantart.com/eliterobo/art/Portal-SFM-Simple-GLaDOS-Render-794265716)
    - ScummVM Classic - [mikimontllo](https://twitter.com/mikimontllo)
-   - Arcade Carousel Icon - [IainSA](https://forums.launchbox-app.com/topic/61058-arcade-platform-category-logo-request/)
    - System Icons (Dragon32, BBCMicro, etc) - [PangolinWrestler](https://github.com/PangolinWrestler)
    - Other publicly available wallpapers or characters are credited to their original creators.
      
