@@ -16,6 +16,9 @@ Symbolic is a theme for EmulationStation-DE theme that aims to provide a modern 
 - `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
    - `16:9`
    - `16:10`
+   - `4:3`
+   - `19.5:9`
+   - `1:1` (In Progress)
      
 - `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  All settings will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens:
   
