@@ -20,7 +20,7 @@ Artistic is a theme for EmulationStation-DE theme that aims to provide a modern 
    - `19.5:9`
    - `1:1` (In Progress)
      
-- `Theme Variant` - Symbolic features combinations of a grid/carousel system view and a textlist/grid gamelist view. Additionally, two styles of system logos are available: Art or Icons. All variants will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens:
+- `Theme Variant` - Artistic features combinations of a grid/carousel system view and a textlist/grid gamelist view. Additionally, two styles of system logos are available: Art or Icons. All variants will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens:
   
    - `[Art] Grid w/ Textlist` - A system grid of game art with a simple text list with metadata for games. `X-Large` font will disable metadata and show only the boxart.
 
