@@ -61,7 +61,7 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
 This theme allows customizations to artwork without the need to edit the source XML. 
 
 ### Wallpapers
-- Use the folder called `wallpapers` in ES-DE's theme directory at: `ES-DE/themes/symbolic-es-de`
+- Use the folder called `wallpapers` in ES-DE's theme directory at: `ES-DE/themes/canvas-es-de`
 - Inside are .webp images named after the color schemes.
 - Save over any of these with your new wallpaper to change that color scheme look.
 - Alternate wallpapers are also stored in the "Alternate" folder as an example.
