@@ -64,6 +64,7 @@ This theme allows customizations to artwork without the need to edit the source 
 - Use the folder called `wallpapers` in ES-DE's theme directory at: `ES-DE/themes/symbolic-es-de`
 - Inside are .webp images named after the color schemes.
 - Save over any of these with your new wallpaper to change that color scheme look.
+- Alternate wallpapers are also stored in the "Alternate" folder as an example.
 
 
 ## **Acknowledgments**
