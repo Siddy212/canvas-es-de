@@ -175,7 +175,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
                   <unfocusedItemDimming>0.8</unfocusedItemDimming>
                   <unfocusedItemSaturation>1</unfocusedItemSaturation>
                   <itemSpacing>0 0</itemSpacing>
-                  <textColor>ffffff</textColor>
+	          <textColor>${systemCarouselTextColor}</textColor>
                   <fontPath>${fontBold}</fontPath>
                   <fontSize>0.036111111111111</fontSize>
                   <imageCornerRadius>0.002</imageCornerRadius>
@@ -440,7 +440,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <unfocusedItemDimming>0.8</unfocusedItemDimming>
             <unfocusedItemSaturation>1</unfocusedItemSaturation>
             <itemSpacing>0 0</itemSpacing>
-            <textColor>ffffff</textColor>
+            <textColor>${systemCarouselTextColor}</textColor>
             <fontPath>${fontBold}</fontPath>
             <fontSize>0.036111111111111</fontSize>
             <imageCornerRadius>0.004</imageCornerRadius>
