@@ -172,7 +172,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
                   <pos>${gridItemPos} 0.5</pos>
                   <itemSize>${gridItemSize}</itemSize>
                   <unfocusedItemOpacity>0.9</unfocusedItemOpacity>
-                  <unfocusedItemDimming>0.9</unfocusedItemDimming>
+                  <unfocusedItemDimming>0.8</unfocusedItemDimming>
                   <unfocusedItemSaturation>1</unfocusedItemSaturation>
                   <itemSpacing>0 0</itemSpacing>
                   <textColor>ffffff</textColor>
@@ -239,7 +239,8 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
                   <color>00000000</color>
                   <itemScale>1.5</itemScale>
                   <itemStacking>ascendingRaised</itemStacking>
-                  <unfocusedItemOpacity>0.8</unfocusedItemOpacity>
+                  <unfocusedItemOpacity>0.9</unfocusedItemOpacity>
+                  <unfocusedItemDimming>0.8</unfocusedItemDimming>
                   <horizontalOffset>0</horizontalOffset>
                   <imageCornerRadius>0.005</imageCornerRadius>
                   <text>${system.fullName}</text>

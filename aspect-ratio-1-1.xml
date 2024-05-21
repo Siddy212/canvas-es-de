@@ -211,8 +211,8 @@ based on 1920x1920
             <visible>${metadataMin}</visible>
          </badges>
          <image name="system-logo">
-            <pos>0.25 0.92</pos>
-            <size>0.1875 0</size>
+            <pos>0.23 0.92</pos>
+            <size>0.25 0</size>
          </image>
          <video name="game-media">
             <pos>${imagepos}</pos>
@@ -401,7 +401,7 @@ based on 1920x1920
          </badges>
          <image name="system-logo">
             <pos>${logoPos}</pos>
-            <size>0.1875 0</size>
+            <size>0.25 0</size>
          </image>
          <!-- Start: Extended Full Grid Metadata -->
        <text name="game-name-extended">
@@ -502,7 +502,7 @@ based on 1920x1920
             <badgesize>0.28 0.025</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
             <gridItemPosY>0.44</gridItemPosY>
-            <logoPos>0.25 0.89</logoPos>
+            <logoPos>0.23 0.89</logoPos>
          </variables>
       </fontSize>
       <fontSize name="medium">
@@ -512,7 +512,7 @@ based on 1920x1920
             <badgesize>0.38 0.026</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
             <gridItemPosY>0.42</gridItemPosY>
-            <logoPos>0.25 0.89</logoPos>
+            <logoPos>0.23 0.89</logoPos>
          </variables>
       </fontSize>
       <fontSize name="large">
