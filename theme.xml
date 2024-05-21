@@ -436,7 +436,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <backgroundImage>./_inc/systems/coversize/shadow.png</backgroundImage>
             <itemSize>${gridItemSize}</itemSize>
             <imageType>cover</imageType>
-            <imageFit>fill</imageFit>
             <unfocusedItemOpacity>1</unfocusedItemOpacity>
             <unfocusedItemDimming>0.8</unfocusedItemDimming>
             <unfocusedItemSaturation>1</unfocusedItemSaturation>
