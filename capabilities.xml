@@ -62,35 +62,35 @@
 
 
    <variant name="art-grid-game-textlist">
-      <label>Art Grid - Textlist</label>
+      <label>Grid - Textlist</label>
       <selectable>true</selectable>
    </variant>
    <variant name="art-grid-game-grid">
-      <label>Art Grid - Grid</label>
+      <label>Grid - Grid</label>
       <selectable>true</selectable>
    </variant>
    <variant name="art-carousel-game-textlist">
-      <label>Art Carousel - Textlist</label>
+      <label>Carousel - Textlist</label>
       <selectable>true</selectable>
    </variant>
    <variant name="art-carousel-game-grid">
-      <label>Art Carousel - Grid</label>
+      <label>Carousel - Grid</label>
       <selectable>true</selectable>
    </variant>
    <variant name="icon-grid-game-textlist">
-      <label>Icon Grid - Textlist</label>
+      <label>[Icon] Grid - Textlist</label>
       <selectable>true</selectable>
    </variant>
    <variant name="icon-grid-game-grid">
-      <label>Icon Grid - Grid</label>
+      <label>[Icon] Grid - Grid</label>
       <selectable>true</selectable>
    </variant>
    <variant name="icon-carousel-game-textlist">
-      <label>Icon Carousel - Textlist</label>
+      <label>[Icon] Carousel - Textlist</label>
       <selectable>true</selectable>
    </variant>
    <variant name="icon-carousel-game-grid">
-      <label>Icon Carousel - Grid</label>
+      <label>[Icon] Carousel - Grid</label>
       <selectable>true</selectable>
    </variant>
 
