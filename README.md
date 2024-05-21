@@ -22,31 +22,31 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
      
 - `Theme Variant` - Canvas features combinations of a grid/carousel system view and a textlist/grid gamelist view. Additionally, two styles of system logos are available: Art or Icons. All variants will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens:
   
-   - `Art Grid - Textlist` - A system grid of game art with a simple text list with metadata for games.
+   - `Art Grid - Textlist` - A system grid of game art and a simple text list with metadata for games.
 
-   - `Art Grid - Grid` - A system grid of game art with a grid for games.
+   - `Art Grid - Grid` - A system grid of game art and a grid for games.
      
-   - `Art Carousel - Textlist` - A system carousel of game art with a simple text list with metadata for games.
+   - `Art Carousel - Textlist` - A system carousel of game art and a simple text list with metadata for games.
  
-   - `Art Carousel - Grid` - A system carousel ofgame art with a grid for games.
+   - `Art Carousel - Grid` - A system carousel ofgame art and a grid for games.
      
-   - `Icons Grid - Textlist` - A system grid of logos with a simple text list with metadata for games.
+   - `Icons Grid - Textlist` - A system grid of logos and a simple text list with metadata for games.
 
-   - `Icons Grid - Grid` - A system grid of logos with a grid for games.
+   - `Icons Grid - Grid` - A system grid of logos and a grid for games.
      
-   - `Icons Carousel - Textlist` - A system carousel of logos with a simple text list with metadata for games..
+   - `Icons Carousel - Textlist` - A system carousel of logos and a simple text list with metadata for games..
  
-   - `Icons Carousel - Grid` - A system carousel of logos with a grid for games.
+   - `Icons Carousel - Grid` - A system carousel of logos and a grid for games.
 
-- `Theme Color Scheme` - There are 8 color schemes to choose from that change the color palette of the theme across all views. Each of these include a wallpaper that can easily be swapped out by the user for further customization. 
+- `Theme Color Scheme` - There are 8 color schemes to choose from that change the color palette of the theme across all views. Each of these include a wallpaper and an alternate option that can easily be swapped out by the user for further customization. 
   
    - `Light` - A light grayscale color scheme.
    - `Dark` - A dark grayscale color scheme.
-   - `Neon` - A retro-style neon color scheme.
+   - `Neon` - A retro neon color scheme.
    - `Pastel` - A light and bright color scheme.
-   - `Sony` - A blue/white modern style using PSP colors.
-   - `SNES` - A gray/purple retro style using Super Nintendo colors.
-   - `Famicom` - A red/gold retro style using Nintendo Famicom colors.
+   - `Sony` - A blue/white style using PSP colors.
+   - `SNES` - A gray/purple style using Super Nintendo colors.
+   - `Famicom` - A red/gold style using Nintendo Famicom colors.
    - `Retro` - A striped vintage color scheme.
  
 - `Theme Font Size` - enables you to change the size of the fonts displayed in the theme. It will also scale the size of the grid and carousel.
