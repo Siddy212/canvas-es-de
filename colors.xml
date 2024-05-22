@@ -52,7 +52,7 @@
          <gameMetadataColor>bbbbbb</gameMetadataColor>
          <BadgeColor>bbbbbb</BadgeColor>
          <backgroundArtPath>./wallpapers/dark.webp</backgroundArtPath>
-         <backgroundArtOpacity>0.25</backgroundArtOpacity>
+         <backgroundArtOpacity>1</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
