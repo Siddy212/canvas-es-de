@@ -135,12 +135,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    </view>
 
 
-
-
-
-
-   
-
    <!--
    ///
    Gamelist View: Defaults
@@ -169,6 +163,56 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    Gamelist View: Textlist Variants
    ///
    -->
+
+   <variant name="game-textlist,game-carousel,game-grid-detailed">
+      <fontSize name="small,medium,large">
+         <variables>
+            <scaledimagetype>miximage, cover</scaledimagetype>
+            <scaledimageCornerRadius>0</scaledimageCornerRadius>
+            <metadataBadge>true</metadataBadge>
+         </variables>
+      </fontSize>
+      <fontSize name="small">
+         <variables>
+            <metadataExtended>true</metadataExtended>
+            <metadataBase>false</metadataBase>
+            <metadataMin>true</metadataMin>
+         </variables>
+      </fontSize>
+      <fontSize name="medium,large">
+         <variables>
+            <metadataExtended>false</metadataExtended>
+            <metadataBase>true</metadataBase>
+            <metadataMin>true</metadataMin>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <metadataExtended>false</metadataExtended>
+            <metadataBase>false</metadataBase>
+            <metadataMin>false</metadataMin>
+            <metadataBadge>false</metadataBadge>
+         </variables>
+      </fontSize>
+   </variant>
+   <variant name="game-textlist,game-carousel">
+      <fontSize name="x-large">
+         <variables>
+            <scaledimagetype>cover, screenshot</scaledimagetype>
+            <scaledimageCornerRadius>0.008</scaledimageCornerRadius>
+         </variables>
+      </fontSize>
+   </variant>
+
+   <variant name="game-grid-detailed">
+      <fontSize name="x-large"> 
+         <variables>
+            <scaledimagetype>miximage, cover</scaledimagetype>
+            <scaledimageCornerRadius>0</scaledimageCornerRadius>
+         </variables>
+          </fontSize>
+   </variant>
+
    <variant name="
       game-textlist,game-carousel,game-grid-detailed">
    <view name="gamelist">
@@ -196,12 +240,12 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <pillarboxes>false</pillarboxes>
          <iterationCount>1</iterationCount>
          <onIterationsDone>image</onIterationsDone>
-      </video>
-      <video name="game-media">
          <imageType>${scaledimagetype}</imageType>
          <imageCornerRadius>${scaledimageCornerRadius}</imageCornerRadius>
       </video>
    </view>
+
+
 
    <!--
    ///
@@ -209,37 +253,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    ///
    -->
 
-      <fontSize name="small,medium,large">
-         <variables>
-            <scaledimagetype>miximage, cover</scaledimagetype>
-            <scaledimageCornerRadius>0</scaledimageCornerRadius>
-            <metadataBadge>true</metadataBadge>
-         </variables>
-      </fontSize>
-      <fontSize name="x-large">
-         <variables>
-            <scaledimagetype>cover, screenshot</scaledimagetype>
-            <scaledimageCornerRadius>0.008</scaledimageCornerRadius>
-            <metadataExtended>false</metadataExtended>
-            <metadataBase>false</metadataBase>
-            <metadataMin>false</metadataMin>
-            <metadataBadge>false</metadataBadge>
-         </variables>
-      </fontSize>
-      <fontSize name="small">
-         <variables>
-            <metadataExtended>true</metadataExtended>
-            <metadataBase>false</metadataBase>
-            <metadataMin>true</metadataMin>
-         </variables>
-      </fontSize>
-      <fontSize name="medium,large">
-         <variables>
-            <metadataExtended>false</metadataExtended>
-            <metadataBase>true</metadataBase>
-            <metadataMin>true</metadataMin>
-         </variables>
-      </fontSize>
+      
 
    </variant>
 
