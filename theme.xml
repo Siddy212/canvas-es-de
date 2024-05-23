@@ -87,32 +87,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 
    <!--
    ///
-   System View: Grid/Carousel
+   System View: Grid/Carousel Defaults
    ///
    -->
-
-   <include>./${systemview}.xml</include>
-
-      <fontSize name="small,medium,large">
-         <variables>
-            <carouselpos>0.5</carouselpos>
-         </variables>
-      </fontSize>
-      <fontSize name="x-large">
-         <variables>
-            <carouselpos>0.52</carouselpos>
-         </variables>
-      </fontSize>
-      <fontSize name="small,medium">
-         <variables>
-            <systemview>grid</systemview>
-         </variables>
-      </fontSize>
-      <fontSize name="large,x-large">
-         <variables>
-            <systemview>carousel</systemview>
-         </variables>
-      </fontSize>
 
    <view name="system">
       <text name="games-count">
@@ -133,7 +110,104 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <opacity>0.8</opacity>
       </image>
    </view>
+      <fontSize name="small,medium,large">
+         <variables>
+            <carouselpos>0.5</carouselpos>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <carouselpos>0.52</carouselpos>
+         </variables>
+      </fontSize>
+   <!--
+   ///
+   System View: Grid/Carousel Variables Data
+   ///
+   -->
 
+   <include>./_inc/systems/system-grid/system-variables.xml</include>
+
+   <!--
+   ///
+   System View: Grid System Variants
+   ///
+   -->
+
+   <variant name="grid-textlist,grid-carousel,grid-grid,grid-grid-detailed">
+      <view name="system">
+         <grid name="grid">
+            <origin>0.5 0.5</origin>
+            <pos>${gridItemPos} 0.5</pos>
+            <itemSize>${gridItemSize}</itemSize>
+            <selectorRelativeScale>${selectorRelativeScaleSize}</selectorRelativeScale>
+            <backgroundRelativeScale>${backgroundRelativeScaleSize}</backgroundRelativeScale>
+            <selectorImage>${selectorImagePath}</selectorImage>
+            <backgroundImage>${backgroundImagePath}</backgroundImage>
+            <staticImage>${staticImagePath}</staticImage>
+            <unfocusedItemOpacity>0.9</unfocusedItemOpacity>
+            <unfocusedItemDimming>0.8</unfocusedItemDimming>
+            <unfocusedItemSaturation>1</unfocusedItemSaturation>
+            <itemSpacing>0 0</itemSpacing>
+            <textColor>${systemCarouselTextColor}</textColor>
+            <fontPath>${fontBold}</fontPath>
+            <fontSize>0.036111111111111</fontSize>
+            <imageCornerRadius>0.002</imageCornerRadius>
+            <selectorColor>${systemCarouselSelectorColor}</selectorColor>
+            <selectorLayer>top</selectorLayer>
+            <zIndex>9</zIndex>
+            <fractionalRows>true</fractionalRows>
+            <scaleInwards>true</scaleInwards>
+            <size>0.975 ${gridHeight}</size>
+            <itemScale>1.05</itemScale>
+            <imageRelativeScale>0.90</imageRelativeScale>
+            <textRelativeScale>0.7</textRelativeScale>
+            <selectorCornerRadius>0.003</selectorCornerRadius>
+         </grid>
+         <text name="games-count">
+            <systemdata>gamecountGamesNoText</systemdata>
+         </text>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   System View: Carousel System Variants
+   ///
+   -->
+
+   <variant name="carousel-textlist,carousel-carousel,carousel-grid,carousel-grid-detailed">
+      <view name="system">
+         <carousel name="system-carousel">
+            <staticImage>${staticImagePath}</staticImage>
+            <origin>0 0.5</origin>
+            <size>1 1</size>
+            <pos>0 ${carouselpos}</pos>
+            <color>00000000</color>
+            <itemScale>1.5</itemScale>
+            <itemStacking>ascendingRaised</itemStacking>
+            <unfocusedItemOpacity>0.9</unfocusedItemOpacity>
+            <unfocusedItemDimming>0.8</unfocusedItemDimming>
+            <horizontalOffset>0</horizontalOffset>
+            <imageCornerRadius>0.005</imageCornerRadius>
+            <text>${system.fullName}</text>
+            <textColor>${systemCarouselTextColor}</textColor>
+            <textBackgroundColor>${systemCarouselTextBackgroundColor}</textBackgroundColor>
+            <textRelativeScale>0.8</textRelativeScale>
+            <lineSpacing>1.2</lineSpacing>
+            <fontPath>${fontBold}</fontPath>
+            <letterCase>uppercase</letterCase>
+            <fastScrolling>true</fastScrolling>
+            <zIndex>7</zIndex>            
+            <itemSize>${itemsize}</itemSize>
+            <fontSize>0.036111111111111</fontSize>
+            <maxItemCount>${itemcount}</maxItemCount>
+         </carousel>
+         <text name="games-count">
+            <systemdata>gamecountGames</systemdata>
+         </text>
+      </view>
+   </variant>
 
    <!--
    ///
@@ -160,11 +234,14 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 
    <!--
    ///
-   Gamelist View: Textlist Variants
+   Gamelist View: Font Metadata variations for Textlist, Carousel, Grid-Detailed
    ///
    -->
 
-   <variant name="game-textlist,game-carousel,game-grid-detailed">
+    
+   <variant name="
+   grid-textlist,grid-carousel,grid-grid-detailed,
+   carousel-textlist,carousel-carousel,carousel-grid-detailed">
       <fontSize name="small,medium,large">
          <variables>
             <scaledimagetype>miximage, cover</scaledimagetype>
@@ -172,22 +249,27 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <metadataBadge>true</metadataBadge>
          </variables>
       </fontSize>
-      <fontSize name="small">
+      <fontSize name="small,medium">
          <variables>
             <metadataExtended>true</metadataExtended>
             <metadataBase>false</metadataBase>
             <metadataMin>true</metadataMin>
          </variables>
       </fontSize>
-      <fontSize name="medium,large">
+      <fontSize name="large">
          <variables>
             <metadataExtended>false</metadataExtended>
             <metadataBase>true</metadataBase>
             <metadataMin>true</metadataMin>
          </variables>
       </fontSize>
+
+   </variant>
+   <variant name="grid-textlist,grid-carousel,carousel-textlist,carousel-carousel">
       <fontSize name="x-large">
          <variables>
+            <scaledimagetype>cover, screenshot</scaledimagetype>
+            <scaledimageCornerRadius>0.008</scaledimageCornerRadius>
             <metadataExtended>false</metadataExtended>
             <metadataBase>false</metadataBase>
             <metadataMin>false</metadataMin>
@@ -195,26 +277,23 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          </variables>
       </fontSize>
    </variant>
-   <variant name="game-textlist,game-carousel">
-      <fontSize name="x-large">
-         <variables>
-            <scaledimagetype>cover, screenshot</scaledimagetype>
-            <scaledimageCornerRadius>0.008</scaledimageCornerRadius>
-         </variables>
-      </fontSize>
-   </variant>
 
-   <variant name="game-grid-detailed">
+   <variant name="grid-grid-detailed,carousel-grid-detailed">
       <fontSize name="x-large"> 
          <variables>
             <scaledimagetype>miximage, cover</scaledimagetype>
             <scaledimageCornerRadius>0</scaledimageCornerRadius>
+            <metadataExtended>false</metadataExtended>
+            <metadataBase>false</metadataBase>
+            <metadataMin>false</metadataMin>
+            <metadataBadge>false</metadataBadge>
          </variables>
-          </fontSize>
+     </fontSize>
    </variant>
 
    <variant name="
-      game-textlist,game-carousel,game-grid-detailed">
+      grid-textlist,grid-carousel,grid-grid-detailed,
+      carousel-textlist,carousel-carousel,carousel-grid-detailed">
    <view name="gamelist">
       <badges name="badges">
          <slots>all</slots>
@@ -244,73 +323,34 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <imageCornerRadius>${scaledimageCornerRadius}</imageCornerRadius>
       </video>
    </view>
-
+   </variant>
 
 
    <!--
    ///
-   Gamelist View: Font Metadata variations for Textlist
+   Gamelist View: Grid-Basic Defaults
    ///
    -->
-
-      
-
-   </variant>
-
-   <variant name="
-   game-grid">
-   <view name="gamelist">
-      <badges name="badges">
-         <slots>all</slots>
-         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
-         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
-         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
-         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
-         <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
-         <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
-         <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
-         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
-         <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
-         <badgeIconColor>${BadgeColor}</badgeIconColor>
-         <controllerSize>0.8</controllerSize>
-         <folderLinkSize>0.8</folderLinkSize>
-         <origin>0 0.5</origin>
-         <horizontalAlignment>right</horizontalAlignment>
-      </badges> 
-   </view>
-
-   <fontSize name="small">
-      <variables>
-         <metadataExtended>true</metadataExtended>
-         <metadataBase>false</metadataBase>
-         <metadataMin>true</metadataMin>
-      </variables>
-   </fontSize>
-   <fontSize name="medium,large">
-      <variables>
-         <metadataExtended>false</metadataExtended>
-         <metadataBase>true</metadataBase>
-         <metadataMin>true</metadataMin>
-      </variables>
-   </fontSize>
-   <fontSize name="x-large">
-      <variables>
-         <metadataExtended>false</metadataExtended>
-         <metadataBase>false</metadataBase>
-         <metadataMin>false</metadataMin>
-      </variables>
-   </fontSize>
-
-   </variant>
-
-   <!--
-   ///
-   Gamelist View: Grid Defaults
-   ///
-   -->
-   <variant name="game-grid">
+   <variant name="grid-grid,carousel-grid">
    <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
       <view name="gamelist">
+         <badges name="badges">
+            <slots>all</slots>
+            <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+            <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+            <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+            <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+            <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+            <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+            <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
+            <badgeIconColor>${BadgeColor}</badgeIconColor>
+            <controllerSize>0.8</controllerSize>
+            <folderLinkSize>0.8</folderLinkSize>
+            <origin>0 0.5</origin>
+            <horizontalAlignment>right</horizontalAlignment>
+         </badges> 
          <grid name="grid">
             <origin>0.5 0.5</origin>
             <selectorImage>./_inc/systems/coversize/${systemCartSize}.svg</selectorImage>
@@ -405,16 +445,37 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <opacity>${gamelistBackgroundOpacity}</opacity>
          </image>
       </view>
+      <fontSize name="small">
+         <variables>
+            <metadataExtended>true</metadataExtended>
+            <metadataBase>false</metadataBase>
+            <metadataMin>true</metadataMin>
+         </variables>
+      </fontSize>
+      <fontSize name="medium,large">
+         <variables>
+            <metadataExtended>false</metadataExtended>
+            <metadataBase>true</metadataBase>
+            <metadataMin>true</metadataMin>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <metadataExtended>false</metadataExtended>
+            <metadataBase>false</metadataBase>
+            <metadataMin>false</metadataMin>
+         </variables>
+      </fontSize>
 </variant>
 
  <!--
    ///
-   Gamelist View: Textlist Variation
+   Gamelist View: Textlist Variations
    ///
    -->
 
    <variant name="
-      game-textlist">
+      grid-textlist,carousel-textlist">
       <view name="gamelist">
       <textlist name="game-list">
          <fontPath>${fontBold}</fontPath>
@@ -431,11 +492,11 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 
    <!--
    ///
-   Gamelist View: Carousel Variation
+   Gamelist View: Carousel Variations
    ///
    -->
 
-   <variant name="game-carousel">
+   <variant name="grid-carousel,carousel-carousel">
       <view name="gamelist">
         <carousel name="gamelistCarousel">
             <type>verticalWheel</type>
@@ -459,11 +520,11 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 
    <!--
    ///
-   Gamelist View: Grid: Detailed Variation
+   Gamelist View: Grid: Detailed Variations
    ///
    -->
 
-   <variant name="game-grid-detailed">
+   <variant name="grid-grid-detailed,carousel-grid-detailed">
     <include>./_inc/systems/coversize-detailed/${systemCoverSize}.xml</include>
     <view name="gamelist">  
       <grid name="grid">
@@ -508,7 +569,8 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    ///
    -->
    <variant name=
-      "game-textlist,game-carousel,game-grid-detailed">
+      "grid-textlist,grid-carousel,grid-grid-detailed,
+      carousel-textlist,carousel-carousel,carousel-grid-detailed">
       <view name="gamelist">
          <!-- Start: Extended Metadata -->
          <image name="game-metadata-background-shadow-extended">

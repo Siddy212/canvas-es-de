@@ -27,58 +27,78 @@ based on 1920x1920
    ///
    -->
 
+      <view name="system">
+         <text name="games-count">
+            <size>0 ${systemDescriptionFontSize}</size>
+            <fontSize>${systemDescriptionFontSize}</fontSize>
+         </text>
+      </view>
+
+      <variant name="
+         grid-textlist,
+         grid-carousel,
+         grid-grid,
+         grid-grid-detailed">
+         <view name="system">
+            <text name="games-count">
+               <pos>0.08 ${gamescountpos}</pos>
+            </text>
+            <image name="gamesicon">
+               <pos>0.075 ${gamescountpos}</pos>
+               <size>0 ${systemDescriptionFontSize}</size>
+            </image>
+         </view>
+      </variant>
+
+      <variant name="
+         carousel-textlist,
+         carousel-carousel,
+         carousel-grid,
+         carousel-grid-detailed">
+      <view name="system">
+         <text name="games-count">
+            <pos>0.453 ${gamescountpos}</pos>
+         </text>
+         <image name="gamesicon">
+            <pos>0.445 ${gamescountpos}</pos>
+            <size>0 ${systemDescriptionFontSize}</size>
+         </image>
+      </view>
+      </variant>
+
    <fontSize name="small">
       <variables>
-         <systemDescriptionFontSize>0.020</systemDescriptionFontSize>
+         <systemDescriptionFontSize>0.024</systemDescriptionFontSize>
          <helpFontSize>0.016</helpFontSize>
          <helpPos>0.04</helpPos>
-         <gamescountpos>0.08 0.95</gamescountpos>
-         <gamesiconpos>0.075 0.95</gamesiconpos>
+         <gamescountpos>0.95</gamescountpos>
       </variables>
    </fontSize>
    <fontSize name="medium">
       <variables>
-         <systemDescriptionFontSize>0.024</systemDescriptionFontSize>
+         <systemDescriptionFontSize>0.028</systemDescriptionFontSize>
          <helpFontSize>0.018</helpFontSize>
          <helpPos>0.04</helpPos>
-         <gamescountpos>0.08 0.95</gamescountpos>
-         <gamesiconpos>0.075 0.95</gamesiconpos>
+         <gamescountpos>0.95</gamescountpos>
       </variables>
    </fontSize>
    <fontSize name="large">
       <variables>
-         <systemDescriptionFontSize>0.028</systemDescriptionFontSize>
+         <systemDescriptionFontSize>0.032</systemDescriptionFontSize>
          <helpFontSize>0.020</helpFontSize>
          <helpPos>0.04</helpPos>
-         <gamescountpos>0.463 0.95</gamescountpos>
-         <gamesiconpos>0.458 0.95</gamesiconpos>
+         <gamescountpos>0.95</gamescountpos>
       </variables>
    </fontSize>
    <fontSize name="x-large">
       <variables>
-         <systemDescriptionFontSize>0.032</systemDescriptionFontSize>
+         <systemDescriptionFontSize>0.036</systemDescriptionFontSize>
          <helpFontSize>0.022</helpFontSize>
          <helpPos>0.055</helpPos>
-         <gamescountpos>0.463 0.93</gamescountpos>
-         <gamesiconpos>0.458 0.93</gamesiconpos>
+         <gamescountpos>0.93</gamescountpos>
       </variables>
    </fontSize>
 
-   <!--
-   ///
-   System View: Defaults
-   ///
-   -->
-   <view name="system">
-      <text name="games-count">
-         <pos>${gamescountpos}</pos>
-         <fontSize>${systemDescriptionFontSize}</fontSize>
-      </text>
-      <image name="gamesicon">
-         <pos>${gamesiconpos}</pos>
-         <size>0 ${systemDescriptionFontSize}</size>
-      </image>  
-   </view>
 
    <!--
    ///
@@ -128,7 +148,7 @@ based on 1920x1920
    Gamelist View: Carousel and Textlist Metadata Variants
    ///
    -->
-   <variant name="game-carousel">
+   <variant name="grid-carousel,carousel-carousel">
       <view name="gamelist">
         <carousel name="gamelistCarousel">
             <pos>0 -0.18</pos>
@@ -144,7 +164,7 @@ based on 1920x1920
    </variant>
 
     <variant name="
-      game-textlist">
+      grid-textlist,carousel-textlist">
       <view name="gamelist">
          <textlist name="game-list">
             <pos>${gamelistPos}</pos>
@@ -172,7 +192,8 @@ based on 1920x1920
    </variant>
 
    <variant name="
-      game-textlist,game-carousel,game-grid-detailed">
+      grid-textlist,grid-carousel,grid-grid-detailed,
+   carousel-textlist,carousel-carousel,carousel-grid-detailed">
       <view name="gamelist">
          <badges name="badges">
             <lines>3</lines>
@@ -298,10 +319,10 @@ based on 1920x1920
       </view>
       <fontSize name="small">
          <variables>
-           <metaDatafontSize>0.014</metaDatafontSize>
+           <metaDatafontSize>0.013</metaDatafontSize>
             <descriptionPos>0.654</descriptionPos>
             <descriptionHeight>0.105</descriptionHeight>
-            <descriptionFontSize>0.018</descriptionFontSize>
+            <descriptionFontSize>0.016</descriptionFontSize>
             <descriptionLineSpacing>1.3</descriptionLineSpacing>
             <badgepos>0.030 .798</badgepos>
             <badgesize>0.28 0.08</badgesize>
@@ -311,13 +332,13 @@ based on 1920x1920
       </fontSize>
       <fontSize name="medium">
          <variables>
-            <metaDatafontSize>0.019</metaDatafontSize>
-            <descriptionPos>0.638</descriptionPos>
+            <metaDatafontSize>0.014</metaDatafontSize>
+            <descriptionPos>0.654</descriptionPos>
             <descriptionHeight>0.105</descriptionHeight>
-            <descriptionFontSize>0.019</descriptionFontSize>
-            <descriptionLineSpacing>1.35</descriptionLineSpacing>
-            <badgepos>0.0302 0.805</badgepos>
-            <badgesize>0.35 0.10</badgesize>
+            <descriptionFontSize>0.018</descriptionFontSize>
+            <descriptionLineSpacing>1.3</descriptionLineSpacing>
+            <badgepos>0.030 .798</badgepos>
+            <badgesize>0.28 0.08</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
             <logoPos>0.92</logoPos>
          </variables>
@@ -351,7 +372,7 @@ based on 1920x1920
       <fontSize name="small,medium,large">
          <variables>
             <imagepos>0.25 0.30</imagepos>
-            <imagemaxSize>0.448958333333333 0.43</imagemaxSize>
+            <imagemaxSize>0.408958333333333 0.43</imagemaxSize>
          </variables>
       </fontSize>
       <fontSize name="x-large">
@@ -370,7 +391,7 @@ based on 1920x1920
    -->
 
     <variant name=
-      "game-grid">
+      "grid-grid,carousel-grid">
             <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
       <view name="gamelist">
           <grid name="grid">

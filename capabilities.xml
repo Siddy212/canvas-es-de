@@ -85,21 +85,36 @@
    </suppressTransitionProfiles>
 
 
-   <variant name="game-textlist">
-      <label>Textlist</label>
+   <variant name="grid-textlist">
+      <label>[Grid] Textlist</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="game-carousel">
-      <label>Carousel</label>
+   <variant name="grid-carousel">
+      <label>[Grid] Carousel</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="game-grid">
-      <label>Grid: Basic</label>
+   <variant name="grid-grid">
+      <label>[Grid] Grid: Basic</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="game-grid-detailed">
-      <label>Grid: Detailed (Help Off)</label>
+   <variant name="grid-grid-detailed">
+      <label>[Grid] Grid: Detailed (Help Off)</label>
       <selectable>true</selectable>
    </variant>
-
+   <variant name="carousel-textlist">
+      <label>[Carousel] Textlist</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-carousel">
+      <label>[Carousel] Carousel</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-grid">
+      <label>[Carousel] Grid: Basic</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-grid-detailed">
+      <label>[Carousel] Grid: Detailed (Help Off)</label>
+      <selectable>true</selectable>
+   </variant>
 </themeCapabilities>
