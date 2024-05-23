@@ -24,7 +24,11 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
   
    - `Textlist` - A simple text list of gmaes with metadata on the left.
 
-   - `Grid` - A grid of boxart with metadata for games.
+   - `Carousel` - A carousel of gmaes with metadata on the left.
+     
+   - `Grid: Basic` - A grid of boxart with minimal metadata for games.
+     
+   - `Grid: Detailed` - A tall grid of boxart with detailed metadata on the left for games. Disables help in gamelist view.
 
 - `Theme Color Scheme` - `Art/Icon` There are 8 color schemes to choose from that change the color palette and wallpaper of the theme across all views. Each of these includes a standard art version and an icon variant. Each wallpaper can easily be swapped out by the user for further customization. Alternate options are included within the theme 
   
@@ -38,10 +42,10 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
    - `Retro` - A striped vintage color scheme.
  
 - `Theme Font Size` - enables you to change the size of the fonts displayed in the theme. It will also scale the size of the grid and carousel.
-   - `Small` - good for display on tvs and computer monitors. Smallest Grid size.
-   - `Medium` - good for display on tvs and computer monitors. Medium Grid sizing.
-   - `Large` - good for display on large handheld screens at 6 inches or larger. Medium Grid sizing and disables some metadata.
-   - `Extra Large` - good for display on small handheld screens at 6 inches or below. Largest Grid sizing and disables most metadata.
+   - `Small` - good for display on tvs and computer monitors. System view is a Grid.
+   - `Medium` - good for display on tvs and computer monitors. System view is a Grid.
+   - `Large` - good for display on large handheld screens at 6 inches or larger. System view is a Carousel.
+   - `Extra Large` - good for display on small handheld screens at 6 inches or below. System view is a Carousel and disables most metadata.
 
 
 ## **Theme Customizations**
