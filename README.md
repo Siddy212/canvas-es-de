@@ -20,25 +20,13 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
    - `19.5:9`
    - `1:1`
      
-- `Theme Variant` - Canvas features combinations of a grid/carousel system view and a textlist/grid gamelist view. Additionally, two styles of system logos are available: Art or Icons. All variants will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens:
+- `Theme Variant` - Canvas features combinations of a grid/carousel system view that will scale based on font size. A gamelist view of either textlist or grid gamelist view. Additionally, two styles of system logos are available: Art or Icons. All variants will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens:
   
-   - `Art Grid - Textlist` - A system grid of game art and a simple text list with metadata for games.
+   - `Textlist` - A simple text list of gmaes with metadata on the left.
 
-   - `Art Grid - Grid` - A system grid of game art and a grid for games.
-     
-   - `Art Carousel - Textlist` - A system carousel of game art and a simple text list with metadata for games.
- 
-   - `Art Carousel - Grid` - A system carousel ofgame art and a grid for games.
-     
-   - `Icons Grid - Textlist` - A system grid of logos and a simple text list with metadata for games.
+   - `Grid` - A grid of boxart with metadata for games.
 
-   - `Icons Grid - Grid` - A system grid of logos and a grid for games.
-     
-   - `Icons Carousel - Textlist` - A system carousel of logos and a simple text list with metadata for games..
- 
-   - `Icons Carousel - Grid` - A system carousel of logos and a grid for games.
-
-- `Theme Color Scheme` - There are 8 color schemes to choose from that change the color palette of the theme across all views. Each of these include a wallpaper and an alternate option that can easily be swapped out by the user for further customization. 
+- `Theme Color Scheme` - `Art/Icon` There are 8 color schemes to choose from that change the color palette and wallpaper of the theme across all views. Each of these includes a standard art version and an icon variant. Each wallpaper can easily be swapped out by the user for further customization. Alternate options are included within the theme 
   
    - `Light` - A light grayscale color scheme.
    - `Dark` - A dark grayscale color scheme.

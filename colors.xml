@@ -1,38 +1,58 @@
 <theme>
 
-   <colorScheme name="sony">
-      <variables>
-          <ArtColor>light/${system.theme}.webp</ArtColor>
-          <IconColor>light/${system.theme}.webp</IconColor>
+
+   <!--   System View: Art Default   -->
+   
+   <colorScheme name="light,dark,retro,neon,pastel,famicom,snes,sony">
+         <variables>
+                  <selectorRelativeScaleSize>0.835</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.93</backgroundRelativeScaleSize>
+                  <selectorImagePath>./_inc/systems/system-grid/square.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/systems/system-grid/square-bg.png</backgroundImagePath>
       </variables>
    </colorScheme>
-   <colorScheme name="light,pastel,retro">
-      <variables>
-         <ArtColor>medium/${system.theme}.webp</ArtColor>
-         <IconColor>medium/${system.theme}.webp</IconColor>
+   <colorScheme name="light-icon,dark-icon,retro-icon,neon-icon,pastel-icon,famicom-icon,snes-icon,sony-icon">
+         <variables>
+                  <selectorRelativeScaleSize>0.88</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.95</backgroundRelativeScaleSize>
+                  <selectorImagePath>./_inc/systems/system-grid/4-5.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/systems/system-grid/4-5-bg.png</backgroundImagePath>
       </variables>
    </colorScheme>
-   <colorScheme name="dark,neon">
+   <colorScheme name="sony,dark,neon">
       <variables>
-          <ArtColor>light/${system.theme}.webp</ArtColor>
-          <IconColor>dark/${system.theme}.webp</IconColor>
+          <staticImagePath>./_inc/systems/carousel-icons-art/light/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
-   <colorScheme name="snes">
+   <colorScheme name="light,pastel,retro,snes">
       <variables>
-          <ArtColor>medium/${system.theme}.webp</ArtColor>
-          <IconColor>medium/${system.theme}.webp</IconColor>
+          <staticImagePath>./_inc/systems/carousel-icons-art/medium/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
    <colorScheme name="famicom">
       <variables>
-          <ArtColor>dark/${system.theme}.webp</ArtColor>
-          <IconColor>medium/${system.theme}.webp</IconColor>
+          <staticImagePath>./_inc/systems/carousel-icons-art/dark/${system.theme}.webp</staticImagePath>
+      </variables>
+   </colorScheme>
+
+   <colorScheme name="sony-icon">
+      <variables>
+          <staticImagePath>./_inc/systems/carousel-icons-icons/light/${system.theme}.webp</staticImagePath>
+      </variables>
+   </colorScheme>
+   <colorScheme name="light-icon,retro-icon,pastel-icon,famicom-icon,snes-icon">
+      <variables>
+          <staticImagePath>./_inc/systems/carousel-icons-icons/medium/${system.theme}.webp</staticImagePath>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark-icon,neon-icon">
+      <variables>
+          <staticImagePath>./_inc/systems/carousel-icons-icons/dark/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
 
 
-   <colorScheme name="dark">
+   <colorScheme name="dark,dark-icon">
       <variables>
          <helpTextColor>999999</helpTextColor>
          <backgroundColor>373737</backgroundColor>
@@ -56,7 +76,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="light">
+   <colorScheme name="light,light-icon">
       <variables>
          <helpTextColor>555555</helpTextColor>
          <backgroundColor>373737</backgroundColor>
@@ -79,7 +99,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="retro">
+   <colorScheme name="retro,retro-icon">
       <variables>
          <helpTextColor>5b5a58</helpTextColor>
          <backgroundColor>846D21</backgroundColor>
@@ -102,7 +122,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="neon">
+   <colorScheme name="neon,neon-icon">
       <variables>
          <helpTextColor>FFFFFF</helpTextColor>
          <backgroundColor>74006c</backgroundColor>
@@ -125,7 +145,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="pastel">
+   <colorScheme name="pastel,pastel-icon">
       <variables>
          <helpTextColor>777777</helpTextColor>
          <backgroundColor>bbbbbb</backgroundColor>
@@ -148,7 +168,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="famicom">
+   <colorScheme name="famicom,famicom-icon">
       <variables>
          <helpTextColor>e4e5ca</helpTextColor>
          <backgroundColor>846D21</backgroundColor>
@@ -171,7 +191,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="snes">
+   <colorScheme name="snes,snes-icon">
       <variables>
          <helpTextColor>3c3b3b</helpTextColor>
          <backgroundColor>846D21</backgroundColor>
@@ -194,7 +214,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="sony">
+   <colorScheme name="sony,sony-icon">
       <variables>
          <helpTextColor>ffffff</helpTextColor>
          <backgroundColor>ffffff</backgroundColor>

@@ -4,7 +4,7 @@
 
 <themeCapabilities>
    
-   <themeName>Canvas</themeName>
+   <themeName>Canvas-mockup-grid</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
@@ -23,6 +23,9 @@
    <colorScheme name="dark">
       <label>Dark</label>
    </colorScheme>
+   <colorScheme name="retro">
+      <label>Retro</label>
+   </colorScheme>
    <colorScheme name="neon">
       <label>Neon</label>
    </colorScheme>
@@ -38,8 +41,29 @@
    <colorScheme name="famicom">
       <label>Famicom</label>
    </colorScheme>
-   <colorScheme name="retro">
-      <label>Retro</label>
+      <colorScheme name="light-icon">
+      <label>[Icon] Light</label>
+   </colorScheme>
+   <colorScheme name="dark-icon">
+      <label>[Icon] Dark</label>
+   </colorScheme>
+   <colorScheme name="retro-icon">
+      <label>[Icon] Retro</label>
+   </colorScheme>
+   <colorScheme name="neon-icon">
+      <label>[Icon] Neon</label>
+   </colorScheme>
+   <colorScheme name="pastel-icon">
+      <label>[Icon] Pastel</label>
+   </colorScheme>
+   <colorScheme name="sony-icon">
+      <label>[Icon] Sony</label>
+   </colorScheme>
+   <colorScheme name="snes-icon">
+      <label>[Icon] SNES</label>
+   </colorScheme>
+   <colorScheme name="famicom-icon">
+      <label>[Icon] Famicom</label>
    </colorScheme>
 
 
@@ -61,36 +85,20 @@
    </suppressTransitionProfiles>
 
 
-   <variant name="art-grid-game-textlist">
-      <label>Grid - Textlist</label>
+   <variant name="game-textlist">
+      <label>Textlist</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="art-grid-game-grid">
-      <label>Grid - Grid</label>
+   <variant name="game-carousel">
+      <label>Carousel</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="art-carousel-game-textlist">
-      <label>Carousel - Textlist</label>
+   <variant name="game-grid">
+      <label>Grid: Basic</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="art-carousel-game-grid">
-      <label>Carousel - Grid</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="icon-grid-game-textlist">
-      <label>[Icon] Grid - Textlist</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="icon-grid-game-grid">
-      <label>[Icon] Grid - Grid</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="icon-carousel-game-textlist">
-      <label>[Icon] Carousel - Textlist</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="icon-carousel-game-grid">
-      <label>[Icon] Carousel - Grid</label>
+   <variant name="game-grid-detailed">
+      <label>Grid: Detailed (Help Off)</label>
       <selectable>true</selectable>
    </variant>
 
