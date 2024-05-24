@@ -95,7 +95,7 @@ based on 1920x1080
             <pos>0.463 ${gamescountpos}</pos>
          </text>
          <image name="gamesicon">
-            <pos>0.458 ${gamescountpos}</pos>
+            <pos>0.455 ${gamescountpos}</pos>
             <size>0 ${systemDescriptionFontSize}</size>
          </image>
       </view>
@@ -133,7 +133,7 @@ based on 1920x1080
       </fontSize>
       <fontSize name="x-large">
          <variables>
-            <systemDescriptionFontSize>0.055</systemDescriptionFontSize>
+            <systemDescriptionFontSize>0.045</systemDescriptionFontSize>
             <helpFontSize>0.033</helpFontSize>
             <helpFontSizeSmall>0.019</helpFontSizeSmall>
             <helpPos>0.032</helpPos>
