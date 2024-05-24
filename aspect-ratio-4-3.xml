@@ -94,10 +94,10 @@ based on 1920x1440
          carousel-grid-detailed">
       <view name="system">
          <text name="games-count">
-            <pos>0.458 ${gamescountpos}</pos>
+            <pos>0.455 ${gamescountpos}</pos>
          </text>
          <image name="gamesicon">
-            <pos>0.45 ${gamescountpos}</pos>
+            <pos>0.447 ${gamescountpos}</pos>
             <size>0 ${systemDescriptionFontSize}</size>
          </image>
       </view>
