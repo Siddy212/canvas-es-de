@@ -162,7 +162,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <itemScale>1.05</itemScale>
             <imageRelativeScale>0.90</imageRelativeScale>
             <textRelativeScale>0.7</textRelativeScale>
-            <selectorCornerRadius>0.003</selectorCornerRadius>
          </grid>
          <text name="games-count">
             <systemdata>gamecountGamesNoText</systemdata>
@@ -353,7 +352,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          </badges> 
          <grid name="grid">
             <origin>0.5 0.5</origin>
-            <selectorImage>./_inc/systems/coversize/${systemCartSize}.svg</selectorImage>
+            <selectorImage>./_inc/systems/coversize/${systemCoverSize}.svg</selectorImage>
             <backgroundImage>./_inc/systems/coversize/shadow.png</backgroundImage>
             <itemSize>${gridItemSize}</itemSize>
             <imageType>cover</imageType>
