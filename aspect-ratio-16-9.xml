@@ -476,7 +476,7 @@ based on 1920x1080
          </text>
          <datetime name="game-releasedate-extended">
             <pos>0.6041 0.932</pos>
-            <size>0 ${metaDatafontSize}</size>
+            <size>0.056 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <visible>${metadataExtended}</visible>
          </datetime>
@@ -557,7 +557,7 @@ based on 1920x1080
       </fontSize>
       <fontSize name="medium">
          <variables>
-            <metaDatafontSize>0.025</metaDatafontSize>
+            <metaDatafontSize>0.023</metaDatafontSize>
             <badgepos>0.50 0.912</badgepos>
             <badgesize>0.53 0.10</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
