@@ -372,11 +372,11 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <scaleInwards>true</scaleInwards>
             <size>0.975 ${gridHeight}</size>
             <itemScale>1.05</itemScale>
-            <imageRelativeScale>0.85</imageRelativeScale>
-            <backgroundRelativeScale>0.98</backgroundRelativeScale>
+            <imageRelativeScale>0.92</imageRelativeScale>
+            <backgroundRelativeScale>1</backgroundRelativeScale>
             <backgroundCornerRadius>0.003</backgroundCornerRadius >
             <textRelativeScale>0.9</textRelativeScale>
-            <selectorRelativeScale>0.88</selectorRelativeScale>
+            <selectorRelativeScale>0.93</selectorRelativeScale>
             <selectorCornerRadius>0.003</selectorCornerRadius>
          </grid>
          <text name="game-name-extended,game-name-base,game-genre-extended,game-genre-base,game-playcount-extended">
@@ -530,25 +530,26 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <grid name="grid">
       <origin>0.5 0</origin>
          <unfocusedItemOpacity>1</unfocusedItemOpacity>
-         <unfocusedItemDimming>0.6</unfocusedItemDimming>
+         <unfocusedItemDimming>0.8</unfocusedItemDimming>
          <unfocusedItemSaturation>1</unfocusedItemSaturation>
          <itemSpacing>0 0</itemSpacing>
          <textColor>ffffff</textColor>
          <fontPath>${fontBold}</fontPath>
-         <fontSize>0.036111111111111</fontSize>
+         <fontSize>0.02111111111111</fontSize>
          <imageCornerRadius>0.002</imageCornerRadius>
-         <selectorColor>${gamelistSelectedColor}</selectorColor>
+         <selectorColor>${systemCarouselSelectorColor}</selectorColor>
          <selectorLayer>top</selectorLayer>
          <zIndex>9</zIndex>
          <fractionalRows>true</fractionalRows>
          <scaleInwards>true</scaleInwards>
-         <pos>0.73 0.0</pos>
-         <size>0.54 1</size>
-         <itemScale>1.1</itemScale>
-         <imageRelativeScale>0.90</imageRelativeScale>
+         <pos>0.75 0.0</pos>
+         <size>0.5 1</size>
+         <itemScale>1.05</itemScale>
+         <imageRelativeScale>0.92</imageRelativeScale>
          <textRelativeScale>0.85</textRelativeScale>
-         <selectorRelativeScale>0.92</selectorRelativeScale>
+         <selectorRelativeScale>0.94</selectorRelativeScale>
          <selectorCornerRadius>0.003</selectorCornerRadius>
+         <backgroundRelativeScale>1</backgroundRelativeScale>
          <backgroundImage>./_inc/systems/coversize/shadow.png</backgroundImage>
          <imageType>cover</imageType>
          <selectorImage>./_inc/systems/coversize/${systemCoverSize}.svg</selectorImage>

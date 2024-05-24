@@ -1,96 +1,91 @@
 <theme>
-
-
-
   <aspectRatio name="16:9">
-      <fontSize name="small">
-         <variables>
-            <gridItemSize>0.108 0.256</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="medium">
-         <variables>
-            <gridItemSize>0.135 0.32</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large,x-large">
-         <variables>
-            <gridItemSize>0.18 0.4266666667</gridItemSize><!-- 256 256 -->
-         </variables>
-      </fontSize>
-   </aspectRatio>
+    <fontSize name="small">
+      <variables>
+        <gridItemSize>0.0999 0.2365</gridItemSize>
+      </variables>
+    </fontSize>
+    <fontSize name="medium">
+      <variables>
+        <gridItemSize>0.1249 0.2963</gridItemSize>
+      </variables>
+    </fontSize>
+    <fontSize name="large,x-large">
+      <variables>
+        <gridItemSize>0.1666 0.3946</gridItemSize>
+      </variables>
+    </fontSize>
+  </aspectRatio>
 
+  <aspectRatio name="16:10">
+    <fontSize name="small">
+      <variables>
+        <gridItemSize>0.0999 0.2133</gridItemSize>
+      </variables>
+    </fontSize>
+    <fontSize name="medium">
+      <variables>
+        <gridItemSize>0.1249 0.2667</gridItemSize>
+      </variables>
+    </fontSize>
+    <fontSize name="large,x-large">
+      <variables>
+        <gridItemSize>0.1666 0.3556</gridItemSize>
+      </variables>
+    </fontSize>
+  </aspectRatio>
 
-   <aspectRatio name="16:10">
-      <fontSize name="small">
-         <variables>
-            <gridItemSize>0.108 0.2304</gridItemSize><!-- 288 394 -->
-         </variables>
-      </fontSize>
-      <fontSize name="medium">
-         <variables>
-            <gridItemSize>0.135 0.288</gridItemSize><!-- 288 394 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large,x-large">
-         <variables>
-            <gridItemSize>0.18 0.384</gridItemSize><!-- 288 288 -->
-         </variables>
-      </fontSize>
-   </aspectRatio>
+  <aspectRatio name="4:3">
+    <fontSize name="small">
+      <variables>
+        <gridItemSize>0.1249 0.2222</gridItemSize>
+      </variables>
+    </fontSize>
+    <fontSize name="medium">
+      <variables>
+        <gridItemSize>0.1666 0.2963</gridItemSize>
+      </variables>
+    </fontSize>
+    <fontSize name="large,x-large">
+      <variables>
+        <gridItemSize>0.2499 0.4444</gridItemSize>
+      </variables>
+    </fontSize>
+  </aspectRatio>
 
-   <aspectRatio name="4:3">
-      <fontSize name="small">
-         <variables>
-            <gridItemSize>0.135 0.24</gridItemSize><!-- 240 328.125 -->
-         </variables>
-      </fontSize>
-      <fontSize name="medium">
-         <variables>
-            <gridItemSize>0.18 0.32</gridItemSize><!-- 240 328.125 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large,x-large">
-         <variables>
-            <gridItemSize>0.27 0.48</gridItemSize><!-- 240 240 -->
-         </variables>
-      </fontSize>
-   </aspectRatio>
+  <aspectRatio name="19.5:9">
+    <fontSize name="small">
+      <variables>
+        <gridItemSize>0.0999 0.2889</gridItemSize>
+      </variables>
+    </fontSize>
+    <fontSize name="medium">
+      <variables>
+        <gridItemSize>0.1249 0.3611</gridItemSize>
+      </variables>
+    </fontSize>
+    <fontSize name="large,x-large">
+      <variables>
+        <gridItemSize>0.1666 0.4815</gridItemSize>
+      </variables>
+    </fontSize>
+  </aspectRatio>
 
-   <aspectRatio name="19.5:9">
-      <fontSize name="small">
-         <variables>
-            <gridItemSize>0.108 0.312</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="medium">
-         <variables>
-            <gridItemSize>0.135 0.39</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large,x-large">
-         <variables>
-            <gridItemSize>0.18 0.52</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-   </aspectRatio>
-
-   <aspectRatio name="1:1">
-      <fontSize name="small">
-         <variables>
-            <gridItemSize>0.108 0.144</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="medium">
-         <variables>
-            <gridItemSize>0.135 0.18</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large,x-large">
-         <variables>
-            <gridItemSize>0.18 0.24</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-   </aspectRatio>
-
+  <aspectRatio name="1:1">
+    <fontSize name="small">
+      <variables>
+        <gridItemSize>0.0999 0.1333</gridItemSize>
+      </variables>
+    </fontSize>
+    <fontSize name="medium">
+      <variables>
+        <gridItemSize>0.1249 0.1666</gridItemSize>
+      </variables>
+    </fontSize>
+    <fontSize name="large,x-large">
+      <variables>
+        <gridItemSize>0.1666 0.2222</gridItemSize>
+      </variables>
+    </fontSize>
+  </aspectRatio>
 </theme>
