@@ -20,7 +20,7 @@
    <aspectRatio name="16:10">
       <fontSize name="small">
          <variables>
-            <gridItemSize>0.125 0.1196428571</gridItemSize><!-- 288 394 -->
+            <gridItemSize>0.125 0.1125</gridItemSize><!-- 288 394 -->
          </variables>
       </fontSize>
       <fontSize name="medium">
@@ -30,7 +30,7 @@
       </fontSize>
       <fontSize name="large,x-large">
          <variables>
-            <gridItemSize>0.2498 0.2584</gridItemSize><!-- 288 288 -->
+            <gridItemSize>0.2498 0.225</gridItemSize><!-- 288 288 -->
          </variables>
       </fontSize>
    </aspectRatio>
