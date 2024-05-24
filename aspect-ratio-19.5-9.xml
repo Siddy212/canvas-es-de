@@ -22,13 +22,42 @@ based on 1920x886
             <fontSize>${helpFontSize}</fontSize>
       </helpsystem>
    </view>
-   <view name="gamelist">
-      <helpsystem name="help">
-            <posDimmed>0.5 ${helpPos}</posDimmed>
-            <pos>0.5 ${helpPos}</pos>
-            <fontSize>${helpFontSize}</fontSize>
-      </helpsystem>
-   </view>
+
+   <!--
+   ///
+   Help System Variantions:
+   ///
+   -->
+
+
+    <variant name="
+         grid-textlist,
+         grid-carousel,
+         grid-grid
+         carousel-textlist,
+         carousel-carousel,
+         carousel-grid">
+         <view name="gamelist">
+            <helpsystem name="help">
+                  <posDimmed>0.5 ${helpPos}</posDimmed>
+                  <pos>0.5 ${helpPos}</pos>
+                  <fontSize>${helpFontSize}</fontSize>
+            </helpsystem>
+         </view>
+      </variant>
+   <variant name="
+         grid-grid-detailed,
+         carousel-grid-detailed
+         ">
+         <view name="gamelist">
+            <helpsystem name="help">
+                  <posDimmed>0.5 ${helpPos}</posDimmed>
+                  <pos>0.25 ${helpPos}</pos>
+                  <fontSize>${helpFontSizeSmall}</fontSize>
+                  <fontSizeDimmed>${helpFontSize}</fontSizeDimmed>
+            </helpsystem>
+         </view>
+      </variant>
    <!--
    ///
    Variables
@@ -78,6 +107,7 @@ based on 1920x886
       <variables>
          <systemDescriptionFontSize>0.033</systemDescriptionFontSize>
          <helpFontSize>0.022</helpFontSize>
+         <helpFontSizeSmall>0.022</helpFontSizeSmall>
          <helpPos>0.04</helpPos>
          <gamescountpos>0.95</gamescountpos>
       </variables>
@@ -86,6 +116,7 @@ based on 1920x886
       <variables>
          <systemDescriptionFontSize>0.036</systemDescriptionFontSize>
          <helpFontSize>0.030</helpFontSize>
+         <helpFontSizeSmall>0.024</helpFontSizeSmall>
          <helpPos>0.04</helpPos>
          <gamescountpos>0.95</gamescountpos>
       </variables>
@@ -94,6 +125,7 @@ based on 1920x886
       <variables>
          <systemDescriptionFontSize>0.038</systemDescriptionFontSize>
          <helpFontSize>0.033</helpFontSize>
+         <helpFontSizeSmall>0.024</helpFontSizeSmall>
          <helpPos>0.04</helpPos>
          <gamescountpos>0.95</gamescountpos>
       </variables>
@@ -102,6 +134,7 @@ based on 1920x886
       <variables>
          <systemDescriptionFontSize>0.055</systemDescriptionFontSize>
          <helpFontSize>0.035</helpFontSize>
+         <helpFontSizeSmall>0.024</helpFontSizeSmall>
          <helpPos>0.035</helpPos>
          <gamescountpos>0.94</gamescountpos>
       </variables>

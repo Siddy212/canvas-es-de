@@ -555,10 +555,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <selectorImage>./_inc/systems/coversize/${systemCoverSize}.svg</selectorImage>
          <itemSize>${gridItemSize}</itemSize>
       </grid>
-      <helpsystem name="help">
-         <textColor>00000000</textColor>
-         <iconColor>00000000</iconColor>
-      </helpsystem>
     </view>
    </variant>
 
