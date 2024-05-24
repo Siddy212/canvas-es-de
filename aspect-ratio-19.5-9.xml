@@ -77,7 +77,7 @@ based on 1920x886
    <fontSize name="medium">
       <variables>
          <systemDescriptionFontSize>0.036</systemDescriptionFontSize>
-         <helpFontSize>0.033</helpFontSize>
+         <helpFontSize>0.030</helpFontSize>
          <helpPos>0.04</helpPos>
          <gamescountpos>0.95</gamescountpos>
       </variables>
@@ -93,8 +93,8 @@ based on 1920x886
    <fontSize name="x-large">
       <variables>
          <systemDescriptionFontSize>0.055</systemDescriptionFontSize>
-         <helpFontSize>0.040</helpFontSize>
-         <helpPos>0.055</helpPos>
+         <helpFontSize>0.035</helpFontSize>
+         <helpPos>0.035</helpPos>
          <gamescountpos>0.94</gamescountpos>
       </variables>
    </fontSize>
@@ -408,8 +408,8 @@ based on 1920x886
             <pos>${gridItemPos} ${gridItemPosY}</pos>
          </grid>
          <badges name="badges">
-            <lines>1</lines>
-            <itemsPerLine>9</itemsPerLine>
+            <lines>3</lines>
+            <itemsPerLine>4</itemsPerLine>
             <pos>${badgepos}</pos>
             <size>${badgesize}</size>
             <itemMargin>${badgemargin}</itemMargin>
@@ -513,8 +513,8 @@ based on 1920x886
       <fontSize name="small">
          <variables>
             <metaDatafontSize>0.0225</metaDatafontSize>
-            <badgepos>0.605 0.82</badgepos>
-            <badgesize>0.35 0.030</badgesize>
+            <badgepos>0.5 0.908</badgepos>
+            <badgesize>0.35 0.1</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
             <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.25 0.89</logoPos>
@@ -523,20 +523,20 @@ based on 1920x886
       <fontSize name="medium">
          <variables>
             <metaDatafontSize>0.03</metaDatafontSize>
-            <badgepos>0.575 0.805</badgepos>
-            <badgesize>0.38 0.035</badgesize>
+            <badgepos>0.488 0.91</badgepos>
+            <badgesize>0.38 0.14</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
-            <gridItemPosY>0.42</gridItemPosY>
+            <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.25 0.89</logoPos>
          </variables>
       </fontSize>
       <fontSize name="large">
          <variables>
             <metaDatafontSize>0.035</metaDatafontSize>
-            <badgepos>0.575 0.805</badgepos>
-            <badgesize>0.38 0.035</badgesize>
+            <badgepos>0.488 0.91</badgepos>
+            <badgesize>0.38 0.14</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
-            <gridItemPosY>0.42</gridItemPosY>
+            <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.25 0.89</logoPos>
          </variables>
       </fontSize>
@@ -546,7 +546,7 @@ based on 1920x886
             <badgepos>0.42 0.808</badgepos>
             <badgesize>0.53 0.053</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
-            <gridItemPosY>0.47</gridItemPosY>
+            <gridItemPosY>0.45</gridItemPosY>
             <logoPos>0.5 0.92</logoPos>
          </variables>
       </fontSize>

@@ -76,7 +76,7 @@ based on 1920x1200
    <fontSize name="medium">
       <variables>
          <systemDescriptionFontSize>0.038</systemDescriptionFontSize>
-         <helpFontSize>0.033</helpFontSize>
+         <helpFontSize>0.030</helpFontSize>
          <helpPos>0.04</helpPos>
          <gamescountpos>0.95</gamescountpos>
       </variables>
@@ -84,7 +84,7 @@ based on 1920x1200
    <fontSize name="large">
       <variables>
          <systemDescriptionFontSize>0.040</systemDescriptionFontSize>
-         <helpFontSize>0.033</helpFontSize>
+         <helpFontSize>0.032</helpFontSize>
          <helpPos>0.04</helpPos>
          <gamescountpos>0.95</gamescountpos>
       </variables>
@@ -92,8 +92,8 @@ based on 1920x1200
    <fontSize name="x-large">
       <variables>
          <systemDescriptionFontSize>0.055</systemDescriptionFontSize>
-         <helpFontSize>0.035</helpFontSize>
-         <helpPos>0.055</helpPos>
+         <helpFontSize>0.033</helpFontSize>
+         <helpPos>0.045</helpPos>
          <gamescountpos>0.94</gamescountpos>
       </variables>
    </fontSize>
@@ -197,7 +197,7 @@ based on 1920x1200
       <view name="gamelist"> 
          <badges name="badges">
             <lines>3</lines>
-            <itemsPerLine>3</itemsPerLine>
+            <itemsPerLine>4</itemsPerLine>
             <pos>${badgepos}</pos>
             <size>${badgesize}</size>
             <itemMargin>${badgemargin}</itemMargin>
@@ -402,8 +402,8 @@ based on 1920x1200
             <pos>${gridItemPos} ${gridItemPosY}</pos>
          </grid>
          <badges name="badges">
-            <lines>1</lines>
-            <itemsPerLine>9</itemsPerLine>
+            <lines>${Lines}</lines>
+            <itemsPerLine>${itemsPerLine}</itemsPerLine>
             <pos>${badgepos}</pos>
             <size>${badgesize}</size>
             <itemMargin>${badgemargin}</itemMargin>
@@ -507,41 +507,49 @@ based on 1920x1200
       <fontSize name="small">
          <variables>
             <metaDatafontSize>0.0225</metaDatafontSize>
-            <badgepos>0.62 0.82</badgepos>
-            <badgesize>0.35 0.030</badgesize>
+            <badgepos>0.97 0.82</badgepos>
+            <badgesize>0.38 0.03</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
             <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.25 0.89</logoPos>
+            <itemsPerLine>12</itemsPerLine>
+            <Lines>1</Lines>
          </variables>
       </fontSize>
       <fontSize name="medium">
          <variables>
             <metaDatafontSize>0.03</metaDatafontSize>
-            <badgepos>0.584 0.815</badgepos>
-            <badgesize>0.38 0.035</badgesize>
+            <badgepos>0.494 0.911</badgepos>
+            <badgesize>0.38 0.12</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
-            <gridItemPosY>0.42</gridItemPosY>
+            <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.25 0.89</logoPos>
+            <itemsPerLine>4</itemsPerLine>
+            <Lines>3</Lines>
          </variables>
       </fontSize>
       <fontSize name="large">
          <variables>
             <metaDatafontSize>0.032</metaDatafontSize>
-            <badgepos>0.584 0.815</badgepos>
-            <badgesize>0.38 0.035</badgesize>
+            <badgepos>0.494 0.911</badgepos>
+            <badgesize>0.38 0.12</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
-            <gridItemPosY>0.42</gridItemPosY>
+            <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.25 0.89</logoPos>
+            <itemsPerLine>4</itemsPerLine>
+            <Lines>3</Lines>
          </variables>
       </fontSize>
       <fontSize name="x-large">
          <variables>
             <metaDatafontSize>0.05</metaDatafontSize>
-            <badgepos>0.42 0.808</badgepos>
-            <badgesize>0.53 0.053</badgesize>
+            <badgepos>0.494 0.905</badgepos>
+            <badgesize>0.38 0.105</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
             <gridItemPosY>0.47</gridItemPosY>
             <logoPos>0.5 0.92</logoPos>
+            <itemsPerLine>4</itemsPerLine>
+            <Lines>3</Lines>
          </variables>
       </fontSize>
    </variant>

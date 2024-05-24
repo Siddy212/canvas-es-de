@@ -399,7 +399,7 @@ based on 1920x1920
          </grid>
          <badges name="badges">
             <lines>1</lines>
-            <itemsPerLine>9</itemsPerLine>
+            <itemsPerLine>12</itemsPerLine>
             <pos>${badgepos}</pos>
             <size>${badgesize}</size>
             <itemMargin>${badgemargin}</itemMargin>
@@ -504,8 +504,8 @@ based on 1920x1920
       <fontSize name="small">
          <variables>
             <metaDatafontSize>0.016</metaDatafontSize>
-            <badgepos>0.618 0.83</badgepos>
-            <badgesize>0.28 0.025</badgesize>
+            <badgepos>0.9 0.833</badgepos>
+            <badgesize>0.3 0.025</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
             <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.23 0.89</logoPos>
@@ -514,27 +514,27 @@ based on 1920x1920
       <fontSize name="medium">
          <variables>
             <metaDatafontSize>0.018</metaDatafontSize>
-            <badgepos>0.58 0.825</badgepos>
-            <badgesize>0.38 0.026</badgesize>
+            <badgepos>0.96 0.835</badgepos>
+            <badgesize>0.28 0.015</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
-            <gridItemPosY>0.42</gridItemPosY>
+            <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.23 0.89</logoPos>
          </variables>
       </fontSize>
       <fontSize name="large">
          <variables>
             <metaDatafontSize>0.020</metaDatafontSize>
-             <badgepos>0.58 0.825</badgepos>
-            <badgesize>0.38 0.026</badgesize>
+            <badgepos>0.96 0.835</badgepos>
+            <badgesize>0.28 0.015</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
-            <gridItemPosY>0.42</gridItemPosY>
+            <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.23 0.89</logoPos>
          </variables>
       </fontSize>
       <fontSize name="x-large">
          <variables>
             <metaDatafontSize>0.05</metaDatafontSize>
-            <badgepos>0.42 0.808</badgepos>
+            <badgepos>0.96 0.808</badgepos>
             <badgesize>0.53 0.053</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
             <gridItemPosY>0.47</gridItemPosY>
