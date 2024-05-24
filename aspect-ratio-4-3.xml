@@ -10,17 +10,25 @@ based on 1920x1440
    ///
    -->
    <view name="system,gamelist">
-      <helpsystem name="help">
-            <posDimmed>0.5 ${helpPos}</posDimmed>
-            <pos>0.5 ${helpPos}</pos>
-            <fontSize>${helpFontSize}</fontSize>
-      </helpsystem>
       <image name="background-art">
          <pos>0.5 0.5</pos>
          <size>1.333333 1</size>
       </image>
    </view>
-
+   <view name="system">
+      <helpsystem name="help">
+            <posDimmed>0.5 ${helpPos}</posDimmed>
+            <pos>0.5 ${helpPos}</pos>
+            <fontSize>${helpFontSize}</fontSize>
+      </helpsystem>
+   </view>
+   <view name="gamelist">
+      <helpsystem name="help">
+            <posDimmed>0.5 ${helpPos}</posDimmed>
+            <pos>0.5 ${helpPos}</pos>
+            <fontSize>${helpFontSize}</fontSize>
+      </helpsystem>
+   </view>
 
   <!--
    ///
@@ -463,7 +471,7 @@ based on 1920x1440
          <!-- End: Extended Full Grid Metadata -->
          <!-- Start: Base Full Grid Metadata -->
          <text name="game-name-base">
-            <pos>0.475 0.8625</pos>
+            <pos>0.472 0.8625</pos>
             <size>.495 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <lineSpacing>1.2</lineSpacing>
@@ -513,17 +521,17 @@ based on 1920x1440
       </fontSize>
       <fontSize name="medium">
          <variables>
-            <metaDatafontSize>0.027</metaDatafontSize>
-            <badgepos>0.972 0.81</badgepos>
-            <badgesize>0.38 0.035</badgesize>
+            <metaDatafontSize>0.023</metaDatafontSize>
+            <badgepos>0.960 0.8275</badgepos>
+            <badgesize>0.38 0.028</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
-            <gridItemPosY>0.42</gridItemPosY>
+            <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.25 0.895</logoPos>
          </variables>
       </fontSize>
       <fontSize name="large">
          <variables>
-            <metaDatafontSize>0.03</metaDatafontSize>
+            <metaDatafontSize>0.026</metaDatafontSize>
             <badgepos>0.972 0.81</badgepos>
             <badgesize>0.38 0.035</badgesize>
             <badgemargin>0.006 0.01</badgemargin>

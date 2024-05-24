@@ -348,7 +348,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <badgeIconColor>${BadgeColor}</badgeIconColor>
             <controllerSize>0.8</controllerSize>
             <folderLinkSize>0.8</folderLinkSize>
-            <origin>0 0.5</origin>
+            <origin>1 0.5</origin>
             <horizontalAlignment>right</horizontalAlignment>
          </badges> 
          <grid name="grid">
@@ -445,14 +445,14 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <opacity>${gamelistBackgroundOpacity}</opacity>
          </image>
       </view>
-      <fontSize name="small">
+      <fontSize name="small,medium">
          <variables>
             <metadataExtended>true</metadataExtended>
             <metadataBase>false</metadataBase>
             <metadataMin>true</metadataMin>
          </variables>
       </fontSize>
-      <fontSize name="medium,large">
+      <fontSize name="large">
          <variables>
             <metadataExtended>false</metadataExtended>
             <metadataBase>true</metadataBase>

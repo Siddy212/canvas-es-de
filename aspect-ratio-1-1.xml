@@ -10,17 +10,25 @@ based on 1920x1920
    ///
    -->
    <view name="system,gamelist">
-      <helpsystem name="help">
-            <posDimmed>0.5 ${helpPos}</posDimmed>
-            <pos>0.5 ${helpPos}</pos>
-            <fontSize>${helpFontSize}</fontSize>
-      </helpsystem>
       <image name="background-art">
          <pos>0.5 0.5</pos>
          <size>1.7777 1</size>
       </image>
    </view>
-
+   <view name="system">
+      <helpsystem name="help">
+            <posDimmed>0.5 ${helpPos}</posDimmed>
+            <pos>0.5 ${helpPos}</pos>
+            <fontSize>${helpFontSize}</fontSize>
+      </helpsystem>
+   </view>
+   <view name="gamelist">
+      <helpsystem name="help">
+            <posDimmed>0.5 ${helpPos}</posDimmed>
+            <pos>0.5 ${helpPos}</pos>
+            <fontSize>${helpFontSize}</fontSize>
+      </helpsystem>
+   </view>
    <!--
    ///
    Variables
@@ -514,8 +522,8 @@ based on 1920x1920
       <fontSize name="medium">
          <variables>
             <metaDatafontSize>0.018</metaDatafontSize>
-            <badgepos>0.96 0.835</badgepos>
-            <badgesize>0.28 0.015</badgesize>
+            <badgepos>0.9 0.833</badgepos>
+            <badgesize>0.3 0.025</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
             <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.23 0.89</logoPos>

@@ -10,17 +10,25 @@ based on 1920x886
    ///
    -->
    <view name="system,gamelist">
-      <helpsystem name="help">
-            <posDimmed>0.5 ${helpPos}</posDimmed>
-            <pos>0.5 ${helpPos}</pos>
-            <fontSize>${helpFontSize}</fontSize>
-      </helpsystem>
       <image name="background-art">
          <pos>0.5 0.5</pos>
          <size>1 1.21896162528</size>
       </image>
    </view>
-
+   <view name="system">
+      <helpsystem name="help">
+            <posDimmed>0.5 ${helpPos}</posDimmed>
+            <pos>0.5 ${helpPos}</pos>
+            <fontSize>${helpFontSize}</fontSize>
+      </helpsystem>
+   </view>
+   <view name="gamelist">
+      <helpsystem name="help">
+            <posDimmed>0.5 ${helpPos}</posDimmed>
+            <pos>0.5 ${helpPos}</pos>
+            <fontSize>${helpFontSize}</fontSize>
+      </helpsystem>
+   </view>
    <!--
    ///
    Variables
@@ -458,13 +466,13 @@ based on 1920x886
             <path>./_inc/images/simple/${gamelistMetadataBackgroundImage}-extended.svg</path>
          </image>
          <datetime name="game-lastplayed-extended">
-            <pos>0.870 0.8706</pos>
+            <pos>0.871 0.8706</pos>
             <size>0.086 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <visible>${metadataExtended}</visible>
          </datetime>
          <text name="game-playcount-extended">
-            <pos>0.870 0.917</pos>
+            <pos>0.871 0.927</pos>
             <size>0.086 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <visible>${metadataExtended}</visible>
@@ -522,9 +530,9 @@ based on 1920x886
       </fontSize>
       <fontSize name="medium">
          <variables>
-            <metaDatafontSize>0.03</metaDatafontSize>
-            <badgepos>0.488 0.91</badgepos>
-            <badgesize>0.38 0.14</badgesize>
+            <metaDatafontSize>0.025</metaDatafontSize>
+            <badgepos>0.5 0.908</badgepos>
+            <badgesize>0.35 0.1</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
             <gridItemPosY>0.44</gridItemPosY>
             <logoPos>0.25 0.89</logoPos>
