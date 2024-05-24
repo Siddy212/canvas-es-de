@@ -5,8 +5,7 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
 
 | System View | Gamelist View |
 | --- | --- |
-|![PastelIcons](https://github.com/Siddy212/symbolic-es-de/assets/60283021/e43e9463-c0fc-4e65-a743-40165f119656)|![PastelGames](https://github.com/Siddy212/symbolic-es-de/assets/60283021/3c65c869-f339-48aa-ac66-22f71d2b0217)|
-|![SonyIcons](https://github.com/Siddy212/symbolic-es-de/assets/60283021/a1deaabb-29ff-4ff2-9f48-d7912b18e803)|![SonyTextlist](https://github.com/Siddy212/symbolic-es-de/assets/60283021/3e2c5351-c966-42b9-8977-74eb933e9df6)|
+|![MainPastel](https://github.com/Siddy212/canvas-es-de/assets/60283021/ddeab158-b583-4fdc-82a6-b67a70f43a69)|![GamePastel](https://github.com/Siddy212/canvas-es-de/assets/60283021/b810a52b-ea17-4c7e-8b7b-d7cc040a760e)|
 
 
 
@@ -22,15 +21,25 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
      
 - `Theme Variant` - Canvas features combinations of a grid/carousel system view that will scale based on font size. A gamelist view of either textlist or grid gamelist view. Additionally, two styles of system logos are available: Art or Icons. All variants will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens:
   
-   - `Textlist` - A simple text list of gmaes with metadata on the left.
+   - `[Grid] Textlist` - A system grid with a simple text list of games and metadata on the left.
 
-   - `Carousel` - A carousel of gmaes with metadata on the left.
+   - `[Grid] Carousel` - A system grid with a carousel of games and metadata on the left.
      
-   - `Grid: Basic` - A grid of boxart with minimal metadata for games.
+   - `[Grid] Grid: Basic` - A system grid with a grid of boxart and minimal metadata for games.
      
-   - `Grid: Detailed` - A tall grid of boxart with detailed metadata on the left for games. Disables help in gamelist view.
+   - `[Grid] Grid: Detailed` - A system grid with a grid of boxart and detailed metadata on the left for games.
+     
+  - `[Carousel] Textlist` - A system carousel with a simple text list of games and metadata on the left.
 
-- `Theme Color Scheme` - `Art/Icon` There are 8 color schemes to choose from that change the color palette and wallpaper of the theme across all views. Each of these includes a standard art version and an icon variant. Each wallpaper can easily be swapped out by the user for further customization. Alternate options are included within the theme 
+   - `[Carousel] Carousel` - A system carousel with a carousel of games and metadata on the left.
+     
+   - `[Carousel] Grid: Basic` - A system carousel with a grid of boxart and minimal metadata for games.
+     
+   - `[Carousel] Grid: Detailed` - A system carousel with a grid of boxart and detailed metadata on the left for games.
+
+
+
+- `Theme Color Scheme` - `Art/Icon` There are 8 color schemes to choose from that each include an art or icon variant for the system logos. Each color scheme changes the color palette and wallpaper of the theme across all views. Each wallpaper can easily be swapped out by the user for further customization. Alternate options are included within the theme as examples:
   
    - `Light` - A light grayscale color scheme.
    - `Dark` - A dark grayscale color scheme.
@@ -42,11 +51,25 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
    - `Retro` - A striped vintage color scheme.
  
 - `Theme Font Size` - enables you to change the size of the fonts displayed in the theme. It will also scale the size of the grid and carousel.
-   - `Small` - good for display on tvs and computer monitors. System view is a Grid.
-   - `Medium` - good for display on tvs and computer monitors. System view is a Grid.
-   - `Large` - good for display on large handheld screens at 6 inches or larger. System view is a Carousel.
-   - `Extra Large` - good for display on small handheld screens at 6 inches or below. System view is a Carousel and disables most metadata.
+   - `Small` - good for display on tvs and computer monitors.
+   - `Medium` - good for display on tvs and computer monitors.
+   - `Large` - good for display on large handheld screens at 6 inches or larger.
+   - `Extra Large` - good for display on small handheld screens at 6 inches or below. Disables most metadata.
+     
+### **Preview of Variants and Color Schemes**
 
+| Color | Variant | SystemView | GamelistView |
+| :---: | :---: | :---: | :---: |
+|Retro|[Grid] Grid: Simple|![MainRetro](https://github.com/Siddy212/canvas-es-de/assets/60283021/ffa38fa6-6aba-4563-a007-65621c5585a6)|![GameRetroLarge](https://github.com/Siddy212/canvas-es-de/assets/60283021/efd77be4-7e98-4e46-a4e8-8ad694df7f8f)|
+|[Icon] Dark| [Carousel] Textlist|![MainDarkIcon](https://github.com/Siddy212/canvas-es-de/assets/60283021/1a0442fc-dccc-4113-a394-5a70b58925d0)|![GameDark](https://github.com/Siddy212/canvas-es-de/assets/60283021/128df83f-62c2-4a00-be07-bcd1d125d219)|
+
+### Preview of Font Sizes 
+
+| Small | Medium |
+| :---: | :---: |
+|![Small](https://github.com/Siddy212/canvas-es-de/assets/60283021/8a78e2d6-99de-4cf9-a088-2791c065b07d)|![Medium](https://github.com/Siddy212/canvas-es-de/assets/60283021/7354e1a5-cc59-481a-a01a-0b626699a63a)|
+| **Large** | **X-Large** |
+|![Large](https://github.com/Siddy212/canvas-es-de/assets/60283021/35dd298c-f44b-4c93-950d-7ccf61de281c)|![X-Large](https://github.com/Siddy212/canvas-es-de/assets/60283021/ee05468e-6737-4e18-8f0f-7fedfab785a7)|
 
 ## **Theme Customizations**
 
@@ -63,6 +86,8 @@ This theme allows customizations to artwork without the need to edit the source 
 
 **Artwork was designed and created by the following artists and credit is provided to them.**
    - A lot of the original artwork and layouts were designed and created by [fagnerpc](https://github.com/fagnerpc)
+   - Light/Dark wallpaper by [Pretty In Pixel](https://prettyinpixel.wordpress.com/page/2/)
+     Retro wallpaper by [Hadair Ahmad](https://www.vecteezy.com/members/aspctstyle)
    - Donkey Kong Country 2 art for SNES: Created by [Renato Giacomo](https://www.artstation.com/renatogiacomini)
    - Yoshi Mario Kart on Wii: Modifications made to art by [Yoshiyaki](https://www.deviantart.com/yoshiyaki) & [Renato Giacomo](https://www.artstation.com/renatogiacomini)
    - Delfino Plaza wallpaper on Gamecube: Created by [Vincent Moubeche](https://www.artstation.com/artwork/Xn4Xo3)
