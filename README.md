@@ -87,7 +87,8 @@ This theme allows customizations to artwork without the need to edit the source 
 **Artwork was designed and created by the following artists and credit is provided to them.**
    - A lot of the original artwork and layouts were designed and created by [fagnerpc](https://github.com/fagnerpc)
    - Light/Dark wallpaper by [Pretty In Pixel](https://prettyinpixel.wordpress.com/page/2/)
-     Retro wallpaper by [Hadair Ahmad](https://www.vecteezy.com/members/aspctstyle)
+   - Retro wallpaper by [Hadair Ahmad](https://www.vecteezy.com/members/aspctstyle)
+   - Sony wallpaper by [Winterbird](https://www.deviantart.com/winterbird/art/PSP-wallpaper-24161542)
    - Donkey Kong Country 2 art for SNES: Created by [Renato Giacomo](https://www.artstation.com/renatogiacomini)
    - Yoshi Mario Kart on Wii: Modifications made to art by [Yoshiyaki](https://www.deviantart.com/yoshiyaki) & [Renato Giacomo](https://www.artstation.com/renatogiacomini)
    - Delfino Plaza wallpaper on Gamecube: Created by [Vincent Moubeche](https://www.artstation.com/artwork/Xn4Xo3)
