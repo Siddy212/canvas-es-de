@@ -131,16 +131,16 @@
             <itemsize>0.256 0.32</itemsize>
          </variables>
       </fontSize>
-      <fontSize name="medium">
+      <fontSize name="medium,large">
          <variables>
-            <gridItemSize>0.3400 0.4250</gridItemSize>
-            <gridItemPos>0.6475</gridItemPos>
+            <gridItemSize>0.2267 0.2833</gridItemSize>
+            <gridItemPos>0.5341666667</gridItemPos>
             <gridHeight>0.85</gridHeight>
             <itemcount>2.25</itemcount>
             <itemsize>0.32 0.4</itemsize>
          </variables>
       </fontSize>
-      <fontSize name="x-large,large">
+      <fontSize name="x-large">
          <variables>
             <gridItemSize>0.3400 0.4250</gridItemSize>
             <gridItemPos>0.6475</gridItemPos>
