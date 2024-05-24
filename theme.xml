@@ -145,8 +145,8 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <selectorImage>${selectorImagePath}</selectorImage>
             <backgroundImage>${backgroundImagePath}</backgroundImage>
             <staticImage>${staticImagePath}</staticImage>
-            <unfocusedItemOpacity>0.9</unfocusedItemOpacity>
-            <unfocusedItemDimming>0.8</unfocusedItemDimming>
+            <unfocusedItemOpacity>0.95</unfocusedItemOpacity>
+            <unfocusedItemDimming>0.9</unfocusedItemDimming>
             <unfocusedItemSaturation>1</unfocusedItemSaturation>
             <itemSpacing>0 0</itemSpacing>
             <textColor>${systemCarouselTextColor}</textColor>
@@ -358,7 +358,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <itemSize>${gridItemSize}</itemSize>
             <imageType>cover</imageType>
             <unfocusedItemOpacity>1</unfocusedItemOpacity>
-            <unfocusedItemDimming>0.8</unfocusedItemDimming>
+            <unfocusedItemDimming>0.85</unfocusedItemDimming>
             <unfocusedItemSaturation>1</unfocusedItemSaturation>
             <itemSpacing>0 0</itemSpacing>
             <textColor>${systemCarouselTextColor}</textColor>
@@ -372,11 +372,11 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <scaleInwards>true</scaleInwards>
             <size>0.975 ${gridHeight}</size>
             <itemScale>1.05</itemScale>
-            <imageRelativeScale>0.92</imageRelativeScale>
+            <imageRelativeScale>0.91</imageRelativeScale>
             <backgroundRelativeScale>1</backgroundRelativeScale>
             <backgroundCornerRadius>0.003</backgroundCornerRadius >
             <textRelativeScale>0.9</textRelativeScale>
-            <selectorRelativeScale>0.93</selectorRelativeScale>
+            <selectorRelativeScale>0.92</selectorRelativeScale>
             <selectorCornerRadius>0.003</selectorCornerRadius>
          </grid>
          <text name="game-name-extended,game-name-base,game-genre-extended,game-genre-base,game-playcount-extended">
@@ -530,7 +530,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <grid name="grid">
       <origin>0.5 0</origin>
          <unfocusedItemOpacity>1</unfocusedItemOpacity>
-         <unfocusedItemDimming>0.8</unfocusedItemDimming>
+         <unfocusedItemDimming>0.85</unfocusedItemDimming>
          <unfocusedItemSaturation>1</unfocusedItemSaturation>
          <itemSpacing>0 0</itemSpacing>
          <textColor>ffffff</textColor>
@@ -545,9 +545,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <pos>0.75 0.0</pos>
          <size>0.5 1</size>
          <itemScale>1.05</itemScale>
-         <imageRelativeScale>0.92</imageRelativeScale>
+         <imageRelativeScale>0.91</imageRelativeScale>
          <textRelativeScale>0.85</textRelativeScale>
-         <selectorRelativeScale>0.94</selectorRelativeScale>
+         <selectorRelativeScale>0.93</selectorRelativeScale>
          <selectorCornerRadius>0.003</selectorCornerRadius>
          <backgroundRelativeScale>1</backgroundRelativeScale>
          <backgroundImage>./_inc/systems/coversize/shadow.png</backgroundImage>
