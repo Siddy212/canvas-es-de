@@ -94,7 +94,7 @@ based on 1920x886
          carousel-grid-detailed">
       <view name="system">
          <text name="games-count">
-            <pos>0.468 ${gamescountpos}</pos>
+            <pos>0.466 ${gamescountpos}</pos>
          </text>
          <image name="gamesicon">
             <pos>0.458 ${gamescountpos}</pos>
@@ -123,7 +123,7 @@ based on 1920x886
    </fontSize>
    <fontSize name="large">
       <variables>
-         <systemDescriptionFontSize>0.038</systemDescriptionFontSize>
+         <systemDescriptionFontSize>0.040</systemDescriptionFontSize>
          <helpFontSize>0.033</helpFontSize>
          <helpFontSizeSmall>0.024</helpFontSizeSmall>
          <helpPos>0.04</helpPos>
@@ -132,7 +132,7 @@ based on 1920x886
    </fontSize>
    <fontSize name="x-large">
       <variables>
-         <systemDescriptionFontSize>0.055</systemDescriptionFontSize>
+         <systemDescriptionFontSize>0.045</systemDescriptionFontSize>
          <helpFontSize>0.035</helpFontSize>
          <helpFontSizeSmall>0.024</helpFontSizeSmall>
          <helpPos>0.035</helpPos>
