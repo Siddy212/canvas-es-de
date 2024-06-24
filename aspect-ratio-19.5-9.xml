@@ -151,10 +151,10 @@ based on 1920x886
       <variables>
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-small.svg</gamelistBackgroundImageCalculated>
          <gamelistFontSize>0.025</gamelistFontSize>
-         <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
-         <gamelistLineSpacing>1.851851851851852</gamelistLineSpacing>
+         <gamelistSelectorHeight>0.040214814814815</gamelistSelectorHeight>
+         <gamelistLineSpacing>1.850851851851852</gamelistLineSpacing>
          <gamelistGridFontSize>0.030555555555556</gamelistGridFontSize>
-         <gamelistPos>0.576291666666667 0.116666666666667</gamelistPos>
+         <gamelistPos>0.571291666666667 0.116666666666667</gamelistPos>
          <itemsBeforeCenter>3.5</itemsBeforeCenter>
          <itemsAfterCenter>3.5</itemsAfterCenter>   
          <itemSize>0.23 0.175</itemSize>
@@ -165,9 +165,9 @@ based on 1920x886
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
          <gamelistFontSize>0.033333333333333</gamelistFontSize>
          <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
-         <gamelistLineSpacing>1.736111111111111</gamelistLineSpacing>
+         <gamelistLineSpacing>1.737111111111111</gamelistLineSpacing>
          <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
-         <gamelistPos>0.576291666666667 0.133666666666667</gamelistPos>
+         <gamelistPos>0.571291666666667 0.133866666666667</gamelistPos>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
          <itemSize>0.26 0.2</itemSize>
@@ -179,9 +179,9 @@ based on 1920x886
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-large.svg</gamelistBackgroundImageCalculated>
          <gamelistFontSize>0.039814814814815</gamelistFontSize>
          <gamelistSelectorHeight>0.062962962962963</gamelistSelectorHeight>
-         <gamelistLineSpacing>1.744186046511628</gamelistLineSpacing>
+         <gamelistLineSpacing>1.746186046511628</gamelistLineSpacing>
          <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
-         <gamelistPos>0.576291666666667 0.1289566666666667</gamelistPos>
+         <gamelistPos>0.571291666666667 0.1289566666666667</gamelistPos>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
          <itemSize>0.26 0.2</itemSize>
@@ -213,9 +213,11 @@ based on 1920x886
       <view name="gamelist">
          <textlist name="game-list">
             <pos>${gamelistPos}</pos>
-            <size>0.348958333333333 0.785</size>
+            <size>0.362958333333333 0.785</size>
             <fontSize>${gamelistFontSize}</fontSize>
             <selectorHeight>${gamelistSelectorHeight}</selectorHeight>
+            <selectorWidth>0.36896</selectorWidth>
+            <selectorHorizontalOffset>-.005</selectorHorizontalOffset>
             <lineSpacing>${gamelistLineSpacing}</lineSpacing>
          </textlist>
          <image name="game-list-background-shadow">

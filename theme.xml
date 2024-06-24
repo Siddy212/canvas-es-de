@@ -478,6 +478,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <view name="gamelist">
       <textlist name="game-list">
          <fontPath>${fontBold}</fontPath>
+         <selectorImagePath>${selectorpath}</selectorImagePath>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
          <primaryColor>${gamelistPrimaryColor}</primaryColor>
@@ -487,6 +488,21 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <zIndex>10</zIndex>
       </textlist>
       </view>
+      <fontSize name="small">
+         <variables>
+            <selectorpath>./_inc/images/selector-small.svg</selectorpath>
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <selectorpath>./_inc/images/selector-medium.svg</selectorpath>
+         </variables>
+      </fontSize>
+      <fontSize name="large,x-large">
+         <variables>
+            <selectorpath>./_inc/images/selector-large.svg</selectorpath>
+         </variables>
+      </fontSize>
    </variant>
 
    <!--
@@ -592,6 +608,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <fontPath>${fontBold}</fontPath>
             <color>${gameMetadataColor}</color>
             <lineSpacing>1</lineSpacing>
+
          </datetime>
          <text name="game-name-extended,game-players-extended,game-genre-extended,game-developer-extended,game-publisher-extended,game-playcount-extended,game-name-extended">
             <origin>0 0.5</origin>
@@ -603,6 +620,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <datetime name="game-releasedate-extended">
             <metadata>releasedate</metadata>
             <defaultValue>Unknown</defaultValue>
+            <format>%Y-%m</format>
          </datetime>
          <text name="game-name-extended">
             <metadata>name</metadata>

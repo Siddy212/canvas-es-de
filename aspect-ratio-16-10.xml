@@ -154,7 +154,7 @@ based on 1920x1200
          <gamelistFontSize>0.025</gamelistFontSize>
          <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
          <gamelistLineSpacing>1.851851851851852</gamelistLineSpacing>
-         <gamelistPos>0.547291666666667 0.116666666666667</gamelistPos>
+         <gamelistPos>0.542291666666667 0.116666666666667</gamelistPos>
          <itemsBeforeCenter>3.5</itemsBeforeCenter>
          <itemsAfterCenter>3.5</itemsAfterCenter>   
          <itemSize>0.24 0.175</itemSize>
@@ -165,8 +165,8 @@ based on 1920x1200
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
          <gamelistFontSize>0.033333333333333</gamelistFontSize>
          <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
-         <gamelistLineSpacing>1.736111111111111</gamelistLineSpacing>
-         <gamelistPos>0.547291666666667 0.133666666666667</gamelistPos>
+         <gamelistLineSpacing>1.736211111111111</gamelistLineSpacing>
+         <gamelistPos>0.542291666666667 0.134366666666667</gamelistPos>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
          <itemSize>0.26 0.2</itemSize>
@@ -179,7 +179,7 @@ based on 1920x1200
          <gamelistFontSize>0.039814814814815</gamelistFontSize>
          <gamelistSelectorHeight>0.062962962962963</gamelistSelectorHeight>
          <gamelistLineSpacing>1.744186046511628</gamelistLineSpacing>
-         <gamelistPos>0.547291666666667 0.133666666666667</gamelistPos>
+         <gamelistPos>0.542291666666667 0.129266666666667</gamelistPos>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
          <itemSize>0.26 0.2</itemSize>
@@ -211,9 +211,11 @@ based on 1920x1200
       <view name="gamelist">
          <textlist name="game-list">
             <pos>${gamelistPos}</pos>
-            <size>0.374 0.785</size>
+            <size>0.390 0.785</size>
             <fontSize>${gamelistFontSize}</fontSize>
             <selectorHeight>${gamelistSelectorHeight}</selectorHeight>
+            <selectorWidth>0.394</selectorWidth>
+            <selectorHorizontalOffset>-.005</selectorHorizontalOffset>
             <lineSpacing>${gamelistLineSpacing}</lineSpacing>
          </textlist>
          <image name="game-list-background-shadow">
