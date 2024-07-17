@@ -89,6 +89,10 @@
       <label>[Grid] Textlist</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="grid-textlist-flipped">
+      <label>[Grid] Textlist - Flipped</label>
+      <selectable>true</selectable>
+   </variant>
    <variant name="grid-carousel">
       <label>[Grid] Carousel</label>
       <selectable>true</selectable>
@@ -101,8 +105,16 @@
       <label>[Grid] Grid: Detailed</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="grid-grid-detailed-flipped">
+      <label>[Grid] Grid: Detailed - Flipped</label>
+      <selectable>true</selectable>
+   </variant>
    <variant name="carousel-textlist">
       <label>[Carousel] Textlist</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-textlist-flipped">
+      <label>[Carousel] Textlist - Flipped</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-carousel">
@@ -115,6 +127,10 @@
    </variant>
    <variant name="carousel-grid-detailed">
       <label>[Carousel] Grid: Detailed</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-grid-detailed-flipped">
+      <label>[Carousel] Grid: Detailed - Flipped</label>
       <selectable>true</selectable>
    </variant>
 </themeCapabilities>
