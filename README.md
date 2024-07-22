@@ -22,20 +22,28 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
 - `Theme Variant` - Canvas features combinations of a grid/carousel system view that will scale based on font size. A gamelist view of either textlist or grid gamelist view. Additionally, two styles of system logos are available: Art or Icons. All variants will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens:
   
    - `[Grid] Textlist` - A system grid with a simple text list of games and metadata on the left.
+     
+   - `[Grid] Textlist - Flipped` - A system grid with a simple text list of games and metadata on the right.
 
    - `[Grid] Carousel` - A system grid with a carousel of games and metadata on the left.
      
    - `[Grid] Grid: Basic` - A system grid with a grid of boxart and minimal metadata for games.
      
    - `[Grid] Grid: Detailed` - A system grid with a grid of boxart and detailed metadata on the left for games.
+ 
+   - `[Grid] Grid: Detailed - Flipped` - A system grid with a grid of boxart and detailed metadata on the right for games.
      
   - `[Carousel] Textlist` - A system carousel with a simple text list of games and metadata on the left.
 
+  - `[Carousel] Textlist - Flipped` - A system carousel with a simple text list of games and metadata on the right.
+    
    - `[Carousel] Carousel` - A system carousel with a carousel of games and metadata on the left.
      
    - `[Carousel] Grid: Basic` - A system carousel with a grid of boxart and minimal metadata for games.
      
    - `[Carousel] Grid: Detailed` - A system carousel with a grid of boxart and detailed metadata on the left for games.
+     
+   - `[Carousel] Grid: Detailed - Flipped` - A system carousel with a grid of boxart and detailed metadata on the right for games.
 
 
 
