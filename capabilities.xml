@@ -11,6 +11,8 @@
    <aspectRatio>4:3</aspectRatio>
    <aspectRatio>19.5:9</aspectRatio>
    <aspectRatio>1:1</aspectRatio>
+   <aspectRatio>21:9</aspectRatio>
+   <aspectRatio>3:2</aspectRatio>
 
    <fontSize>small</fontSize>
    <fontSize>medium</fontSize>
@@ -64,6 +66,54 @@
    </colorScheme>
    <colorScheme name="famicom-icon">
       <label>[Icon] Famicom</label>
+   </colorScheme>
+      <colorScheme name="light-capsule">
+      <label>[Capsule] Light</label>
+   </colorScheme>
+   <colorScheme name="dark-capsule">
+      <label>[Capsule] Dark</label>
+   </colorScheme>
+   <colorScheme name="retro-capsule">
+      <label>[Capsule] Retro</label>
+   </colorScheme>
+   <colorScheme name="neon-capsule">
+      <label>[Capsule] Neon</label>
+   </colorScheme>
+   <colorScheme name="pastel-capsule">
+      <label>[Capsule] Pastel</label>
+   </colorScheme>
+   <colorScheme name="sony-capsule">
+      <label>[Capsule] Sony</label>
+   </colorScheme>
+   <colorScheme name="snes-capsule">
+      <label>[Capsule] SNES</label>
+   </colorScheme>
+   <colorScheme name="famicom-capsule">
+      <label>[Capsule] Famicom</label>
+   </colorScheme>
+      <colorScheme name="light-screenshots">
+      <label>[Screenshots] Light</label>
+   </colorScheme>
+   <colorScheme name="dark-screenshots">
+      <label>[Screenshots] Dark</label>
+   </colorScheme>
+   <colorScheme name="retro-screenshots">
+      <label>[Screenshots] Retro</label>
+   </colorScheme>
+   <colorScheme name="neon-screenshots">
+      <label>[Screenshots] Neon</label>
+   </colorScheme>
+   <colorScheme name="pastel-screenshots">
+      <label>[Screenshots] Pastel</label>
+   </colorScheme>
+   <colorScheme name="sony-screenshots">
+      <label>[Screenshots] Sony</label>
+   </colorScheme>
+   <colorScheme name="snes-screenshots">
+      <label>[Screenshots] SNES</label>
+   </colorScheme>
+   <colorScheme name="famicom-screenshots">
+      <label>[Screenshots] Famicom</label>
    </colorScheme>
 
 

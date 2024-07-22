@@ -9,14 +9,46 @@
                   <backgroundRelativeScaleSize>0.93</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/systems/system-grid/square.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/systems/system-grid/square-bg.png</backgroundImagePath>
+                  <gridsize>system-variables</gridsize>
       </variables>
    </colorScheme>
-   <colorScheme name="light-icon,dark-icon,retro-icon,neon-icon,pastel-icon,famicom-icon,snes-icon,sony-icon">
+   <colorScheme name="light-capsule,dark-capsule,retro-capsule,neon-capsule,pastel-capsule,famicom-capsule,snes-capsule,sony-capsule">
+         <variables>
+                  <selectorRelativeScaleSize>0.86</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.93</backgroundRelativeScaleSize>
+                  <selectorImagePath>./_inc/systems/system-grid/capsule.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/systems/system-grid/capsule-bg.png</backgroundImagePath>
+                  <staticImagePath>./_inc/systems/carousel-icons-capsule/art/${system.theme}.webp</staticImagePath>
+                  <gridsize>system-variables-capsule</gridsize>
+      </variables>
+   </colorScheme>   
+   <colorScheme name="light-screenshots,dark-screenshots,retro-screenshots,neon-screenshots,pastel-screenshots,famicom-screenshots,snes-screenshots,sony-screenshots">
+         <variables>
+                  <selectorRelativeScaleSize>0.84</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.93</backgroundRelativeScaleSize>
+                  <selectorImagePath>./_inc/systems/system-grid/capsule.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/systems/system-grid/capsule-bg.png</backgroundImagePath>
+                  <staticImagePath>./_inc/systems/carousel-icons-capsule/screenshots/${system.theme}.webp</staticImagePath>
+                  <gridsize>system-variables-capsule</gridsize>
+      </variables>
+   </colorScheme>
+   <colorScheme name="light-icon,dark-icon,retro-icon,neon-icon,pastel-icon,famicom-icon,snes-icon">
          <variables>
                   <selectorRelativeScaleSize>0.88</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.95</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/systems/system-grid/4-5.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/systems/system-grid/4-5-bg.png</backgroundImagePath>
+                  <staticImagePath>./_inc/systems/carousel-icons-icons/art/${system.theme}.webp</staticImagePath>
+                  <gridsize>system-variables</gridsize>
+      </variables>
+   </colorScheme>
+   <colorScheme name="sony-icon">
+         <variables>
+                  <selectorRelativeScaleSize>0.88</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0</backgroundRelativeScaleSize>
+                  <selectorImagePath>./_inc/systems/system-grid/4-5.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/systems/system-grid/null.png</backgroundImagePath>
+                  <gridsize>system-variables</gridsize>
       </variables>
    </colorScheme>
    <colorScheme name="sony,dark,neon">
@@ -37,7 +69,7 @@
 
    <colorScheme name="sony-icon">
       <variables>
-          <staticImagePath>./_inc/systems/carousel-icons-icons/light/${system.theme}.webp</staticImagePath>
+          <staticImagePath>./_inc/systems/carousel-icons-icons/clear/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
    <colorScheme name="light-icon,retro-icon,pastel-icon,famicom-icon,snes-icon">
@@ -52,7 +84,7 @@
    </colorScheme>
 
 
-   <colorScheme name="dark,dark-icon">
+   <colorScheme name="dark,dark-icon,dark-capsule,dark-screenshots">
       <variables>
          <helpTextColor>999999</helpTextColor>
          <backgroundColor>373737</backgroundColor>
@@ -76,7 +108,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="light,light-icon">
+   <colorScheme name="light,light-icon,light-capsule,light-screenshots">
       <variables>
          <helpTextColor>555555</helpTextColor>
          <backgroundColor>373737</backgroundColor>
@@ -99,7 +131,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="retro,retro-icon">
+   <colorScheme name="retro,retro-icon,retro-capsule,retro-screenshots">
       <variables>
          <helpTextColor>5b5a58</helpTextColor>
          <backgroundColor>846D21</backgroundColor>
@@ -122,7 +154,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="neon,neon-icon">
+   <colorScheme name="neon,neon-icon,neon-capsule,neon-screenshots">
       <variables>
          <helpTextColor>FFFFFF</helpTextColor>
          <backgroundColor>74006c</backgroundColor>
@@ -145,7 +177,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="pastel,pastel-icon">
+   <colorScheme name="pastel,pastel-icon,pastel-capsule,pastel-screenshots">
       <variables>
          <helpTextColor>777777</helpTextColor>
          <backgroundColor>bbbbbb</backgroundColor>
@@ -168,7 +200,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="famicom,famicom-icon">
+   <colorScheme name="famicom,famicom-icon,famicom-capsule,famicom-screenshots">
       <variables>
          <helpTextColor>e4e5ca</helpTextColor>
          <backgroundColor>846D21</backgroundColor>
@@ -191,7 +223,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="snes,snes-icon">
+   <colorScheme name="snes,snes-icon,snes-capsule,snes-screenshots">
       <variables>
          <helpTextColor>3c3b3b</helpTextColor>
          <backgroundColor>846D21</backgroundColor>
@@ -214,7 +246,7 @@
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
    </colorScheme>
-   <colorScheme name="sony,sony-icon">
+   <colorScheme name="sony,sony-icon,sony-capsule,sony-screenshots">
       <variables>
          <helpTextColor>ffffff</helpTextColor>
          <backgroundColor>ffffff</backgroundColor>
