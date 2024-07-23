@@ -72,14 +72,19 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
 | :---: | :---: | :---: | :---: |
 |Retro|[Grid] Grid: Simple|![MainRetro](https://github.com/Siddy212/canvas-es-de/assets/60283021/ffa38fa6-6aba-4563-a007-65621c5585a6)|![GameRetroLarge](https://github.com/Siddy212/canvas-es-de/assets/60283021/efd77be4-7e98-4e46-a4e8-8ad694df7f8f)|
 |[Icon] Dark| [Carousel] Textlist|![MainDarkIcon](https://github.com/Siddy212/canvas-es-de/assets/60283021/1a0442fc-dccc-4113-a394-5a70b58925d0)|![GameDark](https://github.com/Siddy212/canvas-es-de/assets/60283021/128df83f-62c2-4a00-be07-bcd1d125d219)|
+|[Screenshots] Sony| [Grid] Grid: Detailed - Flipped|![CanvasSonyScreenshots](https://github.com/user-attachments/assets/e6c4b68f-2091-4708-a5b6-89dbd728f373)|![CanvasSonyGrid-Detailed-Flipped](https://github.com/user-attachments/assets/bc661fb1-6e29-4cf0-8a4f-5e8e987ac9a6)|
+|[Capsule] Light| [Grid] Carousel|![CanvasLightCapsule](https://github.com/user-attachments/assets/36b69bc1-67f0-43a6-bbba-d605e5688a0d)|![CanvasLightCarousel](https://github.com/user-attachments/assets/2159c21e-d007-4987-83f7-99cd524877ce)|
+
 
 ### Preview of Font Sizes 
 
 | Small | Medium |
 | :---: | :---: |
-|![Small](https://github.com/Siddy212/canvas-es-de/assets/60283021/8a78e2d6-99de-4cf9-a088-2791c065b07d)|![Medium](https://github.com/Siddy212/canvas-es-de/assets/60283021/7354e1a5-cc59-481a-a01a-0b626699a63a)|
+|![CanvasSmall](https://github.com/user-attachments/assets/84edc61e-3e31-4975-a646-c68aac1b7737)|![CanvasMedium](https://github.com/user-attachments/assets/64142e5d-af3b-4431-9120-644c76e6276b)|
 | **Large** | **X-Large** |
-|![Large](https://github.com/Siddy212/canvas-es-de/assets/60283021/35dd298c-f44b-4c93-950d-7ccf61de281c)|![X-Large](https://github.com/Siddy212/canvas-es-de/assets/60283021/ee05468e-6737-4e18-8f0f-7fedfab785a7)|
+|![CanvasLarge](https://github.com/user-attachments/assets/671ec1b4-849d-48ac-9676-ad92f47fe13b)|![CanvasXLarge](https://github.com/user-attachments/assets/c8e628fb-0ab7-4bee-8b5f-36a963e2409e)|
+
+
 
 ## **Theme Customizations**
 
