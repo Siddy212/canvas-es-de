@@ -70,7 +70,7 @@
             <itemsize>0.20 0.45</itemsize>
          </variables>
       </fontSize>
-      <fontSize name="medium,large">
+      <fontSize name="medium">
          <variables>
             <gridItemSize>0.195 0.3467</gridItemSize>
             <gridItemPos>0.5</gridItemPos>
@@ -79,7 +79,7 @@
             <itemsize>0.3 0.45</itemsize>
          </variables>
       </fontSize>
-      <fontSize name="x-large">
+      <fontSize name="x-large,large">
          <variables>
             <gridItemSize>0.2250 0.4000</gridItemSize>
             <gridItemPos>0.5375</gridItemPos>
