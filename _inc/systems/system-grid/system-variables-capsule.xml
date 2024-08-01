@@ -184,20 +184,20 @@
    <aspectRatio name="1:1">
       <fontSize name="small">
          <variables>
-            <gridItemSize>0.2400 0.2400</gridItemSize>
-            <gridItemPos>0.5075</gridItemPos>
-            <gridHeight>0.72</gridHeight>
+            <gridItemSize>0.22 0.22</gridItemSize>
+            <gridItemPos>0.5475</gridItemPos>
+            <gridHeight>0.88</gridHeight>
             <itemcount>3</itemcount>
             <itemsize>0.256 0.32</itemsize>
          </variables>
       </fontSize>
       <fontSize name="medium,large">
          <variables>
-            <gridItemSize>0.3600 0.36</gridItemSize>
-            <gridItemPos>0.6275</gridItemPos>
-            <gridHeight>0.72</gridHeight>
-            <itemcount>2.25</itemcount>
-            <itemsize>0.32 0.4</itemsize>
+            <gridItemSize>0.28 0.28</gridItemSize>
+            <gridItemPos>0.5675</gridItemPos>
+            <gridHeight>0.84</gridHeight>
+            <itemcount>3</itemcount>
+            <itemsize>0.256 0.32</itemsize>
          </variables>
       </fontSize>
       <fontSize name="x-large">
