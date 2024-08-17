@@ -9,6 +9,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 19.5:9 resolution:      based on 1920x886
 1:1 resolution:         based on 1920x1920
 21:9 resolution:        based on 2560x1080
+3:2 resolution:         based on 1920x1280
 -->
 
 <theme>
@@ -48,6 +49,15 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <opacity>1</opacity>
          <zIndex>0</zIndex>
       </image>
+      <animation name="background-animation">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <size>0 1</size>
+         <interpolation>linear</interpolation>
+         <zIndex>2</zIndex>
+         <path>${backgroundAnimationPath}</path>
+         <opacity>1</opacity>
+      </animation>
       <image name="background-art">
          <origin>0.5 0.5</origin>
          <interpolation>linear</interpolation>

@@ -104,6 +104,7 @@
          <gameMetadataColor>bbbbbb</gameMetadataColor>
          <BadgeColor>bbbbbb</BadgeColor>
          <backgroundArtPath>./wallpapers/dark.webp</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/dark.gif</backgroundAnimationPath>
          <backgroundArtOpacity>1</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
@@ -127,6 +128,7 @@
          <gameMetadataColor>666666</gameMetadataColor>
          <BadgeColor>555555</BadgeColor>
          <backgroundArtPath>./wallpapers/light.webp</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/light.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.8</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
@@ -150,6 +152,7 @@
          <gameMetadataColor>777777</gameMetadataColor>
          <BadgeColor>777777</BadgeColor>
          <backgroundArtPath>./wallpapers/retro.webp</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/retro.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
@@ -173,6 +176,7 @@
          <gameMetadataColor>FFFFFF</gameMetadataColor>
          <BadgeColor>FFFFFF</BadgeColor>
          <backgroundArtPath>./wallpapers/neon.webp</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/neon.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
@@ -196,6 +200,7 @@
          <gameMetadataColor>777777</gameMetadataColor>
          <BadgeColor>777777</BadgeColor>
          <backgroundArtPath>./wallpapers/pastel.webp</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/pastel.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
@@ -219,6 +224,7 @@
          <gameMetadataColor>3b3b3b</gameMetadataColor>
          <BadgeColor>e4e5ca</BadgeColor>
          <backgroundArtPath>./wallpapers/famicom.webp</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/famicom.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
@@ -242,6 +248,7 @@
          <gameMetadataColor>3c3b3b</gameMetadataColor>
          <BadgeColor>3c3b3b</BadgeColor>
          <backgroundArtPath>./wallpapers/snes.webp</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/snes.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
@@ -265,6 +272,7 @@
          <gameMetadataColor>ffffff</gameMetadataColor>
          <BadgeColor>ffffff</BadgeColor>
          <backgroundArtPath>./wallpapers/sony.webp</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/sony.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
       </variables>
