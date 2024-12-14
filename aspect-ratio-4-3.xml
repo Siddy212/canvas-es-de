@@ -199,9 +199,9 @@ based on 1920x1440
    <fontSize name="large,x-large">
       <variables>
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
-         <gamelistFontSize>0.040</gamelistFontSize>
+         <gamelistFontSize>0.038</gamelistFontSize>
          <gamelistSelectorHeight>0.060388888888889</gamelistSelectorHeight>
-         <gamelistLineSpacing>1.447</gamelistLineSpacing>
+         <gamelistLineSpacing>1.53</gamelistLineSpacing>
          <gamelistPos>0.540291666666667 0.108666666666667</gamelistPos>
          <gamelistPosFlipped>0.070291666666667 0.108666666666667</gamelistPosFlipped>
          <itemsBeforeCenter>3</itemsBeforeCenter>
@@ -410,11 +410,11 @@ based on 1920x1440
       </fontSize>
       <fontSize name="large">
          <variables>
-            <metaDatafontSize>0.034</metaDatafontSize>
+            <metaDatafontSize>0.032</metaDatafontSize>
             <descriptionPos>0.681</descriptionPos>
-            <descriptionHeight>0.12</descriptionHeight>
-            <descriptionFontSize>0.028</descriptionFontSize>
-            <descriptionLineSpacing>1.3</descriptionLineSpacing>
+            <descriptionHeight>0.13</descriptionHeight>
+            <descriptionFontSize>0.032</descriptionFontSize>
+            <descriptionLineSpacing>1.6</descriptionLineSpacing>
             <badgepos>0.0271875 0.895</badgepos>
             <badgeposFlipped>0.5271875 0.895</badgeposFlipped>
             <badgesize>0.3 0.18</badgesize>
@@ -426,7 +426,7 @@ based on 1920x1440
             <descriptionPos>0.681</descriptionPos>
             <descriptionHeight>0.11</descriptionHeight>
             <descriptionFontSize>0.027</descriptionFontSize>
-            <descriptionLineSpacing>1.3</descriptionLineSpacing>
+            <descriptionLineSpacing>1.4</descriptionLineSpacing>
             <badgepos>0.0271875 0.875</badgepos>
             <badgeposFlipped>0.5271875 0.875</badgeposFlipped>
             <badgesize>0.3 0.14</badgesize>
