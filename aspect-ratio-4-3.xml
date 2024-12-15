@@ -200,10 +200,10 @@ based on 1920x1440
       <variables>
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
          <gamelistFontSize>0.038</gamelistFontSize>
-         <gamelistSelectorHeight>0.060388888888889</gamelistSelectorHeight>
-         <gamelistLineSpacing>1.53</gamelistLineSpacing>
-         <gamelistPos>0.540291666666667 0.108666666666667</gamelistPos>
-         <gamelistPosFlipped>0.070291666666667 0.108666666666667</gamelistPosFlipped>
+         <gamelistSelectorHeight>0.056</gamelistSelectorHeight>
+         <gamelistLineSpacing>1.526</gamelistLineSpacing>
+         <gamelistPos>0.540291666666667 0.110666666666667</gamelistPos>
+         <gamelistPosFlipped>0.070291666666667 0.11066666666667</gamelistPosFlipped>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
          <itemSize>0.26 0.2</itemSize>
@@ -513,13 +513,13 @@ based on 1920x1440
             <pos>0.25 0.6722</pos>
          </image>
          <text name="game-name-base">
-            <pos>0.0651875 0.573</pos>
+            <pos>0.0651875 0.574</pos>
          </text>
          <rating name="game-rating-base">
             <pos>0.0801875 0.638</pos>
          </rating>
          <datetime name="game-releasedate-base">
-            <pos>0.1795 0.639</pos>
+            <pos>0.1795 0.640</pos>
          </datetime>
          <text name="game-genre-base">
             <pos>0.3121875 0.639</pos>
@@ -586,13 +586,13 @@ based on 1920x1440
             <pos>0.75 0.6722</pos>
          </image>
          <text name="game-name-base">
-            <pos>0.5651875 0.573</pos>
+            <pos>0.5651875 0.574</pos>
          </text>
          <rating name="game-rating-base">
             <pos>0.5801875 0.638</pos>
          </rating>
          <datetime name="game-releasedate-base">
-            <pos>0.6795 0.639</pos>
+            <pos>0.6795 0.640</pos>
          </datetime>
          <text name="game-genre-base">
             <pos>0.8121875 0.639</pos>
