@@ -95,7 +95,7 @@ based on 1920x1440
          grid-grid-detailed-flipped">
          <view name="system">
             <text name="games-count">
-               <pos>0.08 ${gamescountpos}</pos>
+               <pos>0.082 ${gamescountpos}</pos>
             </text>
             <image name="gamesicon">
                <pos>0.075 ${gamescountpos}</pos>
@@ -124,7 +124,7 @@ based on 1920x1440
       
    <fontSize name="small">
       <variables>
-         <systemDescriptionFontSize>0.030</systemDescriptionFontSize>
+         <systemDescriptionFontSize>0.034</systemDescriptionFontSize>
          <helpFontSize>0.022</helpFontSize>
          <helpFontSizeSmall>0.015</helpFontSizeSmall>
          <helpPos>0.04</helpPos>
@@ -134,7 +134,7 @@ based on 1920x1440
    </fontSize>
    <fontSize name="medium">
       <variables>
-         <systemDescriptionFontSize>0.035</systemDescriptionFontSize>
+         <systemDescriptionFontSize>0.038</systemDescriptionFontSize>
          <helpFontSize>0.024</helpFontSize>
          <helpFontSizeSmall>0.015</helpFontSizeSmall>
          <helpPos>0.038</helpPos>
@@ -144,7 +144,7 @@ based on 1920x1440
    </fontSize>
    <fontSize name="large">
       <variables>
-         <systemDescriptionFontSize>0.036</systemDescriptionFontSize>
+         <systemDescriptionFontSize>0.045</systemDescriptionFontSize>
          <helpFontSize>0.025</helpFontSize>
          <helpFontSizeSmall>0.015</helpFontSizeSmall>
          <helpPos>0.038</helpPos>
@@ -154,7 +154,7 @@ based on 1920x1440
    </fontSize>
    <fontSize name="x-large">
       <variables>
-         <systemDescriptionFontSize>0.040</systemDescriptionFontSize>
+         <systemDescriptionFontSize>0.050</systemDescriptionFontSize>
          <helpFontSize>0.026</helpFontSize>
          <helpFontSizeSmall>0.015</helpFontSizeSmall>
          <helpPos>0.042</helpPos>
@@ -415,9 +415,9 @@ based on 1920x1440
             <descriptionHeight>0.13</descriptionHeight>
             <descriptionFontSize>0.032</descriptionFontSize>
             <descriptionLineSpacing>1.6</descriptionLineSpacing>
-            <badgepos>0.0271875 0.895</badgepos>
-            <badgeposFlipped>0.5271875 0.895</badgeposFlipped>
-            <badgesize>0.3 0.18</badgesize>
+            <badgepos>0.0271875 0.90</badgepos>
+            <badgeposFlipped>0.5271875 0.9</badgeposFlipped>
+            <badgesize>0.35 0.18</badgesize>
          </variables>
       </fontSize>
       <fontSize name="x-large">
@@ -427,9 +427,9 @@ based on 1920x1440
             <descriptionHeight>0.11</descriptionHeight>
             <descriptionFontSize>0.027</descriptionFontSize>
             <descriptionLineSpacing>1.4</descriptionLineSpacing>
-            <badgepos>0.0271875 0.875</badgepos>
-            <badgeposFlipped>0.5271875 0.875</badgeposFlipped>
-            <badgesize>0.3 0.14</badgesize>
+            <badgepos>0.0271875 0.9</badgepos>
+            <badgeposFlipped>0.5271875 0.9</badgeposFlipped>
+            <badgesize>0.35 0.18</badgesize>
          </variables>
       </fontSize>
       <fontSize name="small,medium">
