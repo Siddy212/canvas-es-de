@@ -177,6 +177,7 @@ based on 1920x1440
          <gamelistLineSpacing>1.421251851851852</gamelistLineSpacing>
          <gamelistPos>0.540291666666667 0.101566666666667</gamelistPos>
          <gamelistPosFlipped>0.070291666666667 0.101566666666667</gamelistPosFlipped>
+         <gamelistselectorVerticalOffset>0</gamelistselectorVerticalOffset>
          <itemsBeforeCenter>3.5</itemsBeforeCenter>
          <itemsAfterCenter>3.5</itemsAfterCenter>   
          <itemSize>0.23 0.175</itemSize>
@@ -190,6 +191,7 @@ based on 1920x1440
          <gamelistLineSpacing>1.542</gamelistLineSpacing>
          <gamelistPos>0.540291666666667 0.094666666666667</gamelistPos>
          <gamelistPosFlipped>0.070291666666667 0.094666666666667</gamelistPosFlipped>
+         <gamelistselectorVerticalOffset>0</gamelistselectorVerticalOffset>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
          <itemSize>0.26 0.2</itemSize>
@@ -200,10 +202,11 @@ based on 1920x1440
       <variables>
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
          <gamelistFontSize>0.038</gamelistFontSize>
-         <gamelistSelectorHeight>0.056</gamelistSelectorHeight>
-         <gamelistLineSpacing>1.526</gamelistLineSpacing>
-         <gamelistPos>0.540291666666667 0.110666666666667</gamelistPos>
-         <gamelistPosFlipped>0.070291666666667 0.11066666666667</gamelistPosFlipped>
+         <gamelistSelectorHeight>0.052</gamelistSelectorHeight>
+         <gamelistselectorVerticalOffset>0.004</gamelistselectorVerticalOffset>
+         <gamelistLineSpacing>1.525</gamelistLineSpacing>
+         <gamelistPos>0.540291666666667 0.109066666666667</gamelistPos>
+         <gamelistPosFlipped>0.070291666666667 0.10906666666667</gamelistPosFlipped>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
          <itemSize>0.26 0.2</itemSize>
@@ -238,6 +241,7 @@ based on 1920x1440
             <selectorHeight>${gamelistSelectorHeight}</selectorHeight>
             <selectorWidth>0.39896</selectorWidth>
             <selectorHorizontalOffset>-.0055</selectorHorizontalOffset>
+            <selectorVerticalOffset>${gamelistselectorVerticalOffset}</selectorVerticalOffset>
             <lineSpacing>${gamelistLineSpacing}</lineSpacing>
          </textlist>
          <image name="game-list-background-shadow">
