@@ -129,7 +129,7 @@ based on 1920x1440
          <helpFontSizeSmall>0.015</helpFontSizeSmall>
          <helpPos>0.04</helpPos>
          <helpPosSmall>0.03</helpPosSmall>
-         <gamescountpos>0.95</gamescountpos>
+         <gamescountpos>0.955</gamescountpos>
       </variables>
    </fontSize>
    <fontSize name="medium">
@@ -139,7 +139,7 @@ based on 1920x1440
          <helpFontSizeSmall>0.015</helpFontSizeSmall>
          <helpPos>0.038</helpPos>
          <helpPosSmall>0.03</helpPosSmall>
-         <gamescountpos>0.95</gamescountpos>
+         <gamescountpos>0.955</gamescountpos>
       </variables>
    </fontSize>
    <fontSize name="large">
@@ -149,7 +149,7 @@ based on 1920x1440
          <helpFontSizeSmall>0.015</helpFontSizeSmall>
          <helpPos>0.038</helpPos>
          <helpPosSmall>0.03</helpPosSmall>
-         <gamescountpos>0.95</gamescountpos>
+         <gamescountpos>0.955</gamescountpos>
       </variables>
    </fontSize>
    <fontSize name="x-large">
@@ -159,7 +159,7 @@ based on 1920x1440
          <helpFontSizeSmall>0.015</helpFontSizeSmall>
          <helpPos>0.042</helpPos>
          <helpPosSmall>0.03</helpPosSmall>
-         <gamescountpos>0.94</gamescountpos>
+         <gamescountpos>0.95</gamescountpos>
       </variables>
    </fontSize>
 
@@ -175,8 +175,8 @@ based on 1920x1440
          <gamelistFontSize>0.026</gamelistFontSize>
          <gamelistSelectorHeight>0.038214814814815</gamelistSelectorHeight>
          <gamelistLineSpacing>1.421251851851852</gamelistLineSpacing>
-         <gamelistPos>0.540291666666667 0.101566666666667</gamelistPos>
-         <gamelistPosFlipped>0.070291666666667 0.101566666666667</gamelistPosFlipped>
+         <gamelistPos>0.540291666666667 0.121566666666667</gamelistPos>
+         <gamelistPosFlipped>0.070291666666667 0.121566666666667</gamelistPosFlipped>
          <gamelistselectorVerticalOffset>0</gamelistselectorVerticalOffset>
          <itemsBeforeCenter>3.5</itemsBeforeCenter>
          <itemsAfterCenter>3.5</itemsAfterCenter>   
@@ -189,8 +189,8 @@ based on 1920x1440
          <gamelistFontSize>0.030</gamelistFontSize>
          <gamelistSelectorHeight>0.04514814814815</gamelistSelectorHeight>
          <gamelistLineSpacing>1.542</gamelistLineSpacing>
-         <gamelistPos>0.540291666666667 0.094666666666667</gamelistPos>
-         <gamelistPosFlipped>0.070291666666667 0.094666666666667</gamelistPosFlipped>
+         <gamelistPos>0.540291666666667 0.114666666666667</gamelistPos>
+         <gamelistPosFlipped>0.070291666666667 0.114666666666667</gamelistPosFlipped>
          <gamelistselectorVerticalOffset>0</gamelistselectorVerticalOffset>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
@@ -205,8 +205,8 @@ based on 1920x1440
          <gamelistSelectorHeight>0.052</gamelistSelectorHeight>
          <gamelistselectorVerticalOffset>0.004</gamelistselectorVerticalOffset>
          <gamelistLineSpacing>1.525</gamelistLineSpacing>
-         <gamelistPos>0.540291666666667 0.109066666666667</gamelistPos>
-         <gamelistPosFlipped>0.070291666666667 0.10906666666667</gamelistPosFlipped>
+         <gamelistPos>0.540291666666667 0.129066666666667</gamelistPos>
+         <gamelistPosFlipped>0.070291666666667 0.12906666666667</gamelistPosFlipped>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
          <itemSize>0.26 0.2</itemSize>
@@ -267,7 +267,7 @@ based on 1920x1440
             <pos>${gamelistPos}</pos>
          </textlist>
          <image name="game-list-background-shadow,game-list-background">
-            <pos>0.735 0.48648148147</pos>
+            <pos>0.735 0.50648148147</pos>
          </image>
       </view>
    </variant>
@@ -278,7 +278,7 @@ based on 1920x1440
             <pos>${gamelistPosFlipped}</pos>
          </textlist>
          <image name="game-list-background-shadow,game-list-background">
-            <pos>0.265 0.48648148147</pos>
+            <pos>0.265 0.50648148147</pos>
          </image>
       </view>
    </variant>
