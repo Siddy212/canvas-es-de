@@ -178,22 +178,22 @@
       </fontSize>
       <fontSize name="medium">
          <variables>
-            <gridItemSize>0.2550 0.4250</gridItemSize>
-            <gridItemPos>0.605</gridItemPos>
-            <gridHeight>0.85</gridHeight>
+            <gridItemSize>0.2625 0.4375</gridItemSize>
+            <gridItemPos>0.56375</gridItemPos>
+            <gridHeight>0.875</gridHeight>
             <itemcount>2.75</itemcount>
             <itemsize>0.36 0.45</itemsize>
-            <itemSpacingStyle>0 0</itemSpacingStyle>
+            <itemSpacingStyle>0.03 0</itemSpacingStyle>
          </variables>
       </fontSize>
       <fontSize name="x-large,large">
          <variables>
-            <gridItemSize>0.2550 0.4250</gridItemSize>
-            <gridItemPos>0.605</gridItemPos>
-            <gridHeight>0.85</gridHeight>
+            <gridItemSize>0.2625 0.4375</gridItemSize>
+            <gridItemPos>0.56375</gridItemPos>
+            <gridHeight>0.875</gridHeight>
             <itemcount>2.5</itemcount>
             <itemsize>0.4 0.5</itemsize>
-            <itemSpacingStyle>0 0</itemSpacingStyle>
+            <itemSpacingStyle>0.03 0</itemSpacingStyle>
          </variables>
       </fontSize>
    </aspectRatio>
