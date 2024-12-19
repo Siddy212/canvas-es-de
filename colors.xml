@@ -5,8 +5,8 @@
    
    <colorScheme name="light,dark,retro,neon,pastel,famicom,snes,sony">
          <variables>
-                  <selectorRelativeScaleSize>0.835</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.93</backgroundRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.881388</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.9817</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/systems/system-grid/square.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/systems/system-grid/square-bg.png</backgroundImagePath>
                   <gridsize>system-variables</gridsize>
@@ -14,8 +14,8 @@
    </colorScheme>
    <colorScheme name="light-capsule,dark-capsule,retro-capsule,neon-capsule,pastel-capsule,famicom-capsule,snes-capsule,sony-capsule">
          <variables>
-                  <selectorRelativeScaleSize>0.86</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.93</backgroundRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/systems/system-grid/capsule.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/systems/system-grid/capsule-bg.png</backgroundImagePath>
                   <staticImagePath>./_inc/systems/carousel-icons-capsule/art/${system.theme}.webp</staticImagePath>
@@ -24,8 +24,8 @@
    </colorScheme>   
    <colorScheme name="light-screenshots,dark-screenshots,retro-screenshots,neon-screenshots,pastel-screenshots,famicom-screenshots,snes-screenshots,sony-screenshots">
          <variables>
-                  <selectorRelativeScaleSize>0.84</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.93</backgroundRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.88667</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/systems/system-grid/capsule.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/systems/system-grid/capsule-bg.png</backgroundImagePath>
                   <staticImagePath>./_inc/systems/carousel-icons-capsule/screenshots/${system.theme}.webp</staticImagePath>
@@ -34,8 +34,8 @@
    </colorScheme>
    <colorScheme name="light-icon,dark-icon,retro-icon,neon-icon,pastel-icon,famicom-icon,snes-icon">
          <variables>
-                  <selectorRelativeScaleSize>0.88</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.95</backgroundRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.92889</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.999</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/systems/system-grid/4-5.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/systems/system-grid/4-5-bg.png</backgroundImagePath>
                   <staticImagePath>./_inc/systems/carousel-icons-icons/art/${system.theme}.webp</staticImagePath>
@@ -44,7 +44,7 @@
    </colorScheme>
    <colorScheme name="sony-icon">
          <variables>
-                  <selectorRelativeScaleSize>0.88</selectorRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.92889</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/systems/system-grid/4-5.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/systems/system-grid/null.png</backgroundImagePath>

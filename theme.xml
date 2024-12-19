@@ -149,7 +149,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <view name="system">
          <grid name="grid">
             <origin>0.5 0.5</origin>
-            <pos>${gridItemPos} 0.5</pos>
+            <pos>${gridItemPos} 0.49</pos>
             <itemSize>${gridItemSize}</itemSize>
             <selectorRelativeScale>${selectorRelativeScaleSize}</selectorRelativeScale>
             <backgroundRelativeScale>${backgroundRelativeScaleSize}</backgroundRelativeScale>
@@ -159,7 +159,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <unfocusedItemOpacity>0.95</unfocusedItemOpacity>
             <unfocusedItemDimming>0.9</unfocusedItemDimming>
             <unfocusedItemSaturation>1</unfocusedItemSaturation>
-            <itemSpacing>0 0</itemSpacing>
+            <itemSpacing>${itemSpacingStyle}</itemSpacing>
             <textColor>${systemCarouselTextColor}</textColor>
             <fontPath>${fontBold}</fontPath>
             <fontSize>0.036111111111111</fontSize>
@@ -171,7 +171,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <scaleInwards>true</scaleInwards>
             <size>0.975 ${gridHeight}</size>
             <itemScale>1.05</itemScale>
-            <imageRelativeScale>0.90</imageRelativeScale>
+            <imageRelativeScale>0.95</imageRelativeScale>
             <textRelativeScale>0.7</textRelativeScale>
          </grid>
          <text name="games-count">
