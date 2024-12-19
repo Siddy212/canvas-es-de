@@ -186,7 +186,17 @@
             <itemSpacingStyle>0.02 0</itemSpacingStyle>
          </variables>
       </fontSize>
-      <fontSize name="large,x-large">
+      <fontSize name="large">
+         <variables>
+            <gridItemSize>0.3094 0.4125</gridItemSize>
+            <gridItemPos>0.5234375</gridItemPos>
+            <gridHeight>0.825</gridHeight>
+            <itemcount>2.5</itemcount>
+            <itemsize>0.3 0.45</itemsize>
+            <itemSpacingStyle>0.0 0</itemSpacingStyle>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
          <variables>
             <gridItemSize>0.3188 0.425</gridItemSize>
             <gridItemPos>0.509375</gridItemPos>
