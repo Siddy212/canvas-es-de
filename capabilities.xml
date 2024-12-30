@@ -4,7 +4,7 @@
 
 <themeCapabilities>
    
-   <themeName>Canvas-imp</themeName>
+   <themeName>Canvas</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
@@ -153,7 +153,7 @@
    </variant>
    <variant name="grid-row">
       <label>[Grid] Row</label>
-      <selectable>false</selectable>
+      <selectable>true</selectable>
    </variant>
    <variant name="grid-grid">
       <label>[Grid] Grid: Basic</label>
@@ -185,7 +185,7 @@
    </variant>
    <variant name="carousel-row">
       <label>[Carousel] Row</label>
-      <selectable>false</selectable>
+      <selectable>true</selectable>
    </variant>
    <variant name="carousel-grid">
       <label>[Carousel] Grid: Basic</label>
