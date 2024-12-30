@@ -1,268 +1,1138 @@
 <theme>
-       <aspectRatio name="16:10">
+           <aspectRatio name="1:1">
                     <fontSize name="small">
                             <variables>
-                                        <carouselitemsize>0.1225 1</carouselitemsize>
-                                        <carouselitemcount>8</carouselitemcount>    
-                                        <carouselitemmargins>0.0245 0.0245</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.31613</namex>        
-                                        <namey>0.6452</namey>    
-                                        <cartx>0.28918</cartx>        
-                                        <cartw>0.0245</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.0971</game-sys-logo-x>
+                                        <game-sys-logo-w>0.0971</game-sys-logo-w>
+                                        <games-count-x>0.17452</games-count-x>
+                                        <games-count-y>0.59424</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.2058</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.196</carousel-base-item-w>
+                                        <carousel-base-item-h>0.245</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.294</carousel-scaled-item-y>
+                                        <carousel-item-count>5</carousel-item-count>    
+                                        <carousel-item-margins>0.0196 0.0196</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.1</carousel-offset-y>  
+                                        <carousel-name-x>0.17452</carousel-name-x>        
+                                        <carousel-name-y>0.59424</carousel-name-y>    
+                                        <carousel-cart-x>0.0971</carousel-cart-x>        
+                                        <carousel-cart-h>0.0735</carousel-cart-h>         
+                                        <carousel-cart-w>0.0735</carousel-cart-w>    
+                                        <carousel-badge-x>0.0971</carousel-badge-x>        
+                                        <carousel-badge-y>0.95551</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9817</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.158333333333333</grid-base-item-w>                       
+                                        <grid-base-item-h>0.197916666666667</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.2078125</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00475</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.426666666666667</grid-marquee-w>
+                                        <grid-marquee-y>0.103515625</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.616114583333333</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="medium">
+                    </fontSize>                    <fontSize name="medium">
                             <variables>
-                                        <carouselitemsize>0.153125 1</carouselitemsize>
-                                        <carouselitemcount>6.4</carouselitemcount>    
-                                        <carouselitemmargins>0.030625 0.030625</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.34730625</namex>        
-                                        <namey>0.575375</namey>    
-                                        <cartx>0.31361875</cartx>        
-                                        <cartw>0.030625</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.0824</game-sys-logo-x>
+                                        <game-sys-logo-w>0.0824</game-sys-logo-w>
+                                        <games-count-x>0.17088</games-count-x>
+                                        <games-count-y>0.53056</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.2352</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.224</carousel-base-item-w>
+                                        <carousel-base-item-h>0.28</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.336</carousel-scaled-item-y>
+                                        <carousel-item-count>4.375</carousel-item-count>    
+                                        <carousel-item-margins>0.0224 0.0224</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.12</carousel-offset-y>  
+                                        <carousel-name-x>0.17088</carousel-name-x>        
+                                        <carousel-name-y>0.53056</carousel-name-y>    
+                                        <carousel-cart-x>0.0824</carousel-cart-x>        
+                                        <carousel-cart-h>0.084</carousel-cart-h>         
+                                        <carousel-cart-w>0.084</carousel-cart-w>    
+                                        <carousel-badge-x>0.0824</carousel-badge-x>        
+                                        <carousel-badge-y>0.940315</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9857</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.2375</grid-base-item-w>                       
+                                        <grid-base-item-h>0.296875</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.31171875</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00791666666666666</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.426666666666667</grid-marquee-w>
+                                        <grid-marquee-y>0.1045703125</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.6194</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="large">
+                    </fontSize>                    <fontSize name="large">
                             <variables>
-                                        <carouselitemsize>0.175 1</carouselitemsize>
-                                        <carouselitemcount>5.6</carouselitemcount>    
-                                        <carouselitemmargins>0.035 0.035</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.3708</namex>        
-                                        <namey>0.522</namey>    
-                                        <cartx>0.3323</cartx>        
-                                        <cartw>0.035</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.0791333333333333</game-sys-logo-x>
+                                        <game-sys-logo-w>0.0791333333333333</game-sys-logo-w>
+                                        <games-count-x>0.18236</games-count-x>
+                                        <games-count-y>0.43232</games-count-y>   
+                                        <sys-cover-art-x>0.216333333333333</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.2744</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.261333333333333</carousel-base-item-w>
+                                        <carousel-base-item-h>0.326666666666667</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.392</carousel-scaled-item-y>
+                                        <carousel-item-count>3.75</carousel-item-count>    
+                                        <carousel-item-margins>0.0261333333333333 0.0261333333333333</carousel-item-margins>
+                                        <carousel-offset-x>-0.283666666666667</carousel-offset-x>
+                                        <carousel-offset-y>0.16</carousel-offset-y>  
+                                        <carousel-name-x>0.18236</carousel-name-x>        
+                                        <carousel-name-y>0.43232</carousel-name-y>    
+                                        <carousel-cart-x>0.0791333333333333</carousel-cart-x>        
+                                        <carousel-cart-h>0.098</carousel-cart-h>         
+                                        <carousel-cart-w>0.098</carousel-cart-w>    
+                                        <carousel-badge-x>0.0791333333333333</carousel-badge-x>        
+                                        <carousel-badge-y>0.931305</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9857</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.2375</grid-base-item-w>                       
+                                        <grid-base-item-h>0.296875</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.31171875</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00791666666666666</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.426666666666667</grid-marquee-w>
+                                        <grid-marquee-y>0.1052734375</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.6194</multi-row-grid-h>                            
+                            </variables>
+                    </fontSize>                    <fontSize name="x-large">
+                            <variables>
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.10396</game-sys-logo-x>
+                                        <game-sys-logo-w>0.10396</game-sys-logo-w>
+                                        <games-count-x>0.227832</games-count-x>
+                                        <games-count-y>0.310784</games-count-y>   
+                                        <sys-cover-art-x>0.2686</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.32928</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.3136</carousel-base-item-w>
+                                        <carousel-base-item-h>0.392</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.4704</carousel-scaled-item-y>
+                                        <carousel-item-count>3.125</carousel-item-count>    
+                                        <carousel-item-margins>0.03136 0.03136</carousel-item-margins>
+                                        <carousel-offset-x>-0.2314</carousel-offset-x>
+                                        <carousel-offset-y>0.2</carousel-offset-y>  
+                                        <carousel-name-x>0.227832</carousel-name-x>        
+                                        <carousel-name-y>0.310784</carousel-name-y>    
+                                        <carousel-cart-x>0.10396</carousel-cart-x>        
+                                        <carousel-cart-h>0.1176</carousel-cart-h>         
+                                        <carousel-cart-w>0.1176</carousel-cart-w>    
+                                        <carousel-badge-x>0.10396</carousel-badge-x>        
+                                        <carousel-badge-y>0.928816</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9896</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.316666666666667</grid-base-item-w>                       
+                                        <grid-base-item-h>0.395833333333333</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.415625</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.011875</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.426666666666667</grid-marquee-w>
+                                        <grid-marquee-y>0.105625</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.419365625</multi-row-grid-h>                            
                             </variables>
                     </fontSize>    
-       </aspectRatio>
-       <aspectRatio name="1:1">
+           </aspectRatio><aspectRatio name="16:10">
                     <fontSize name="small">
                             <variables>
-                                        <carouselitemsize>0.196 1</carouselitemsize>
-                                        <carouselitemcount>5</carouselitemcount>    
-                                        <carouselitemmargins>0.0392 0.0392</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.385808</namex>        
-                                        <namey>0.6452</namey>    
-                                        <cartx>0.342688</cartx>        
-                                        <cartw>0.0392</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.0971</game-sys-logo-x>
+                                        <game-sys-logo-w>0.0971</game-sys-logo-w>
+                                        <games-count-x>0.21862</games-count-x>
+                                        <games-count-y>0.41784</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.2058</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.196</carousel-base-item-w>
+                                        <carousel-base-item-h>0.392</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.4704</carousel-scaled-item-y>
+                                        <carousel-item-count>5</carousel-item-count>    
+                                        <carousel-item-margins>0.0196 0.0196</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.1</carousel-offset-y>  
+                                        <carousel-name-x>0.21862</carousel-name-x>        
+                                        <carousel-name-y>0.41784</carousel-name-y>    
+                                        <carousel-cart-x>0.0971</carousel-cart-x>        
+                                        <carousel-cart-h>0.1176</carousel-cart-h>         
+                                        <carousel-cart-w>0.1176</carousel-cart-w>    
+                                        <carousel-badge-x>0.0971</carousel-badge-x>        
+                                        <carousel-badge-y>0.92176</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9791</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.105555555555556</grid-base-item-w>                       
+                                        <grid-base-item-h>0.211111111111111</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.221666666666667</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00296875</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.266666666666667</grid-marquee-w>
+                                        <grid-marquee-y>0.105625</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.655360138888889</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="medium">
+                    </fontSize>                    <fontSize name="medium">
                             <variables>
-                                        <carouselitemsize>0.245 1</carouselitemsize>
-                                        <carouselitemcount>4</carouselitemcount>    
-                                        <carouselitemmargins>0.049 0.049</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.43569</namex>        
-                                        <namey>0.575375</namey>    
-                                        <cartx>0.38179</cartx>        
-                                        <cartw>0.049</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.1265</game-sys-logo-x>
+                                        <game-sys-logo-w>0.1265</game-sys-logo-w>
+                                        <games-count-x>0.2133</games-count-x>
+                                        <games-count-y>0.5356</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.147</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.14</carousel-base-item-w>
+                                        <carousel-base-item-h>0.28</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.336</carousel-scaled-item-y>
+                                        <carousel-item-count>7</carousel-item-count>    
+                                        <carousel-item-margins>0.014 0.014</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.12</carousel-offset-y>  
+                                        <carousel-name-x>0.2133</carousel-name-x>        
+                                        <carousel-name-y>0.5356</carousel-name-y>    
+                                        <carousel-cart-x>0.1265</carousel-cart-x>        
+                                        <carousel-cart-h>0.084</carousel-cart-h>         
+                                        <carousel-cart-w>0.084</carousel-cart-w>    
+                                        <carousel-badge-x>0.1265</carousel-badge-x>        
+                                        <carousel-badge-y>0.8914</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9806</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.135714285714286</grid-base-item-w>                       
+                                        <grid-base-item-h>0.271428571428571</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.285</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00395833333333333</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.266666666666667</grid-marquee-w>
+                                        <grid-marquee-y>0.1073125</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.567068571428571</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="large">
+                    </fontSize>                    <fontSize name="large">
                             <variables>
-                                        <carouselitemsize>0.28 1</carouselitemsize>
-                                        <carouselitemcount>3.5</carouselitemcount>    
-                                        <carouselitemmargins>0.056 0.056</carouselitemmargins>
-                                        <carouseloffset>-0.265</carouseloffset>    
-                                        <namex>0.50828</namex>        
-                                        <namey>0.522</namey>    
-                                        <cartx>0.44668</cartx>        
-                                        <cartw>0.056</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.11425</game-sys-logo-x>
+                                        <game-sys-logo-w>0.11425</game-sys-logo-w>
+                                        <games-count-x>0.215516666666667</games-count-x>
+                                        <games-count-y>0.4382</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.1715</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.163333333333333</carousel-base-item-w>
+                                        <carousel-base-item-h>0.326666666666667</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.392</carousel-scaled-item-y>
+                                        <carousel-item-count>6</carousel-item-count>    
+                                        <carousel-item-margins>0.0163333333333333 0.0163333333333333</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.16</carousel-offset-y>  
+                                        <carousel-name-x>0.215516666666667</carousel-name-x>        
+                                        <carousel-name-y>0.4382</carousel-name-y>    
+                                        <carousel-cart-x>0.11425</carousel-cart-x>        
+                                        <carousel-cart-h>0.098</carousel-cart-h>         
+                                        <carousel-cart-w>0.098</carousel-cart-w>    
+                                        <carousel-badge-x>0.11425</carousel-badge-x>        
+                                        <carousel-badge-y>0.8748</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9817</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.158333333333333</grid-base-item-w>                       
+                                        <grid-base-item-h>0.316666666666667</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.3325</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00475</grid-item-spacing>
+                                        <grid-marquee-h>0.195007333333333</grid-marquee-h>
+                                        <grid-marquee-w>0.260009777777778</grid-marquee-w>
+                                        <grid-marquee-y>0.105941166666667</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.658742666666667</multi-row-grid-h>                            
+                            </variables>
+                    </fontSize>                    <fontSize name="x-large">
+                            <variables>
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.0971</game-sys-logo-x>
+                                        <game-sys-logo-w>0.0971</game-sys-logo-w>
+                                        <games-count-x>0.21862</games-count-x>
+                                        <games-count-y>0.31784</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.2058</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.196</carousel-base-item-w>
+                                        <carousel-base-item-h>0.392</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.4704</carousel-scaled-item-y>
+                                        <carousel-item-count>5</carousel-item-count>    
+                                        <carousel-item-margins>0.0196 0.0196</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.2</carousel-offset-y>  
+                                        <carousel-name-x>0.21862</carousel-name-x>        
+                                        <carousel-name-y>0.31784</carousel-name-y>    
+                                        <carousel-cart-x>0.0971</carousel-cart-x>        
+                                        <carousel-cart-h>0.1176</carousel-cart-h>         
+                                        <carousel-cart-w>0.1176</carousel-cart-w>    
+                                        <carousel-badge-x>0.0971</carousel-badge-x>        
+                                        <carousel-badge-y>0.86776</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9833</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.19</grid-base-item-w>                       
+                                        <grid-base-item-h>0.38</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.399</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.0059375</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.266666666666667</grid-marquee-w>
+                                        <grid-marquee-y>0.109</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.40299</multi-row-grid-h>                            
                             </variables>
                     </fontSize>    
-       </aspectRatio>
-       <aspectRatio name="16:9">
+           </aspectRatio><aspectRatio name="16:9">
                     <fontSize name="small">
                             <variables>
-                                        <carouselitemsize>0.11025 1</carouselitemsize>
-                                        <carouselitemcount>8.88888888888889</carouselitemcount>    
-                                        <carouselitemmargins>0.02205 0.02205</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.304517</namex>        
-                                        <namey>0.6452</namey>    
-                                        <cartx>0.280262</cartx>        
-                                        <cartw>0.02205</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.0971</game-sys-logo-x>
+                                        <game-sys-logo-w>0.0971</game-sys-logo-w>
+                                        <games-count-x>0.231686666666667</games-count-x>
+                                        <games-count-y>0.365573333333333</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.2058</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.196</carousel-base-item-w>
+                                        <carousel-base-item-h>0.435555555555556</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.522666666666667</carousel-scaled-item-y>
+                                        <carousel-item-count>5</carousel-item-count>    
+                                        <carousel-item-margins>0.0196 0.0196</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.1</carousel-offset-y>  
+                                        <carousel-name-x>0.231686666666667</carousel-name-x>        
+                                        <carousel-name-y>0.365573333333333</carousel-name-y>    
+                                        <carousel-cart-x>0.0971</carousel-cart-x>        
+                                        <carousel-cart-h>0.130666666666667</carousel-cart-h>         
+                                        <carousel-cart-w>0.130666666666667</carousel-cart-w>    
+                                        <carousel-badge-x>0.0971</carousel-badge-x>        
+                                        <carousel-badge-y>0.91176</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9785</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.095</grid-base-item-w>                       
+                                        <grid-base-item-h>0.211111111111111</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.221666666666667</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00263888888888889</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.24</grid-marquee-w>
+                                        <grid-marquee-y>0.10625</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.655218518518519</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="medium">
+                    </fontSize>                    <fontSize name="medium">
                             <variables>
-                                        <carouselitemsize>0.1378125 1</carouselitemsize>
-                                        <carouselitemcount>7.11111111111111</carouselitemcount>    
-                                        <carouselitemmargins>0.0275625 0.0275625</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.332575625</namex>        
-                                        <namey>0.575375</namey>    
-                                        <cartx>0.302256875</cartx>        
-                                        <cartw>0.0275625</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.13385</game-sys-logo-x>
+                                        <game-sys-logo-w>0.13385</game-sys-logo-w>
+                                        <games-count-x>0.22037</games-count-x>
+                                        <games-count-y>0.53644</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.1323</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.126</carousel-base-item-w>
+                                        <carousel-base-item-h>0.28</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.336</carousel-scaled-item-y>
+                                        <carousel-item-count>7.77777777777778</carousel-item-count>    
+                                        <carousel-item-margins>0.0126 0.0126</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.12</carousel-offset-y>  
+                                        <carousel-name-x>0.22037</carousel-name-x>        
+                                        <carousel-name-y>0.53644</carousel-name-y>    
+                                        <carousel-cart-x>0.13385</carousel-cart-x>        
+                                        <carousel-cart-h>0.084</carousel-cart-h>         
+                                        <carousel-cart-w>0.084</carousel-cart-w>    
+                                        <carousel-badge-x>0.13385</carousel-badge-x>        
+                                        <carousel-badge-y>0.87756</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9797</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.11875</grid-base-item-w>                       
+                                        <grid-base-item-h>0.263888888888889</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.277083333333333</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00339285714285714</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.24</grid-marquee-w>
+                                        <grid-marquee-y>0.108125</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.551738888888889</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="large">
+                    </fontSize>                    <fontSize name="large">
                             <variables>
-                                        <carouselitemsize>0.1575 1</carouselitemsize>
-                                        <carouselitemcount>6.22222222222222</carouselitemcount>    
-                                        <carouselitemmargins>0.0315 0.0315</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.35372</namex>        
-                                        <namey>0.522</namey>    
-                                        <cartx>0.31907</cartx>        
-                                        <cartw>0.0315</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.122825</game-sys-logo-x>
+                                        <game-sys-logo-w>0.122825</game-sys-logo-w>
+                                        <games-count-x>0.223765</games-count-x>
+                                        <games-count-y>0.43918</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.15435</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.147</carousel-base-item-w>
+                                        <carousel-base-item-h>0.326666666666667</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.392</carousel-scaled-item-y>
+                                        <carousel-item-count>6.66666666666667</carousel-item-count>    
+                                        <carousel-item-margins>0.0147 0.0147</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.16</carousel-offset-y>  
+                                        <carousel-name-x>0.223765</carousel-name-x>        
+                                        <carousel-name-y>0.43918</carousel-name-y>    
+                                        <carousel-cart-x>0.122825</carousel-cart-x>        
+                                        <carousel-cart-h>0.098</carousel-cart-h>         
+                                        <carousel-cart-w>0.098</carousel-cart-w>    
+                                        <carousel-badge-x>0.122825</carousel-badge-x>        
+                                        <carousel-badge-y>0.85882</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9806</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.135714285714286</grid-base-item-w>                       
+                                        <grid-base-item-h>0.301587301587302</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.316666666666667</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00395833333333333</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.24</grid-marquee-w>
+                                        <grid-marquee-y>0.109375</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.627859523809524</multi-row-grid-h>                            
+                            </variables>
+                    </fontSize>                    <fontSize name="x-large">
+                            <variables>
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.10739</game-sys-logo-x>
+                                        <game-sys-logo-w>0.10739</game-sys-logo-w>
+                                        <games-count-x>0.228518</games-count-x>
+                                        <games-count-y>0.319016</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.18522</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.1764</carousel-base-item-w>
+                                        <carousel-base-item-h>0.392</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.4704</carousel-scaled-item-y>
+                                        <carousel-item-count>5.55555555555556</carousel-item-count>    
+                                        <carousel-item-margins>0.01764 0.01764</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.2</carousel-offset-y>  
+                                        <carousel-name-x>0.228518</carousel-name-x>        
+                                        <carousel-name-y>0.319016</carousel-name-y>    
+                                        <carousel-cart-x>0.10739</carousel-cart-x>        
+                                        <carousel-cart-h>0.1176</carousel-cart-h>         
+                                        <carousel-cart-w>0.1176</carousel-cart-w>    
+                                        <carousel-badge-x>0.10739</carousel-badge-x>        
+                                        <carousel-badge-y>0.850584</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9817</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.158333333333333</grid-base-item-w>                       
+                                        <grid-base-item-h>0.351851851851852</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.369444444444444</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00475</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.24</grid-marquee-w>
+                                        <grid-marquee-y>0.11</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.373877777777778</multi-row-grid-h>                            
                             </variables>
                     </fontSize>    
-       </aspectRatio>
-       <aspectRatio name="19.5:9">
+           </aspectRatio><aspectRatio name="19.5:9">
                     <fontSize name="small">
                             <variables>
-                                        <carouselitemsize>0.0904615384615385 1</carouselitemsize>
-                                        <carouselitemcount>10.8333333333333</carouselitemcount>    
-                                        <carouselitemmargins>0.0180923076923077 0.0180923076923077</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.285757538461538</namex>        
-                                        <namey>0.6452</namey>    
-                                        <cartx>0.265856</cartx>        
-                                        <cartw>0.0180923076923077</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.0971</game-sys-logo-x>
+                                        <game-sys-logo-w>0.0971</game-sys-logo-w>
+                                        <games-count-x>0.26027</games-count-x>
+                                        <games-count-y>0.25124</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.2058</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.196</carousel-base-item-w>
+                                        <carousel-base-item-h>0.530833333333333</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.637</carousel-scaled-item-y>
+                                        <carousel-item-count>5</carousel-item-count>    
+                                        <carousel-item-margins>0.0196 0.0196</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.1</carousel-offset-y>  
+                                        <carousel-name-x>0.26027</carousel-name-x>        
+                                        <carousel-name-y>0.25124</carousel-name-y>    
+                                        <carousel-cart-x>0.0971</carousel-cart-x>        
+                                        <carousel-cart-h>0.15925</carousel-cart-h>         
+                                        <carousel-cart-w>0.15925</carousel-cart-w>    
+                                        <carousel-badge-x>0.0971</carousel-badge-x>        
+                                        <carousel-badge-y>0.889885</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9778</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.0791666666666667</grid-base-item-w>                       
+                                        <grid-base-item-h>0.214409722222222</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.225130208333333</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00215909090909091</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.196923076923077</grid-marquee-w>
+                                        <grid-marquee-y>0.1076171875</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.665247095959596</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="medium">
+                    </fontSize>                    <fontSize name="medium">
                             <variables>
-                                        <carouselitemsize>0.113076923076923 1</carouselitemsize>
-                                        <carouselitemcount>8.66666666666667</carouselitemcount>    
-                                        <carouselitemmargins>0.0226153846153846 0.0226153846153846</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.30878</namex>        
-                                        <namey>0.575375</namey>    
-                                        <cartx>0.283903076923077</cartx>        
-                                        <cartw>0.0226153846153846</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.145723076923077</game-sys-logo-x>
+                                        <game-sys-logo-w>0.145723076923077</game-sys-logo-w>
+                                        <games-count-x>0.231790769230769</games-count-x>
+                                        <games-count-y>0.537796923076923</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.108553846153846</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.103384615384615</carousel-base-item-w>
+                                        <carousel-base-item-h>0.28</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.336</carousel-scaled-item-y>
+                                        <carousel-item-count>9.47916666666667</carousel-item-count>    
+                                        <carousel-item-margins>0.0103384615384615 0.0103384615384615</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.12</carousel-offset-y>  
+                                        <carousel-name-x>0.231790769230769</carousel-name-x>        
+                                        <carousel-name-y>0.537796923076923</carousel-name-y>    
+                                        <carousel-cart-x>0.145723076923077</carousel-cart-x>        
+                                        <carousel-cart-h>0.084</carousel-cart-h>         
+                                        <carousel-cart-w>0.084</carousel-cart-w>    
+                                        <carousel-badge-x>0.145723076923077</carousel-badge-x>        
+                                        <carousel-badge-y>0.847765576923077</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9785</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.095</grid-base-item-w>                       
+                                        <grid-base-item-h>0.257291666666667</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.27015625</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00263888888888889</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.196923076923077</grid-marquee-w>
+                                        <grid-marquee-y>0.10990234375</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.537653819444444</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="large">
+                    </fontSize>                    <fontSize name="large">
                             <variables>
-                                        <carouselitemsize>0.129230769230769 1</carouselitemsize>
-                                        <carouselitemcount>7.58333333333333</carouselitemcount>    
-                                        <carouselitemmargins>0.0258461538461538 0.0258461538461538</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.326129230769231</namex>        
-                                        <namey>0.522</namey>    
-                                        <cartx>0.297698461538462</cartx>        
-                                        <cartw>0.0258461538461539</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.136676923076923</game-sys-logo-x>
+                                        <game-sys-logo-w>0.136676923076923</game-sys-logo-w>
+                                        <games-count-x>0.237089230769231</games-count-x>
+                                        <games-count-y>0.440763076923077</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.126646153846154</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.120615384615385</carousel-base-item-w>
+                                        <carousel-base-item-h>0.326666666666667</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.392</carousel-scaled-item-y>
+                                        <carousel-item-count>8.125</carousel-item-count>    
+                                        <carousel-item-margins>0.0120615384615385 0.0120615384615385</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.16</carousel-offset-y>  
+                                        <carousel-name-x>0.237089230769231</carousel-name-x>        
+                                        <carousel-name-y>0.440763076923077</carousel-name-y>    
+                                        <carousel-cart-x>0.136676923076923</carousel-cart-x>        
+                                        <carousel-cart-h>0.098</carousel-cart-h>         
+                                        <carousel-cart-w>0.098</carousel-cart-w>    
+                                        <carousel-badge-x>0.136676923076923</carousel-badge-x>        
+                                        <carousel-badge-y>0.824424423076923</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9797</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.11875</grid-base-item-w>                       
+                                        <grid-base-item-h>0.321614583333333</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.3376953125</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00339285714285714</grid-item-spacing>
+                                        <grid-marquee-h>0.133380729166667</grid-marquee-h>
+                                        <grid-marquee-w>0.131328717948718</grid-marquee-w>
+                                        <grid-marquee-y>0.0781161458333334</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.668572395833333</multi-row-grid-h>                            
+                            </variables>
+                    </fontSize>                    <fontSize name="x-large">
+                            <variables>
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.124012307692308</game-sys-logo-x>
+                                        <game-sys-logo-w>0.124012307692308</game-sys-logo-w>
+                                        <games-count-x>0.244507076923077</games-count-x>
+                                        <games-count-y>0.320915692307692</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.151975384615385</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.144738461538462</carousel-base-item-w>
+                                        <carousel-base-item-h>0.392</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.4704</carousel-scaled-item-y>
+                                        <carousel-item-count>6.77083333333333</carousel-item-count>    
+                                        <carousel-item-margins>0.0144738461538462 0.0144738461538462</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.2</carousel-offset-y>  
+                                        <carousel-name-x>0.244507076923077</carousel-name-x>        
+                                        <carousel-name-y>0.320915692307692</carousel-name-y>    
+                                        <carousel-cart-x>0.124012307692308</carousel-cart-x>        
+                                        <carousel-cart-h>0.1176</carousel-cart-h>         
+                                        <carousel-cart-w>0.1176</carousel-cart-w>    
+                                        <carousel-badge-x>0.124012307692308</carousel-badge-x>        
+                                        <carousel-badge-y>0.813684307692308</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9806</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.135714285714286</grid-base-item-w>                       
+                                        <grid-base-item-h>0.367559523809524</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.3859375</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00395833333333333</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.196923076923077</grid-marquee-w>
+                                        <grid-marquee-y>0.1121875</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.390440104166667</multi-row-grid-h>                            
                             </variables>
                     </fontSize>    
-       </aspectRatio>
-       <aspectRatio name="21:9">
+           </aspectRatio><aspectRatio name="21:9">
                     <fontSize name="small">
                             <variables>
-                                        <carouselitemsize>0.084 1</carouselitemsize>
-                                        <carouselitemcount>11.6666666666667</carouselitemcount>    
-                                        <carouselitemmargins>0.0168 0.0168</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.279632</namex>        
-                                        <namey>0.6452</namey>    
-                                        <cartx>0.261152</cartx>        
-                                        <cartw>0.0168</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.0971</game-sys-logo-x>
+                                        <game-sys-logo-w>0.0971</game-sys-logo-w>
+                                        <games-count-x>0.27252</games-count-x>
+                                        <games-count-y>0.20224</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.2058</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.196</carousel-base-item-w>
+                                        <carousel-base-item-h>0.571666666666667</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.686</carousel-scaled-item-y>
+                                        <carousel-item-count>5</carousel-item-count>    
+                                        <carousel-item-margins>0.0196 0.0196</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.1</carousel-offset-y>  
+                                        <carousel-name-x>0.27252</carousel-name-x>        
+                                        <carousel-name-y>0.20224</carousel-name-y>    
+                                        <carousel-cart-x>0.0971</carousel-cart-x>        
+                                        <carousel-cart-h>0.1715</carousel-cart-h>         
+                                        <carousel-cart-w>0.1715</carousel-cart-w>    
+                                        <carousel-badge-x>0.0971</carousel-badge-x>        
+                                        <carousel-badge-y>0.88051</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9775</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.0730769230769231</grid-base-item-w>                       
+                                        <grid-base-item-h>0.213141025641026</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.223798076923077</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00197916666666667</grid-item-spacing>
+                                        <grid-marquee-h>0.196579767628205</grid-marquee-h>
+                                        <grid-marquee-w>0.179730073260073</grid-marquee-w>
+                                        <grid-marquee-y>0.106493008814103</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.661232732371795</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="medium">
+                    </fontSize>                    <fontSize name="medium">
                             <variables>
-                                        <carouselitemsize>0.105 1</carouselitemsize>
-                                        <carouselitemcount>9.33333333333333</carouselitemcount>    
-                                        <carouselitemmargins>0.021 0.021</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.30101</namex>        
-                                        <namey>0.575375</namey>    
-                                        <cartx>0.27791</cartx>        
-                                        <cartw>0.021</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.1496</game-sys-logo-x>
+                                        <game-sys-logo-w>0.1496</game-sys-logo-w>
+                                        <games-count-x>0.23552</games-count-x>
+                                        <games-count-y>0.53824</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.1008</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.096</carousel-base-item-w>
+                                        <carousel-base-item-h>0.28</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.336</carousel-scaled-item-y>
+                                        <carousel-item-count>10.2083333333333</carousel-item-count>    
+                                        <carousel-item-margins>0.0096 0.0096</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.12</carousel-offset-y>  
+                                        <carousel-name-x>0.23552</carousel-name-x>        
+                                        <carousel-name-y>0.53824</carousel-name-y>    
+                                        <carousel-cart-x>0.1496</carousel-cart-x>        
+                                        <carousel-cart-h>0.084</carousel-cart-h>         
+                                        <carousel-cart-w>0.084</carousel-cart-w>    
+                                        <carousel-badge-x>0.1496</carousel-badge-x>        
+                                        <carousel-badge-y>0.835135</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9785</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.095</grid-base-item-w>                       
+                                        <grid-base-item-h>0.277083333333333</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.2909375</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00263888888888889</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.182857142857143</grid-marquee-w>
+                                        <grid-marquee-y>0.1106640625</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.57771875</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="large">
+                    </fontSize>                    <fontSize name="large">
                             <variables>
-                                        <carouselitemsize>0.12 1</carouselitemsize>
-                                        <carouselitemcount>8.16666666666667</carouselitemcount>    
-                                        <carouselitemmargins>0.024 0.024</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.31712</namex>        
-                                        <namey>0.522</namey>    
-                                        <cartx>0.29072</cartx>        
-                                        <cartw>0.024</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.1412</game-sys-logo-x>
+                                        <game-sys-logo-w>0.1412</game-sys-logo-w>
+                                        <games-count-x>0.24144</games-count-x>
+                                        <games-count-y>0.44128</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.1176</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.112</carousel-base-item-w>
+                                        <carousel-base-item-h>0.326666666666667</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.392</carousel-scaled-item-y>
+                                        <carousel-item-count>8.75</carousel-item-count>    
+                                        <carousel-item-margins>0.0112 0.0112</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.16</carousel-offset-y>  
+                                        <carousel-name-x>0.24144</carousel-name-x>        
+                                        <carousel-name-y>0.44128</carousel-name-y>    
+                                        <carousel-cart-x>0.1412</carousel-cart-x>        
+                                        <carousel-cart-h>0.098</carousel-cart-h>         
+                                        <carousel-cart-w>0.098</carousel-cart-w>    
+                                        <carousel-badge-x>0.1412</carousel-badge-x>        
+                                        <carousel-badge-y>0.809845</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9791</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.105555555555556</grid-base-item-w>                       
+                                        <grid-base-item-h>0.30787037037037</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.323263888888889</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00296875</grid-item-spacing>
+                                        <grid-marquee-h>0.146129021990741</grid-marquee-h>
+                                        <grid-marquee-w>0.133603677248677</grid-marquee-w>
+                                        <grid-marquee-y>0.0853691984953703</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.640589728009259</multi-row-grid-h>                            
+                            </variables>
+                    </fontSize>                    <fontSize name="x-large">
+                            <variables>
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.12944</game-sys-logo-x>
+                                        <game-sys-logo-w>0.12944</game-sys-logo-w>
+                                        <games-count-x>0.249728</games-count-x>
+                                        <games-count-y>0.321536</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.14112</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.1344</carousel-base-item-w>
+                                        <carousel-base-item-h>0.392</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.4704</carousel-scaled-item-y>
+                                        <carousel-item-count>7.29166666666667</carousel-item-count>    
+                                        <carousel-item-margins>0.01344 0.01344</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.2</carousel-offset-y>  
+                                        <carousel-name-x>0.249728</carousel-name-x>        
+                                        <carousel-name-y>0.321536</carousel-name-y>    
+                                        <carousel-cart-x>0.12944</carousel-cart-x>        
+                                        <carousel-cart-h>0.1176</carousel-cart-h>         
+                                        <carousel-cart-w>0.1176</carousel-cart-w>    
+                                        <carousel-badge-x>0.12944</carousel-badge-x>        
+                                        <carousel-badge-y>0.798064</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9806</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.135714285714286</grid-base-item-w>                       
+                                        <grid-base-item-h>0.395833333333333</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.415625</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00395833333333333</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.182857142857143</grid-marquee-w>
+                                        <grid-marquee-y>0.113125</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.419504166666667</multi-row-grid-h>                            
                             </variables>
                     </fontSize>    
-       </aspectRatio>
-       <aspectRatio name="3:2">
+           </aspectRatio><aspectRatio name="3:2">
                     <fontSize name="small">
                             <variables>
-                                        <carouselitemsize>0.130666666666667 1</carouselitemsize>
-                                        <carouselitemcount>7.5</carouselitemcount>    
-                                        <carouselitemmargins>0.0261333333333333 0.0261333333333333</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.323872</namex>        
-                                        <namey>0.6452</namey>    
-                                        <cartx>0.295125333333333</cartx>        
-                                        <cartw>0.0261333333333333</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.0971</game-sys-logo-x>
+                                        <game-sys-logo-w>0.0971</game-sys-logo-w>
+                                        <games-count-x>0.21127</games-count-x>
+                                        <games-count-y>0.44724</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.2058</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.196</carousel-base-item-w>
+                                        <carousel-base-item-h>0.3675</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.441</carousel-scaled-item-y>
+                                        <carousel-item-count>5</carousel-item-count>    
+                                        <carousel-item-margins>0.0196 0.0196</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.1</carousel-offset-y>  
+                                        <carousel-name-x>0.21127</carousel-name-x>        
+                                        <carousel-name-y>0.44724</carousel-name-y>    
+                                        <carousel-cart-x>0.0971</carousel-cart-x>        
+                                        <carousel-cart-h>0.11025</carousel-cart-h>         
+                                        <carousel-cart-w>0.11025</carousel-cart-w>    
+                                        <carousel-badge-x>0.0971</carousel-badge-x>        
+                                        <carousel-badge-y>0.927385</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9797</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.11875</grid-base-item-w>                       
+                                        <grid-base-item-h>0.22265625</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.2337890625</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00339285714285714</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.284444444444444</grid-marquee-w>
+                                        <grid-marquee-y>0.1052734375</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.6903234375</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="medium">
+                    </fontSize>                    <fontSize name="medium">
                             <variables>
-                                        <carouselitemsize>0.163333333333333 1</carouselitemsize>
-                                        <carouselitemcount>6</carouselitemcount>    
-                                        <carouselitemmargins>0.0326666666666667 0.0326666666666667</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.357126666666667</namex>        
-                                        <namey>0.575375</namey>    
-                                        <cartx>0.321193333333333</cartx>        
-                                        <cartw>0.0326666666666667</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.1216</game-sys-logo-x>
+                                        <game-sys-logo-w>0.1216</game-sys-logo-w>
+                                        <games-count-x>0.208586666666667</games-count-x>
+                                        <games-count-y>0.53504</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.1568</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.149333333333333</carousel-base-item-w>
+                                        <carousel-base-item-h>0.28</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.336</carousel-scaled-item-y>
+                                        <carousel-item-count>6.5625</carousel-item-count>    
+                                        <carousel-item-margins>0.0149333333333333 0.0149333333333333</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.12</carousel-offset-y>  
+                                        <carousel-name-x>0.208586666666667</carousel-name-x>        
+                                        <carousel-name-y>0.53504</carousel-name-y>    
+                                        <carousel-cart-x>0.1216</carousel-cart-x>        
+                                        <carousel-cart-h>0.084</carousel-cart-h>         
+                                        <carousel-cart-w>0.084</carousel-cart-w>    
+                                        <carousel-badge-x>0.1216</carousel-badge-x>        
+                                        <carousel-badge-y>0.8992725</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9806</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.135714285714286</grid-base-item-w>                       
+                                        <grid-base-item-h>0.254464285714286</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.2671875</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00395833333333333</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.284444444444444</grid-marquee-w>
+                                        <grid-marquee-y>0.10685546875</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.532250223214286</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="large">
+                    </fontSize>                    <fontSize name="large">
                             <variables>
-                                        <carouselitemsize>0.186666666666667 1</carouselitemsize>
-                                        <carouselitemcount>5.25</carouselitemcount>    
-                                        <carouselitemmargins>0.0373333333333333 0.0373333333333333</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.382186666666667</namex>        
-                                        <namey>0.522</namey>    
-                                        <cartx>0.34112</cartx>        
-                                        <cartw>0.0373333333333333</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.108533333333333</game-sys-logo-x>
+                                        <game-sys-logo-w>0.108533333333333</game-sys-logo-w>
+                                        <games-count-x>0.210017777777778</games-count-x>
+                                        <games-count-y>0.437546666666667</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.182933333333333</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.174222222222222</carousel-base-item-w>
+                                        <carousel-base-item-h>0.326666666666667</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.392</carousel-scaled-item-y>
+                                        <carousel-item-count>5.625</carousel-item-count>    
+                                        <carousel-item-margins>0.0174222222222222 0.0174222222222222</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.16</carousel-offset-y>  
+                                        <carousel-name-x>0.210017777777778</carousel-name-x>        
+                                        <carousel-name-y>0.437546666666667</carousel-name-y>    
+                                        <carousel-cart-x>0.108533333333333</carousel-cart-x>        
+                                        <carousel-cart-h>0.098</carousel-cart-h>         
+                                        <carousel-cart-w>0.098</carousel-cart-w>    
+                                        <carousel-badge-x>0.108533333333333</carousel-badge-x>        
+                                        <carousel-badge-y>0.883890833333333</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9817</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.158333333333333</grid-base-item-w>                       
+                                        <grid-base-item-h>0.296875</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.31171875</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00475</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.284444444444444</grid-marquee-w>
+                                        <grid-marquee-y>0.10791015625</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.618319375</multi-row-grid-h>                            
+                            </variables>
+                    </fontSize>                    <fontSize name="x-large">
+                            <variables>
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.09024</game-sys-logo-x>
+                                        <game-sys-logo-w>0.09024</game-sys-logo-w>
+                                        <games-count-x>0.212021333333333</games-count-x>
+                                        <games-count-y>0.317056</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.21952</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.209066666666667</carousel-base-item-w>
+                                        <carousel-base-item-h>0.392</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.4704</carousel-scaled-item-y>
+                                        <carousel-item-count>4.6875</carousel-item-count>    
+                                        <carousel-item-margins>0.0209066666666667 0.0209066666666667</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.2</carousel-offset-y>  
+                                        <carousel-name-x>0.212021333333333</carousel-name-x>        
+                                        <carousel-name-y>0.317056</carousel-name-y>    
+                                        <carousel-cart-x>0.09024</carousel-cart-x>        
+                                        <carousel-cart-h>0.1176</carousel-cart-h>         
+                                        <carousel-cart-w>0.1176</carousel-cart-w>    
+                                        <carousel-badge-x>0.09024</carousel-badge-x>        
+                                        <carousel-badge-y>0.877544</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9833</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.19</grid-base-item-w>                       
+                                        <grid-base-item-h>0.35625</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.3740625</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.0059375</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.284444444444444</grid-marquee-w>
+                                        <grid-marquee-y>0.1084375</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.37873828125</multi-row-grid-h>                            
                             </variables>
                     </fontSize>    
-       </aspectRatio>
-       <aspectRatio name="4:3">
+           </aspectRatio><aspectRatio name="4:3">
                     <fontSize name="small">
                             <variables>
-                                        <carouselitemsize>0.147 1</carouselitemsize>
-                                        <carouselitemcount>6.66666666666667</carouselitemcount>    
-                                        <carouselitemmargins>0.0294 0.0294</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.339356</namex>        
-                                        <namey>0.6452</namey>    
-                                        <cartx>0.307016</cartx>        
-                                        <cartw>0.0294</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.0971</game-sys-logo-x>
+                                        <game-sys-logo-w>0.0971</game-sys-logo-w>
+                                        <games-count-x>0.19902</games-count-x>
+                                        <games-count-y>0.49624</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.2058</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.196</carousel-base-item-w>
+                                        <carousel-base-item-h>0.326666666666667</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.392</carousel-scaled-item-y>
+                                        <carousel-item-count>5</carousel-item-count>    
+                                        <carousel-item-margins>0.0196 0.0196</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.1</carousel-offset-y>  
+                                        <carousel-name-x>0.19902</carousel-name-x>        
+                                        <carousel-name-y>0.49624</carousel-name-y>    
+                                        <carousel-cart-x>0.0971</carousel-cart-x>        
+                                        <carousel-cart-h>0.098</carousel-cart-h>         
+                                        <carousel-cart-w>0.098</carousel-cart-w>    
+                                        <carousel-badge-x>0.0971</carousel-badge-x>        
+                                        <carousel-badge-y>0.93676</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9797</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.11875</grid-base-item-w>                       
+                                        <grid-base-item-h>0.197916666666667</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.2078125</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00339285714285714</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.32</grid-marquee-w>
+                                        <grid-marquee-y>0.1046875</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.615520833333333</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="medium">
+                    </fontSize>                    <fontSize name="medium">
                             <variables>
-                                        <carouselitemsize>0.18375 1</carouselitemsize>
-                                        <carouselitemcount>5.33333333333333</carouselitemcount>    
-                                        <carouselitemmargins>0.03675 0.03675</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.3767675</namex>        
-                                        <namey>0.575375</namey>    
-                                        <cartx>0.3363425</cartx>        
-                                        <cartw>0.03675</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.1118</game-sys-logo-x>
+                                        <game-sys-logo-w>0.1118</game-sys-logo-w>
+                                        <games-count-x>0.19916</games-count-x>
+                                        <games-count-y>0.53392</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.1764</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.168</carousel-base-item-w>
+                                        <carousel-base-item-h>0.28</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.336</carousel-scaled-item-y>
+                                        <carousel-item-count>5.83333333333333</carousel-item-count>    
+                                        <carousel-item-margins>0.0168 0.0168</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.12</carousel-offset-y>  
+                                        <carousel-name-x>0.19916</carousel-name-x>        
+                                        <carousel-name-y>0.53392</carousel-name-y>    
+                                        <carousel-cart-x>0.1118</carousel-cart-x>        
+                                        <carousel-cart-h>0.084</carousel-cart-h>         
+                                        <carousel-cart-w>0.084</carousel-cart-w>    
+                                        <carousel-badge-x>0.1118</carousel-badge-x>        
+                                        <carousel-badge-y>0.91258</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9817</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.158333333333333</grid-base-item-w>                       
+                                        <grid-base-item-h>0.263888888888889</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.277083333333333</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00475</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.32</grid-marquee-w>
+                                        <grid-marquee-y>0.10609375</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.551612222222222</multi-row-grid-h>                            
                             </variables>
-                    </fontSize>
-                    <fontSize name="large">
+                    </fontSize>                    <fontSize name="large">
                             <variables>
-                                        <carouselitemsize>0.21 1</carouselitemsize>
-                                        <carouselitemcount>4.66666666666667</carouselitemcount>    
-                                        <carouselitemmargins>0.042 0.042</carouselitemmargins>
-                                        <carouseloffset>-0.3</carouseloffset>    
-                                        <namex>0.40496</namex>        
-                                        <namey>0.522</namey>    
-                                        <cartx>0.35876</cartx>        
-                                        <cartw>0.042</cartw>    
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.0971</game-sys-logo-x>
+                                        <game-sys-logo-w>0.0971</game-sys-logo-w>
+                                        <games-count-x>0.19902</games-count-x>
+                                        <games-count-y>0.43624</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.2058</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.196</carousel-base-item-w>
+                                        <carousel-base-item-h>0.326666666666667</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.392</carousel-scaled-item-y>
+                                        <carousel-item-count>5</carousel-item-count>    
+                                        <carousel-item-margins>0.0196 0.0196</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.16</carousel-offset-y>  
+                                        <carousel-name-x>0.19902</carousel-name-x>        
+                                        <carousel-name-y>0.43624</carousel-name-y>    
+                                        <carousel-cart-x>0.0971</carousel-cart-x>        
+                                        <carousel-cart-h>0.098</carousel-cart-h>         
+                                        <carousel-cart-w>0.098</carousel-cart-w>    
+                                        <carousel-badge-x>0.0971</carousel-badge-x>        
+                                        <carousel-badge-y>0.89926</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9833</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.19</grid-base-item-w>                       
+                                        <grid-base-item-h>0.316666666666667</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.3325</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.0059375</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.32</grid-marquee-w>
+                                        <grid-marquee-y>0.10703125</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.659141666666667</multi-row-grid-h>                            
+                            </variables>
+                    </fontSize>                    <fontSize name="x-large">
+                            <variables>
+                               <!--   All Variables   -->     
+                                        <game-sys-logo-x>0.07652</game-sys-logo-x>
+                                        <game-sys-logo-w>0.07652</game-sys-logo-w>
+                                        <games-count-x>0.198824</games-count-x>
+                                        <games-count-y>0.315488</games-count-y>   
+                                        <sys-cover-art-x>0.2</sys-cover-art-x>   
+                                        <sys-cover-art-w>0.24696</sys-cover-art-w> 
+                               <!--   Carousel Variables   -->
+                                        <carousel-scale>1.2</carousel-scale> 
+                                        <carousel-base-item-w>0.2352</carousel-base-item-w>
+                                        <carousel-base-item-h>0.392</carousel-base-item-h>
+                                        <carousel-scaled-item-y>0.4704</carousel-scaled-item-y>
+                                        <carousel-item-count>4.16666666666667</carousel-item-count>    
+                                        <carousel-item-margins>0.02352 0.02352</carousel-item-margins>
+                                        <carousel-offset-x>-0.3</carousel-offset-x>
+                                        <carousel-offset-y>0.2</carousel-offset-y>  
+                                        <carousel-name-x>0.198824</carousel-name-x>        
+                                        <carousel-name-y>0.315488</carousel-name-y>    
+                                        <carousel-cart-x>0.07652</carousel-cart-x>        
+                                        <carousel-cart-h>0.1176</carousel-cart-h>         
+                                        <carousel-cart-w>0.1176</carousel-cart-w>    
+                                        <carousel-badge-x>0.07652</carousel-badge-x>        
+                                        <carousel-badge-y>0.894112</carousel-badge-y>     
+                               <!--   Grid/Row Variables   -->           
+                                        <grid-w>0.9857</grid-w>                      
+                                        <grid-scaled-w>0.9975</grid-scaled-w>                 
+                                        <grid-scale>1.05</grid-scale>                     
+                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
+                                        <grid-base-item-w>0.2375</grid-base-item-w>                       
+                                        <grid-base-item-h>0.395833333333333</grid-base-item-h>                            
+                                        <grid-scaled-item-h>0.415625</grid-scaled-item-h>                   
+                                        <grid-item-spacing>0.00791666666666666</grid-item-spacing>
+                                        <grid-marquee-h>0.2</grid-marquee-h>
+                                        <grid-marquee-w>0.32</grid-marquee-w>
+                                        <grid-marquee-y>0.1075</grid-marquee-y>     
+                               <!--   Grid Variables   -->           
+                                        <multi-row-grid-h>0.41895</multi-row-grid-h>                            
                             </variables>
                     </fontSize>    
-       </aspectRatio>
+           </aspectRatio>
 </theme>
+
