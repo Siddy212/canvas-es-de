@@ -1,0 +1,268 @@
+<theme>
+       <aspectRatio name="16:10">
+                    <fontSize name="small">
+                            <variables>
+                                        <carouselitemsize>0.1225 1</carouselitemsize>
+                                        <carouselitemcount>8</carouselitemcount>    
+                                        <carouselitemmargins>0.0245 0.0245</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.31613</namex>        
+                                        <namey>0.6452</namey>    
+                                        <cartx>0.28918</cartx>        
+                                        <cartw>0.0245</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="medium">
+                            <variables>
+                                        <carouselitemsize>0.153125 1</carouselitemsize>
+                                        <carouselitemcount>6.4</carouselitemcount>    
+                                        <carouselitemmargins>0.030625 0.030625</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.34730625</namex>        
+                                        <namey>0.575375</namey>    
+                                        <cartx>0.31361875</cartx>        
+                                        <cartw>0.030625</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="large">
+                            <variables>
+                                        <carouselitemsize>0.175 1</carouselitemsize>
+                                        <carouselitemcount>5.6</carouselitemcount>    
+                                        <carouselitemmargins>0.035 0.035</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.3708</namex>        
+                                        <namey>0.522</namey>    
+                                        <cartx>0.3323</cartx>        
+                                        <cartw>0.035</cartw>    
+                            </variables>
+                    </fontSize>    
+       </aspectRatio>
+       <aspectRatio name="1:1">
+                    <fontSize name="small">
+                            <variables>
+                                        <carouselitemsize>0.196 1</carouselitemsize>
+                                        <carouselitemcount>5</carouselitemcount>    
+                                        <carouselitemmargins>0.0392 0.0392</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.385808</namex>        
+                                        <namey>0.6452</namey>    
+                                        <cartx>0.342688</cartx>        
+                                        <cartw>0.0392</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="medium">
+                            <variables>
+                                        <carouselitemsize>0.245 1</carouselitemsize>
+                                        <carouselitemcount>4</carouselitemcount>    
+                                        <carouselitemmargins>0.049 0.049</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.43569</namex>        
+                                        <namey>0.575375</namey>    
+                                        <cartx>0.38179</cartx>        
+                                        <cartw>0.049</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="large">
+                            <variables>
+                                        <carouselitemsize>0.28 1</carouselitemsize>
+                                        <carouselitemcount>3.5</carouselitemcount>    
+                                        <carouselitemmargins>0.056 0.056</carouselitemmargins>
+                                        <carouseloffset>-0.265</carouseloffset>    
+                                        <namex>0.50828</namex>        
+                                        <namey>0.522</namey>    
+                                        <cartx>0.44668</cartx>        
+                                        <cartw>0.056</cartw>    
+                            </variables>
+                    </fontSize>    
+       </aspectRatio>
+       <aspectRatio name="16:9">
+                    <fontSize name="small">
+                            <variables>
+                                        <carouselitemsize>0.11025 1</carouselitemsize>
+                                        <carouselitemcount>8.88888888888889</carouselitemcount>    
+                                        <carouselitemmargins>0.02205 0.02205</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.304517</namex>        
+                                        <namey>0.6452</namey>    
+                                        <cartx>0.280262</cartx>        
+                                        <cartw>0.02205</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="medium">
+                            <variables>
+                                        <carouselitemsize>0.1378125 1</carouselitemsize>
+                                        <carouselitemcount>7.11111111111111</carouselitemcount>    
+                                        <carouselitemmargins>0.0275625 0.0275625</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.332575625</namex>        
+                                        <namey>0.575375</namey>    
+                                        <cartx>0.302256875</cartx>        
+                                        <cartw>0.0275625</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="large">
+                            <variables>
+                                        <carouselitemsize>0.1575 1</carouselitemsize>
+                                        <carouselitemcount>6.22222222222222</carouselitemcount>    
+                                        <carouselitemmargins>0.0315 0.0315</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.35372</namex>        
+                                        <namey>0.522</namey>    
+                                        <cartx>0.31907</cartx>        
+                                        <cartw>0.0315</cartw>    
+                            </variables>
+                    </fontSize>    
+       </aspectRatio>
+       <aspectRatio name="19.5:9">
+                    <fontSize name="small">
+                            <variables>
+                                        <carouselitemsize>0.0904615384615385 1</carouselitemsize>
+                                        <carouselitemcount>10.8333333333333</carouselitemcount>    
+                                        <carouselitemmargins>0.0180923076923077 0.0180923076923077</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.285757538461538</namex>        
+                                        <namey>0.6452</namey>    
+                                        <cartx>0.265856</cartx>        
+                                        <cartw>0.0180923076923077</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="medium">
+                            <variables>
+                                        <carouselitemsize>0.113076923076923 1</carouselitemsize>
+                                        <carouselitemcount>8.66666666666667</carouselitemcount>    
+                                        <carouselitemmargins>0.0226153846153846 0.0226153846153846</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.30878</namex>        
+                                        <namey>0.575375</namey>    
+                                        <cartx>0.283903076923077</cartx>        
+                                        <cartw>0.0226153846153846</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="large">
+                            <variables>
+                                        <carouselitemsize>0.129230769230769 1</carouselitemsize>
+                                        <carouselitemcount>7.58333333333333</carouselitemcount>    
+                                        <carouselitemmargins>0.0258461538461538 0.0258461538461538</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.326129230769231</namex>        
+                                        <namey>0.522</namey>    
+                                        <cartx>0.297698461538462</cartx>        
+                                        <cartw>0.0258461538461539</cartw>    
+                            </variables>
+                    </fontSize>    
+       </aspectRatio>
+       <aspectRatio name="21:9">
+                    <fontSize name="small">
+                            <variables>
+                                        <carouselitemsize>0.084 1</carouselitemsize>
+                                        <carouselitemcount>11.6666666666667</carouselitemcount>    
+                                        <carouselitemmargins>0.0168 0.0168</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.279632</namex>        
+                                        <namey>0.6452</namey>    
+                                        <cartx>0.261152</cartx>        
+                                        <cartw>0.0168</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="medium">
+                            <variables>
+                                        <carouselitemsize>0.105 1</carouselitemsize>
+                                        <carouselitemcount>9.33333333333333</carouselitemcount>    
+                                        <carouselitemmargins>0.021 0.021</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.30101</namex>        
+                                        <namey>0.575375</namey>    
+                                        <cartx>0.27791</cartx>        
+                                        <cartw>0.021</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="large">
+                            <variables>
+                                        <carouselitemsize>0.12 1</carouselitemsize>
+                                        <carouselitemcount>8.16666666666667</carouselitemcount>    
+                                        <carouselitemmargins>0.024 0.024</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.31712</namex>        
+                                        <namey>0.522</namey>    
+                                        <cartx>0.29072</cartx>        
+                                        <cartw>0.024</cartw>    
+                            </variables>
+                    </fontSize>    
+       </aspectRatio>
+       <aspectRatio name="3:2">
+                    <fontSize name="small">
+                            <variables>
+                                        <carouselitemsize>0.130666666666667 1</carouselitemsize>
+                                        <carouselitemcount>7.5</carouselitemcount>    
+                                        <carouselitemmargins>0.0261333333333333 0.0261333333333333</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.323872</namex>        
+                                        <namey>0.6452</namey>    
+                                        <cartx>0.295125333333333</cartx>        
+                                        <cartw>0.0261333333333333</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="medium">
+                            <variables>
+                                        <carouselitemsize>0.163333333333333 1</carouselitemsize>
+                                        <carouselitemcount>6</carouselitemcount>    
+                                        <carouselitemmargins>0.0326666666666667 0.0326666666666667</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.357126666666667</namex>        
+                                        <namey>0.575375</namey>    
+                                        <cartx>0.321193333333333</cartx>        
+                                        <cartw>0.0326666666666667</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="large">
+                            <variables>
+                                        <carouselitemsize>0.186666666666667 1</carouselitemsize>
+                                        <carouselitemcount>5.25</carouselitemcount>    
+                                        <carouselitemmargins>0.0373333333333333 0.0373333333333333</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.382186666666667</namex>        
+                                        <namey>0.522</namey>    
+                                        <cartx>0.34112</cartx>        
+                                        <cartw>0.0373333333333333</cartw>    
+                            </variables>
+                    </fontSize>    
+       </aspectRatio>
+       <aspectRatio name="4:3">
+                    <fontSize name="small">
+                            <variables>
+                                        <carouselitemsize>0.147 1</carouselitemsize>
+                                        <carouselitemcount>6.66666666666667</carouselitemcount>    
+                                        <carouselitemmargins>0.0294 0.0294</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.339356</namex>        
+                                        <namey>0.6452</namey>    
+                                        <cartx>0.307016</cartx>        
+                                        <cartw>0.0294</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="medium">
+                            <variables>
+                                        <carouselitemsize>0.18375 1</carouselitemsize>
+                                        <carouselitemcount>5.33333333333333</carouselitemcount>    
+                                        <carouselitemmargins>0.03675 0.03675</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.3767675</namex>        
+                                        <namey>0.575375</namey>    
+                                        <cartx>0.3363425</cartx>        
+                                        <cartw>0.03675</cartw>    
+                            </variables>
+                    </fontSize>
+                    <fontSize name="large">
+                            <variables>
+                                        <carouselitemsize>0.21 1</carouselitemsize>
+                                        <carouselitemcount>4.66666666666667</carouselitemcount>    
+                                        <carouselitemmargins>0.042 0.042</carouselitemmargins>
+                                        <carouseloffset>-0.3</carouseloffset>    
+                                        <namex>0.40496</namex>        
+                                        <namey>0.522</namey>    
+                                        <cartx>0.35876</cartx>        
+                                        <cartw>0.042</cartw>    
+                            </variables>
+                    </fontSize>    
+       </aspectRatio>
+</theme>

@@ -4,7 +4,7 @@
 
 <themeCapabilities>
    
-   <themeName>Canvas</themeName>
+   <themeName>Canvas-imp</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
@@ -144,8 +144,16 @@
       <selectable>true</selectable>
    </variant>
    <variant name="grid-carousel">
-      <label>[Grid] Carousel</label>
+      <label>[Grid] Marquee Carousel</label>
       <selectable>true</selectable>
+   </variant>
+   <variant name="grid-boxart-carousel">
+      <label>[Grid] Boxart Carousel</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="grid-row">
+      <label>[Grid] Row</label>
+      <selectable>false</selectable>
    </variant>
    <variant name="grid-grid">
       <label>[Grid] Grid: Basic</label>
@@ -168,8 +176,16 @@
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-carousel">
-      <label>[Carousel] Carousel</label>
+      <label>[Carousel] Marquee Carousel</label>
       <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-boxart-carousel">
+      <label>[Carousel] Boxart Carousel</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-row">
+      <label>[Carousel] Row</label>
+      <selectable>false</selectable>
    </variant>
    <variant name="carousel-grid">
       <label>[Carousel] Grid: Basic</label>

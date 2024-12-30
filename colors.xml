@@ -2,7 +2,7 @@
 
 
    <!--   System View: Art Default   -->
-   
+
    <colorScheme name="light,dark,retro,neon,pastel,famicom,snes,sony">
          <variables>
                   <selectorRelativeScaleSize>0.881388</selectorRelativeScaleSize>
@@ -107,6 +107,7 @@
          <backgroundAnimationPath>./wallpapers/dark.gif</backgroundAnimationPath>
          <backgroundArtOpacity>1</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
+         <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
    <colorScheme name="light,light-icon,light-capsule,light-screenshots">
@@ -131,12 +132,13 @@
          <backgroundAnimationPath>./wallpapers/light.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.8</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
+         <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
    <colorScheme name="retro,retro-icon,retro-capsule,retro-screenshots">
       <variables>
          <helpTextColor>5b5a58</helpTextColor>
-         <backgroundColor>846D21</backgroundColor>
+         <backgroundColor>00000000</backgroundColor>
          <systemInfoColor>5b5a58</systemInfoColor>
          <systemCarouselTextColor>5b5a58</systemCarouselTextColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
@@ -155,6 +157,7 @@
          <backgroundAnimationPath>./wallpapers/retro.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
+         <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
    <colorScheme name="neon,neon-icon,neon-capsule,neon-screenshots">
@@ -179,6 +182,7 @@
          <backgroundAnimationPath>./wallpapers/neon.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
+         <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
    <colorScheme name="pastel,pastel-icon,pastel-capsule,pastel-screenshots">
@@ -203,6 +207,7 @@
          <backgroundAnimationPath>./wallpapers/pastel.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
+         <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
    <colorScheme name="famicom,famicom-icon,famicom-capsule,famicom-screenshots">
@@ -227,6 +232,7 @@
          <backgroundAnimationPath>./wallpapers/famicom.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
+         <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
    <colorScheme name="snes,snes-icon,snes-capsule,snes-screenshots">
@@ -251,6 +257,7 @@
          <backgroundAnimationPath>./wallpapers/snes.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
+         <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
    <colorScheme name="sony,sony-icon,sony-capsule,sony-screenshots">
@@ -275,6 +282,7 @@
          <backgroundAnimationPath>./wallpapers/sony.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
+         <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
 </theme>
