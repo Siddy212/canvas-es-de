@@ -436,7 +436,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <opacity>0.8</opacity>
          <origin>0 0.5</origin>
 	      <pos>${system-logo-x} ${system-logo-y}</pos>
-         <maxSize>0.25 ${system-logo-h}</maxSize>
+         <maxSize>${system-logo-w} ${system-logo-h}</maxSize>
          <path>${systemlogoArtPath}</path>
          <zIndex>10</zIndex>
       </image>
@@ -476,18 +476,19 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       </video>  
        <text name="game-name">
             <origin>1 0.5</origin>
-            <size>0.6 ${grid-cart-h}</size>
-            <pos>${grid-name-x} ${grid-cart-y}</pos>
+            <size>${grid-name-w} ${grid-name-h}</size>
+            <pos>${grid-name-x} ${grid-name-y}</pos>
             <fontPath>${fontBold}</fontPath>
             <fontSize>${base-font-size}</fontSize>
             <color>${systemInfoColor}</color>
-            <lineSpacing>1</lineSpacing>
+            <lineSpacing>1.3</lineSpacing>
             <defaultValue>Unknown</defaultValue>
             <metadata>name</metadata>
-            <container>false</container>
+            <container>true</container>
             <zIndex>10</zIndex>
             <verticalAlignment>top</verticalAlignment>
             <horizontalAlignment>right</horizontalAlignment>
+            <containerType>horizontal</containerType>
          </text>
       <image name="game-marquee">
          	<origin>0.5 0.5</origin>
