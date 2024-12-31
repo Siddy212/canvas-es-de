@@ -1,14 +1,16 @@
 <theme>
 
-
+   <variables>
+         <systemlogoArtPath>./_inc/system-logo/${system.theme}.svg</systemlogoArtPath>
+   </variables>
    <!--   System View: Art Default   -->
 
    <colorScheme name="light,dark,retro,neon,pastel,famicom,snes,sony">
          <variables>
                   <selectorRelativeScaleSize>0.881388</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.9817</backgroundRelativeScaleSize>
-                  <selectorImagePath>./_inc/systems/system-grid/square.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/systems/system-grid/square-bg.png</backgroundImagePath>
+                  <selectorImagePath>./_inc/system-grid/square.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/system-grid/square-bg.png</backgroundImagePath>
                   <gridsize>system-variables</gridsize>
       </variables>
    </colorScheme>
@@ -16,9 +18,9 @@
          <variables>
                   <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
-                  <selectorImagePath>./_inc/systems/system-grid/capsule.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/systems/system-grid/capsule-bg.png</backgroundImagePath>
-                  <staticImagePath>./_inc/systems/carousel-icons-capsule/art/${system.theme}.webp</staticImagePath>
+                  <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
+                  <staticImagePath>./_inc/carousel-icons-capsule/${system.theme}.webp</staticImagePath>
                   <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme>   
@@ -26,60 +28,59 @@
          <variables>
                   <selectorRelativeScaleSize>0.88667</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
-                  <selectorImagePath>./_inc/systems/system-grid/capsule.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/systems/system-grid/capsule-bg.png</backgroundImagePath>
-                  <staticImagePath>./_inc/systems/carousel-icons-capsule/screenshots/${system.theme}.webp</staticImagePath>
+                  <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
+                  <staticImagePath>./_inc/carousel-icons-screenshots/${system.theme}.webp</staticImagePath>
                   <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme>
    <colorScheme name="light-icon,dark-icon,retro-icon,neon-icon,pastel-icon,famicom-icon,snes-icon">
          <variables>
-                  <selectorRelativeScaleSize>0.92889</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.999</backgroundRelativeScaleSize>
-                  <selectorImagePath>./_inc/systems/system-grid/4-5.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/systems/system-grid/4-5-bg.png</backgroundImagePath>
-                  <staticImagePath>./_inc/systems/carousel-icons-icons/art/${system.theme}.webp</staticImagePath>
-                  <gridsize>system-variables</gridsize>
+                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
+                  <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
+                  <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme>
    <colorScheme name="sony-icon">
          <variables>
                   <selectorRelativeScaleSize>0.92889</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0</backgroundRelativeScaleSize>
-                  <selectorImagePath>./_inc/systems/system-grid/4-5.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/systems/system-grid/null.png</backgroundImagePath>
-                  <gridsize>system-variables</gridsize>
+                  <selectorImagePath>./_inc/system-grid/4-5.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/system-grid/null.png</backgroundImagePath>
+                  <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme>
    <colorScheme name="sony,dark,neon">
       <variables>
-          <staticImagePath>./_inc/systems/carousel-icons-art/light/${system.theme}.webp</staticImagePath>
+          <staticImagePath>./_inc/carousel-icons-art/light/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
    <colorScheme name="light,pastel,retro,snes">
       <variables>
-          <staticImagePath>./_inc/systems/carousel-icons-art/medium/${system.theme}.webp</staticImagePath>
+          <staticImagePath>./_inc/carousel-icons-art/medium/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
    <colorScheme name="famicom">
       <variables>
-          <staticImagePath>./_inc/systems/carousel-icons-art/dark/${system.theme}.webp</staticImagePath>
+          <staticImagePath>./_inc/carousel-icons-art/dark/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
 
    <colorScheme name="sony-icon">
       <variables>
-          <staticImagePath>./_inc/systems/carousel-icons-icons/clear/${system.theme}.webp</staticImagePath>
+          <staticImagePath>./_inc/carousel-icons-icons/clear/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
    <colorScheme name="light-icon,retro-icon,pastel-icon,famicom-icon,snes-icon">
       <variables>
-          <staticImagePath>./_inc/systems/carousel-icons-icons/medium/${system.theme}.webp</staticImagePath>
+          <staticImagePath>./_inc/carousel-icons-icons/medium/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
    <colorScheme name="dark-icon,neon-icon">
       <variables>
-          <staticImagePath>./_inc/systems/carousel-icons-icons/dark/${system.theme}.webp</staticImagePath>
+          <staticImagePath>./_inc/carousel-icons-icons/dark/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
 
@@ -106,7 +107,6 @@
          <backgroundArtPath>./wallpapers/dark.webp</backgroundArtPath>
          <backgroundAnimationPath>./wallpapers/dark.gif</backgroundAnimationPath>
          <backgroundArtOpacity>1</backgroundArtOpacity>
-         <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
@@ -131,7 +131,6 @@
          <backgroundArtPath>./wallpapers/light.webp</backgroundArtPath>
          <backgroundAnimationPath>./wallpapers/light.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.8</backgroundArtOpacity>
-         <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
          <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
@@ -156,7 +155,6 @@
          <backgroundArtPath>./wallpapers/retro.webp</backgroundArtPath>
          <backgroundAnimationPath>./wallpapers/retro.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
-         <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
@@ -181,7 +179,6 @@
          <backgroundArtPath>./wallpapers/neon.webp</backgroundArtPath>
          <backgroundAnimationPath>./wallpapers/neon.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
-         <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
@@ -206,7 +203,6 @@
          <backgroundArtPath>./wallpapers/pastel.webp</backgroundArtPath>
          <backgroundAnimationPath>./wallpapers/pastel.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
-         <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
@@ -231,7 +227,6 @@
          <backgroundArtPath>./wallpapers/famicom.webp</backgroundArtPath>
          <backgroundAnimationPath>./wallpapers/famicom.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
-         <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
@@ -256,7 +251,6 @@
          <backgroundArtPath>./wallpapers/snes.webp</backgroundArtPath>
          <backgroundAnimationPath>./wallpapers/snes.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
-         <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
@@ -281,7 +275,6 @@
          <backgroundArtPath>./wallpapers/sony.webp</backgroundArtPath>
          <backgroundAnimationPath>./wallpapers/sony.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
-         <systemlogoArtPath>./_inc/systems/system/${system.theme}.svg</systemlogoArtPath>
          <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>

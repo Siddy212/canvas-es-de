@@ -4,7 +4,7 @@
 
 <themeCapabilities>
    
-   <themeName>Canvas-imp</themeName>
+   <themeName>Canvas</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
@@ -19,59 +19,12 @@
    <fontSize>large</fontSize>
    <fontSize>x-large</fontSize>
 
-   <colorScheme name="light">
-      <label>Light</label>
-   </colorScheme>
-   <colorScheme name="dark">
-      <label>Dark</label>
-   </colorScheme>
-   <colorScheme name="retro">
-      <label>Retro</label>
-   </colorScheme>
-   <colorScheme name="neon">
-      <label>Neon</label>
-   </colorScheme>
-   <colorScheme name="pastel">
-      <label>Pastel</label>
-   </colorScheme>
-   <colorScheme name="sony">
-      <label>Sony</label>
-   </colorScheme>
-   <colorScheme name="snes">
-      <label>SNES</label>
-   </colorScheme>
-   <colorScheme name="famicom">
-      <label>Famicom</label>
-   </colorScheme>
-      <colorScheme name="light-icon">
-      <label>[Icon] Light</label>
-   </colorScheme>
-   <colorScheme name="dark-icon">
-      <label>[Icon] Dark</label>
-   </colorScheme>
-   <colorScheme name="retro-icon">
-      <label>[Icon] Retro</label>
-   </colorScheme>
-   <colorScheme name="neon-icon">
-      <label>[Icon] Neon</label>
-   </colorScheme>
-   <colorScheme name="pastel-icon">
-      <label>[Icon] Pastel</label>
-   </colorScheme>
-   <colorScheme name="sony-icon">
-      <label>[Icon] Sony</label>
-   </colorScheme>
-   <colorScheme name="snes-icon">
-      <label>[Icon] SNES</label>
-   </colorScheme>
-   <colorScheme name="famicom-icon">
-      <label>[Icon] Famicom</label>
-   </colorScheme>
-      <colorScheme name="light-capsule">
-      <label>[Capsule] Light</label>
-   </colorScheme>
+
    <colorScheme name="dark-capsule">
       <label>[Capsule] Dark</label>
+   </colorScheme>
+   <colorScheme name="light-capsule">
+      <label>[Capsule] Light</label>
    </colorScheme>
    <colorScheme name="retro-capsule">
       <label>[Capsule] Retro</label>
@@ -91,11 +44,59 @@
    <colorScheme name="famicom-capsule">
       <label>[Capsule] Famicom</label>
    </colorScheme>
-      <colorScheme name="light-screenshots">
-      <label>[Screenshots] Light</label>
+   <colorScheme name="dark">
+      <label>[Art] Dark</label>
+   </colorScheme>
+   <colorScheme name="light">
+      <label>[Art] Light</label>
+   </colorScheme>
+   <colorScheme name="retro">
+      <label>[Art] Retro</label>
+   </colorScheme>
+   <colorScheme name="neon">
+      <label>[Art] Neon</label>
+   </colorScheme>
+   <colorScheme name="pastel">
+      <label>[Art] Pastel</label>
+   </colorScheme>
+   <colorScheme name="sony">
+      <label>[Art] Sony</label>
+   </colorScheme>
+   <colorScheme name="snes">
+      <label>[Art] SNES</label>
+   </colorScheme>
+   <colorScheme name="famicom">
+      <label>[Art] Famicom</label>
+   </colorScheme>
+   <colorScheme name="dark-icon">
+      <label>[Icon] Dark</label>
+   </colorScheme>
+      <colorScheme name="light-icon">
+      <label>[Icon] Light</label>
+   </colorScheme>
+   <colorScheme name="retro-icon">
+      <label>[Icon] Retro</label>
+   </colorScheme>
+   <colorScheme name="neon-icon">
+      <label>[Icon] Neon</label>
+   </colorScheme>
+   <colorScheme name="pastel-icon">
+      <label>[Icon] Pastel</label>
+   </colorScheme>
+   <colorScheme name="sony-icon">
+      <label>[Icon] Sony</label>
+   </colorScheme>
+   <colorScheme name="snes-icon">
+      <label>[Icon] SNES</label>
+   </colorScheme>
+   <colorScheme name="famicom-icon">
+      <label>[Icon] Famicom</label>
    </colorScheme>
    <colorScheme name="dark-screenshots">
       <label>[Screenshots] Dark</label>
+   </colorScheme>
+   <colorScheme name="light-screenshots">
+      <label>[Screenshots] Light</label>
    </colorScheme>
    <colorScheme name="retro-screenshots">
       <label>[Screenshots] Retro</label>
@@ -156,7 +157,7 @@
       <selectable>false</selectable>
    </variant>
    <variant name="grid-grid">
-      <label>[Grid] Grid: Basic</label>
+      <label>[Grid] Grid: Minimal</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-grid-detailed">
@@ -188,7 +189,7 @@
       <selectable>false</selectable>
    </variant>
    <variant name="carousel-grid">
-      <label>[Carousel] Grid: Basic</label>
+      <label>[Carousel] Grid: Minimal</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-grid-detailed">

@@ -111,7 +111,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          ">
          <view name="gamelist">
             <helpsystem name="help">
-                  <fontSize>${help-font-size-small}</fontSize>
+                  <fontSize>${help-font-size-smallest}</fontSize>
                   <fontSizeDimmed>${help-font-size}</fontSizeDimmed>
             </helpsystem>
          </view>
@@ -121,8 +121,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          carousel-grid-detailed-flipped">
          <view name="gamelist">
             <helpsystem name="help">
-                  <origin>0 1</origin>
-                  <pos>${help-x-small-flipped} ${help-y}</pos>
+                  <pos>0.75 ${help-y}</pos>
             </helpsystem>
          </view>
       </variant>
@@ -130,8 +129,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          carousel-grid-detailed">
          <view name="gamelist">
             <helpsystem name="help">
-                  <pos>${help-x-small} ${help-y}</pos>
-                  <origin>0.5 1</origin>
+                  <pos>0.25 ${help-y}</pos>
             </helpsystem>
          </view>
       </variant>
@@ -161,16 +159,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <opacity>0.8</opacity>
       </image>
    </view>
-      <fontSize name="small,medium,large">
-         <variables>
-            <carouselpos>0.5</carouselpos>
-         </variables>
-      </fontSize>
-      <fontSize name="x-large">
-         <variables>
-            <carouselpos>0.52</carouselpos>
-         </variables>
-      </fontSize>
 
    <!--
    ///
@@ -178,7 +166,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    ///
    -->
 
-   <include>./_inc/systems/system-grid/${gridsize}.xml</include>
+   <include>./_inc/system-grid/${gridsize}.xml</include>
 
    <!--
    ///
@@ -214,10 +202,15 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <itemScale>1.05</itemScale>
             <imageRelativeScale>0.95</imageRelativeScale>
             <textRelativeScale>0.7</textRelativeScale>
+            <backgroundColor>00000010</backgroundColor>
          </grid>
          <text name="games-count">
             <systemdata>gamecountGamesNoText</systemdata>
+            <origin>0 1</origin>
          </text>
+         <image name="gamesicon">
+            <origin>1 1</origin>
+         </image>
       </view>
    </variant>
 
@@ -233,7 +226,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <staticImage>${staticImagePath}</staticImage>
             <origin>0 0.5</origin>
             <size>1 1</size>
-            <pos>0 ${carouselpos}</pos>
+            <pos>0 0.48</pos>
             <color>00000000</color>
             <itemScale>1.5</itemScale>
             <itemStacking>ascendingRaised</itemStacking>
@@ -251,7 +244,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <fastScrolling>true</fastScrolling>
             <zIndex>7</zIndex>            
             <itemSize>${itemsize}</itemSize>
-            <fontSize>0.036111111111111</fontSize>
+            <fontSize>${base-font-size}</fontSize>
             <maxItemCount>${itemcount}</maxItemCount>
          </carousel>
          <text name="games-count">

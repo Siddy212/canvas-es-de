@@ -11,8 +11,8 @@ based on 1920x1440
 
       <view name="system">
          <text name="games-count">
-            <size>0 ${systemDescriptionFontSize}</size>
-            <fontSize>${systemDescriptionFontSize}</fontSize>
+            <size>0 ${base-font-size}</size>
+            <fontSize>${base-font-size}</fontSize>
          </text>
       </view>
 
@@ -27,11 +27,11 @@ based on 1920x1440
          grid-grid-detailed-flipped">
          <view name="system">
             <text name="games-count">
-               <pos>0.082 ${gamescountpos}</pos>
+               <pos>0.082 ${help-y}</pos>
             </text>
             <image name="gamesicon">
-               <pos>0.075 ${gamescountpos}</pos>
-               <size>0 ${systemDescriptionFontSize}</size>
+               <pos>0.075 ${help-y}</pos>
+               <size>0 ${base-font-size}</size>
             </image>
          </view>
       </variant>
@@ -47,39 +47,15 @@ based on 1920x1440
          carousel-grid-detailed-flipped">
       <view name="system">
          <text name="games-count">
-            <pos>0.455 ${gamescountpos}</pos>
+            <pos>0.455 ${games-count-y}</pos>
          </text>
          <image name="gamesicon">
-            <pos>0.447 ${gamescountpos}</pos>
-            <size>0 ${systemDescriptionFontSize}</size>
+            <pos>0.447 ${games-count-y}</pos>
+            <size>0 ${base-font-size}</size>
          </image>
       </view>
       </variant>
-      
-   <fontSize name="small">
-      <variables>
-         <systemDescriptionFontSize>0.034</systemDescriptionFontSize>
-         <gamescountpos>0.955</gamescountpos>
-      </variables>
-   </fontSize>
-   <fontSize name="medium">
-      <variables>
-         <systemDescriptionFontSize>0.038</systemDescriptionFontSize>
-         <gamescountpos>0.955</gamescountpos>
-      </variables>
-   </fontSize>
-   <fontSize name="large">
-      <variables>
-         <systemDescriptionFontSize>0.045</systemDescriptionFontSize>
-         <gamescountpos>0.955</gamescountpos>
-      </variables>
-   </fontSize>
-   <fontSize name="x-large">
-      <variables>
-         <systemDescriptionFontSize>0.050</systemDescriptionFontSize>
-         <gamescountpos>0.95</gamescountpos>
-      </variables>
-   </fontSize>
+     
 
    <!--
    ///
@@ -107,8 +83,8 @@ based on 1920x1440
          <gamelistFontSize>0.030</gamelistFontSize>
          <gamelistSelectorHeight>0.04514814814815</gamelistSelectorHeight>
          <gamelistLineSpacing>1.542</gamelistLineSpacing>
-         <gamelistPos>0.540291666666667 0.114666666666667</gamelistPos>
-         <gamelistPosFlipped>0.070291666666667 0.114666666666667</gamelistPosFlipped>
+         <gamelistPos>0.540291666666667 0.113666666666667</gamelistPos>
+         <gamelistPosFlipped>0.070291666666667 0.113666666666667</gamelistPosFlipped>
          <gamelistselectorVerticalOffset>0</gamelistselectorVerticalOffset>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
