@@ -527,7 +527,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <pos>0.5 ${carousel-y}</pos>
             <size>1 1</size>
             <imageType>cover</imageType>
-            <itemSize>${carousel-base-item-w} 1</itemSize>
+            <itemSize>${carousel-base-item-w} 0.45</itemSize>
             <fontSize>${base-font-size}</fontSize>
             <maxItemCount>${carousel-item-count}</maxItemCount>
             <imageInterpolation>linear</imageInterpolation>
