@@ -547,7 +547,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <imageCornerRadius>0.005</imageCornerRadius>
         </carousel>  
          <video name="game-media">
-            <brightness>-0.3</brightness>
+            <brightness>-0.5</brightness>
          </video>  
       </view>
    </variant>
@@ -559,10 +559,10 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
                   <origin>0.5 1</origin>
                   <pos>0.5 ${grid-y}</pos>
                   <itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
-                  <itemScale>1.05</itemScale>
+                  <itemScale>1.04</itemScale>
                   <itemSpacing>${grid-item-spacing} -1</itemSpacing>
                   <selectorImage>./_inc/coversize-selector/${systemCoverSize}.svg</selectorImage>
-                  <backgroundImage>./_inc/coversize-selector/shadow.png</backgroundImage>
+                  <backgroundImage>./_inc/coversize-shadow/${systemCoverSize}.webp</backgroundImage>
                   <imageType>cover</imageType>
                   <unfocusedItemOpacity>1</unfocusedItemOpacity>
                   <unfocusedItemDimming>0.85</unfocusedItemDimming>
@@ -576,15 +576,15 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
                   <zIndex>5</zIndex>
                   <fractionalRows>false</fractionalRows>
                   <scaleInwards>false</scaleInwards>
-                  <imageRelativeScale>0.95</imageRelativeScale>
+                  <imageRelativeScale>0.975</imageRelativeScale>
                   <backgroundRelativeScale>1</backgroundRelativeScale>
-                  <backgroundCornerRadius>0.003</backgroundCornerRadius>
+                  <backgroundCornerRadius>0</backgroundCornerRadius>
                   <textRelativeScale>0.9</textRelativeScale>
-                  <selectorRelativeScale>0.96</selectorRelativeScale>
+                  <selectorRelativeScale>0.98</selectorRelativeScale>
                   <selectorCornerRadius>0.003</selectorCornerRadius>
             </grid>
        <video name="game-media">
-            <brightness>-0.6</brightness>
+            <brightness>-0.7</brightness>
       </video>  
       </view>
    </variant>
@@ -709,22 +709,23 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <textColor>ffffff</textColor>
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.02111111111111</fontSize>
-         <imageCornerRadius>0.002</imageCornerRadius>
+         <imageCornerRadius>0.004</imageCornerRadius>
          <selectorColor>${systemCarouselSelectorColor}</selectorColor>
          <selectorLayer>top</selectorLayer>
          <zIndex>9</zIndex>
          <fractionalRows>true</fractionalRows>
          <scaleInwards>true</scaleInwards>
          <size>0.5 1</size>
-         <itemScale>1.05</itemScale>
-         <imageRelativeScale>0.91</imageRelativeScale>
+         <itemScale>1.04</itemScale>
+         <imageRelativeScale>0.955</imageRelativeScale>
          <textRelativeScale>0.85</textRelativeScale>
-         <selectorRelativeScale>0.93</selectorRelativeScale>
+         <selectorRelativeScale>0.96</selectorRelativeScale>
          <selectorCornerRadius>0.003</selectorCornerRadius>
-         <backgroundRelativeScale>1</backgroundRelativeScale>
-         <backgroundImage>./_inc/coversize-selector/shadow.png</backgroundImage>
-         <imageType>cover</imageType>
+         <backgroundRelativeScale>0.985</backgroundRelativeScale>
          <selectorImage>./_inc/coversize-selector/${systemCoverSize}.svg</selectorImage>
+         <backgroundImage>./_inc/coversize-shadow/${systemCoverSize}.webp</backgroundImage>
+         <backgroundColor>00000095</backgroundColor>
+         <imageType>cover</imageType>
          <itemSize>${gridItemSize}</itemSize>
       </grid>
     </view>
