@@ -178,7 +178,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <view name="system">
          <grid name="grid">
             <origin>0.5 0.5</origin>
-            <pos>${gridItemPos} 0.495</pos>
+            <pos>${gridItemPos} 0.48</pos>
             <itemSize>${gridItemSize}</itemSize>
             <selectorRelativeScale>${selectorRelativeScaleSize}</selectorRelativeScale>
             <backgroundRelativeScale>${backgroundRelativeScaleSize}</backgroundRelativeScale>
@@ -392,7 +392,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <color>000000</color>
 	         <rotation>180</rotation>
       </image>
-      <image name="overlay,overlay-2,overlay-3,overlay-4,overlay-5,overlay-6,overlay-7,overlay-8,overlay-9,overlay-10">
+      <image name="overlay,overlay-2,overlay-3,overlay-4,overlay-5">
          <origin>0.5 1</origin>
          <cropSize>${overlay-crop-size}</cropSize>
          <pos>${overlay-pos}</pos>
@@ -471,7 +471,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <imageType>screenshot</imageType>
          <zIndex>1</zIndex>
          <saturation>1</saturation>
-         <brightness>-1</brightness>
          <opacity>1</opacity>
          <gradientType>vertical</gradientType>
       </video>  
@@ -547,6 +546,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 	         <selectedItemMargins>${carousel-item-margins}</selectedItemMargins>
             <imageCornerRadius>0.005</imageCornerRadius>
         </carousel>  
+         <video name="game-media">
+            <brightness>-0.3</brightness>
+         </video>  
       </view>
    </variant>
 
@@ -581,6 +583,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
                   <selectorRelativeScale>0.96</selectorRelativeScale>
                   <selectorCornerRadius>0.003</selectorCornerRadius>
             </grid>
+       <video name="game-media">
+            <brightness>-0.6</brightness>
+      </video>  
       </view>
    </variant>
 
