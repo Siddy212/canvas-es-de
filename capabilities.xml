@@ -4,7 +4,7 @@
 
 <themeCapabilities>
    
-   <themeName>Canvas</themeName>
+   <themeName>Canvas-test</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
@@ -25,6 +25,9 @@
    </colorScheme>
    <colorScheme name="light-capsule">
       <label>[Capsule] Light</label>
+   </colorScheme>
+   <colorScheme name="black-capsule">
+      <label>[Capsule] Black</label>
    </colorScheme>
    <colorScheme name="retro-capsule">
       <label>[Capsule] Retro</label>
@@ -50,6 +53,9 @@
    <colorScheme name="light">
       <label>[Art] Light</label>
    </colorScheme>
+   <colorScheme name="black">
+      <label>[Art] Black</label>
+   </colorScheme>
    <colorScheme name="retro">
       <label>[Art] Retro</label>
    </colorScheme>
@@ -74,6 +80,9 @@
       <colorScheme name="light-icon">
       <label>[Icon] Light</label>
    </colorScheme>
+      <colorScheme name="black-icon">
+      <label>[Icon] Black</label>
+   </colorScheme>
    <colorScheme name="retro-icon">
       <label>[Icon] Retro</label>
    </colorScheme>
@@ -97,6 +106,9 @@
    </colorScheme>
    <colorScheme name="light-screenshots">
       <label>[Screenshots] Light</label>
+   </colorScheme>
+   <colorScheme name="black-screenshots">
+      <label>[Screenshots] Black</label>
    </colorScheme>
    <colorScheme name="retro-screenshots">
       <label>[Screenshots] Retro</label>

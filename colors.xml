@@ -5,7 +5,7 @@
    </variables>
    <!--   System View: Art Default   -->
 
-   <colorScheme name="light,dark,retro,neon,pastel,famicom,snes,sony">
+   <colorScheme name="light,dark,black,retro,neon,pastel,famicom,snes,sony">
          <variables>
                   <selectorRelativeScaleSize>0.881388</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.9817</backgroundRelativeScaleSize>
@@ -14,7 +14,7 @@
                   <gridsize>system-variables</gridsize>
       </variables>
    </colorScheme>
-   <colorScheme name="light-capsule,dark-capsule,retro-capsule,neon-capsule,pastel-capsule,famicom-capsule,snes-capsule,sony-capsule">
+   <colorScheme name="light-capsule,dark-capsule,black-capsule,retro-capsule,neon-capsule,pastel-capsule,famicom-capsule,snes-capsule,sony-capsule">
          <variables>
                   <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
@@ -24,7 +24,7 @@
                   <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme>   
-   <colorScheme name="light-screenshots,dark-screenshots,retro-screenshots,neon-screenshots,pastel-screenshots,famicom-screenshots,snes-screenshots,sony-screenshots">
+   <colorScheme name="light-screenshots,dark-screenshots,black-screenshots,retro-screenshots,neon-screenshots,pastel-screenshots,famicom-screenshots,snes-screenshots,sony-screenshots">
          <variables>
                   <selectorRelativeScaleSize>0.88667</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
@@ -34,7 +34,7 @@
                   <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme>
-   <colorScheme name="light-icon,dark-icon,retro-icon,neon-icon,pastel-icon,famicom-icon,snes-icon">
+   <colorScheme name="light-icon,dark-icon,black-icon,retro-icon,neon-icon,pastel-icon,famicom-icon,snes-icon">
          <variables>
                   <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
@@ -52,7 +52,7 @@
                   <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme>
-   <colorScheme name="sony,dark,neon">
+   <colorScheme name="sony,dark,neon,black">
       <variables>
           <staticImagePath>./_inc/carousel-icons-art/light/${system.theme}.webp</staticImagePath>
       </variables>
@@ -78,7 +78,7 @@
           <staticImagePath>./_inc/carousel-icons-icons/medium/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
-   <colorScheme name="dark-icon,neon-icon">
+   <colorScheme name="dark-icon,black-icon,neon-icon">
       <variables>
           <staticImagePath>./_inc/carousel-icons-icons/dark/${system.theme}.webp</staticImagePath>
       </variables>
@@ -132,6 +132,31 @@
          <backgroundAnimationPath>./wallpapers/light.gif</backgroundAnimationPath>
          <backgroundArtOpacity>0.8</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
+      </variables>
+   </colorScheme>   
+   <colorScheme name="black,black-icon,black-capsule,black-screenshots">
+      <variables>
+         <helpTextColor>999999</helpTextColor>
+         <backgroundColor>373737</backgroundColor>
+         <systemInfoColor>cccccc</systemInfoColor>
+         <systemCarouselTextColor>cccccc</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
+         <systemCarouselSelectorColor>ffffff</systemCarouselSelectorColor>
+         <gamelistCarouselBackground>carousel-background-dark</gamelistCarouselBackground>
+         <gamelistLogoColor>cccccc</gamelistLogoColor>
+         <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
+         <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
+         <gamelistSelectorColor>777777</gamelistSelectorColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gamelistPrimaryColor>777777</gamelistPrimaryColor>
+         <gamelistSecondaryColor>777777</gamelistSecondaryColor>
+         <gameMetadataColor>bbbbbb</gameMetadataColor>
+         <BadgeColor>bbbbbb</BadgeColor>
+         <backgroundArtPath>./wallpapers/black.webp</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/black.gif</backgroundAnimationPath>
+         <backgroundArtOpacity>1</backgroundArtOpacity>
+         <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
    <colorScheme name="retro,retro-icon,retro-capsule,retro-screenshots">
