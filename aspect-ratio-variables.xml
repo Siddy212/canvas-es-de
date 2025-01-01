@@ -15,169 +15,189 @@
                    <fontSize name="small">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.01875</base-font-size>
+                                        <base-font-size>0.01875</base-font-size>          
+                                        <games-count-font-size>0.0309375</games-count-font-size>
                                         <help-font-size>0.0140625</help-font-size>
-                                        <help-font-size-small>0.009375</help-font-size-small>
-                                        <help-font-size-smallest>0.0075</help-font-size-smallest>
+                                        <help-font-size-small>0.009</help-font-size-small>
+                                        <help-font-size-smallest>0.00675</help-font-size-smallest>
                                         <badge-size>0.0366666666666667</badge-size>
                                         <badge-x>0.01125</badge-x>
                                         <badge-y>0.015</badge-y>
-                                         <divider-y>0.94375</divider-y>
-                                        <overlay-h>0.084375</overlay-h>  
-                                        <overlay-crop-size>1.77777777777778 0.084375</overlay-crop-size>  
-                                        <media-y>1.038125</media-y>
+                                         <divider-y>0.946</divider-y>
+                                        <overlay-h>0.0810000000000001</overlay-h>  
+                                        <overlay-crop-size>1.77777777777778 0.0810000000000001</overlay-crop-size>  
+                                        <media-y>1.0406</media-y>
                                         <top-divider-y>0.133333333333333</top-divider-y>
-                                        <system-logo-h>0.04125</system-logo-h>
-                                        <system-logo-w>0.176</system-logo-w>
-                                        <system-logo-x>0.015</system-logo-x>
-                                        <system-logo-y>0.971875</system-logo-y>
-                                        <games-count-y>0.954296875</games-count-y> 
+                                        <system-logo-h>0.039</system-logo-h>
+                                        <system-logo-w>0.1664</system-logo-w>
+                                        <system-logo-x>0.009375</system-logo-x>
+                                        <system-logo-y>0.973</system-logo-y>
+                                        <games-count-y>0.961328125</games-count-y> 
+                                        <grid-games-count-x>0.08</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.07625</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.441875</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.438125</carousel-games-count-icon-x> 
                                         <help-y>0.989453125</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.125833333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0666666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.810416666666667</basic-grid-h>
+                                        <grid-marquee-h>0.125833333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0666666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.268444444444444</grid-marquee-w>
+                                        <basic-grid-h>0.812666666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.94375</grid-y>           
-                                        <multi-row-grid-h>0.610009418666667</multi-row-grid-h>           
-                                        <carousel-y>0.93625</carousel-y>
+                                        <grid-y>0.946</grid-y>                    
+                                        <carousel-y>0.9385</carousel-y>
                                         <row-marquee-y>0.0140625</row-marquee-y>
-                                        <grid-cart-h>0.0412500000000001</grid-cart-h>
+                                        <grid-cart-h>0.039</grid-cart-h>
                                         <grid-cart-w>0.0525</grid-cart-w>
                                         <grid-cart-x>0.94</grid-cart-x>  
-                                        <grid-cart-y>0.971875</grid-cart-y>    
+                                        <grid-cart-y>0.973</grid-cart-y>    
                                         <grid-name-x>0.9325</grid-name-x>   
-                                        <grid-name-y>0.968125</grid-name-y> 
+                                        <grid-name-y>0.96925</grid-name-y> 
                                         <grid-name-h>0.0234375</grid-name-h>  
-                                        <grid-name-w>0.734</grid-name-w>      
+                                        <grid-name-w>0.741725</grid-name-w>      
                                         <cart-divider-x>0.93625</cart-divider-x>      
-                                        <cart-divider-h>0.03375</cart-divider-h>     
+                                        <cart-divider-h>0.0324</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="medium">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.024375</base-font-size>
+                                        <base-font-size>0.024375</base-font-size>          
+                                        <games-count-font-size>0.04021875</games-count-font-size>
                                         <help-font-size>0.01828125</help-font-size>
-                                        <help-font-size-small>0.0121875</help-font-size-small>
-                                        <help-font-size-smallest>0.00975</help-font-size-smallest>
+                                        <help-font-size-small>0.0117</help-font-size-small>
+                                        <help-font-size-smallest>0.008775</help-font-size-smallest>
                                         <badge-size>0.0476666666666667</badge-size>
                                         <badge-x>0.014625</badge-x>
                                         <badge-y>0.0195</badge-y>
-                                         <divider-y>0.926875</divider-y>
-                                        <overlay-h>0.1096875</overlay-h>  
-                                        <overlay-crop-size>1.77777777777778 0.1096875</overlay-crop-size>  
-                                        <media-y>1.0195625</media-y>
+                                         <divider-y>0.9298</divider-y>
+                                        <overlay-h>0.1053</overlay-h>  
+                                        <overlay-crop-size>1.77777777777778 0.1053</overlay-crop-size>  
+                                        <media-y>1.02278</media-y>
                                         <top-divider-y>0.173333333333333</top-divider-y>
-                                        <system-logo-h>0.053625</system-logo-h>
-                                        <system-logo-w>0.2288</system-logo-w>
-                                        <system-logo-x>0.0195</system-logo-x>
-                                        <system-logo-y>0.9634375</system-logo-y>
-                                        <games-count-y>0.9405859375</games-count-y> 
+                                        <system-logo-h>0.0507</system-logo-h>
+                                        <system-logo-w>0.21632</system-logo-w>
+                                        <system-logo-x>0.0121875</system-logo-x>
+                                        <system-logo-y>0.9649</system-logo-y>
+                                        <games-count-y>0.9497265625</games-count-y> 
+                                        <grid-games-count-x>0.104</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.099125</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.4244375</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.4195625</carousel-games-count-icon-x> 
                                         <help-y>0.9862890625</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.163583333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0866666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.753541666666667</basic-grid-h>
+                                        <grid-marquee-h>0.163583333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0866666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.348977777777778</grid-marquee-w>
+                                        <basic-grid-h>0.756466666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.926875</grid-y>           
-                                        <multi-row-grid-h>0.612248126666667</multi-row-grid-h>           
-                                        <carousel-y>0.917125</carousel-y>
+                                        <grid-y>0.9298</grid-y>                    
+                                        <carousel-y>0.92005</carousel-y>
                                         <row-marquee-y>0.01828125</row-marquee-y>
-                                        <grid-cart-h>0.0536249999999999</grid-cart-h>
+                                        <grid-cart-h>0.0507</grid-cart-h>
                                         <grid-cart-w>0.06825</grid-cart-w>
                                         <grid-cart-x>0.922</grid-cart-x>  
-                                        <grid-cart-y>0.9634375</grid-cart-y>    
+                                        <grid-cart-y>0.9649</grid-cart-y>    
                                         <grid-name-x>0.91225</grid-name-x>   
-                                        <grid-name-y>0.9585625</grid-name-y> 
+                                        <grid-name-y>0.960025</grid-name-y> 
                                         <grid-name-h>0.03046875</grid-name-h>  
-                                        <grid-name-w>0.6542</grid-name-w>      
+                                        <grid-name-w>0.6642425</grid-name-w>      
                                         <cart-divider-x>0.917125</cart-divider-x>      
-                                        <cart-divider-h>0.043875</cart-divider-h>     
+                                        <cart-divider-h>0.04212</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.028125</base-font-size>
-                                        <help-font-size>0.0196875</help-font-size>
-                                        <help-font-size-small>0.0140625</help-font-size-small>
-                                        <help-font-size-smallest>0.01125</help-font-size-smallest>
+                                        <base-font-size>0.028125</base-font-size>          
+                                        <games-count-font-size>0.04640625</games-count-font-size>
+                                        <help-font-size>0.02109375</help-font-size>
+                                        <help-font-size-small>0.0135</help-font-size-small>
+                                        <help-font-size-smallest>0.010125</help-font-size-smallest>
                                         <badge-size>0.055</badge-size>
                                         <badge-x>0.016875</badge-x>
                                         <badge-y>0.0225</badge-y>
-                                         <divider-y>0.915625</divider-y>
-                                        <overlay-h>0.1265625</overlay-h>  
-                                        <overlay-crop-size>1.77777777777778 0.1265625</overlay-crop-size>  
-                                        <media-y>1.0071875</media-y>
+                                         <divider-y>0.919</divider-y>
+                                        <overlay-h>0.1215</overlay-h>  
+                                        <overlay-crop-size>1.77777777777778 0.1215</overlay-crop-size>  
+                                        <media-y>1.0109</media-y>
                                         <top-divider-y>0.2</top-divider-y>
-                                        <system-logo-h>0.061875</system-logo-h>
-                                        <system-logo-w>0.264</system-logo-w>
-                                        <system-logo-x>0.0225</system-logo-x>
-                                        <system-logo-y>0.9578125</system-logo-y>
-                                        <games-count-y>0.936015625</games-count-y> 
-                                        <help-y>0.985234375</help-y>                                
+                                        <system-logo-h>0.0585</system-logo-h>
+                                        <system-logo-w>0.2496</system-logo-w>
+                                        <system-logo-x>0.0140625</system-logo-x>
+                                        <system-logo-y>0.9595</system-logo-y>
+                                        <games-count-y>0.9419921875</games-count-y> 
+                                        <grid-games-count-x>0.12</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.114375</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.4128125</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.4071875</carousel-games-count-icon-x> 
+                                        <help-y>0.9841796875</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.18875</basic-marquee-h>
-                                        <basic-marquee-y>0.1</basic-marquee-y>
-                                        <basic-grid-h>0.715625</basic-grid-h>
+                                        <grid-marquee-h>0.18875</grid-marquee-h>
+                                        <grid-marquee-y>0.1</grid-marquee-y>                   
+                                        <grid-marquee-w>0.402666666666667</grid-marquee-w>
+                                        <basic-grid-h>0.719</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.915625</grid-y>           
-                                        <multi-row-grid-h>0.612248126666667</multi-row-grid-h>           
-                                        <carousel-y>0.904375</carousel-y>
-                                        <row-marquee-y>0.0196875</row-marquee-y>
-                                        <grid-cart-h>0.0618749999999999</grid-cart-h>
+                                        <grid-y>0.919</grid-y>                    
+                                        <carousel-y>0.90775</carousel-y>
+                                        <row-marquee-y>0.02109375</row-marquee-y>
+                                        <grid-cart-h>0.0585</grid-cart-h>
                                         <grid-cart-w>0.07875</grid-cart-w>
                                         <grid-cart-x>0.91</grid-cart-x>  
-                                        <grid-cart-y>0.9578125</grid-cart-y>    
+                                        <grid-cart-y>0.9595</grid-cart-y>    
                                         <grid-name-x>0.89875</grid-name-x>   
-                                        <grid-name-y>0.9521875</grid-name-y> 
+                                        <grid-name-y>0.953875</grid-name-y> 
                                         <grid-name-h>0.03515625</grid-name-h>  
-                                        <grid-name-w>0.601</grid-name-w>      
+                                        <grid-name-w>0.6125875</grid-name-w>      
                                         <cart-divider-x>0.904375</cart-divider-x>      
-                                        <cart-divider-h>0.050625</cart-divider-h>     
+                                        <cart-divider-h>0.0486</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="x-large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.03</base-font-size>
-                                        <help-font-size>0.021</help-font-size>
-                                        <help-font-size-small>0.015</help-font-size-small>
-                                        <help-font-size-smallest>0.012</help-font-size-smallest>
+                                        <base-font-size>0.03</base-font-size>          
+                                        <games-count-font-size>0.0495</games-count-font-size>
+                                        <help-font-size>0.0225</help-font-size>
+                                        <help-font-size-small>0.0144</help-font-size-small>
+                                        <help-font-size-smallest>0.0108</help-font-size-smallest>
                                         <badge-size>0.0586666666666667</badge-size>
                                         <badge-x>0.018</badge-x>
                                         <badge-y>0.018</badge-y>
-                                         <divider-y>0.91</divider-y>
-                                        <overlay-h>0.135</overlay-h>  
-                                        <overlay-crop-size>1.77777777777778 0.135</overlay-crop-size>  
-                                        <media-y>1.001</media-y>
+                                         <divider-y>0.9136</divider-y>
+                                        <overlay-h>0.1296</overlay-h>  
+                                        <overlay-crop-size>1.77777777777778 0.1296</overlay-crop-size>  
+                                        <media-y>1.00496</media-y>
                                         <top-divider-y>0.213333333333333</top-divider-y>
-                                        <system-logo-h>0.066</system-logo-h>
-                                        <system-logo-w>0.2816</system-logo-w>
-                                        <system-logo-x>0.024</system-logo-x>
-                                        <system-logo-y>0.955</system-logo-y>
-                                        <games-count-y>0.93175</games-count-y> 
-                                        <help-y>0.98425</help-y>                                
+                                        <system-logo-h>0.0624</system-logo-h>
+                                        <system-logo-w>0.26624</system-logo-w>
+                                        <system-logo-x>0.015</system-logo-x>
+                                        <system-logo-y>0.9568</system-logo-y>
+                                        <games-count-y>0.938125</games-count-y> 
+                                        <grid-games-count-x>0.128</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.122</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.407</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.401</carousel-games-count-icon-x> 
+                                        <help-y>0.983125</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.201333333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.106666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.696666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.201333333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.106666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.429511111111111</grid-marquee-w>
+                                        <basic-grid-h>0.700266666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.91</grid-y>           
-                                        <multi-row-grid-h>0.413321306666667</multi-row-grid-h>           
-                                        <carousel-y>0.898</carousel-y>
-                                        <row-marquee-y>0.021</row-marquee-y>
-                                        <grid-cart-h>0.0660000000000001</grid-cart-h>
+                                        <grid-y>0.9136</grid-y>                    
+                                        <carousel-y>0.9016</carousel-y>
+                                        <row-marquee-y>0.0225</row-marquee-y>
+                                        <grid-cart-h>0.0624</grid-cart-h>
                                         <grid-cart-w>0.084</grid-cart-w>
                                         <grid-cart-x>0.904</grid-cart-x>  
-                                        <grid-cart-y>0.955</grid-cart-y>    
+                                        <grid-cart-y>0.9568</grid-cart-y>    
                                         <grid-name-x>0.892</grid-name-x>   
-                                        <grid-name-y>0.949</grid-name-y> 
+                                        <grid-name-y>0.9508</grid-name-y> 
                                         <grid-name-h>0.0375</grid-name-h>  
-                                        <grid-name-w>0.5744</grid-name-w>      
+                                        <grid-name-w>0.58676</grid-name-w>      
                                         <cart-divider-x>0.898</cart-divider-x>      
-                                        <cart-divider-h>0.054</cart-divider-h>     
+                                        <cart-divider-h>0.05184</cart-divider-h>     
                             </variables>
                     </fontSize>
              </aspectRatio>    
@@ -197,169 +217,189 @@
                    <fontSize name="small">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.03</base-font-size>
-                                        <help-font-size>0.021</help-font-size>
-                                        <help-font-size-small>0.015</help-font-size-small>
-                                        <help-font-size-smallest>0.012</help-font-size-smallest>
+                                        <base-font-size>0.03</base-font-size>          
+                                        <games-count-font-size>0.0366666666666667</games-count-font-size>
+                                        <help-font-size>0.0225</help-font-size>
+                                        <help-font-size-small>0.0144</help-font-size-small>
+                                        <help-font-size-smallest>0.0108</help-font-size-smallest>
                                         <badge-size>0.0366666666666667</badge-size>
                                         <badge-x>0.01125</badge-x>
                                         <badge-y>0.018</badge-y>
-                                         <divider-y>0.91</divider-y>
-                                        <overlay-h>0.135</overlay-h>  
-                                        <overlay-crop-size>1.11111111111111 0.135</overlay-crop-size>  
-                                        <media-y>1.001</media-y>
+                                         <divider-y>0.9136</divider-y>
+                                        <overlay-h>0.1296</overlay-h>  
+                                        <overlay-crop-size>1.11111111111111 0.1296</overlay-crop-size>  
+                                        <media-y>1.00496</media-y>
                                         <top-divider-y>0.133333333333333</top-divider-y>
-                                        <system-logo-h>0.0660000000000001</system-logo-h>
-                                        <system-logo-w>0.176</system-logo-w>
-                                        <system-logo-x>0.015</system-logo-x>
-                                        <system-logo-y>0.955</system-logo-y>
-                                        <games-count-y>0.93175</games-count-y> 
-                                        <help-y>0.98425</help-y>                                
+                                        <system-logo-h>0.0624</system-logo-h>
+                                        <system-logo-w>0.1664</system-logo-w>
+                                        <system-logo-x>0.009375</system-logo-x>
+                                        <system-logo-y>0.9568</system-logo-y>
+                                        <games-count-y>0.938125</games-count-y> 
+                                        <grid-games-count-x>0.0621759259259259</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0584259259259259</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.457916666666667</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.454166666666667</carousel-games-count-icon-x> 
+                                        <help-y>0.983125</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.121333333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0666666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.776666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.121333333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0666666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.161777777777778</grid-marquee-w>
+                                        <basic-grid-h>0.780266666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.91</grid-y>           
-                                        <multi-row-grid-h>0.649205959111111</multi-row-grid-h>           
-                                        <carousel-y>0.898</carousel-y>
-                                        <row-marquee-y>0.021</row-marquee-y>
-                                        <grid-cart-h>0.0660000000000001</grid-cart-h>
+                                        <grid-y>0.9136</grid-y>                    
+                                        <carousel-y>0.9016</carousel-y>
+                                        <row-marquee-y>0.0225</row-marquee-y>
+                                        <grid-cart-h>0.0624</grid-cart-h>
                                         <grid-cart-w>0.0525</grid-cart-w>
                                         <grid-cart-x>0.94</grid-cart-x>  
-                                        <grid-cart-y>0.955</grid-cart-y>    
+                                        <grid-cart-y>0.9568</grid-cart-y>    
                                         <grid-name-x>0.9325</grid-name-x>   
-                                        <grid-name-y>0.949</grid-name-y> 
+                                        <grid-name-y>0.9508</grid-name-y> 
                                         <grid-name-h>0.0375</grid-name-h>  
-                                        <grid-name-w>0.734</grid-name-w>      
+                                        <grid-name-w>0.741725</grid-name-w>      
                                         <cart-divider-x>0.93625</cart-divider-x>      
-                                        <cart-divider-h>0.054</cart-divider-h>     
+                                        <cart-divider-h>0.05184</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="medium">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.039</base-font-size>
-                                        <help-font-size>0.0273</help-font-size>
-                                        <help-font-size-small>0.0195</help-font-size-small>
-                                        <help-font-size-smallest>0.0156</help-font-size-smallest>
+                                        <base-font-size>0.039</base-font-size>          
+                                        <games-count-font-size>0.0476666666666667</games-count-font-size>
+                                        <help-font-size>0.02925</help-font-size>
+                                        <help-font-size-small>0.01872</help-font-size-small>
+                                        <help-font-size-smallest>0.01404</help-font-size-smallest>
                                         <badge-size>0.0476666666666667</badge-size>
                                         <badge-x>0.014625</badge-x>
                                         <badge-y>0.0234</badge-y>
-                                         <divider-y>0.883</divider-y>
-                                        <overlay-h>0.1755</overlay-h>  
-                                        <overlay-crop-size>1.11111111111111 0.1755</overlay-crop-size>  
-                                        <media-y>0.9713</media-y>
+                                         <divider-y>0.88768</divider-y>
+                                        <overlay-h>0.16848</overlay-h>  
+                                        <overlay-crop-size>1.11111111111111 0.16848</overlay-crop-size>  
+                                        <media-y>0.976448</media-y>
                                         <top-divider-y>0.173333333333333</top-divider-y>
-                                        <system-logo-h>0.0858</system-logo-h>
-                                        <system-logo-w>0.2288</system-logo-w>
-                                        <system-logo-x>0.0195</system-logo-x>
-                                        <system-logo-y>0.9415</system-logo-y>
-                                        <games-count-y>0.911275</games-count-y> 
-                                        <help-y>0.979525</help-y>                                
+                                        <system-logo-h>0.08112</system-logo-h>
+                                        <system-logo-w>0.21632</system-logo-w>
+                                        <system-logo-x>0.0121875</system-logo-x>
+                                        <system-logo-y>0.94384</system-logo-y>
+                                        <games-count-y>0.9195625</games-count-y> 
+                                        <grid-games-count-x>0.0808287037037037</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0759537037037037</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.445291666666667</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.440416666666667</carousel-games-count-icon-x> 
+                                        <help-y>0.9780625</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.157733333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0866666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.709666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.157733333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0866666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.210311111111111</grid-marquee-w>
+                                        <basic-grid-h>0.714346666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.883</grid-y>           
-                                        <multi-row-grid-h>0.560370023619048</multi-row-grid-h>           
-                                        <carousel-y>0.8674</carousel-y>
-                                        <row-marquee-y>0.0273</row-marquee-y>
-                                        <grid-cart-h>0.0858</grid-cart-h>
+                                        <grid-y>0.88768</grid-y>                    
+                                        <carousel-y>0.87208</carousel-y>
+                                        <row-marquee-y>0.02925</row-marquee-y>
+                                        <grid-cart-h>0.08112</grid-cart-h>
                                         <grid-cart-w>0.06825</grid-cart-w>
                                         <grid-cart-x>0.922</grid-cart-x>  
-                                        <grid-cart-y>0.9415</grid-cart-y>    
+                                        <grid-cart-y>0.94384</grid-cart-y>    
                                         <grid-name-x>0.91225</grid-name-x>   
-                                        <grid-name-y>0.9337</grid-name-y> 
+                                        <grid-name-y>0.93604</grid-name-y> 
                                         <grid-name-h>0.04875</grid-name-h>  
-                                        <grid-name-w>0.6542</grid-name-w>      
+                                        <grid-name-w>0.6642425</grid-name-w>      
                                         <cart-divider-x>0.917125</cart-divider-x>      
-                                        <cart-divider-h>0.0702</cart-divider-h>     
+                                        <cart-divider-h>0.067392</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.045</base-font-size>
-                                        <help-font-size>0.0315</help-font-size>
-                                        <help-font-size-small>0.0225</help-font-size-small>
-                                        <help-font-size-smallest>0.018</help-font-size-smallest>
+                                        <base-font-size>0.045</base-font-size>          
+                                        <games-count-font-size>0.055</games-count-font-size>
+                                        <help-font-size>0.03375</help-font-size>
+                                        <help-font-size-small>0.0216</help-font-size-small>
+                                        <help-font-size-smallest>0.0162</help-font-size-smallest>
                                         <badge-size>0.055</badge-size>
                                         <badge-x>0.016875</badge-x>
                                         <badge-y>0.027</badge-y>
-                                         <divider-y>0.865</divider-y>
-                                        <overlay-h>0.2025</overlay-h>  
-                                        <overlay-crop-size>1.11111111111111 0.2025</overlay-crop-size>  
-                                        <media-y>0.9515</media-y>
+                                         <divider-y>0.8704</divider-y>
+                                        <overlay-h>0.1944</overlay-h>  
+                                        <overlay-crop-size>1.11111111111111 0.1944</overlay-crop-size>  
+                                        <media-y>0.95744</media-y>
                                         <top-divider-y>0.2</top-divider-y>
-                                        <system-logo-h>0.099</system-logo-h>
-                                        <system-logo-w>0.264</system-logo-w>
-                                        <system-logo-x>0.0225</system-logo-x>
-                                        <system-logo-y>0.9325</system-logo-y>
-                                        <games-count-y>0.897625</games-count-y> 
-                                        <help-y>0.976375</help-y>                                
+                                        <system-logo-h>0.0935999999999999</system-logo-h>
+                                        <system-logo-w>0.2496</system-logo-w>
+                                        <system-logo-x>0.0140625</system-logo-x>
+                                        <system-logo-y>0.9352</system-logo-y>
+                                        <games-count-y>0.9071875</games-count-y> 
+                                        <grid-games-count-x>0.0932638888888889</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0876388888888889</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.436875</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.43125</carousel-games-count-icon-x> 
+                                        <help-y>0.9746875</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.182</basic-marquee-h>
-                                        <basic-marquee-y>0.1</basic-marquee-y>
-                                        <basic-grid-h>0.665</basic-grid-h>
+                                        <grid-marquee-h>0.182</grid-marquee-h>
+                                        <grid-marquee-y>0.1</grid-marquee-y>                   
+                                        <grid-marquee-w>0.242666666666667</grid-marquee-w>
+                                        <basic-grid-h>0.6704</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.865</grid-y>           
-                                        <multi-row-grid-h>0.6515238784</multi-row-grid-h>           
-                                        <carousel-y>0.847</carousel-y>
-                                        <row-marquee-y>0.0315</row-marquee-y>
-                                        <grid-cart-h>0.099</grid-cart-h>
+                                        <grid-y>0.8704</grid-y>                    
+                                        <carousel-y>0.8524</carousel-y>
+                                        <row-marquee-y>0.03375</row-marquee-y>
+                                        <grid-cart-h>0.0935999999999999</grid-cart-h>
                                         <grid-cart-w>0.07875</grid-cart-w>
                                         <grid-cart-x>0.91</grid-cart-x>  
-                                        <grid-cart-y>0.9325</grid-cart-y>    
+                                        <grid-cart-y>0.9352</grid-cart-y>    
                                         <grid-name-x>0.89875</grid-name-x>   
-                                        <grid-name-y>0.9235</grid-name-y> 
+                                        <grid-name-y>0.9262</grid-name-y> 
                                         <grid-name-h>0.05625</grid-name-h>  
-                                        <grid-name-w>0.601</grid-name-w>      
+                                        <grid-name-w>0.6125875</grid-name-w>      
                                         <cart-divider-x>0.904375</cart-divider-x>      
-                                        <cart-divider-h>0.081</cart-divider-h>     
+                                        <cart-divider-h>0.07776</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="x-large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.048</base-font-size>
-                                        <help-font-size>0.0336</help-font-size>
-                                        <help-font-size-small>0.024</help-font-size-small>
-                                        <help-font-size-smallest>0.0192</help-font-size-smallest>
+                                        <base-font-size>0.048</base-font-size>          
+                                        <games-count-font-size>0.0586666666666667</games-count-font-size>
+                                        <help-font-size>0.036</help-font-size>
+                                        <help-font-size-small>0.02304</help-font-size-small>
+                                        <help-font-size-smallest>0.01728</help-font-size-smallest>
                                         <badge-size>0.0586666666666667</badge-size>
                                         <badge-x>0.018</badge-x>
                                         <badge-y>0.0288</badge-y>
-                                         <divider-y>0.856</divider-y>
-                                        <overlay-h>0.216</overlay-h>  
-                                        <overlay-crop-size>1.11111111111111 0.216</overlay-crop-size>  
-                                        <media-y>0.9416</media-y>
+                                         <divider-y>0.86176</divider-y>
+                                        <overlay-h>0.20736</overlay-h>  
+                                        <overlay-crop-size>1.11111111111111 0.20736</overlay-crop-size>  
+                                        <media-y>0.947936</media-y>
                                         <top-divider-y>0.213333333333333</top-divider-y>
-                                        <system-logo-h>0.1056</system-logo-h>
-                                        <system-logo-w>0.2816</system-logo-w>
-                                        <system-logo-x>0.024</system-logo-x>
-                                        <system-logo-y>0.928</system-logo-y>
-                                        <games-count-y>0.8908</games-count-y> 
-                                        <help-y>0.9748</help-y>                                
+                                        <system-logo-h>0.09984</system-logo-h>
+                                        <system-logo-w>0.26624</system-logo-w>
+                                        <system-logo-x>0.015</system-logo-x>
+                                        <system-logo-y>0.93088</system-logo-y>
+                                        <games-count-y>0.901</games-count-y> 
+                                        <grid-games-count-x>0.0994814814814815</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0934814814814815</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.432666666666667</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.426666666666667</carousel-games-count-icon-x> 
+                                        <help-y>0.973</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.194133333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.106666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.642666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.194133333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.106666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.258844444444444</grid-marquee-w>
+                                        <basic-grid-h>0.648426666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.856</grid-y>           
-                                        <multi-row-grid-h>0.397103616</multi-row-grid-h>           
-                                        <carousel-y>0.8368</carousel-y>
-                                        <row-marquee-y>0.0336</row-marquee-y>
-                                        <grid-cart-h>0.1056</grid-cart-h>
+                                        <grid-y>0.86176</grid-y>                    
+                                        <carousel-y>0.84256</carousel-y>
+                                        <row-marquee-y>0.036</row-marquee-y>
+                                        <grid-cart-h>0.0998399999999999</grid-cart-h>
                                         <grid-cart-w>0.084</grid-cart-w>
                                         <grid-cart-x>0.904</grid-cart-x>  
-                                        <grid-cart-y>0.928</grid-cart-y>    
+                                        <grid-cart-y>0.93088</grid-cart-y>    
                                         <grid-name-x>0.892</grid-name-x>   
-                                        <grid-name-y>0.9184</grid-name-y> 
+                                        <grid-name-y>0.92128</grid-name-y> 
                                         <grid-name-h>0.06</grid-name-h>  
-                                        <grid-name-w>0.5744</grid-name-w>      
+                                        <grid-name-w>0.58676</grid-name-w>      
                                         <cart-divider-x>0.898</cart-divider-x>      
-                                        <cart-divider-h>0.0864</cart-divider-h>     
+                                        <cart-divider-h>0.082944</cart-divider-h>     
                             </variables>
                     </fontSize>
              </aspectRatio>    
@@ -379,169 +419,189 @@
                    <fontSize name="small">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.0333333333333333</base-font-size>
-                                        <help-font-size>0.0233333333333333</help-font-size>
-                                        <help-font-size-small>0.0166666666666667</help-font-size-small>
-                                        <help-font-size-smallest>0.0133333333333333</help-font-size-smallest>
+                                        <base-font-size>0.0333333333333333</base-font-size>          
+                                        <games-count-font-size>0.0366666666666667</games-count-font-size>
+                                        <help-font-size>0.015</help-font-size>
+                                        <help-font-size-small>0.016</help-font-size-small>
+                                        <help-font-size-smallest>0.012</help-font-size-smallest>
                                         <badge-size>0.0366666666666667</badge-size>
                                         <badge-x>0.01125</badge-x>
                                         <badge-y>0.02</badge-y>
-                                         <divider-y>0.9</divider-y>
-                                        <overlay-h>0.15</overlay-h>  
-                                        <overlay-crop-size>1 0.15</overlay-crop-size>  
-                                        <media-y>0.99</media-y>
+                                         <divider-y>0.904</divider-y>
+                                        <overlay-h>0.144</overlay-h>  
+                                        <overlay-crop-size>1 0.144</overlay-crop-size>  
+                                        <media-y>0.9944</media-y>
                                         <top-divider-y>0.133333333333333</top-divider-y>
-                                        <system-logo-h>0.0733333333333333</system-logo-h>
-                                        <system-logo-w>0.176</system-logo-w>
-                                        <system-logo-x>0.015</system-logo-x>
-                                        <system-logo-y>0.95</system-logo-y>
-                                        <games-count-y>0.924166666666667</games-count-y> 
-                                        <help-y>0.9825</help-y>                                
+                                        <system-logo-h>0.0693333333333333</system-logo-h>
+                                        <system-logo-w>0.1664</system-logo-w>
+                                        <system-logo-x>0.009375</system-logo-x>
+                                        <system-logo-y>0.952</system-logo-y>
+                                        <games-count-y>0.95875</games-count-y> 
+                                        <grid-games-count-x>0.0570833333333333</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0533333333333333</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.4625</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.45875</carousel-games-count-icon-x> 
+                                        <help-y>0.98875</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.12</basic-marquee-h>
-                                        <basic-marquee-y>0.0666666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.766666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.12</grid-marquee-h>
+                                        <grid-marquee-y>0.0666666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.144</grid-marquee-w>
+                                        <basic-grid-h>0.770666666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.9</grid-y>           
-                                        <multi-row-grid-h>0.649089232592592</multi-row-grid-h>           
-                                        <carousel-y>0.886666666666667</carousel-y>
-                                        <row-marquee-y>0.0233333333333333</row-marquee-y>
-                                        <grid-cart-h>0.0733333333333332</grid-cart-h>
+                                        <grid-y>0.904</grid-y>                    
+                                        <carousel-y>0.890666666666667</carousel-y>
+                                        <row-marquee-y>0.015</row-marquee-y>
+                                        <grid-cart-h>0.0693333333333332</grid-cart-h>
                                         <grid-cart-w>0.0525</grid-cart-w>
                                         <grid-cart-x>0.94</grid-cart-x>  
-                                        <grid-cart-y>0.95</grid-cart-y>    
+                                        <grid-cart-y>0.952</grid-cart-y>    
                                         <grid-name-x>0.9325</grid-name-x>   
-                                        <grid-name-y>0.943333333333333</grid-name-y> 
+                                        <grid-name-y>0.945333333333333</grid-name-y> 
                                         <grid-name-h>0.0416666666666667</grid-name-h>  
-                                        <grid-name-w>0.734</grid-name-w>      
+                                        <grid-name-w>0.741725</grid-name-w>      
                                         <cart-divider-x>0.93625</cart-divider-x>      
-                                        <cart-divider-h>0.06</cart-divider-h>     
+                                        <cart-divider-h>0.0576</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="medium">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.0433333333333333</base-font-size>
-                                        <help-font-size>0.0303333333333333</help-font-size>
-                                        <help-font-size-small>0.0216666666666667</help-font-size-small>
-                                        <help-font-size-smallest>0.0173333333333333</help-font-size-smallest>
+                                        <base-font-size>0.0433333333333333</base-font-size>          
+                                        <games-count-font-size>0.0476666666666667</games-count-font-size>
+                                        <help-font-size>0.0195</help-font-size>
+                                        <help-font-size-small>0.0208</help-font-size-small>
+                                        <help-font-size-smallest>0.0156</help-font-size-smallest>
                                         <badge-size>0.0476666666666667</badge-size>
                                         <badge-x>0.014625</badge-x>
                                         <badge-y>0.026</badge-y>
-                                         <divider-y>0.87</divider-y>
-                                        <overlay-h>0.195</overlay-h>  
-                                        <overlay-crop-size>1 0.195</overlay-crop-size>  
-                                        <media-y>0.957</media-y>
+                                         <divider-y>0.8752</divider-y>
+                                        <overlay-h>0.1872</overlay-h>  
+                                        <overlay-crop-size>1 0.1872</overlay-crop-size>  
+                                        <media-y>0.96272</media-y>
                                         <top-divider-y>0.173333333333333</top-divider-y>
-                                        <system-logo-h>0.0953333333333333</system-logo-h>
-                                        <system-logo-w>0.2288</system-logo-w>
-                                        <system-logo-x>0.0195</system-logo-x>
-                                        <system-logo-y>0.935</system-logo-y>
-                                        <games-count-y>0.901416666666667</games-count-y> 
-                                        <help-y>0.97725</help-y>                                
+                                        <system-logo-h>0.0901333333333333</system-logo-h>
+                                        <system-logo-w>0.21632</system-logo-w>
+                                        <system-logo-x>0.0121875</system-logo-x>
+                                        <system-logo-y>0.9376</system-logo-y>
+                                        <games-count-y>0.946375</games-count-y> 
+                                        <grid-games-count-x>0.0742083333333333</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0693333333333333</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.45125</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.446375</carousel-games-count-icon-x> 
+                                        <help-y>0.985375</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.156</basic-marquee-h>
-                                        <basic-marquee-y>0.0866666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.696666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.156</grid-marquee-h>
+                                        <grid-marquee-y>0.0866666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.1872</grid-marquee-w>
+                                        <basic-grid-h>0.701866666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.87</grid-y>           
-                                        <multi-row-grid-h>0.545137693968254</multi-row-grid-h>           
-                                        <carousel-y>0.852666666666667</carousel-y>
-                                        <row-marquee-y>0.0303333333333333</row-marquee-y>
-                                        <grid-cart-h>0.0953333333333334</grid-cart-h>
+                                        <grid-y>0.8752</grid-y>                    
+                                        <carousel-y>0.857866666666667</carousel-y>
+                                        <row-marquee-y>0.0195</row-marquee-y>
+                                        <grid-cart-h>0.0901333333333333</grid-cart-h>
                                         <grid-cart-w>0.06825</grid-cart-w>
                                         <grid-cart-x>0.922</grid-cart-x>  
-                                        <grid-cart-y>0.935</grid-cart-y>    
+                                        <grid-cart-y>0.9376</grid-cart-y>    
                                         <grid-name-x>0.91225</grid-name-x>   
-                                        <grid-name-y>0.926333333333333</grid-name-y> 
+                                        <grid-name-y>0.928933333333333</grid-name-y> 
                                         <grid-name-h>0.0541666666666667</grid-name-h>  
-                                        <grid-name-w>0.6542</grid-name-w>      
+                                        <grid-name-w>0.6642425</grid-name-w>      
                                         <cart-divider-x>0.917125</cart-divider-x>      
-                                        <cart-divider-h>0.078</cart-divider-h>     
+                                        <cart-divider-h>0.07488</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.05</base-font-size>
-                                        <help-font-size>0.035</help-font-size>
-                                        <help-font-size-small>0.025</help-font-size-small>
-                                        <help-font-size-smallest>0.02</help-font-size-smallest>
+                                        <base-font-size>0.05</base-font-size>          
+                                        <games-count-font-size>0.055</games-count-font-size>
+                                        <help-font-size>0.0225</help-font-size>
+                                        <help-font-size-small>0.024</help-font-size-small>
+                                        <help-font-size-smallest>0.018</help-font-size-smallest>
                                         <badge-size>0.055</badge-size>
                                         <badge-x>0.016875</badge-x>
                                         <badge-y>0.03</badge-y>
-                                         <divider-y>0.85</divider-y>
-                                        <overlay-h>0.225</overlay-h>  
-                                        <overlay-crop-size>1 0.225</overlay-crop-size>  
-                                        <media-y>0.935</media-y>
+                                         <divider-y>0.856</divider-y>
+                                        <overlay-h>0.216</overlay-h>  
+                                        <overlay-crop-size>1 0.216</overlay-crop-size>  
+                                        <media-y>0.9416</media-y>
                                         <top-divider-y>0.2</top-divider-y>
-                                        <system-logo-h>0.11</system-logo-h>
-                                        <system-logo-w>0.264</system-logo-w>
-                                        <system-logo-x>0.0225</system-logo-x>
-                                        <system-logo-y>0.925</system-logo-y>
-                                        <games-count-y>0.88625</games-count-y> 
-                                        <help-y>0.97375</help-y>                                
+                                        <system-logo-h>0.104</system-logo-h>
+                                        <system-logo-w>0.2496</system-logo-w>
+                                        <system-logo-x>0.0140625</system-logo-x>
+                                        <system-logo-y>0.928</system-logo-y>
+                                        <games-count-y>0.938125</games-count-y> 
+                                        <grid-games-count-x>0.085625</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.08</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.44375</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.438125</carousel-games-count-icon-x> 
+                                        <help-y>0.983125</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.18</basic-marquee-h>
-                                        <basic-marquee-y>0.1</basic-marquee-y>
-                                        <basic-grid-h>0.65</basic-grid-h>
+                                        <grid-marquee-h>0.18</grid-marquee-h>
+                                        <grid-marquee-y>0.1</grid-marquee-y>                   
+                                        <grid-marquee-w>0.216</grid-marquee-w>
+                                        <basic-grid-h>0.656</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.85</grid-y>           
-                                        <multi-row-grid-h>0.621466094391534</multi-row-grid-h>           
-                                        <carousel-y>0.83</carousel-y>
-                                        <row-marquee-y>0.035</row-marquee-y>
-                                        <grid-cart-h>0.11</grid-cart-h>
+                                        <grid-y>0.856</grid-y>                    
+                                        <carousel-y>0.836</carousel-y>
+                                        <row-marquee-y>0.0225</row-marquee-y>
+                                        <grid-cart-h>0.104</grid-cart-h>
                                         <grid-cart-w>0.07875</grid-cart-w>
                                         <grid-cart-x>0.91</grid-cart-x>  
-                                        <grid-cart-y>0.925</grid-cart-y>    
+                                        <grid-cart-y>0.928</grid-cart-y>    
                                         <grid-name-x>0.89875</grid-name-x>   
-                                        <grid-name-y>0.915</grid-name-y> 
+                                        <grid-name-y>0.918</grid-name-y> 
                                         <grid-name-h>0.0625</grid-name-h>  
-                                        <grid-name-w>0.601</grid-name-w>      
+                                        <grid-name-w>0.6125875</grid-name-w>      
                                         <cart-divider-x>0.904375</cart-divider-x>      
-                                        <cart-divider-h>0.09</cart-divider-h>     
+                                        <cart-divider-h>0.0864</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="x-large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.0533333333333333</base-font-size>
-                                        <help-font-size>0.0373333333333333</help-font-size>
-                                        <help-font-size-small>0.0266666666666667</help-font-size-small>
-                                        <help-font-size-smallest>0.0213333333333333</help-font-size-smallest>
+                                        <base-font-size>0.0533333333333333</base-font-size>          
+                                        <games-count-font-size>0.0586666666666667</games-count-font-size>
+                                        <help-font-size>0.024</help-font-size>
+                                        <help-font-size-small>0.0256</help-font-size-small>
+                                        <help-font-size-smallest>0.0192</help-font-size-smallest>
                                         <badge-size>0.0586666666666667</badge-size>
                                         <badge-x>0.018</badge-x>
                                         <badge-y>0.032</badge-y>
-                                         <divider-y>0.84</divider-y>
-                                        <overlay-h>0.24</overlay-h>  
-                                        <overlay-crop-size>1 0.24</overlay-crop-size>  
-                                        <media-y>0.924</media-y>
+                                         <divider-y>0.8464</divider-y>
+                                        <overlay-h>0.2304</overlay-h>  
+                                        <overlay-crop-size>1 0.2304</overlay-crop-size>  
+                                        <media-y>0.93104</media-y>
                                         <top-divider-y>0.213333333333333</top-divider-y>
-                                        <system-logo-h>0.117333333333333</system-logo-h>
-                                        <system-logo-w>0.2816</system-logo-w>
-                                        <system-logo-x>0.024</system-logo-x>
-                                        <system-logo-y>0.92</system-logo-y>
-                                        <games-count-y>0.878666666666667</games-count-y> 
-                                        <help-y>0.972</help-y>                                
+                                        <system-logo-h>0.110933333333333</system-logo-h>
+                                        <system-logo-w>0.26624</system-logo-w>
+                                        <system-logo-x>0.015</system-logo-x>
+                                        <system-logo-y>0.9232</system-logo-y>
+                                        <games-count-y>0.934</games-count-y> 
+                                        <grid-games-count-x>0.0913333333333333</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0853333333333333</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.44</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.434</carousel-games-count-icon-x> 
+                                        <help-y>0.982</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.192</basic-marquee-h>
-                                        <basic-marquee-y>0.106666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.626666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.192</grid-marquee-h>
+                                        <grid-marquee-y>0.106666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.2304</grid-marquee-w>
+                                        <basic-grid-h>0.633066666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.84</grid-y>           
-                                        <multi-row-grid-h>0.368972525037037</multi-row-grid-h>           
-                                        <carousel-y>0.818666666666667</carousel-y>
-                                        <row-marquee-y>0.0373333333333333</row-marquee-y>
-                                        <grid-cart-h>0.117333333333333</grid-cart-h>
+                                        <grid-y>0.8464</grid-y>                    
+                                        <carousel-y>0.825066666666667</carousel-y>
+                                        <row-marquee-y>0.024</row-marquee-y>
+                                        <grid-cart-h>0.110933333333333</grid-cart-h>
                                         <grid-cart-w>0.084</grid-cart-w>
                                         <grid-cart-x>0.904</grid-cart-x>  
-                                        <grid-cart-y>0.92</grid-cart-y>    
+                                        <grid-cart-y>0.9232</grid-cart-y>    
                                         <grid-name-x>0.892</grid-name-x>   
-                                        <grid-name-y>0.909333333333333</grid-name-y> 
+                                        <grid-name-y>0.912533333333333</grid-name-y> 
                                         <grid-name-h>0.0666666666666667</grid-name-h>  
-                                        <grid-name-w>0.5744</grid-name-w>      
+                                        <grid-name-w>0.58676</grid-name-w>      
                                         <cart-divider-x>0.898</cart-divider-x>      
-                                        <cart-divider-h>0.0959999999999999</cart-divider-h>     
+                                        <cart-divider-h>0.09216</cart-divider-h>     
                             </variables>
                     </fontSize>
              </aspectRatio>    
@@ -561,169 +621,189 @@
                    <fontSize name="small">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.040625</base-font-size>
-                                        <help-font-size>0.0203125</help-font-size>
-                                        <help-font-size-small>0.01625</help-font-size-small>
-                                        <help-font-size-smallest>0.013</help-font-size-smallest>
+                                        <base-font-size>0.040625</base-font-size>          
+                                        <games-count-font-size>0.0366666666666667</games-count-font-size>
+                                        <help-font-size>0.01828125</help-font-size>
+                                        <help-font-size-small>0.0203125</help-font-size-small>
+                                        <help-font-size-smallest>0.01828125</help-font-size-smallest>
                                         <badge-size>0.0366666666666667</badge-size>
                                         <badge-x>0.01125</badge-x>
                                         <badge-y>0.024375</badge-y>
-                                         <divider-y>0.9025</divider-y>
-                                        <overlay-h>0.365</overlay-h>  
-                                        <overlay-crop-size>1  0.29948717948718</overlay-crop-size>  
-                                        <media-y>0.99275</media-y>
+                                         <divider-y>0.878125</divider-y>
+                                        <overlay-h>0.4015625</overlay-h>  
+                                        <overlay-crop-size>1  0.329487179487179</overlay-crop-size>  
+                                        <media-y>0.9659375</media-y>
                                         <top-divider-y>0.133333333333333</top-divider-y>
-                                        <system-logo-h>0.065</system-logo-h>
-                                        <system-logo-w>0.156</system-logo-w>
-                                        <system-logo-x>0.015</system-logo-x>
-                                        <system-logo-y>0.95125</system-logo-y>
-                                        <games-count-y>0.933984375</games-count-y> 
-                                        <help-y>0.984765625</help-y>                                
+                                        <system-logo-h>0.089375</system-logo-h>
+                                        <system-logo-w>0.176</system-logo-w>
+                                        <system-logo-x>0.009375</system-logo-x>
+                                        <system-logo-y>0.9390625</system-logo-y>
+                                        <games-count-y>0.9497265625</games-count-y> 
+                                        <grid-games-count-x>0.0488568376068376</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0451068376068376</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.469903846153846</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.466153846153846</carousel-games-count-icon-x> 
+                                        <help-y>0.9862890625</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.117083333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0666666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.769166666666667</basic-grid-h>
+                                        <grid-marquee-h>0.117083333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0666666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.115282051282051</grid-marquee-w>
+                                        <basic-grid-h>0.744791666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.9025</grid-y>           
-                                        <multi-row-grid-h>0.659058814949495</multi-row-grid-h>           
-                                        <carousel-y>0.88625</carousel-y>
-                                        <row-marquee-y>0.0203125</row-marquee-y>
-                                        <grid-cart-h>0.0649999999999999</grid-cart-h>
+                                        <grid-y>0.878125</grid-y>                    
+                                        <carousel-y>0.861875</carousel-y>
+                                        <row-marquee-y>0.01828125</row-marquee-y>
+                                        <grid-cart-h>0.089375</grid-cart-h>
                                         <grid-cart-w>0.0525</grid-cart-w>
                                         <grid-cart-x>0.94</grid-cart-x>  
-                                        <grid-cart-y>0.95125</grid-cart-y>    
+                                        <grid-cart-y>0.9390625</grid-cart-y>    
                                         <grid-name-x>0.9325</grid-name-x>   
-                                        <grid-name-y>0.943125</grid-name-y> 
+                                        <grid-name-y>0.9309375</grid-name-y> 
                                         <grid-name-h>0.05078125</grid-name-h>  
-                                        <grid-name-w>0.754</grid-name-w>      
+                                        <grid-name-w>0.732125</grid-name-w>      
                                         <cart-divider-x>0.93625</cart-divider-x>      
-                                        <cart-divider-h>0.0585</cart-divider-h>     
+                                        <cart-divider-h>0.073125</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="medium">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.0528125</base-font-size>
-                                        <help-font-size>0.02640625</help-font-size>
-                                        <help-font-size-small>0.021125</help-font-size-small>
-                                        <help-font-size-smallest>0.0169</help-font-size-smallest>
+                                        <base-font-size>0.0528125</base-font-size>          
+                                        <games-count-font-size>0.0476666666666667</games-count-font-size>
+                                        <help-font-size>0.023765625</help-font-size>
+                                        <help-font-size-small>0.02640625</help-font-size-small>
+                                        <help-font-size-smallest>0.023765625</help-font-size-smallest>
                                         <badge-size>0.0476666666666667</badge-size>
                                         <badge-x>0.014625</badge-x>
                                         <badge-y>0.0316875</badge-y>
-                                         <divider-y>0.87325</divider-y>
-                                        <overlay-h>0.408875</overlay-h>  
-                                        <overlay-crop-size>1  0.33548717948718</overlay-crop-size>  
-                                        <media-y>0.960575</media-y>
+                                         <divider-y>0.8415625</divider-y>
+                                        <overlay-h>0.45640625</overlay-h>  
+                                        <overlay-crop-size>1  0.37448717948718</overlay-crop-size>  
+                                        <media-y>0.92571875</media-y>
                                         <top-divider-y>0.173333333333333</top-divider-y>
-                                        <system-logo-h>0.0845</system-logo-h>
-                                        <system-logo-w>0.2028</system-logo-w>
-                                        <system-logo-x>0.0195</system-logo-x>
-                                        <system-logo-y>0.936625</system-logo-y>
-                                        <games-count-y>0.9141796875</games-count-y> 
-                                        <help-y>0.9801953125</help-y>                                
+                                        <system-logo-h>0.1161875</system-logo-h>
+                                        <system-logo-w>0.2288</system-logo-w>
+                                        <system-logo-x>0.0121875</system-logo-x>
+                                        <system-logo-y>0.92078125</system-logo-y>
+                                        <games-count-y>0.93464453125</games-count-y> 
+                                        <grid-games-count-x>0.0635138888888889</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0586388888888889</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.460875</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.456</carousel-games-count-icon-x> 
+                                        <help-y>0.98217578125</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.152208333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0866666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.699916666666667</basic-grid-h>
+                                        <grid-marquee-h>0.152208333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0866666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.149866666666667</grid-marquee-w>
+                                        <basic-grid-h>0.668229166666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.87325</grid-y>           
-                                        <multi-row-grid-h>0.531753126666667</multi-row-grid-h>           
-                                        <carousel-y>0.852125</carousel-y>
-                                        <row-marquee-y>0.02640625</row-marquee-y>
-                                        <grid-cart-h>0.0845000000000001</grid-cart-h>
+                                        <grid-y>0.8415625</grid-y>                    
+                                        <carousel-y>0.8204375</carousel-y>
+                                        <row-marquee-y>0.023765625</row-marquee-y>
+                                        <grid-cart-h>0.1161875</grid-cart-h>
                                         <grid-cart-w>0.06825</grid-cart-w>
                                         <grid-cart-x>0.922</grid-cart-x>  
-                                        <grid-cart-y>0.936625</grid-cart-y>    
+                                        <grid-cart-y>0.92078125</grid-cart-y>    
                                         <grid-name-x>0.91225</grid-name-x>   
-                                        <grid-name-y>0.9260625</grid-name-y> 
+                                        <grid-name-y>0.91021875</grid-name-y> 
                                         <grid-name-h>0.066015625</grid-name-h>  
-                                        <grid-name-w>0.6802</grid-name-w>      
+                                        <grid-name-w>0.6517625</grid-name-w>      
                                         <cart-divider-x>0.917125</cart-divider-x>      
-                                        <cart-divider-h>0.07605</cart-divider-h>     
+                                        <cart-divider-h>0.0950625</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.0609375</base-font-size>
-                                        <help-font-size>0.03046875</help-font-size>
-                                        <help-font-size-small>0.024375</help-font-size-small>
-                                        <help-font-size-smallest>0.0195</help-font-size-smallest>
+                                        <base-font-size>0.0609375</base-font-size>          
+                                        <games-count-font-size>0.055</games-count-font-size>
+                                        <help-font-size>0.027421875</help-font-size>
+                                        <help-font-size-small>0.03046875</help-font-size-small>
+                                        <help-font-size-smallest>0.027421875</help-font-size-smallest>
                                         <badge-size>0.055</badge-size>
                                         <badge-x>0.016875</badge-x>
                                         <badge-y>0.0365625</badge-y>
-                                         <divider-y>0.85375</divider-y>
-                                        <overlay-h>0.438125</overlay-h>  
-                                        <overlay-crop-size>1  0.35948717948718</overlay-crop-size>  
-                                        <media-y>0.939125</media-y>
+                                         <divider-y>0.8171875</divider-y>
+                                        <overlay-h>0.49296875</overlay-h>  
+                                        <overlay-crop-size>1  0.40448717948718</overlay-crop-size>  
+                                        <media-y>0.89890625</media-y>
                                         <top-divider-y>0.2</top-divider-y>
-                                        <system-logo-h>0.0975</system-logo-h>
-                                        <system-logo-w>0.234</system-logo-w>
-                                        <system-logo-x>0.0225</system-logo-x>
-                                        <system-logo-y>0.926875</system-logo-y>
-                                        <games-count-y>0.9009765625</games-count-y> 
-                                        <help-y>0.9771484375</help-y>                                
+                                        <system-logo-h>0.1340625</system-logo-h>
+                                        <system-logo-w>0.264</system-logo-w>
+                                        <system-logo-x>0.0140625</system-logo-x>
+                                        <system-logo-y>0.90859375</system-logo-y>
+                                        <games-count-y>0.92458984375</games-count-y> 
+                                        <grid-games-count-x>0.0732852564102564</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0676602564102564</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.454855769230769</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.449230769230769</carousel-games-count-icon-x> 
+                                        <help-y>0.97943359375</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.175625</basic-marquee-h>
-                                        <basic-marquee-y>0.1</basic-marquee-y>
-                                        <basic-grid-h>0.65375</basic-grid-h>
+                                        <grid-marquee-h>0.175625</grid-marquee-h>
+                                        <grid-marquee-y>0.1</grid-marquee-y>                   
+                                        <grid-marquee-w>0.172923076923077</grid-marquee-w>
+                                        <basic-grid-h>0.6171875</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.85375</grid-y>           
-                                        <multi-row-grid-h>0.661338126428571</multi-row-grid-h>           
-                                        <carousel-y>0.829375</carousel-y>
-                                        <row-marquee-y>0.03046875</row-marquee-y>
-                                        <grid-cart-h>0.0975</grid-cart-h>
+                                        <grid-y>0.8171875</grid-y>                    
+                                        <carousel-y>0.7928125</carousel-y>
+                                        <row-marquee-y>0.027421875</row-marquee-y>
+                                        <grid-cart-h>0.1340625</grid-cart-h>
                                         <grid-cart-w>0.07875</grid-cart-w>
                                         <grid-cart-x>0.91</grid-cart-x>  
-                                        <grid-cart-y>0.926875</grid-cart-y>    
+                                        <grid-cart-y>0.90859375</grid-cart-y>    
                                         <grid-name-x>0.89875</grid-name-x>   
-                                        <grid-name-y>0.9146875</grid-name-y> 
+                                        <grid-name-y>0.89640625</grid-name-y> 
                                         <grid-name-h>0.076171875</grid-name-h>  
-                                        <grid-name-w>0.631</grid-name-w>      
+                                        <grid-name-w>0.5981875</grid-name-w>      
                                         <cart-divider-x>0.904375</cart-divider-x>      
-                                        <cart-divider-h>0.08775</cart-divider-h>     
+                                        <cart-divider-h>0.1096875</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="x-large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.065</base-font-size>
-                                        <help-font-size>0.0325</help-font-size>
-                                        <help-font-size-small>0.026</help-font-size-small>
-                                        <help-font-size-smallest>0.0208</help-font-size-smallest>
+                                        <base-font-size>0.065</base-font-size>          
+                                        <games-count-font-size>0.0586666666666667</games-count-font-size>
+                                        <help-font-size>0.02925</help-font-size>
+                                        <help-font-size-small>0.0325</help-font-size-small>
+                                        <help-font-size-smallest>0.02925</help-font-size-smallest>
                                         <badge-size>0.0586666666666667</badge-size>
                                         <badge-x>0.018</badge-x>
                                         <badge-y>0.039</badge-y>
-                                         <divider-y>0.844</divider-y>
-                                        <overlay-h>0.45275</overlay-h>  
-                                        <overlay-crop-size>1  0.37148717948718</overlay-crop-size>  
-                                        <media-y>0.9284</media-y>
+                                         <divider-y>0.805</divider-y>
+                                        <overlay-h>0.51125</overlay-h>  
+                                        <overlay-crop-size>1  0.41948717948718</overlay-crop-size>  
+                                        <media-y>0.8855</media-y>
                                         <top-divider-y>0.213333333333333</top-divider-y>
-                                        <system-logo-h>0.104</system-logo-h>
-                                        <system-logo-w>0.2496</system-logo-w>
-                                        <system-logo-x>0.024</system-logo-x>
-                                        <system-logo-y>0.922</system-logo-y>
-                                        <games-count-y>0.894375</games-count-y> 
-                                        <help-y>0.975625</help-y>                                
+                                        <system-logo-h>0.143</system-logo-h>
+                                        <system-logo-w>0.2816</system-logo-w>
+                                        <system-logo-x>0.015</system-logo-x>
+                                        <system-logo-y>0.9025</system-logo-y>
+                                        <games-count-y>0.9195625</games-count-y> 
+                                        <grid-games-count-x>0.0781709401709402</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0721709401709402</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.451846153846154</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.445846153846154</carousel-games-count-icon-x> 
+                                        <help-y>0.9780625</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.187333333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.106666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.630666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.187333333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.106666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.184451282051282</grid-marquee-w>
+                                        <basic-grid-h>0.591666666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.844</grid-y>           
-                                        <multi-row-grid-h>0.384611273015873</multi-row-grid-h>           
-                                        <carousel-y>0.818</carousel-y>
-                                        <row-marquee-y>0.0325</row-marquee-y>
-                                        <grid-cart-h>0.104</grid-cart-h>
+                                        <grid-y>0.805</grid-y>                    
+                                        <carousel-y>0.779</carousel-y>
+                                        <row-marquee-y>0.02925</row-marquee-y>
+                                        <grid-cart-h>0.143</grid-cart-h>
                                         <grid-cart-w>0.084</grid-cart-w>
                                         <grid-cart-x>0.904</grid-cart-x>  
-                                        <grid-cart-y>0.922</grid-cart-y>    
+                                        <grid-cart-y>0.9025</grid-cart-y>    
                                         <grid-name-x>0.892</grid-name-x>   
-                                        <grid-name-y>0.909</grid-name-y> 
+                                        <grid-name-y>0.8895</grid-name-y> 
                                         <grid-name-h>0.08125</grid-name-h>  
-                                        <grid-name-w>0.6064</grid-name-w>      
+                                        <grid-name-w>0.5714</grid-name-w>      
                                         <cart-divider-x>0.898</cart-divider-x>      
-                                        <cart-divider-h>0.0936</cart-divider-h>     
+                                        <cart-divider-h>0.117</cart-divider-h>     
                             </variables>
                     </fontSize>
              </aspectRatio>    
@@ -743,169 +823,189 @@
                    <fontSize name="small">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.04375</base-font-size>
-                                        <help-font-size>0.021875</help-font-size>
-                                        <help-font-size-small>0.0175</help-font-size-small>
-                                        <help-font-size-smallest>0.014</help-font-size-smallest>
+                                        <base-font-size>0.04375</base-font-size>          
+                                        <games-count-font-size>0.0366666666666667</games-count-font-size>
+                                        <help-font-size>0.0196875</help-font-size>
+                                        <help-font-size-small>0.021875</help-font-size-small>
+                                        <help-font-size-smallest>0.0196875</help-font-size-smallest>
                                         <badge-size>0.0366666666666667</badge-size>
                                         <badge-x>0.01125</badge-x>
                                         <badge-y>0.02625</badge-y>
-                                         <divider-y>0.895</divider-y>
-                                        <overlay-h>0.47</overlay-h>  
-                                        <overlay-crop-size>1  0.358095238095238</overlay-crop-size>  
-                                        <media-y>0.9845</media-y>
+                                         <divider-y>0.86875</divider-y>
+                                        <overlay-h>0.509375</overlay-h>  
+                                        <overlay-crop-size>1  0.388095238095238</overlay-crop-size>  
+                                        <media-y>0.955625</media-y>
                                         <top-divider-y>0.133333333333333</top-divider-y>
-                                        <system-logo-h>0.07</system-logo-h>
-                                        <system-logo-w>0.168</system-logo-w>
-                                        <system-logo-x>0.015</system-logo-x>
-                                        <system-logo-y>0.9475</system-logo-y>
-                                        <games-count-y>0.92890625</games-count-y> 
-                                        <help-y>0.98359375</help-y>                                
+                                        <system-logo-h>0.0962500000000001</system-logo-h>
+                                        <system-logo-w>0.176</system-logo-w>
+                                        <system-logo-x>0.009375</system-logo-x>
+                                        <system-logo-y>0.934375</system-logo-y>
+                                        <games-count-y>0.945859375</games-count-y> 
+                                        <grid-games-count-x>0.0461706349206349</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0424206349206349</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.472321428571429</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.468571428571429</carousel-games-count-icon-x> 
+                                        <help-y>0.985234375</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.115833333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0666666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.761666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.115833333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0666666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.105904761904762</grid-marquee-w>
+                                        <basic-grid-h>0.735416666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.895</grid-y>           
-                                        <multi-row-grid-h>0.655094777435898</multi-row-grid-h>           
-                                        <carousel-y>0.8775</carousel-y>
-                                        <row-marquee-y>0.021875</row-marquee-y>
-                                        <grid-cart-h>0.07</grid-cart-h>
+                                        <grid-y>0.86875</grid-y>                    
+                                        <carousel-y>0.85125</carousel-y>
+                                        <row-marquee-y>0.0196875</row-marquee-y>
+                                        <grid-cart-h>0.0962500000000001</grid-cart-h>
                                         <grid-cart-w>0.0525</grid-cart-w>
                                         <grid-cart-x>0.94</grid-cart-x>  
-                                        <grid-cart-y>0.9475</grid-cart-y>    
+                                        <grid-cart-y>0.934375</grid-cart-y>    
                                         <grid-name-x>0.9325</grid-name-x>   
-                                        <grid-name-y>0.93875</grid-name-y> 
+                                        <grid-name-y>0.925625</grid-name-y> 
                                         <grid-name-h>0.0546875</grid-name-h>  
-                                        <grid-name-w>0.742</grid-name-w>      
+                                        <grid-name-w>0.732125</grid-name-w>      
                                         <cart-divider-x>0.93625</cart-divider-x>      
-                                        <cart-divider-h>0.063</cart-divider-h>     
+                                        <cart-divider-h>0.0787500000000001</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="medium">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.056875</base-font-size>
-                                        <help-font-size>0.0284375</help-font-size>
-                                        <help-font-size-small>0.02275</help-font-size-small>
-                                        <help-font-size-smallest>0.0182</help-font-size-smallest>
+                                        <base-font-size>0.056875</base-font-size>          
+                                        <games-count-font-size>0.0476666666666667</games-count-font-size>
+                                        <help-font-size>0.02559375</help-font-size>
+                                        <help-font-size-small>0.0284375</help-font-size-small>
+                                        <help-font-size-smallest>0.02559375</help-font-size-smallest>
                                         <badge-size>0.0476666666666667</badge-size>
                                         <badge-x>0.014625</badge-x>
                                         <badge-y>0.034125</badge-y>
-                                         <divider-y>0.8635</divider-y>
-                                        <overlay-h>0.51725</overlay-h>  
-                                        <overlay-crop-size>1  0.394095238095238</overlay-crop-size>  
-                                        <media-y>0.94985</media-y>
+                                         <divider-y>0.829375</divider-y>
+                                        <overlay-h>0.5684375</overlay-h>  
+                                        <overlay-crop-size>1  0.433095238095238</overlay-crop-size>  
+                                        <media-y>0.9123125</media-y>
                                         <top-divider-y>0.173333333333333</top-divider-y>
-                                        <system-logo-h>0.0910000000000001</system-logo-h>
-                                        <system-logo-w>0.2184</system-logo-w>
-                                        <system-logo-x>0.0195</system-logo-x>
-                                        <system-logo-y>0.93175</system-logo-y>
-                                        <games-count-y>0.907578125</games-count-y> 
-                                        <help-y>0.978671875</help-y>                                
+                                        <system-logo-h>0.125125</system-logo-h>
+                                        <system-logo-w>0.2288</system-logo-w>
+                                        <system-logo-x>0.0121875</system-logo-x>
+                                        <system-logo-y>0.9146875</system-logo-y>
+                                        <games-count-y>0.9296171875</games-count-y> 
+                                        <grid-games-count-x>0.0600218253968254</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0551468253968254</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.464017857142857</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.459142857142857</carousel-games-count-icon-x> 
+                                        <help-y>0.9808046875</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.150583333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0866666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.690166666666667</basic-grid-h>
+                                        <grid-marquee-h>0.150583333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0866666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.13767619047619</grid-marquee-w>
+                                        <basic-grid-h>0.656041666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.8635</grid-y>           
-                                        <multi-row-grid-h>0.571635856296296</multi-row-grid-h>           
-                                        <carousel-y>0.84075</carousel-y>
-                                        <row-marquee-y>0.0284375</row-marquee-y>
-                                        <grid-cart-h>0.0910000000000001</grid-cart-h>
+                                        <grid-y>0.829375</grid-y>                    
+                                        <carousel-y>0.806625</carousel-y>
+                                        <row-marquee-y>0.02559375</row-marquee-y>
+                                        <grid-cart-h>0.125125</grid-cart-h>
                                         <grid-cart-w>0.06825</grid-cart-w>
                                         <grid-cart-x>0.922</grid-cart-x>  
-                                        <grid-cart-y>0.93175</grid-cart-y>    
+                                        <grid-cart-y>0.9146875</grid-cart-y>    
                                         <grid-name-x>0.91225</grid-name-x>   
-                                        <grid-name-y>0.920375</grid-name-y> 
+                                        <grid-name-y>0.9033125</grid-name-y> 
                                         <grid-name-h>0.07109375</grid-name-h>  
-                                        <grid-name-w>0.6646</grid-name-w>      
+                                        <grid-name-w>0.6517625</grid-name-w>      
                                         <cart-divider-x>0.917125</cart-divider-x>      
-                                        <cart-divider-h>0.0819</cart-divider-h>     
+                                        <cart-divider-h>0.102375</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.065625</base-font-size>
-                                        <help-font-size>0.0328125</help-font-size>
-                                        <help-font-size-small>0.02625</help-font-size-small>
-                                        <help-font-size-smallest>0.021</help-font-size-smallest>
+                                        <base-font-size>0.065625</base-font-size>          
+                                        <games-count-font-size>0.055</games-count-font-size>
+                                        <help-font-size>0.02953125</help-font-size>
+                                        <help-font-size-small>0.0328125</help-font-size-small>
+                                        <help-font-size-smallest>0.02953125</help-font-size-smallest>
                                         <badge-size>0.055</badge-size>
                                         <badge-x>0.016875</badge-x>
                                         <badge-y>0.039375</badge-y>
-                                         <divider-y>0.8425</divider-y>
-                                        <overlay-h>0.54875</overlay-h>  
-                                        <overlay-crop-size>1  0.418095238095238</overlay-crop-size>  
-                                        <media-y>0.92675</media-y>
+                                         <divider-y>0.803125</divider-y>
+                                        <overlay-h>0.6078125</overlay-h>  
+                                        <overlay-crop-size>1  0.463095238095238</overlay-crop-size>  
+                                        <media-y>0.8834375</media-y>
                                         <top-divider-y>0.2</top-divider-y>
-                                        <system-logo-h>0.105</system-logo-h>
-                                        <system-logo-w>0.252</system-logo-w>
-                                        <system-logo-x>0.0225</system-logo-x>
-                                        <system-logo-y>0.92125</system-logo-y>
-                                        <games-count-y>0.893359375</games-count-y> 
-                                        <help-y>0.975390625</help-y>                                
+                                        <system-logo-h>0.144375</system-logo-h>
+                                        <system-logo-w>0.264</system-logo-w>
+                                        <system-logo-x>0.0140625</system-logo-x>
+                                        <system-logo-y>0.9015625</system-logo-y>
+                                        <games-count-y>0.9187890625</games-count-y> 
+                                        <grid-games-count-x>0.0692559523809524</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0636309523809524</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.458482142857143</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.452857142857143</carousel-games-count-icon-x> 
+                                        <help-y>0.9778515625</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.17375</basic-marquee-h>
-                                        <basic-marquee-y>0.1</basic-marquee-y>
-                                        <basic-grid-h>0.6425</basic-grid-h>
+                                        <grid-marquee-h>0.17375</grid-marquee-h>
+                                        <grid-marquee-y>0.1</grid-marquee-y>                   
+                                        <grid-marquee-w>0.158857142857143</grid-marquee-w>
+                                        <basic-grid-h>0.603125</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.8425</grid-y>           
-                                        <multi-row-grid-h>0.633540895555555</multi-row-grid-h>           
-                                        <carousel-y>0.81625</carousel-y>
-                                        <row-marquee-y>0.0328125</row-marquee-y>
-                                        <grid-cart-h>0.105</grid-cart-h>
+                                        <grid-y>0.803125</grid-y>                    
+                                        <carousel-y>0.776875</carousel-y>
+                                        <row-marquee-y>0.02953125</row-marquee-y>
+                                        <grid-cart-h>0.144375</grid-cart-h>
                                         <grid-cart-w>0.07875</grid-cart-w>
                                         <grid-cart-x>0.91</grid-cart-x>  
-                                        <grid-cart-y>0.92125</grid-cart-y>    
+                                        <grid-cart-y>0.9015625</grid-cart-y>    
                                         <grid-name-x>0.89875</grid-name-x>   
-                                        <grid-name-y>0.908125</grid-name-y> 
+                                        <grid-name-y>0.8884375</grid-name-y> 
                                         <grid-name-h>0.08203125</grid-name-h>  
-                                        <grid-name-w>0.613</grid-name-w>      
+                                        <grid-name-w>0.5981875</grid-name-w>      
                                         <cart-divider-x>0.904375</cart-divider-x>      
-                                        <cart-divider-h>0.0945</cart-divider-h>     
+                                        <cart-divider-h>0.118125</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="x-large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.07</base-font-size>
-                                        <help-font-size>0.035</help-font-size>
-                                        <help-font-size-small>0.028</help-font-size-small>
-                                        <help-font-size-smallest>0.0224</help-font-size-smallest>
+                                        <base-font-size>0.07</base-font-size>          
+                                        <games-count-font-size>0.0586666666666667</games-count-font-size>
+                                        <help-font-size>0.0315</help-font-size>
+                                        <help-font-size-small>0.035</help-font-size-small>
+                                        <help-font-size-smallest>0.0315</help-font-size-smallest>
                                         <badge-size>0.0586666666666667</badge-size>
                                         <badge-x>0.018</badge-x>
                                         <badge-y>0.042</badge-y>
-                                         <divider-y>0.832</divider-y>
-                                        <overlay-h>0.5645</overlay-h>  
-                                        <overlay-crop-size>1  0.430095238095238</overlay-crop-size>  
-                                        <media-y>0.9152</media-y>
+                                         <divider-y>0.79</divider-y>
+                                        <overlay-h>0.6275</overlay-h>  
+                                        <overlay-crop-size>1  0.478095238095238</overlay-crop-size>  
+                                        <media-y>0.869</media-y>
                                         <top-divider-y>0.213333333333333</top-divider-y>
-                                        <system-logo-h>0.112</system-logo-h>
-                                        <system-logo-w>0.2688</system-logo-w>
-                                        <system-logo-x>0.024</system-logo-x>
-                                        <system-logo-y>0.916</system-logo-y>
-                                        <games-count-y>0.88625</games-count-y> 
-                                        <help-y>0.97375</help-y>                                
+                                        <system-logo-h>0.154</system-logo-h>
+                                        <system-logo-w>0.2816</system-logo-w>
+                                        <system-logo-x>0.015</system-logo-x>
+                                        <system-logo-y>0.895</system-logo-y>
+                                        <games-count-y>0.913375</games-count-y> 
+                                        <grid-games-count-x>0.0738730158730159</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0678730158730159</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.455714285714286</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.449714285714286</carousel-games-count-icon-x> 
+                                        <help-y>0.976375</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.185333333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.106666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.618666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.185333333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.106666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.169447619047619</grid-marquee-w>
+                                        <basic-grid-h>0.576666666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.832</grid-y>           
-                                        <multi-row-grid-h>0.413430737777778</multi-row-grid-h>           
-                                        <carousel-y>0.804</carousel-y>
-                                        <row-marquee-y>0.035</row-marquee-y>
-                                        <grid-cart-h>0.112</grid-cart-h>
+                                        <grid-y>0.79</grid-y>                    
+                                        <carousel-y>0.762</carousel-y>
+                                        <row-marquee-y>0.0315</row-marquee-y>
+                                        <grid-cart-h>0.154</grid-cart-h>
                                         <grid-cart-w>0.084</grid-cart-w>
                                         <grid-cart-x>0.904</grid-cart-x>  
-                                        <grid-cart-y>0.916</grid-cart-y>    
+                                        <grid-cart-y>0.895</grid-cart-y>    
                                         <grid-name-x>0.892</grid-name-x>   
-                                        <grid-name-y>0.902</grid-name-y> 
+                                        <grid-name-y>0.881</grid-name-y> 
                                         <grid-name-h>0.0875</grid-name-h>  
-                                        <grid-name-w>0.5872</grid-name-w>      
+                                        <grid-name-w>0.5714</grid-name-w>      
                                         <cart-divider-x>0.898</cart-divider-x>      
-                                        <cart-divider-h>0.1008</cart-divider-h>     
+                                        <cart-divider-h>0.126</cart-divider-h>     
                             </variables>
                     </fontSize>
              </aspectRatio>    
@@ -925,169 +1025,189 @@
                    <fontSize name="small">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.028125</base-font-size>
-                                        <help-font-size>0.0196875</help-font-size>
-                                        <help-font-size-small>0.0140625</help-font-size-small>
-                                        <help-font-size-smallest>0.01125</help-font-size-smallest>
+                                        <base-font-size>0.028125</base-font-size>          
+                                        <games-count-font-size>0.0366666666666667</games-count-font-size>
+                                        <help-font-size>0.02109375</help-font-size>
+                                        <help-font-size-small>0.0135</help-font-size-small>
+                                        <help-font-size-smallest>0.010125</help-font-size-smallest>
                                         <badge-size>0.0366666666666667</badge-size>
                                         <badge-x>0.01125</badge-x>
                                         <badge-y>0.016875</badge-y>
-                                         <divider-y>0.915625</divider-y>
-                                        <overlay-h>0.1265625</overlay-h>  
-                                        <overlay-crop-size>1.18518518518519 0.1265625</overlay-crop-size>  
-                                        <media-y>1.0071875</media-y>
+                                         <divider-y>0.919</divider-y>
+                                        <overlay-h>0.1215</overlay-h>  
+                                        <overlay-crop-size>1.18518518518519 0.1215</overlay-crop-size>  
+                                        <media-y>1.0109</media-y>
                                         <top-divider-y>0.133333333333333</top-divider-y>
-                                        <system-logo-h>0.061875</system-logo-h>
-                                        <system-logo-w>0.176</system-logo-w>
-                                        <system-logo-x>0.015</system-logo-x>
-                                        <system-logo-y>0.9578125</system-logo-y>
-                                        <games-count-y>0.936015625</games-count-y> 
-                                        <help-y>0.985234375</help-y>                                
+                                        <system-logo-h>0.0585</system-logo-h>
+                                        <system-logo-w>0.1664</system-logo-w>
+                                        <system-logo-x>0.009375</system-logo-x>
+                                        <system-logo-y>0.9595</system-logo-y>
+                                        <games-count-y>0.9419921875</games-count-y> 
+                                        <grid-games-count-x>0.065570987654321</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.061820987654321</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.454861111111111</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.451111111111111</carousel-games-count-icon-x> 
+                                        <help-y>0.9841796875</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.122083333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0666666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.782291666666667</basic-grid-h>
+                                        <grid-marquee-h>0.122083333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0666666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.17362962962963</grid-marquee-w>
+                                        <basic-grid-h>0.785666666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.915625</grid-y>           
-                                        <multi-row-grid-h>0.684023511428571</multi-row-grid-h>           
-                                        <carousel-y>0.904375</carousel-y>
-                                        <row-marquee-y>0.0196875</row-marquee-y>
-                                        <grid-cart-h>0.0618749999999999</grid-cart-h>
+                                        <grid-y>0.919</grid-y>                    
+                                        <carousel-y>0.90775</carousel-y>
+                                        <row-marquee-y>0.02109375</row-marquee-y>
+                                        <grid-cart-h>0.0585</grid-cart-h>
                                         <grid-cart-w>0.0525</grid-cart-w>
                                         <grid-cart-x>0.94</grid-cart-x>  
-                                        <grid-cart-y>0.9578125</grid-cart-y>    
+                                        <grid-cart-y>0.9595</grid-cart-y>    
                                         <grid-name-x>0.9325</grid-name-x>   
-                                        <grid-name-y>0.9521875</grid-name-y> 
+                                        <grid-name-y>0.953875</grid-name-y> 
                                         <grid-name-h>0.03515625</grid-name-h>  
-                                        <grid-name-w>0.734</grid-name-w>      
+                                        <grid-name-w>0.741725</grid-name-w>      
                                         <cart-divider-x>0.93625</cart-divider-x>      
-                                        <cart-divider-h>0.050625</cart-divider-h>     
+                                        <cart-divider-h>0.0486</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="medium">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.0365625</base-font-size>
-                                        <help-font-size>0.02559375</help-font-size>
-                                        <help-font-size-small>0.01828125</help-font-size-small>
-                                        <help-font-size-smallest>0.014625</help-font-size-smallest>
+                                        <base-font-size>0.0365625</base-font-size>          
+                                        <games-count-font-size>0.0476666666666667</games-count-font-size>
+                                        <help-font-size>0.027421875</help-font-size>
+                                        <help-font-size-small>0.01755</help-font-size-small>
+                                        <help-font-size-smallest>0.0131625</help-font-size-smallest>
                                         <badge-size>0.0476666666666667</badge-size>
                                         <badge-x>0.014625</badge-x>
                                         <badge-y>0.0219375</badge-y>
-                                         <divider-y>0.8903125</divider-y>
-                                        <overlay-h>0.16453125</overlay-h>  
-                                        <overlay-crop-size>1.18518518518519 0.16453125</overlay-crop-size>  
-                                        <media-y>0.97934375</media-y>
+                                         <divider-y>0.8947</divider-y>
+                                        <overlay-h>0.15795</overlay-h>  
+                                        <overlay-crop-size>1.18518518518519 0.15795</overlay-crop-size>  
+                                        <media-y>0.98417</media-y>
                                         <top-divider-y>0.173333333333333</top-divider-y>
-                                        <system-logo-h>0.0804374999999999</system-logo-h>
-                                        <system-logo-w>0.2288</system-logo-w>
-                                        <system-logo-x>0.0195</system-logo-x>
-                                        <system-logo-y>0.94515625</system-logo-y>
-                                        <games-count-y>0.9168203125</games-count-y> 
-                                        <help-y>0.9808046875</help-y>                                
+                                        <system-logo-h>0.07605</system-logo-h>
+                                        <system-logo-w>0.21632</system-logo-w>
+                                        <system-logo-x>0.0121875</system-logo-x>
+                                        <system-logo-y>0.94735</system-logo-y>
+                                        <games-count-y>0.92458984375</games-count-y> 
+                                        <grid-games-count-x>0.0852422839506173</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0803672839506173</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.441319444444444</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.436444444444444</carousel-games-count-icon-x> 
+                                        <help-y>0.97943359375</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.158708333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0866666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.716979166666667</basic-grid-h>
+                                        <grid-marquee-h>0.158708333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0866666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.225718518518519</grid-marquee-w>
+                                        <basic-grid-h>0.721366666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.8903125</grid-y>           
-                                        <multi-row-grid-h>0.526331777142857</multi-row-grid-h>           
-                                        <carousel-y>0.8756875</carousel-y>
-                                        <row-marquee-y>0.02559375</row-marquee-y>
-                                        <grid-cart-h>0.0804374999999999</grid-cart-h>
+                                        <grid-y>0.8947</grid-y>                    
+                                        <carousel-y>0.880075</carousel-y>
+                                        <row-marquee-y>0.027421875</row-marquee-y>
+                                        <grid-cart-h>0.07605</grid-cart-h>
                                         <grid-cart-w>0.06825</grid-cart-w>
                                         <grid-cart-x>0.922</grid-cart-x>  
-                                        <grid-cart-y>0.94515625</grid-cart-y>    
+                                        <grid-cart-y>0.94735</grid-cart-y>    
                                         <grid-name-x>0.91225</grid-name-x>   
-                                        <grid-name-y>0.93784375</grid-name-y> 
+                                        <grid-name-y>0.9400375</grid-name-y> 
                                         <grid-name-h>0.045703125</grid-name-h>  
-                                        <grid-name-w>0.6542</grid-name-w>      
+                                        <grid-name-w>0.6642425</grid-name-w>      
                                         <cart-divider-x>0.917125</cart-divider-x>      
-                                        <cart-divider-h>0.0658125</cart-divider-h>     
+                                        <cart-divider-h>0.06318</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.0421875</base-font-size>
-                                        <help-font-size>0.02953125</help-font-size>
-                                        <help-font-size-small>0.02109375</help-font-size-small>
-                                        <help-font-size-smallest>0.016875</help-font-size-smallest>
+                                        <base-font-size>0.0421875</base-font-size>          
+                                        <games-count-font-size>0.055</games-count-font-size>
+                                        <help-font-size>0.031640625</help-font-size>
+                                        <help-font-size-small>0.02025</help-font-size-small>
+                                        <help-font-size-smallest>0.0151875</help-font-size-smallest>
                                         <badge-size>0.055</badge-size>
                                         <badge-x>0.016875</badge-x>
                                         <badge-y>0.0253125</badge-y>
-                                         <divider-y>0.8734375</divider-y>
-                                        <overlay-h>0.18984375</overlay-h>  
-                                        <overlay-crop-size>1.18518518518519 0.18984375</overlay-crop-size>  
-                                        <media-y>0.96078125</media-y>
+                                         <divider-y>0.8785</divider-y>
+                                        <overlay-h>0.18225</overlay-h>  
+                                        <overlay-crop-size>1.18518518518519 0.18225</overlay-crop-size>  
+                                        <media-y>0.96635</media-y>
                                         <top-divider-y>0.2</top-divider-y>
-                                        <system-logo-h>0.0928125</system-logo-h>
-                                        <system-logo-w>0.264</system-logo-w>
-                                        <system-logo-x>0.0225</system-logo-x>
-                                        <system-logo-y>0.93671875</system-logo-y>
-                                        <games-count-y>0.9040234375</games-count-y> 
-                                        <help-y>0.9778515625</help-y>                                
+                                        <system-logo-h>0.0877499999999999</system-logo-h>
+                                        <system-logo-w>0.2496</system-logo-w>
+                                        <system-logo-x>0.0140625</system-logo-x>
+                                        <system-logo-y>0.93925</system-logo-y>
+                                        <games-count-y>0.91298828125</games-count-y> 
+                                        <grid-games-count-x>0.0983564814814815</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0927314814814815</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.432291666666667</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.426666666666667</carousel-games-count-icon-x> 
+                                        <help-y>0.97626953125</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.183125</basic-marquee-h>
-                                        <basic-marquee-y>0.1</basic-marquee-y>
-                                        <basic-grid-h>0.6734375</basic-grid-h>
+                                        <grid-marquee-h>0.183125</grid-marquee-h>
+                                        <grid-marquee-y>0.1</grid-marquee-y>                   
+                                        <grid-marquee-w>0.260444444444444</grid-marquee-w>
+                                        <basic-grid-h>0.6785</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.8734375</grid-y>           
-                                        <multi-row-grid-h>0.611985492</multi-row-grid-h>           
-                                        <carousel-y>0.8565625</carousel-y>
-                                        <row-marquee-y>0.02953125</row-marquee-y>
-                                        <grid-cart-h>0.0928125000000001</grid-cart-h>
+                                        <grid-y>0.8785</grid-y>                    
+                                        <carousel-y>0.861625</carousel-y>
+                                        <row-marquee-y>0.031640625</row-marquee-y>
+                                        <grid-cart-h>0.0877499999999999</grid-cart-h>
                                         <grid-cart-w>0.07875</grid-cart-w>
                                         <grid-cart-x>0.91</grid-cart-x>  
-                                        <grid-cart-y>0.93671875</grid-cart-y>    
+                                        <grid-cart-y>0.93925</grid-cart-y>    
                                         <grid-name-x>0.89875</grid-name-x>   
-                                        <grid-name-y>0.92828125</grid-name-y> 
+                                        <grid-name-y>0.9308125</grid-name-y> 
                                         <grid-name-h>0.052734375</grid-name-h>  
-                                        <grid-name-w>0.601</grid-name-w>      
+                                        <grid-name-w>0.6125875</grid-name-w>      
                                         <cart-divider-x>0.904375</cart-divider-x>      
-                                        <cart-divider-h>0.0759375</cart-divider-h>     
+                                        <cart-divider-h>0.0729</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="x-large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.045</base-font-size>
-                                        <help-font-size>0.0315</help-font-size>
-                                        <help-font-size-small>0.0225</help-font-size-small>
-                                        <help-font-size-smallest>0.018</help-font-size-smallest>
+                                        <base-font-size>0.045</base-font-size>          
+                                        <games-count-font-size>0.0586666666666667</games-count-font-size>
+                                        <help-font-size>0.03375</help-font-size>
+                                        <help-font-size-small>0.0216</help-font-size-small>
+                                        <help-font-size-smallest>0.0162</help-font-size-smallest>
                                         <badge-size>0.0586666666666667</badge-size>
                                         <badge-x>0.018</badge-x>
                                         <badge-y>0.027</badge-y>
-                                         <divider-y>0.865</divider-y>
-                                        <overlay-h>0.2025</overlay-h>  
-                                        <overlay-crop-size>1.18518518518519 0.2025</overlay-crop-size>  
-                                        <media-y>0.9515</media-y>
+                                         <divider-y>0.8704</divider-y>
+                                        <overlay-h>0.1944</overlay-h>  
+                                        <overlay-crop-size>1.18518518518519 0.1944</overlay-crop-size>  
+                                        <media-y>0.95744</media-y>
                                         <top-divider-y>0.213333333333333</top-divider-y>
-                                        <system-logo-h>0.099</system-logo-h>
-                                        <system-logo-w>0.2816</system-logo-w>
-                                        <system-logo-x>0.024</system-logo-x>
-                                        <system-logo-y>0.9325</system-logo-y>
-                                        <games-count-y>0.897625</games-count-y> 
-                                        <help-y>0.976375</help-y>                                
+                                        <system-logo-h>0.0935999999999999</system-logo-h>
+                                        <system-logo-w>0.26624</system-logo-w>
+                                        <system-logo-x>0.015</system-logo-x>
+                                        <system-logo-y>0.9352</system-logo-y>
+                                        <games-count-y>0.9071875</games-count-y> 
+                                        <grid-games-count-x>0.104913580246914</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0989135802469136</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.427777777777778</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.421777777777778</carousel-games-count-icon-x> 
+                                        <help-y>0.9746875</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.195333333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.106666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.651666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.195333333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.106666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.277807407407407</grid-marquee-w>
+                                        <basic-grid-h>0.657066666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.865</grid-y>           
-                                        <multi-row-grid-h>0.3730233</multi-row-grid-h>           
-                                        <carousel-y>0.847</carousel-y>
-                                        <row-marquee-y>0.0315</row-marquee-y>
-                                        <grid-cart-h>0.099</grid-cart-h>
+                                        <grid-y>0.8704</grid-y>                    
+                                        <carousel-y>0.8524</carousel-y>
+                                        <row-marquee-y>0.03375</row-marquee-y>
+                                        <grid-cart-h>0.0935999999999999</grid-cart-h>
                                         <grid-cart-w>0.084</grid-cart-w>
                                         <grid-cart-x>0.904</grid-cart-x>  
-                                        <grid-cart-y>0.9325</grid-cart-y>    
+                                        <grid-cart-y>0.9352</grid-cart-y>    
                                         <grid-name-x>0.892</grid-name-x>   
-                                        <grid-name-y>0.9235</grid-name-y> 
+                                        <grid-name-y>0.9262</grid-name-y> 
                                         <grid-name-h>0.05625</grid-name-h>  
-                                        <grid-name-w>0.5744</grid-name-w>      
+                                        <grid-name-w>0.58676</grid-name-w>      
                                         <cart-divider-x>0.898</cart-divider-x>      
-                                        <cart-divider-h>0.081</cart-divider-h>     
+                                        <cart-divider-h>0.07776</cart-divider-h>     
                             </variables>
                     </fontSize>
              </aspectRatio>    
@@ -1107,169 +1227,189 @@
                    <fontSize name="small">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.025</base-font-size>
-                                        <help-font-size>0.0175</help-font-size>
-                                        <help-font-size-small>0.0125</help-font-size-small>
-                                        <help-font-size-smallest>0.01</help-font-size-smallest>
+                                        <base-font-size>0.025</base-font-size>          
+                                        <games-count-font-size>0.0366666666666667</games-count-font-size>
+                                        <help-font-size>0.01875</help-font-size>
+                                        <help-font-size-small>0.012</help-font-size-small>
+                                        <help-font-size-smallest>0.009</help-font-size-smallest>
                                         <badge-size>0.0366666666666667</badge-size>
                                         <badge-x>0.01125</badge-x>
                                         <badge-y>0.015</badge-y>
-                                         <divider-y>0.925</divider-y>
-                                        <overlay-h>0.1125</overlay-h>  
-                                        <overlay-crop-size>1.33333333333333 0.1125</overlay-crop-size>  
-                                        <media-y>1.0175</media-y>
+                                         <divider-y>0.928</divider-y>
+                                        <overlay-h>0.108</overlay-h>  
+                                        <overlay-crop-size>1.33333333333333 0.108</overlay-crop-size>  
+                                        <media-y>1.0208</media-y>
                                         <top-divider-y>0.133333333333333</top-divider-y>
-                                        <system-logo-h>0.055</system-logo-h>
-                                        <system-logo-w>0.176</system-logo-w>
-                                        <system-logo-x>0.015</system-logo-x>
-                                        <system-logo-y>0.9625</system-logo-y>
-                                        <games-count-y>0.943125</games-count-y> 
-                                        <help-y>0.986875</help-y>                                
+                                        <system-logo-h>0.0520000000000001</system-logo-h>
+                                        <system-logo-w>0.1664</system-logo-w>
+                                        <system-logo-x>0.009375</system-logo-x>
+                                        <system-logo-y>0.964</system-logo-y>
+                                        <games-count-y>0.9484375</games-count-y> 
+                                        <grid-games-count-x>0.0723611111111111</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0686111111111111</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.44875</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.445</carousel-games-count-icon-x> 
+                                        <help-y>0.9859375</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.123333333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0666666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.791666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.123333333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0666666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.197333333333333</grid-marquee-w>
+                                        <basic-grid-h>0.794666666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.925</grid-y>           
-                                        <multi-row-grid-h>0.694639832380952</multi-row-grid-h>           
-                                        <carousel-y>0.915</carousel-y>
-                                        <row-marquee-y>0.0175</row-marquee-y>
-                                        <grid-cart-h>0.055</grid-cart-h>
+                                        <grid-y>0.928</grid-y>                    
+                                        <carousel-y>0.918</carousel-y>
+                                        <row-marquee-y>0.01875</row-marquee-y>
+                                        <grid-cart-h>0.0520000000000001</grid-cart-h>
                                         <grid-cart-w>0.0525</grid-cart-w>
                                         <grid-cart-x>0.94</grid-cart-x>  
-                                        <grid-cart-y>0.9625</grid-cart-y>    
+                                        <grid-cart-y>0.964</grid-cart-y>    
                                         <grid-name-x>0.9325</grid-name-x>   
-                                        <grid-name-y>0.9575</grid-name-y> 
+                                        <grid-name-y>0.959</grid-name-y> 
                                         <grid-name-h>0.03125</grid-name-h>  
-                                        <grid-name-w>0.734</grid-name-w>      
+                                        <grid-name-w>0.741725</grid-name-w>      
                                         <cart-divider-x>0.93625</cart-divider-x>      
-                                        <cart-divider-h>0.045</cart-divider-h>     
+                                        <cart-divider-h>0.0432</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="medium">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.0325</base-font-size>
-                                        <help-font-size>0.02275</help-font-size>
-                                        <help-font-size-small>0.01625</help-font-size-small>
-                                        <help-font-size-smallest>0.013</help-font-size-smallest>
+                                        <base-font-size>0.0325</base-font-size>          
+                                        <games-count-font-size>0.0476666666666667</games-count-font-size>
+                                        <help-font-size>0.024375</help-font-size>
+                                        <help-font-size-small>0.0156</help-font-size-small>
+                                        <help-font-size-smallest>0.0117</help-font-size-smallest>
                                         <badge-size>0.0476666666666667</badge-size>
                                         <badge-x>0.014625</badge-x>
                                         <badge-y>0.0195</badge-y>
-                                         <divider-y>0.9025</divider-y>
-                                        <overlay-h>0.14625</overlay-h>  
-                                        <overlay-crop-size>1.33333333333333 0.14625</overlay-crop-size>  
-                                        <media-y>0.99275</media-y>
+                                         <divider-y>0.9064</divider-y>
+                                        <overlay-h>0.1404</overlay-h>  
+                                        <overlay-crop-size>1.33333333333333 0.1404</overlay-crop-size>  
+                                        <media-y>0.99704</media-y>
                                         <top-divider-y>0.173333333333333</top-divider-y>
-                                        <system-logo-h>0.0715</system-logo-h>
-                                        <system-logo-w>0.2288</system-logo-w>
-                                        <system-logo-x>0.0195</system-logo-x>
-                                        <system-logo-y>0.95125</system-logo-y>
-                                        <games-count-y>0.9260625</games-count-y> 
-                                        <help-y>0.9829375</help-y>                                
+                                        <system-logo-h>0.0676</system-logo-h>
+                                        <system-logo-w>0.21632</system-logo-w>
+                                        <system-logo-x>0.0121875</system-logo-x>
+                                        <system-logo-y>0.9532</system-logo-y>
+                                        <games-count-y>0.93296875</games-count-y> 
+                                        <grid-games-count-x>0.0940694444444444</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.0891944444444444</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.433375</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.4285</carousel-games-count-icon-x> 
+                                        <help-y>0.98171875</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.160333333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.0866666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.729166666666667</basic-grid-h>
+                                        <grid-marquee-h>0.160333333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.0866666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.256533333333333</grid-marquee-w>
+                                        <basic-grid-h>0.733066666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.9025</grid-y>           
-                                        <multi-row-grid-h>0.545562912</multi-row-grid-h>           
-                                        <carousel-y>0.8895</carousel-y>
-                                        <row-marquee-y>0.02275</row-marquee-y>
-                                        <grid-cart-h>0.0714999999999999</grid-cart-h>
+                                        <grid-y>0.9064</grid-y>                    
+                                        <carousel-y>0.8934</carousel-y>
+                                        <row-marquee-y>0.024375</row-marquee-y>
+                                        <grid-cart-h>0.0676000000000001</grid-cart-h>
                                         <grid-cart-w>0.06825</grid-cart-w>
                                         <grid-cart-x>0.922</grid-cart-x>  
-                                        <grid-cart-y>0.95125</grid-cart-y>    
+                                        <grid-cart-y>0.9532</grid-cart-y>    
                                         <grid-name-x>0.91225</grid-name-x>   
-                                        <grid-name-y>0.94475</grid-name-y> 
+                                        <grid-name-y>0.9467</grid-name-y> 
                                         <grid-name-h>0.040625</grid-name-h>  
-                                        <grid-name-w>0.6542</grid-name-w>      
+                                        <grid-name-w>0.6642425</grid-name-w>      
                                         <cart-divider-x>0.917125</cart-divider-x>      
-                                        <cart-divider-h>0.0585</cart-divider-h>     
+                                        <cart-divider-h>0.05616</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.0375</base-font-size>
-                                        <help-font-size>0.02625</help-font-size>
-                                        <help-font-size-small>0.01875</help-font-size-small>
-                                        <help-font-size-smallest>0.015</help-font-size-smallest>
+                                        <base-font-size>0.0375</base-font-size>          
+                                        <games-count-font-size>0.055</games-count-font-size>
+                                        <help-font-size>0.028125</help-font-size>
+                                        <help-font-size-small>0.018</help-font-size-small>
+                                        <help-font-size-smallest>0.0135</help-font-size-smallest>
                                         <badge-size>0.055</badge-size>
                                         <badge-x>0.016875</badge-x>
                                         <badge-y>0.0225</badge-y>
-                                         <divider-y>0.8875</divider-y>
-                                        <overlay-h>0.16875</overlay-h>  
-                                        <overlay-crop-size>1.33333333333333 0.16875</overlay-crop-size>  
-                                        <media-y>0.97625</media-y>
+                                         <divider-y>0.892</divider-y>
+                                        <overlay-h>0.162</overlay-h>  
+                                        <overlay-crop-size>1.33333333333333 0.162</overlay-crop-size>  
+                                        <media-y>0.9812</media-y>
                                         <top-divider-y>0.2</top-divider-y>
-                                        <system-logo-h>0.0825</system-logo-h>
-                                        <system-logo-w>0.264</system-logo-w>
-                                        <system-logo-x>0.0225</system-logo-x>
-                                        <system-logo-y>0.94375</system-logo-y>
-                                        <games-count-y>0.9146875</games-count-y> 
-                                        <help-y>0.9803125</help-y>                                
+                                        <system-logo-h>0.078</system-logo-h>
+                                        <system-logo-w>0.2496</system-logo-w>
+                                        <system-logo-x>0.0140625</system-logo-x>
+                                        <system-logo-y>0.946</system-logo-y>
+                                        <games-count-y>0.92265625</games-count-y> 
+                                        <grid-games-count-x>0.108541666666667</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.102916666666667</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.423125</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.4175</carousel-games-count-icon-x> 
+                                        <help-y>0.97890625</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.185</basic-marquee-h>
-                                        <basic-marquee-y>0.1</basic-marquee-y>
-                                        <basic-grid-h>0.6875</basic-grid-h>
+                                        <grid-marquee-h>0.185</grid-marquee-h>
+                                        <grid-marquee-y>0.1</grid-marquee-y>                   
+                                        <grid-marquee-w>0.296</grid-marquee-w>
+                                        <basic-grid-h>0.692</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.8875</grid-y>           
-                                        <multi-row-grid-h>0.65183904</multi-row-grid-h>           
-                                        <carousel-y>0.8725</carousel-y>
-                                        <row-marquee-y>0.02625</row-marquee-y>
-                                        <grid-cart-h>0.0825</grid-cart-h>
+                                        <grid-y>0.892</grid-y>                    
+                                        <carousel-y>0.877</carousel-y>
+                                        <row-marquee-y>0.028125</row-marquee-y>
+                                        <grid-cart-h>0.0779999999999999</grid-cart-h>
                                         <grid-cart-w>0.07875</grid-cart-w>
                                         <grid-cart-x>0.91</grid-cart-x>  
-                                        <grid-cart-y>0.94375</grid-cart-y>    
+                                        <grid-cart-y>0.946</grid-cart-y>    
                                         <grid-name-x>0.89875</grid-name-x>   
-                                        <grid-name-y>0.93625</grid-name-y> 
+                                        <grid-name-y>0.9385</grid-name-y> 
                                         <grid-name-h>0.046875</grid-name-h>  
-                                        <grid-name-w>0.601</grid-name-w>      
+                                        <grid-name-w>0.6125875</grid-name-w>      
                                         <cart-divider-x>0.904375</cart-divider-x>      
-                                        <cart-divider-h>0.0675</cart-divider-h>     
+                                        <cart-divider-h>0.0648</cart-divider-h>     
                             </variables>
                     </fontSize>
                    <fontSize name="x-large">
                             <variables>
                                <!--   All Variables   -->          
-                                        <base-font-size>0.04</base-font-size>
-                                        <help-font-size>0.028</help-font-size>
-                                        <help-font-size-small>0.02</help-font-size-small>
-                                        <help-font-size-smallest>0.016</help-font-size-smallest>
+                                        <base-font-size>0.04</base-font-size>          
+                                        <games-count-font-size>0.0586666666666667</games-count-font-size>
+                                        <help-font-size>0.03</help-font-size>
+                                        <help-font-size-small>0.0192</help-font-size-small>
+                                        <help-font-size-smallest>0.0144</help-font-size-smallest>
                                         <badge-size>0.0586666666666667</badge-size>
                                         <badge-x>0.018</badge-x>
                                         <badge-y>0.024</badge-y>
-                                         <divider-y>0.88</divider-y>
-                                        <overlay-h>0.18</overlay-h>  
-                                        <overlay-crop-size>1.33333333333333 0.18</overlay-crop-size>  
-                                        <media-y>0.968</media-y>
+                                         <divider-y>0.8848</divider-y>
+                                        <overlay-h>0.1728</overlay-h>  
+                                        <overlay-crop-size>1.33333333333333 0.1728</overlay-crop-size>  
+                                        <media-y>0.97328</media-y>
                                         <top-divider-y>0.213333333333333</top-divider-y>
-                                        <system-logo-h>0.088</system-logo-h>
-                                        <system-logo-w>0.2816</system-logo-w>
-                                        <system-logo-x>0.024</system-logo-x>
-                                        <system-logo-y>0.94</system-logo-y>
-                                        <games-count-y>0.909</games-count-y> 
-                                        <help-y>0.979</help-y>                                
+                                        <system-logo-h>0.0832</system-logo-h>
+                                        <system-logo-w>0.26624</system-logo-w>
+                                        <system-logo-x>0.015</system-logo-x>
+                                        <system-logo-y>0.9424</system-logo-y>
+                                        <games-count-y>0.9175</games-count-y> 
+                                        <grid-games-count-x>0.115777777777778</grid-games-count-x> 
+                                        <grid-games-count-icon-x>0.109777777777778</grid-games-count-icon-x> 
+                                        <carousel-games-count-x>0.418</carousel-games-count-x> 
+                                        <carousel-games-count-icon-x>0.412</carousel-games-count-icon-x> 
+                                        <help-y>0.9775</help-y>                                
                               <!--   Basic Grid Variables   --> 
-                                        <basic-marquee-h>0.197333333333333</basic-marquee-h>
-                                        <basic-marquee-y>0.106666666666667</basic-marquee-y>
-                                        <basic-grid-h>0.666666666666667</basic-grid-h>
+                                        <grid-marquee-h>0.197333333333333</grid-marquee-h>
+                                        <grid-marquee-y>0.106666666666667</grid-marquee-y>                   
+                                        <grid-marquee-w>0.315733333333333</grid-marquee-w>
+                                        <basic-grid-h>0.671466666666667</basic-grid-h>
                                <!--   Immersive Grid/ Carousel Variables   -->           
-                                        <grid-y>0.88</grid-y>           
-                                        <multi-row-grid-h>0.413868462222222</multi-row-grid-h>           
-                                        <carousel-y>0.864</carousel-y>
-                                        <row-marquee-y>0.028</row-marquee-y>
-                                        <grid-cart-h>0.0879999999999999</grid-cart-h>
+                                        <grid-y>0.8848</grid-y>                    
+                                        <carousel-y>0.8688</carousel-y>
+                                        <row-marquee-y>0.03</row-marquee-y>
+                                        <grid-cart-h>0.0832</grid-cart-h>
                                         <grid-cart-w>0.084</grid-cart-w>
                                         <grid-cart-x>0.904</grid-cart-x>  
-                                        <grid-cart-y>0.94</grid-cart-y>    
+                                        <grid-cart-y>0.9424</grid-cart-y>    
                                         <grid-name-x>0.892</grid-name-x>   
-                                        <grid-name-y>0.932</grid-name-y> 
+                                        <grid-name-y>0.9344</grid-name-y> 
                                         <grid-name-h>0.05</grid-name-h>  
-                                        <grid-name-w>0.5744</grid-name-w>      
+                                        <grid-name-w>0.58676</grid-name-w>      
                                         <cart-divider-x>0.898</cart-divider-x>      
-                                        <cart-divider-h>0.072</cart-divider-h>     
+                                        <cart-divider-h>0.06912</cart-divider-h>     
                             </variables>
                     </fontSize>
              </aspectRatio>    

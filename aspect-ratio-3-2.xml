@@ -6,58 +6,6 @@ based on 1920x1280
 
    <!--
    ///
-   Variables
-   ///
-   -->
-      <view name="system">
-         <text name="games-count">
-            <size>0 ${base-font-size}</size>
-            <fontSize>${base-font-size}</fontSize>
-         </text>
-      </view>
-
-      <variant name="
-         grid-textlist,
-         grid-textlist-flipped,
-         grid-carousel,
-         grid-boxart-carousel,
-         grid-grid-basic,
-         grid-grid-immersive,
-         grid-grid-detailed,
-         grid-grid-detailed-flipped">
-         <view name="system">
-            <text name="games-count">
-               <pos>0.08 ${help-y}</pos>
-            </text>
-            <image name="gamesicon">
-               <pos>0.075 ${help-y}</pos>
-               <size>0 ${base-font-size}</size>
-            </image>
-         </view>
-      </variant>
-
-      <variant name="
-         carousel-textlist,
-         carousel-textlist-flipped,
-         carousel-carousel,
-         carousel-boxart-carousel,
-         carousel-grid-basic,
-         carousel-grid-immersive,
-         carousel-grid-detailed,
-         carousel-grid-detailed-flipped">
-      <view name="system">
-         <text name="games-count">
-            <pos>0.459 ${games-count-y}</pos>
-         </text>
-         <image name="gamesicon">
-            <pos>0.449 ${games-count-y}</pos>
-            <size>0 ${base-font-size}</size>
-         </image>
-      </view>
-      </variant>
-
-   <!--
-   ///
    Gamelist View: Default
    ///
    -->
