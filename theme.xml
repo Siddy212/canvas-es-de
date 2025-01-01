@@ -174,7 +174,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    ///
    -->
 
-   <variant name="grid-textlist,grid-textlist-flipped,grid-carousel,grid-boxart-carousel,grid-grid,grid-grid-detailed,grid-grid-detailed-flipped,grid-row">
+   <variant name="grid-textlist,grid-textlist-flipped,grid-carousel,grid-boxart-carousel,grid-grid-immersive,grid-grid-basic,grid-grid-detailed,grid-grid-detailed-flipped">
       <view name="system">
          <grid name="grid">
             <origin>0.5 0.5</origin>
@@ -220,7 +220,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    ///
    -->
 
-   <variant name="carousel-textlist,carousel-textlist-flipped,carousel-carousel,carousel-boxart-carousel,carousel-grid,carousel-grid-detailed,carousel-grid-detailed-flipped,carousel-row">
+   <variant name="carousel-textlist,carousel-textlist-flipped,carousel-carousel,carousel-boxart-carousel,carousel-grid-basic,carousel-grid-detailed,carousel-grid-detailed-flipped,carousel-grid-immersive">
       <view name="system">
          <carousel name="system-carousel">
             <staticImage>${staticImagePath}</staticImage>
@@ -375,105 +375,58 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    Gamelist View: Grid/Row/Boxart-Carousel Defaults
    ///
    -->
-   <variant name="carousel-boxart-carousel,grid-boxart-carousel,grid-row,grid-grid,carousel-row,carousel-grid">
+   <variant name="carousel-boxart-carousel,grid-boxart-carousel,grid-grid-immersive,grid-grid-basic,carousel-grid-immersive,carousel-grid-basic">
    <include>./_inc/coversize-basic-grid-variables/${systemCoverSize}.xml</include>   
-
    <view name="gamelist">
       <text name="custom-collection-name">
-         <fontPath>${fontLogo}</fontPath>
+            <fontPath>${fontLogo}</fontPath>
       </text>
-      <image name="background-art-gradient">
-            <origin>0.5 0</origin>
-	         <size>1 0.25</size>
-	         <pos>0.5 0</pos>
-            <path>./_inc/images/background-art-gradient-dark.svg</path>
-            <zIndex>6</zIndex>
-            <opacity>0.7</opacity>
-            <color>000000</color>
-	         <rotation>180</rotation>
-      </image>
-      <image name="overlay,overlay-2,overlay-3,overlay-4,overlay-5">
-         <origin>0.5 1</origin>
-         <cropSize>${overlay-crop-size}</cropSize>
-         <pos>${overlay-pos}</pos>
-         <cropPos>${overlay-crop-pos}</cropPos>
-         <interpolation>linear</interpolation>
-         <zIndex>4</zIndex>
-         <path>${backgroundArtPath}</path>
-         <color>FFFFFF00</color>
-         <colorEnd>FFFFFF</colorEnd>
-         <gradientType>vertical</gradientType>
-      </image>
-
+      <badges name="badges">
+            <slots>all</slots>
+            <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+            <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+            <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+            <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+            <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+            <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+            <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
+            <badgeIconColor>${BadgeColor}</badgeIconColor>
+            <controllerSize>0.8</controllerSize>
+            <folderLinkSize>0.8</folderLinkSize>
+            <origin>0 0</origin>
+            <horizontalAlignment>left</horizontalAlignment>
+            <pos>${badge-x} ${badge-y}</pos>
+            <size>1 ${badge-size}</size>
+            <lines>1</lines>
+      </badges> 
       <image name="divider">
-         <origin>0.5 0</origin>
-         <pos>0.5 ${divider-y}</pos>
-         <size>${grid-w} 0.002</size>
-         <path>${spacerImage}</path>
-         <color>${systemInfoColor}</color>
-         <opacity>11</opacity>
-         <zIndex>10</zIndex>
-      </image>
-      <image name="divider-2">
-         <origin>0.5 0</origin>
-         <pos>0.5 ${top-divider-y}</pos>
-         <size>${grid-w} 0.002</size>
-         <path>${spacerImage}</path>
-         <color>${systemInfoColor}</color>
-         <opacity>0</opacity>
-         <zIndex>10</zIndex>
+            <origin>0.5 0</origin>
+            <pos>0.5 ${divider-y}</pos>
+            <size>${grid-w} 0.002</size>
+            <path>${spacerImage}</path>
+            <color>${systemInfoColor}</color>
+            <opacity>11</opacity>
+            <zIndex>10</zIndex>
       </image>
       <image name="cart-divider">
-         <origin>0.5 0.5</origin>
-         <pos>${cart-divider-x} ${grid-cart-y}</pos>
-         <size>${cart-divider-w} ${cart-divider-h}</size>
-         <path>${spacerImage}</path>
-         <color>${systemInfoColor}</color>
-         <opacity>0.8</opacity>
-         <zIndex>10</zIndex>
+            <origin>0.5 0.5</origin>
+            <pos>${cart-divider-x} ${grid-cart-y}</pos>
+            <size>${cart-divider-w} ${cart-divider-h}</size>
+            <path>${spacerImage}</path>
+            <color>${systemInfoColor}</color>
+            <opacity>0.8</opacity>
+            <zIndex>10</zIndex>
       </image>
       <image name="system-logo">
-         <opacity>0.8</opacity>
-         <origin>0 0.5</origin>
-	      <pos>${system-logo-x} ${system-logo-y}</pos>
-         <maxSize>${system-logo-w} ${system-logo-h}</maxSize>
-         <path>${systemlogoArtPath}</path>
-         <zIndex>10</zIndex>
+            <opacity>0.8</opacity>
+            <origin>0 0.5</origin>
+            <pos>${system-logo-x} ${system-logo-y}</pos>
+            <maxSize>${system-logo-w} ${system-logo-h}</maxSize>
+            <path>${systemlogoArtPath}</path>
+            <zIndex>10</zIndex>
       </image>
-      <badges name="badges">
-         <slots>all</slots>
-         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
-         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
-         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
-         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
-         <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
-         <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
-         <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
-         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
-         <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
-         <badgeIconColor>${BadgeColor}</badgeIconColor>
-         <controllerSize>0.8</controllerSize>
-         <folderLinkSize>0.8</folderLinkSize>
-         <origin>0 0</origin>
-         <horizontalAlignment>left</horizontalAlignment>
-         <pos>${badge-x} ${badge-y}</pos>
-         <size>1 ${badge-size}</size>
-         <lines>1</lines>
-      </badges> 
-      <video name="game-media">
-         <origin>0.5 1</origin>
-         <delay>3</delay>
-	      <cropSize>1 1</cropSize>
-	      <pos>0.5 ${media-y}</pos>
-         <pillarboxes>false</pillarboxes>
-         <iterationCount>1</iterationCount>
-         <onIterationsDone>image</onIterationsDone>
-         <imageType>screenshot</imageType>
-         <zIndex>1</zIndex>
-         <saturation>1</saturation>
-         <opacity>1</opacity>
-         <gradientType>vertical</gradientType>
-      </video>  
        <text name="game-name">
             <origin>1 0.5</origin>
             <size>${grid-name-w} ${grid-name-h}</size>
@@ -490,17 +443,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <horizontalAlignment>right</horizontalAlignment>
             <containerType>horizontal</containerType>
          </text>
-      <image name="game-marquee">
-         	<origin>0.5 0.5</origin>
-            <pos>0.5 ${marquee-y}</pos>
-         	<maxSize>${marquee-w} ${marquee-h}</maxSize>
-         	<imageType>marquee</imageType>
-         	<zIndex>7</zIndex>            
-		      <color>FFFFFFff</color>
-		      <saturation>2</saturation>
-		      <brightness>0</brightness>
-            <scrollFadeIn>true</scrollFadeIn>
-      </image> 
       <image name="game-cartridge">
          	<origin>0 0.5</origin>
             <pos>${grid-cart-x} ${grid-cart-y}</pos>
@@ -517,8 +459,72 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <pos>${grid-name-x} ${help-y}</pos>
          <fontSize>${help-font-size-small}</fontSize>
       </helpsystem>
+      <image name="game-marquee">
+         	<origin>0.5 0.5</origin>
+         	<imageType>marquee</imageType>
+         	<zIndex>7</zIndex>            
+		      <color>FFFFFFff</color>
+		      <saturation>2</saturation>
+		      <brightness>0</brightness>
+            <scrollFadeIn>true</scrollFadeIn>
+      </image> 
    </view>
    </variant>
+
+
+
+
+
+<variant name="carousel-boxart-carousel,grid-boxart-carousel,grid-grid-immersive,carousel-grid-immersive">
+   <view name="gamelist">
+      <text name="custom-collection-name">
+         <fontPath>${fontLogo}</fontPath>
+      </text>      
+      <image name="game-marquee">
+            <pos>0.5 ${marquee-y}</pos>
+         	<maxSize>${marquee-w} ${marquee-h}</maxSize>
+      </image> 
+      <image name="background-art-gradient">
+            <origin>0.5 0</origin>
+	         <size>1 0.25</size>
+	         <pos>0.5 0</pos>
+            <path>./_inc/images/background-art-gradient-dark.svg</path>
+            <zIndex>6</zIndex>
+            <opacity>0.7</opacity>
+            <color>000000</color>
+	         <rotation>180</rotation>
+      </image>
+      <image name="overlay,overlay-2,overlay-3,overlay-4,overlay-5">
+            <origin>0.5 1</origin>
+            <cropSize>${overlay-crop-size}</cropSize>
+            <pos>${overlay-pos}</pos>
+            <cropPos>${overlay-crop-pos}</cropPos>
+            <interpolation>linear</interpolation>
+            <zIndex>4</zIndex>
+            <path>${backgroundArtPath}</path>
+            <color>FFFFFF00</color>
+            <colorEnd>FFFFFF</colorEnd>
+            <gradientType>vertical</gradientType>
+      </image>
+      <video name="game-media">
+            <origin>0.5 1</origin>
+            <delay>3</delay>
+            <cropSize>1 1</cropSize>
+            <pos>0.5 ${media-y}</pos>
+            <pillarboxes>false</pillarboxes>
+            <iterationCount>1</iterationCount>
+            <onIterationsDone>image</onIterationsDone>
+            <imageType>screenshot</imageType>
+            <zIndex>1</zIndex>
+            <saturation>1</saturation>
+            <opacity>1</opacity>
+            <gradientType>vertical</gradientType>
+            <brightness>-0.7</brightness>
+      </video>  
+   </view>
+   </variant>
+
+
 
    <variant name="carousel-boxart-carousel,grid-boxart-carousel">
     <view name="gamelist">
@@ -547,14 +553,12 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 	         <selectedItemMargins>${carousel-item-margins}</selectedItemMargins>
             <imageCornerRadius>0.005</imageCornerRadius>
         </carousel>  
-         <video name="game-media">
-            <brightness>-0.7</brightness>
-         </video>  
       </view>
    </variant>
 
 
-   <variant name="grid-row,grid-grid,carousel-row,carousel-grid">
+
+   <variant name="grid-grid-immersive,grid-grid-basic,carousel-grid-immersive,carousel-grid-basic">
       <view name="gamelist">
       <grid name="grid">
                   <origin>0.5 1</origin>
@@ -571,26 +575,22 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
                   <textColor>${systemCarouselTextColor}</textColor>
                   <fontPath>${fontBold}</fontPath>
                   <fontSize>0.036111111111111</fontSize>
-                  <imageCornerRadius>0.004</imageCornerRadius>
                   <selectorColor>${systemCarouselSelectorColor}</selectorColor>
                   <selectorLayer>top</selectorLayer>
                   <zIndex>5</zIndex>
-                  <fractionalRows>false</fractionalRows>
                   <scaleInwards>false</scaleInwards>
                   <imageRelativeScale>0.975</imageRelativeScale>
                   <backgroundRelativeScale>1</backgroundRelativeScale>
-                  <backgroundCornerRadius>0</backgroundCornerRadius>
                   <textRelativeScale>0.9</textRelativeScale>
                   <selectorRelativeScale>0.98</selectorRelativeScale>
                   <selectorCornerRadius>0.003</selectorCornerRadius>
+                  <imageCornerRadius>0.004</imageCornerRadius>
+                  <backgroundCornerRadius>0</backgroundCornerRadius>
             </grid>
-       <video name="game-media">
-            <brightness>-0.7</brightness>
-      </video>  
       </view>
    </variant>
 
-   <variant name="grid-grid,carousel-grid">
+   <variant name="grid-grid-immersive,carousel-grid-immersive">
       <view name="gamelist">
          <grid name="grid">
                <size>${grid-w} ${multi-row-grid-h}</size>
@@ -602,27 +602,26 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <opacity>1</opacity>
          </image>   
        </view>
-      <fontSize name="medium">
-         <variables>
-            <selectorpath>./_inc/images/selector-medium.svg</selectorpath>
-         </variables>
-      </fontSize>
-      <fontSize name="large,x-large">
-         <variables>
-            <selectorpath>./_inc/images/selector-large.svg</selectorpath>
-         </variables>
-      </fontSize>
    </variant>
-   <variant name="grid-row,carousel-row,carousel-boxart-carousel,grid-boxart-carousel">
+   <variant name="grid-grid-basic,carousel-grid-basic">
       <view name="gamelist">
          <grid name="grid">
-               <size>${grid-w} ${grid-scaled-item-h}</size>
+               <size>${grid-w} ${basic-grid-h}</size>
+               <fractionalRows>true</fractionalRows>
          </grid>
+         <image name="divider-2">
+               <origin>0.5 0</origin>
+               <pos>0.5 ${top-divider-y}</pos>
+               <size>${grid-w} 0.002</size>
+               <path>${spacerImage}</path>
+               <color>${systemInfoColor}</color>
+               <opacity>1</opacity>
+               <zIndex>10</zIndex>
+         </image>      
          <image name="game-marquee">
-            <pos>0.5 ${row-marquee-y}</pos>
-         	<maxSize>${row-marquee-w} ${row-marquee-h}</maxSize>
-            <origin>0.5 0</origin>
-         </image>   
+               <pos>0.5 ${basic-marquee-y}</pos>
+               <maxSize>${grid-marquee-w} ${basic-marquee-h}</maxSize>
+         </image> 
        </view>
    </variant>
 

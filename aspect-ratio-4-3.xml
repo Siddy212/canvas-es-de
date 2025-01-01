@@ -21,8 +21,8 @@ based on 1920x1440
          grid-textlist-flipped,
          grid-carousel,
          grid-boxart-carousel,
-         grid-row,
-         grid-grid,
+         grid-grid-basic,
+         grid-grid-immersive,
          grid-grid-detailed,
          grid-grid-detailed-flipped">
          <view name="system">
@@ -41,8 +41,8 @@ based on 1920x1440
          carousel-textlist-flipped,
          carousel-carousel,
          carousel-boxart-carousel,
-         carousel-row,
-         carousel-grid,
+         carousel-grid-basic,
+         carousel-grid-immersive,
          carousel-grid-detailed,
          carousel-grid-detailed-flipped">
       <view name="system">

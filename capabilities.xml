@@ -157,19 +157,19 @@
       <selectable>true</selectable>
    </variant>
    <variant name="grid-carousel">
-      <label>[Grid] Marquee Carousel</label>
+      <label>[Grid] Carousel: Marquee</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-boxart-carousel">
-      <label>[Grid] Boxart Carousel</label>
+      <label>[Grid] Carousel: Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="grid-row">
-      <label>[Grid] Row</label>
-      <selectable>false</selectable>
+   <variant name="grid-grid-basic">
+      <label>[Grid] Grid: Basic</label>
+      <selectable>true</selectable>
    </variant>
-   <variant name="grid-grid">
-      <label>[Grid] Grid: Minimal</label>
+   <variant name="grid-grid-immersive">
+      <label>[Grid] Grid: Immersive</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-grid-detailed">
@@ -189,19 +189,19 @@
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-carousel">
-      <label>[Carousel] Marquee Carousel</label>
+      <label>[Carousel] Carousel: Marquee</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-boxart-carousel">
-      <label>[Carousel] Boxart Carousel</label>
+      <label>[Carousel] Carousel: Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="carousel-row">
-      <label>[Carousel] Row</label>
-      <selectable>false</selectable>
+   <variant name="carousel-grid-basic">
+      <label>[Carousel] Grid: Basic</label>
+      <selectable>true</selectable>
    </variant>
-   <variant name="carousel-grid">
-      <label>[Carousel] Grid: Minimal</label>
+   <variant name="carousel-grid-immersive">
+      <label>[Carousel] Grid: Immersive</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-grid-detailed">
