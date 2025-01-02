@@ -468,7 +468,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <fontSize>${help-font-size-small}</fontSize>
       </helpsystem>
       <image name="game-marquee">
-         	<origin>0.5 0.5</origin>
          	<imageType>marquee</imageType>
          	<zIndex>7</zIndex>            
 		      <color>FFFFFFff</color>
@@ -556,7 +555,12 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <zIndex>5</zIndex>
 	         <selectedItemMargins>${carousel-item-margins}</selectedItemMargins>
             <imageCornerRadius>0.005</imageCornerRadius>
-        </carousel>  
+        </carousel>    
+         <image name="game-marquee">
+         	<origin>0.5 0</origin>
+            <pos>0.5 ${row-marquee-y}</pos>
+            <maxSize>${row-marquee-w} ${row-marquee-h}</maxSize>
+         </image>  
       </view>
    </variant>
 
@@ -592,6 +596,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
                   <backgroundCornerRadius>0</backgroundCornerRadius>
             </grid>    
             <image name="game-marquee">
+         	      <origin>0.5 0.5</origin>
                   <pos>0.5 ${marquee-y}</pos>
                   <maxSize>${marquee-w} ${marquee-h}</maxSize>
             </image> 
