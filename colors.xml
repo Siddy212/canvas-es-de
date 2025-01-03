@@ -3,9 +3,9 @@
    <variables>
          <systemlogoArtPath>./_inc/system-logo/${system.theme}.svg</systemlogoArtPath>
    </variables>
-   <!--   System View: Art Default   -->
+   <!--   System View: Art -->
 
-   <colorScheme name="light,dark,black,retro,neon,pastel,famicom,snes,sony">
+   <colorScheme name="light,dark,retro,neon,pastel,famicom,snes,sony">
          <variables>
                   <selectorRelativeScaleSize>0.881388</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.9817</backgroundRelativeScaleSize>
@@ -14,45 +14,9 @@
                   <gridsize>system-variables</gridsize>
       </variables>
    </colorScheme>
-   <colorScheme name="light-capsule,dark-capsule,black-capsule,retro-capsule,neon-capsule,pastel-capsule,famicom-capsule,snes-capsule,sony-capsule">
-         <variables>
-                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
-                  <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
-                  <staticImagePath>./_inc/carousel-icons-capsule/${system.theme}.webp</staticImagePath>
-                  <gridsize>system-variables-capsule</gridsize>
-      </variables>
-   </colorScheme>   
-   <colorScheme name="light-screenshots,dark-screenshots,black-screenshots,retro-screenshots,neon-screenshots,pastel-screenshots,famicom-screenshots,snes-screenshots,sony-screenshots">
-         <variables>
-                  <selectorRelativeScaleSize>0.88667</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
-                  <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
-                  <staticImagePath>./_inc/carousel-icons-screenshots/${system.theme}.webp</staticImagePath>
-                  <gridsize>system-variables-capsule</gridsize>
-      </variables>
-   </colorScheme>
-   <colorScheme name="light-icon,dark-icon,black-icon,retro-icon,neon-icon,pastel-icon,famicom-icon,snes-icon">
-         <variables>
-                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
-                  <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
-                  <gridsize>system-variables-capsule</gridsize>
-      </variables>
-   </colorScheme>
-   <colorScheme name="sony-icon">
-         <variables>
-                  <selectorRelativeScaleSize>0.92889</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0</backgroundRelativeScaleSize>
-                  <selectorImagePath>./_inc/system-grid/4-5.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/system-grid/null.png</backgroundImagePath>
-                  <gridsize>system-variables-capsule</gridsize>
-      </variables>
-   </colorScheme>
-   <colorScheme name="sony,dark,neon,black">
+
+
+   <colorScheme name="sony,dark,neon">
       <variables>
           <staticImagePath>./_inc/carousel-icons-art/light/${system.theme}.webp</staticImagePath>
       </variables>
@@ -67,32 +31,105 @@
           <staticImagePath>./_inc/carousel-icons-art/dark/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
+   
+   <!--   System View: Capsule   -->
 
-   <colorScheme name="sony-icon">
-      <variables>
-          <staticImagePath>./_inc/carousel-icons-icons/clear/${system.theme}.webp</staticImagePath>
+   <colorScheme name="light-capsule,dark-capsule,retro-capsule,neon-capsule,pastel-capsule,famicom-capsule,snes-capsule,sony-capsule">
+         <variables>
+                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
+                  <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
+                  <staticImagePath>./_inc/carousel-icons-capsule/${system.theme}.webp</staticImagePath>
+                  <gridsize>system-variables-capsule</gridsize>
+      </variables>
+   </colorScheme>     
+
+   <!--   System View: screenshot   -->
+
+   <colorScheme name="light-screenshot,dark-screenshot,retro-screenshot,neon-screenshot,pastel-screenshot,famicom-screenshot,snes-screenshot,sony-screenshot">
+         <variables>
+                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
+                  <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
+                  <staticImagePath>./_inc/carousel-icons-screenshot/${system.theme}.webp</staticImagePath>
+                  <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme>
-   <colorScheme name="light-icon,retro-icon,pastel-icon,famicom-icon,snes-icon">
-      <variables>
-          <staticImagePath>./_inc/carousel-icons-icons/medium/${system.theme}.webp</staticImagePath>
+
+   <!--   System View: logo   -->
+
+   <colorScheme name="light-logo,dark-logo,retro-logo,neon-logo,pastel-logo,famicom-logo,snes-logo,sony-logo">
+         <variables>
+                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
+                  <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
+                  <gridsize>system-variables-capsule</gridsize>
+      </variables>
+   </colorScheme> 
+      <colorScheme name="dark-logo,neon-logo">
+         <variables>
+                  <staticImagePath>./_inc/carousel-icons-logo/dark/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
-   <colorScheme name="dark-icon,black-icon,neon-icon">
+      <colorScheme name="light-logo,retro-logo,pastel-logo,famicom-logo,snes-logo">
+         <variables>
+                  <staticImagePath>./_inc/carousel-icons-logo/light/${system.theme}.webp</staticImagePath>
+      </variables>
+   </colorScheme>
+      <colorScheme name="sony-logo">
+         <variables>
+                  <staticImagePath>./_inc/carousel-icons-logo/clear/${system.theme}.webp</staticImagePath>
+      </variables>
+   </colorScheme>
+
+   <!--   System View: Icons   -->
+
+   <colorScheme name="light-controller,dark-controller,retro-controller,neon-controller,pastel-controller,famicom-controller,snes-controller">
+         <variables>
+                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
+                  <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
+                  <gridsize>system-variables-capsule</gridsize>
+      </variables>
+   </colorScheme>
+   <colorScheme name="sony-controller">
+         <variables>
+                  <selectorRelativeScaleSize>0.92889</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0</backgroundRelativeScaleSize>
+                  <selectorImagePath>./_inc/system-grid/4-5.svg</selectorImagePath>
+                  <backgroundImagePath>./_inc/system-grid/null.png</backgroundImagePath>
+                  <gridsize>system-variables-capsule</gridsize>
+      </variables>
+   </colorScheme>
+
+   <colorScheme name="sony-controller">
       <variables>
-          <staticImagePath>./_inc/carousel-icons-icons/dark/${system.theme}.webp</staticImagePath>
+          <staticImagePath>./_inc/carousel-icons-controller/clear/${system.theme}.webp</staticImagePath>
+      </variables>
+   </colorScheme>
+   <colorScheme name="light-controller,retro-controller,pastel-controller,famicom-controller,snes-controller">
+      <variables>
+          <staticImagePath>./_inc/carousel-icons-controller/medium/${system.theme}.webp</staticImagePath>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark-controller,neon-controller">
+      <variables>
+          <staticImagePath>./_inc/carousel-icons-controller/dark/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
 
 
-   <colorScheme name="dark,dark-icon,dark-capsule,dark-screenshots">
+   <colorScheme name="dark,dark-controller,dark-capsule,dark-logo,dark-screenshot">
       <variables>
          <helpTextColor>999999</helpTextColor>
          <backgroundColor>373737</backgroundColor>
          <systemInfoColor>cccccc</systemInfoColor>
-         <systemCarouselTextColor>cccccc</systemCarouselTextColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
-         <systemCarouselSelectorColor>ffffff</systemCarouselSelectorColor>
+         <gridSelectorColor>ffffff</gridSelectorColor>
          <gamelistCarouselBackground>carousel-background-dark</gamelistCarouselBackground>
          <gamelistLogoColor>cccccc</gamelistLogoColor>
          <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
@@ -101,204 +138,157 @@
          <gamelistSelectorColor>777777</gamelistSelectorColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>777777</gamelistPrimaryColor>
-         <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameMetadataColor>bbbbbb</gameMetadataColor>
          <BadgeColor>bbbbbb</BadgeColor>
-         <backgroundArtPath>./wallpapers/dark.webp</backgroundArtPath>
-         <backgroundAnimationPath>./wallpapers/dark.gif</backgroundAnimationPath>
+         <rowBadgeColor>FFFFFF</rowBadgeColor>
+         <backgroundArtPath>./wallpapers/dark</backgroundArtPath>
          <backgroundArtOpacity>1</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
-   <colorScheme name="light,light-icon,light-capsule,light-screenshots">
+   <colorScheme name="light,light-controller,light-capsule,light-logo,light-screenshot">
       <variables>
          <helpTextColor>555555</helpTextColor>
          <backgroundColor>373737</backgroundColor>
          <systemInfoColor>555555</systemInfoColor>
-         <systemCarouselTextColor>555555</systemCarouselTextColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
-         <systemCarouselSelectorColor>FFFFFF</systemCarouselSelectorColor>
-         <gamelistLogoColor>555555</gamelistLogoColor>
+         <gridSelectorColor>FFFFFF</gridSelectorColor>
          <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>0.8</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>404040</gamelistSelectorColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>666666</gamelistPrimaryColor>
-         <gamelistSecondaryColor>666666</gamelistSecondaryColor>
          <gameMetadataColor>666666</gameMetadataColor>
          <BadgeColor>555555</BadgeColor>
-         <backgroundArtPath>./wallpapers/light.webp</backgroundArtPath>
-         <backgroundAnimationPath>./wallpapers/light.gif</backgroundAnimationPath>
+         <rowBadgeColor>FFFFFF</rowBadgeColor>
+         <backgroundArtPath>./wallpapers/light</backgroundArtPath>
          <backgroundArtOpacity>0.8</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>   
-   <colorScheme name="black,black-icon,black-capsule,black-screenshots">
-      <variables>
-         <helpTextColor>999999</helpTextColor>
-         <backgroundColor>373737</backgroundColor>
-         <systemInfoColor>cccccc</systemInfoColor>
-         <systemCarouselTextColor>cccccc</systemCarouselTextColor>
-         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
-         <systemCarouselSelectorColor>ffffff</systemCarouselSelectorColor>
-         <gamelistCarouselBackground>carousel-background-dark</gamelistCarouselBackground>
-         <gamelistLogoColor>cccccc</gamelistLogoColor>
-         <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
-         <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
-         <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
-         <gamelistSelectorColor>777777</gamelistSelectorColor>
-         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-         <gamelistPrimaryColor>777777</gamelistPrimaryColor>
-         <gamelistSecondaryColor>777777</gamelistSecondaryColor>
-         <gameMetadataColor>bbbbbb</gameMetadataColor>
-         <BadgeColor>bbbbbb</BadgeColor>
-         <backgroundArtPath>./wallpapers/black.webp</backgroundArtPath>
-         <backgroundAnimationPath>./wallpapers/black.gif</backgroundAnimationPath>
-         <backgroundArtOpacity>1</backgroundArtOpacity>
-         <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
-      </variables>
-   </colorScheme>
-   <colorScheme name="retro,retro-icon,retro-capsule,retro-screenshots">
+   <colorScheme name="retro,retro-controller,retro-capsule,retro-logo,retro-screenshot">
       <variables>
          <helpTextColor>5b5a58</helpTextColor>
          <backgroundColor>00000000</backgroundColor>
          <systemInfoColor>5b5a58</systemInfoColor>
-         <systemCarouselTextColor>5b5a58</systemCarouselTextColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
-         <systemCarouselSelectorColor>93cbb7</systemCarouselSelectorColor>
-         <gamelistLogoColor>5b5a58</gamelistLogoColor>
+         <gridSelectorColor>93cbb7</gridSelectorColor>
          <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>488788</gamelistSelectorColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>777777</gamelistPrimaryColor>
-         <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameMetadataColor>777777</gameMetadataColor>
          <BadgeColor>777777</BadgeColor>
-         <backgroundArtPath>./wallpapers/retro.webp</backgroundArtPath>
-         <backgroundAnimationPath>./wallpapers/retro.gif</backgroundAnimationPath>
+         <rowBadgeColor>FFFFFF</rowBadgeColor>
+         <backgroundArtPath>./wallpapers/retro</backgroundArtPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
-   <colorScheme name="neon,neon-icon,neon-capsule,neon-screenshots">
+   <colorScheme name="neon,neon-controller,neon-capsule,neon-logo,neon-screenshot">
       <variables>
          <helpTextColor>FFFFFF</helpTextColor>
          <backgroundColor>74006c</backgroundColor>
          <systemInfoColor>FFFFFF</systemInfoColor>
-         <systemCarouselTextColor>FFFFFF</systemCarouselTextColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
-         <systemCarouselSelectorColor>74006c</systemCarouselSelectorColor>
-         <gamelistLogoColor>FFFFFF</gamelistLogoColor>
+         <gridSelectorColor>74006c</gridSelectorColor>
          <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>b304c5</gamelistSelectorColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>FFFFFF</gamelistPrimaryColor>
-         <gamelistSecondaryColor>FFFFFF</gamelistSecondaryColor>
          <gameMetadataColor>FFFFFF</gameMetadataColor>
          <BadgeColor>FFFFFF</BadgeColor>
-         <backgroundArtPath>./wallpapers/neon.webp</backgroundArtPath>
-         <backgroundAnimationPath>./wallpapers/neon.gif</backgroundAnimationPath>
+         <rowBadgeColor>FFFFFF</rowBadgeColor>
+         <backgroundArtPath>./wallpapers/neon</backgroundArtPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
-   <colorScheme name="pastel,pastel-icon,pastel-capsule,pastel-screenshots">
+   <colorScheme name="pastel,pastel-controller,pastel-capsule,pastel-logo,pastel-screenshot">
       <variables>
          <helpTextColor>777777</helpTextColor>
          <backgroundColor>bbbbbb</backgroundColor>
          <systemInfoColor>777777</systemInfoColor>
-         <systemCarouselTextColor>777777</systemCarouselTextColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
-         <systemCarouselSelectorColor>A7C7E7</systemCarouselSelectorColor>
-         <gamelistLogoColor>777777</gamelistLogoColor>
+         <gridSelectorColor>A7C7E7</gridSelectorColor>
          <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>0.6</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>A7C7E7</gamelistSelectorColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>777777</gamelistPrimaryColor>
-         <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameMetadataColor>777777</gameMetadataColor>
          <BadgeColor>777777</BadgeColor>
-         <backgroundArtPath>./wallpapers/pastel.webp</backgroundArtPath>
-         <backgroundAnimationPath>./wallpapers/pastel.gif</backgroundAnimationPath>
+         <rowBadgeColor>FFFFFF</rowBadgeColor>
+         <backgroundArtPath>./wallpapers/pastel</backgroundArtPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
-   <colorScheme name="famicom,famicom-icon,famicom-capsule,famicom-screenshots">
+   <colorScheme name="famicom,famicom-controller,famicom-capsule,famicom-logo,famicom-screenshot">
       <variables>
          <helpTextColor>e4e5ca</helpTextColor>
          <backgroundColor>846D21</backgroundColor>
          <systemInfoColor>e4e5ca</systemInfoColor>
-         <systemCarouselTextColor>3b3b3b</systemCarouselTextColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
-         <systemCarouselSelectorColor>846D21</systemCarouselSelectorColor>
-         <gamelistLogoColor>e4e5ca</gamelistLogoColor>
+         <gridSelectorColor>846D21</gridSelectorColor>
          <gamelistBackgroundImage>gamelist-background-beige</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>0.8</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-beige</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>846D21</gamelistSelectorColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>3b3b3b</gamelistPrimaryColor>
-         <gamelistSecondaryColor>3b3b3b</gamelistSecondaryColor>
          <gameMetadataColor>3b3b3b</gameMetadataColor>
          <BadgeColor>e4e5ca</BadgeColor>
-         <backgroundArtPath>./wallpapers/famicom.webp</backgroundArtPath>
-         <backgroundAnimationPath>./wallpapers/famicom.gif</backgroundAnimationPath>
+         <rowBadgeColor>e4e5ca</rowBadgeColor>
+         <backgroundArtPath>./wallpapers/famicom</backgroundArtPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
-   <colorScheme name="snes,snes-icon,snes-capsule,snes-screenshots">
+   <colorScheme name="snes,snes-controller,snes-capsule,snes-logo,snes-screenshot">
       <variables>
          <helpTextColor>3c3b3b</helpTextColor>
          <backgroundColor>846D21</backgroundColor>
-         <systemInfoColor>3c3b3b</systemInfoColor>
-         <systemCarouselTextColor>3b3b3b</systemCarouselTextColor>
+         <systemInfoColor>3c3b3b</systemInfoColor>\
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
-         <systemCarouselSelectorColor>4a3580</systemCarouselSelectorColor>
-         <gamelistLogoColor>3c3b3b</gamelistLogoColor>
+         <gridSelectorColor>4a3580</gridSelectorColor>
          <gamelistBackgroundImage>gamelist-background-retro</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-retro</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>4a3580</gamelistSelectorColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>3c3b3b</gamelistPrimaryColor>
-         <gamelistSecondaryColor>3c3b3b</gamelistSecondaryColor>
          <gameMetadataColor>3c3b3b</gameMetadataColor>
          <BadgeColor>3c3b3b</BadgeColor>
-         <backgroundArtPath>./wallpapers/snes.webp</backgroundArtPath>
-         <backgroundAnimationPath>./wallpapers/snes.gif</backgroundAnimationPath>
+         <rowBadgeColor>ffffff</rowBadgeColor>
+         <backgroundArtPath>./wallpapers/snes</backgroundArtPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>
-   <colorScheme name="sony,sony-icon,sony-capsule,sony-screenshots">
+   <colorScheme name="sony,sony-controller,sony-capsule,sony-logo,sony-screenshot">
       <variables>
          <helpTextColor>ffffff</helpTextColor>
          <backgroundColor>ffffff</backgroundColor>
          <systemInfoColor>ffffff</systemInfoColor>
-         <systemCarouselTextColor>ffffff</systemCarouselTextColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
-         <systemCarouselSelectorColor>ffffff</systemCarouselSelectorColor>
-         <gamelistLogoColor>ffffff</gamelistLogoColor>
+         <gridSelectorColor>ffffff</gridSelectorColor>
          <gamelistBackgroundImage>gamelist-background-clear</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>.6</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-clear</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>253f81</gamelistSelectorColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>ffffff</gamelistPrimaryColor>
-         <gamelistSecondaryColor>ffffff</gamelistSecondaryColor>
          <gameMetadataColor>ffffff</gameMetadataColor>
          <BadgeColor>ffffff</BadgeColor>
-         <backgroundArtPath>./wallpapers/sony.webp</backgroundArtPath>
-         <backgroundAnimationPath>./wallpapers/sony.gif</backgroundAnimationPath>
+         <rowBadgeColor>ffffff</rowBadgeColor>
+         <backgroundArtPath>./wallpapers/sony</backgroundArtPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
       </variables>

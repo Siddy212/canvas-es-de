@@ -26,9 +26,6 @@
    <colorScheme name="light-capsule">
       <label>[Capsule] Light</label>
    </colorScheme>
-   <colorScheme name="black-capsule">
-      <label>[Capsule] Black</label>
-   </colorScheme>
    <colorScheme name="retro-capsule">
       <label>[Capsule] Retro</label>
    </colorScheme>
@@ -53,9 +50,6 @@
    <colorScheme name="light">
       <label>[Art] Light</label>
    </colorScheme>
-   <colorScheme name="black">
-      <label>[Art] Black</label>
-   </colorScheme>
    <colorScheme name="retro">
       <label>[Art] Retro</label>
    </colorScheme>
@@ -74,59 +68,77 @@
    <colorScheme name="famicom">
       <label>[Art] Famicom</label>
    </colorScheme>
-   <colorScheme name="dark-icon">
-      <label>[Icon] Dark</label>
+   <colorScheme name="dark-controller">
+      <label>[Controller] Dark</label>
    </colorScheme>
-      <colorScheme name="light-icon">
-      <label>[Icon] Light</label>
+      <colorScheme name="light-controller">
+      <label>[Controller] Light</label>
    </colorScheme>
-      <colorScheme name="black-icon">
-      <label>[Icon] Black</label>
+   <colorScheme name="retro-controller">
+      <label>[Controller] Retro</label>
    </colorScheme>
-   <colorScheme name="retro-icon">
-      <label>[Icon] Retro</label>
+   <colorScheme name="neon-controller">
+      <label>[Controller] Neon</label>
    </colorScheme>
-   <colorScheme name="neon-icon">
-      <label>[Icon] Neon</label>
+   <colorScheme name="pastel-controller">
+      <label>[Controller] Pastel</label>
    </colorScheme>
-   <colorScheme name="pastel-icon">
-      <label>[Icon] Pastel</label>
+   <colorScheme name="sony-controller">
+      <label>[Controller] Sony</label>
    </colorScheme>
-   <colorScheme name="sony-icon">
-      <label>[Icon] Sony</label>
+   <colorScheme name="snes-controller">
+      <label>[Controller] SNES</label>
    </colorScheme>
-   <colorScheme name="snes-icon">
-      <label>[Icon] SNES</label>
+   <colorScheme name="famicom-controller">
+      <label>[Controller] Famicom</label>
    </colorScheme>
-   <colorScheme name="famicom-icon">
-      <label>[Icon] Famicom</label>
+   <colorScheme name="dark-logo">
+      <label>[Logo] Dark</label>
    </colorScheme>
-   <colorScheme name="dark-screenshots">
-      <label>[Screenshots] Dark</label>
+      <colorScheme name="light-logo">
+      <label>[Logo] Light</label>
    </colorScheme>
-   <colorScheme name="light-screenshots">
-      <label>[Screenshots] Light</label>
+   <colorScheme name="retro-logo">
+      <label>[Logo] Retro</label>
    </colorScheme>
-   <colorScheme name="black-screenshots">
-      <label>[Screenshots] Black</label>
+   <colorScheme name="neon-logo">
+      <label>[Logo] Neon</label>
    </colorScheme>
-   <colorScheme name="retro-screenshots">
-      <label>[Screenshots] Retro</label>
+   <colorScheme name="pastel-logo">
+      <label>[Logo] Pastel</label>
    </colorScheme>
-   <colorScheme name="neon-screenshots">
-      <label>[Screenshots] Neon</label>
+   <colorScheme name="sony-logo">
+      <label>[Logo] Sony</label>
    </colorScheme>
-   <colorScheme name="pastel-screenshots">
-      <label>[Screenshots] Pastel</label>
+   <colorScheme name="snes-logo">
+      <label>[Logo] SNES</label>
    </colorScheme>
-   <colorScheme name="sony-screenshots">
-      <label>[Screenshots] Sony</label>
+   <colorScheme name="famicom-logo">
+      <label>[Logo] Famicom</label>
    </colorScheme>
-   <colorScheme name="snes-screenshots">
-      <label>[Screenshots] SNES</label>
+   <colorScheme name="dark-screenshot">
+      <label>[Screenshot] Dark</label>
    </colorScheme>
-   <colorScheme name="famicom-screenshots">
-      <label>[Screenshots] Famicom</label>
+   <colorScheme name="light-screenshot">
+      <label>[Screenshot] Light</label>
+   </colorScheme>
+   <colorScheme name="retro-screenshot">
+      <label>[Screenshot] Retro</label>
+   </colorScheme>
+   <colorScheme name="neon-screenshot">
+      <label>[Screenshot] Neon</label>
+   </colorScheme>
+   <colorScheme name="pastel-screenshot">
+      <label>[Screenshot] Pastel</label>
+   </colorScheme>
+   <colorScheme name="sony-screenshot">
+      <label>[Screenshot] Sony</label>
+   </colorScheme>
+   <colorScheme name="snes-screenshot">
+      <label>[Screenshot] SNES</label>
+   </colorScheme>
+   <colorScheme name="famicom-screenshot">
+      <label>[Screenshot] Famicom</label>
    </colorScheme>
 
 
@@ -164,12 +176,12 @@
       <label>[Grid] Carousel: Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="grid-grid-basic">
-      <label>[Grid] Grid: Basic</label>
+   <variant name="grid-row">
+      <label>[Grid] Row</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="grid-grid-immersive">
-      <label>[Grid] Grid: Immersive</label>
+   <variant name="grid-grid-basic">
+      <label>[Grid] Grid: Basic</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-grid-detailed">
@@ -196,12 +208,12 @@
       <label>[Carousel] Carousel: Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="carousel-grid-basic">
-      <label>[Carousel] Grid: Basic</label>
+   <variant name="carousel-row">
+      <label>[Carousel] Row</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="carousel-grid-immersive">
-      <label>[Carousel] Grid: Immersive</label>
+   <variant name="carousel-grid-basic">
+      <label>[Carousel] Grid: Basic</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-grid-detailed">
