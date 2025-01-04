@@ -36,7 +36,7 @@
 
    <colorScheme name="light-capsule,dark-capsule,nes-capsule,retro-capsule,neon-capsule,pastel-capsule,famicom-capsule,snes-capsule,sony-capsule">
          <variables>
-                  <selectorRelativeScaleSize>0.93</selectorRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.935</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.97</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/coversize-shadow/1-1.webp</backgroundImagePath>
@@ -49,7 +49,7 @@
 
    <colorScheme name="light-screenshot,dark-screenshot,nes-screenshot,retro-screenshot,neon-screenshot,pastel-screenshot,famicom-screenshot,snes-screenshot,sony-screenshot">
          <variables>
-                  <selectorRelativeScaleSize>0.93</selectorRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.935</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.97</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/coversize-shadow/1-1.webp</backgroundImagePath>
@@ -62,14 +62,14 @@
 
    <colorScheme name="light-logo,dark-logo,nes-logo,retro-logo,neon-logo,pastel-logo,famicom-logo,snes-logo,sony-logo">
          <variables>
-                  <selectorRelativeScaleSize>0.93</selectorRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.935</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.97</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/coversize-shadow/1-1.webp</backgroundImagePath>
                   <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme> 
-      <colorScheme name="dark-logo,neon-logo,nes-logo">
+      <colorScheme name="dark-logo,neon-logo">
          <variables>
                   <staticImagePath>./_inc/carousel-icons-logo/dark/${system.theme}.webp</staticImagePath>
       </variables>
@@ -84,23 +84,28 @@
                   <staticImagePath>./_inc/carousel-icons-logo/clear/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
+      <colorScheme name="nes-logo">
+         <variables>
+                  <staticImagePath>./_inc/carousel-icons-logo/color/${system.theme}.webp</staticImagePath>
+      </variables>
+   </colorScheme>
 
    <!--   System View: Icons   -->
 
    <colorScheme name="light-controller,dark-controller,nes-controller,retro-controller,neon-controller,pastel-controller,famicom-controller,snes-controller">
          <variables>
-                  <selectorRelativeScaleSize>0.93</selectorRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.935</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.97</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
+                  <backgroundImagePath>./_inc/coversize-shadow/1-1.webp</backgroundImagePath>
                   <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme>
-   <colorScheme name="sony-controller">
+   <colorScheme name="sony-controller,sony-logo,nes-logo">
          <variables>
-                  <selectorRelativeScaleSize>0.93</selectorRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.935</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0</backgroundRelativeScaleSize>
-                  <selectorImagePath>./_inc/system-grid/4-5.svg</selectorImagePath>
+                  <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/system-grid/null.png</backgroundImagePath>
                   <gridsize>system-variables-capsule</gridsize>
       </variables>

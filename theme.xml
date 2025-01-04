@@ -406,7 +406,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <size>${grid-scaled-w} 0.002</size>
             <path>${spacerImage}</path>
             <color>${systemInfoColor}</color>
-            <opacity>11</opacity>
+            <opacity>1</opacity>
             <zIndex>10</zIndex>
       </image>
          <image name="fade-bottom">
@@ -526,7 +526,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <saturation>1</saturation>
             <opacity>1</opacity>
             <gradientType>vertical</gradientType>
-            <brightness>-0.5</brightness>
+            <brightness>-0.3</brightness>
       </video>           
       <image name="background-art-gradient">
             <opacity>0.5</opacity>
@@ -765,9 +765,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <scaleInwards>true</scaleInwards>
          <size>0.5 1</size>
          <itemScale>1.04</itemScale>
-         <imageRelativeScale>0.955</imageRelativeScale>
+         <imageRelativeScale>0.94</imageRelativeScale>
          <textRelativeScale>0.85</textRelativeScale>
-         <selectorRelativeScale>0.96</selectorRelativeScale>
+         <selectorRelativeScale>0.95</selectorRelativeScale>
          <selectorCornerRadius>0.003</selectorCornerRadius>
          <backgroundRelativeScale>0.985</backgroundRelativeScale>
          <selectorImage>./_inc/coversize-selector/${systemCoverSize}.svg</selectorImage>
