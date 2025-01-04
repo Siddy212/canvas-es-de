@@ -4,7 +4,7 @@
 
 <themeCapabilities>
    
-   <themeName>Canvas</themeName>
+   <themeName>Canvas-test</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
@@ -38,35 +38,14 @@
    <colorScheme name="sony-capsule">
       <label>[Capsule] Sony</label>
    </colorScheme>
+   <colorScheme name="nes-capsule">
+      <label>[Capsule] NES</label>
+   </colorScheme>
    <colorScheme name="snes-capsule">
       <label>[Capsule] SNES</label>
    </colorScheme>
    <colorScheme name="famicom-capsule">
       <label>[Capsule] Famicom</label>
-   </colorScheme>
-   <colorScheme name="dark">
-      <label>[Art] Dark</label>
-   </colorScheme>
-   <colorScheme name="light">
-      <label>[Art] Light</label>
-   </colorScheme>
-   <colorScheme name="retro">
-      <label>[Art] Retro</label>
-   </colorScheme>
-   <colorScheme name="neon">
-      <label>[Art] Neon</label>
-   </colorScheme>
-   <colorScheme name="pastel">
-      <label>[Art] Pastel</label>
-   </colorScheme>
-   <colorScheme name="sony">
-      <label>[Art] Sony</label>
-   </colorScheme>
-   <colorScheme name="snes">
-      <label>[Art] SNES</label>
-   </colorScheme>
-   <colorScheme name="famicom">
-      <label>[Art] Famicom</label>
    </colorScheme>
    <colorScheme name="dark-controller">
       <label>[Controller] Dark</label>
@@ -85,6 +64,9 @@
    </colorScheme>
    <colorScheme name="sony-controller">
       <label>[Controller] Sony</label>
+   </colorScheme>
+   <colorScheme name="nes-controller">
+      <label>[Controller] NES</label>
    </colorScheme>
    <colorScheme name="snes-controller">
       <label>[Controller] SNES</label>
@@ -110,6 +92,9 @@
    <colorScheme name="sony-logo">
       <label>[Logo] Sony</label>
    </colorScheme>
+      <colorScheme name="nes-logo">
+      <label>[Logo] NES</label>
+   </colorScheme>
    <colorScheme name="snes-logo">
       <label>[Logo] SNES</label>
    </colorScheme>
@@ -134,11 +119,41 @@
    <colorScheme name="sony-screenshot">
       <label>[Screenshot] Sony</label>
    </colorScheme>
+   <colorScheme name="nes-screenshot">
+      <label>[Screenshot] NES</label>
+   </colorScheme>
    <colorScheme name="snes-screenshot">
       <label>[Screenshot] SNES</label>
    </colorScheme>
    <colorScheme name="famicom-screenshot">
       <label>[Screenshot] Famicom</label>
+   </colorScheme>
+   <colorScheme name="dark">
+      <label>[Art] Dark</label>
+   </colorScheme>
+   <colorScheme name="light">
+      <label>[Art] Light</label>
+   </colorScheme>
+   <colorScheme name="retro">
+      <label>[Art] Retro</label>
+   </colorScheme>
+   <colorScheme name="neon">
+      <label>[Art] Neon</label>
+   </colorScheme>
+   <colorScheme name="pastel">
+      <label>[Art] Pastel</label>
+   </colorScheme>
+   <colorScheme name="sony">
+      <label>[Art] Sony</label>
+   </colorScheme>
+   <colorScheme name="nes">
+      <label>[Art] NES</label>
+   </colorScheme>
+   <colorScheme name="snes">
+      <label>[Art] SNES</label>
+   </colorScheme>
+   <colorScheme name="famicom">
+      <label>[Art] Famicom</label>
    </colorScheme>
 
 
@@ -176,10 +191,6 @@
       <label>[Grid] Carousel: Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="grid-row">
-      <label>[Grid] Row</label>
-      <selectable>true</selectable>
-   </variant>
    <variant name="grid-grid-basic">
       <label>[Grid] Grid: Basic</label>
       <selectable>true</selectable>
@@ -190,6 +201,10 @@
    </variant>
    <variant name="grid-grid-detailed-flipped">
       <label>[Grid] Grid: Detailed - Flipped</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="grid-row">
+      <label>[Grid] Row</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-textlist">
@@ -208,10 +223,6 @@
       <label>[Carousel] Carousel: Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="carousel-row">
-      <label>[Carousel] Row</label>
-      <selectable>true</selectable>
-   </variant>
    <variant name="carousel-grid-basic">
       <label>[Carousel] Grid: Basic</label>
       <selectable>true</selectable>
@@ -222,6 +233,10 @@
    </variant>
    <variant name="carousel-grid-detailed-flipped">
       <label>[Carousel] Grid: Detailed - Flipped</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-row">
+      <label>[Carousel] Row</label>
       <selectable>true</selectable>
    </variant>
 </themeCapabilities>

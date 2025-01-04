@@ -148,7 +148,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <letterCase>uppercase</letterCase>
          <horizontalAlignment>left</horizontalAlignment>
          <verticalAlignment>center</verticalAlignment>
-         <color>${systemInfoColor}</color>
+         <color>${gamescountColor}</color>
          <zIndex>10</zIndex>
          <opacity>0.8</opacity>
          <size>0 ${games-count-font-size}</size>
@@ -158,7 +158,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <origin>1 1</origin>
          <path>./_inc/images/gamescount.svg</path>
          <opacity>1</opacity>
-         <color>${systemInfoColor}</color>
+         <color>${gamescountColor}</color>
          <opacity>0.8</opacity>
          <size>0 ${games-count-font-size}</size>
       </image>
@@ -182,7 +182,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <view name="system">
          <grid name="grid">
             <origin>0.5 0.5</origin>
-            <pos>${gridItemPos} 0.49</pos>
+            <pos>${gridItemPos} 0.48</pos>
             <itemSize>${gridItemSize}</itemSize>
             <selectorRelativeScale>${selectorRelativeScaleSize}</selectorRelativeScale>
             <backgroundRelativeScale>${backgroundRelativeScaleSize}</backgroundRelativeScale>
@@ -204,7 +204,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <scaleInwards>true</scaleInwards>
             <size>0.975 ${gridHeight}</size>
             <itemScale>1.05</itemScale>
-            <imageRelativeScale>0.95</imageRelativeScale>
+            <imageRelativeScale>0.965</imageRelativeScale>
             <textRelativeScale>0.7</textRelativeScale>
             <backgroundColor>00000010</backgroundColor>
          </grid>
@@ -277,7 +277,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <opacity>0.8</opacity>
          <origin>0.5 0.5</origin>
          <path>${systemlogoArtPath}</path>
-         <color>${systemInfoColor}</color>
+         <color>${gamelistLogoColor}</color>
          <zIndex>10</zIndex>
       </image>
       <image name="game-list-background">
@@ -440,7 +440,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <pos>${grid-name-x} ${grid-name-y}</pos>
             <fontPath>${fontBold}</fontPath>
             <fontSize>${base-font-size}</fontSize>
-            <color>${systemInfoColor}</color>
+            <color>${gridNameColor}</color>
             <lineSpacing>1.3</lineSpacing>
             <defaultValue>Unknown</defaultValue>
             <metadata>name</metadata>
@@ -486,6 +486,12 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    </view>
    </variant>
 
+   <!--
+   ///
+   Gamelist View: Row/Boxart-Carousel Defaults
+   ///
+   -->
+
 <variant name="carousel-boxart-carousel,grid-boxart-carousel,grid-row,carousel-row">
    <view name="gamelist">
       <text name="custom-collection-name">
@@ -522,16 +528,17 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <gradientType>vertical</gradientType>
             <brightness>-0.5</brightness>
       </video>           
-      <image name="game-marquee">
-         	<origin>0.5 0</origin>
-            <pos>0.5 ${row-marquee-y}</pos>
-            <maxSize>${row-marquee-w} ${row-marquee-h}</maxSize>
-         </image>  
       <image name="background-art-gradient">
             <opacity>0.5</opacity>
       </image>
    </view>
    </variant>
+
+   <!--
+   ///
+   Gamelist View: Boxart-Carousel Defaults
+   ///
+   -->
 
    <variant name="carousel-boxart-carousel,grid-boxart-carousel">
     <view name="gamelist">
@@ -541,7 +548,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <pos>0.5 ${carousel-y}</pos>
             <size>1 1</size>
             <imageType>cover</imageType>
-            <itemSize>${carousel-base-item-w} 0.45</itemSize>
+            <itemSize>${carousel-base-item-w} 0.55</itemSize>
             <fontSize>${base-font-size}</fontSize>
             <maxItemCount>${carousel-item-count}</maxItemCount>
             <imageInterpolation>linear</imageInterpolation>
@@ -555,15 +562,24 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <unfocusedItemOpacity>1</unfocusedItemOpacity>
             <unfocusedItemDimming>0.8</unfocusedItemDimming>
             <itemScale>${carousel-scale}</itemScale>        
-            <horizontalOffset>-0.25</horizontalOffset>
+            <horizontalOffset>${carousel-offset-x}</horizontalOffset>
             <zIndex>5</zIndex>
 	         <selectedItemMargins>${carousel-item-margins}</selectedItemMargins>
             <imageCornerRadius>0.005</imageCornerRadius>
         </carousel>   
+         <image name="game-marquee">
+         	<origin>0.5 0</origin>
+            <pos>0.5 ${carousel-marquee-y}</pos>
+            <maxSize>${carousel-marquee-w} ${carousel-marquee-h}</maxSize>
+         </image>  
       </view> 
    </variant>
 
-
+   <!--
+   ///
+   Gamelist View: Grid/Row Defaults
+   ///
+   -->
 
    <variant name="grid-row,grid-grid-basic,carousel-row,carousel-grid-basic">
       <view name="gamelist">
@@ -579,7 +595,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
                   <unfocusedItemOpacity>1</unfocusedItemOpacity>
                   <unfocusedItemDimming>0.85</unfocusedItemDimming>
                   <unfocusedItemSaturation>1</unfocusedItemSaturation>
-                  <textColor>${systemInfoColor}</textColor>
+                  <textColor>${gamelistPrimaryColor}</textColor>
                   <fontPath>${fontBold}</fontPath>
                   <fontSize>0.036111111111111</fontSize>
                   <selectorColor>${gridSelectorColor}</selectorColor>
@@ -597,6 +613,12 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       </view>
    </variant>
 
+   <!--
+   ///
+   Gamelist View: Grid/Row Variations
+   ///
+   -->
+
    <variant name="grid-row,carousel-row">
       <view name="gamelist">
          <grid name="grid">
@@ -606,7 +628,12 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          </grid>    
          <badges name="badges">
             <badgeIconColor>${rowBadgeColor}</badgeIconColor>
-         </badges> 
+         </badges>       
+         <image name="game-marquee">
+         	<origin>0.5 0</origin>
+            <pos>0.5 ${row-marquee-y}</pos>
+            <maxSize>${row-marquee-w} ${row-marquee-h}</maxSize>
+         </image>  
       </view>
    </variant>
 
@@ -640,7 +667,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
                   <zIndex>10</zIndex>
             </image>  
             <image name="background-art-gradient">
-               <opacity>0.3</opacity>
+               <opacity>0</opacity>
             </image>    
       </view>
    </variant>

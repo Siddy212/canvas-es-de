@@ -5,9 +5,9 @@
    </variables>
    <!--   System View: Art -->
 
-   <colorScheme name="light,dark,retro,neon,pastel,famicom,snes,sony">
+   <colorScheme name="light,dark,nes,retro,neon,pastel,famicom,snes,sony">
          <variables>
-                  <selectorRelativeScaleSize>0.881388</selectorRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.891388</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.9817</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/system-grid/square.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/system-grid/square-bg.png</backgroundImagePath>
@@ -16,7 +16,7 @@
    </colorScheme>
 
 
-   <colorScheme name="sony,dark,neon">
+   <colorScheme name="sony,dark,neon,nes">
       <variables>
           <staticImagePath>./_inc/carousel-icons-art/light/${system.theme}.webp</staticImagePath>
       </variables>
@@ -34,12 +34,12 @@
    
    <!--   System View: Capsule   -->
 
-   <colorScheme name="light-capsule,dark-capsule,retro-capsule,neon-capsule,pastel-capsule,famicom-capsule,snes-capsule,sony-capsule">
+   <colorScheme name="light-capsule,dark-capsule,nes-capsule,retro-capsule,neon-capsule,pastel-capsule,famicom-capsule,snes-capsule,sony-capsule">
          <variables>
-                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.93</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.97</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
+                  <backgroundImagePath>./_inc/coversize-shadow/1-1.webp</backgroundImagePath>
                   <staticImagePath>./_inc/carousel-icons-capsule/${system.theme}.webp</staticImagePath>
                   <gridsize>system-variables-capsule</gridsize>
       </variables>
@@ -47,12 +47,12 @@
 
    <!--   System View: screenshot   -->
 
-   <colorScheme name="light-screenshot,dark-screenshot,retro-screenshot,neon-screenshot,pastel-screenshot,famicom-screenshot,snes-screenshot,sony-screenshot">
+   <colorScheme name="light-screenshot,dark-screenshot,nes-screenshot,retro-screenshot,neon-screenshot,pastel-screenshot,famicom-screenshot,snes-screenshot,sony-screenshot">
          <variables>
-                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.93</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.97</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
+                  <backgroundImagePath>./_inc/coversize-shadow/1-1.webp</backgroundImagePath>
                   <staticImagePath>./_inc/carousel-icons-screenshot/${system.theme}.webp</staticImagePath>
                   <gridsize>system-variables-capsule</gridsize>
       </variables>
@@ -60,16 +60,16 @@
 
    <!--   System View: logo   -->
 
-   <colorScheme name="light-logo,dark-logo,retro-logo,neon-logo,pastel-logo,famicom-logo,snes-logo,sony-logo">
+   <colorScheme name="light-logo,dark-logo,nes-logo,retro-logo,neon-logo,pastel-logo,famicom-logo,snes-logo,sony-logo">
          <variables>
-                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.93</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.97</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
-                  <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
+                  <backgroundImagePath>./_inc/coversize-shadow/1-1.webp</backgroundImagePath>
                   <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme> 
-      <colorScheme name="dark-logo,neon-logo">
+      <colorScheme name="dark-logo,neon-logo,nes-logo">
          <variables>
                   <staticImagePath>./_inc/carousel-icons-logo/dark/${system.theme}.webp</staticImagePath>
       </variables>
@@ -87,10 +87,10 @@
 
    <!--   System View: Icons   -->
 
-   <colorScheme name="light-controller,dark-controller,retro-controller,neon-controller,pastel-controller,famicom-controller,snes-controller">
+   <colorScheme name="light-controller,dark-controller,nes-controller,retro-controller,neon-controller,pastel-controller,famicom-controller,snes-controller">
          <variables>
-                  <selectorRelativeScaleSize>0.90778</selectorRelativeScaleSize>
-                  <backgroundRelativeScaleSize>0.98167</backgroundRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.93</selectorRelativeScaleSize>
+                  <backgroundRelativeScaleSize>0.97</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/system-grid/capsule.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/system-grid/capsule-bg.png</backgroundImagePath>
                   <gridsize>system-variables-capsule</gridsize>
@@ -98,7 +98,7 @@
    </colorScheme>
    <colorScheme name="sony-controller">
          <variables>
-                  <selectorRelativeScaleSize>0.92889</selectorRelativeScaleSize>
+                  <selectorRelativeScaleSize>0.93</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0</backgroundRelativeScaleSize>
                   <selectorImagePath>./_inc/system-grid/4-5.svg</selectorImagePath>
                   <backgroundImagePath>./_inc/system-grid/null.png</backgroundImagePath>
@@ -111,7 +111,7 @@
           <staticImagePath>./_inc/carousel-icons-controller/clear/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
-   <colorScheme name="light-controller,retro-controller,pastel-controller,famicom-controller,snes-controller">
+   <colorScheme name="light-controller,nes-controller,retro-controller,pastel-controller,famicom-controller,snes-controller">
       <variables>
           <staticImagePath>./_inc/carousel-icons-controller/medium/${system.theme}.webp</staticImagePath>
       </variables>
@@ -127,11 +127,11 @@
       <variables>
          <helpTextColor>999999</helpTextColor>
          <backgroundColor>373737</backgroundColor>
+         <gamescountColor>cccccc</gamescountColor>
          <systemInfoColor>cccccc</systemInfoColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <gridSelectorColor>ffffff</gridSelectorColor>
          <gamelistCarouselBackground>carousel-background-dark</gamelistCarouselBackground>
-         <gamelistLogoColor>cccccc</gamelistLogoColor>
          <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
@@ -139,8 +139,10 @@
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>777777</gamelistPrimaryColor>
          <gameMetadataColor>bbbbbb</gameMetadataColor>
+         <gamelistLogoColor>cccccc</gamelistLogoColor>
          <BadgeColor>bbbbbb</BadgeColor>
          <rowBadgeColor>FFFFFF</rowBadgeColor>
+         <gridNameColor>ffffff</gridNameColor>
          <backgroundArtPath>./wallpapers/dark</backgroundArtPath>
          <backgroundArtOpacity>1</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
@@ -150,9 +152,11 @@
       <variables>
          <helpTextColor>555555</helpTextColor>
          <backgroundColor>373737</backgroundColor>
+         <gamescountColor>555555</gamescountColor>
          <systemInfoColor>555555</systemInfoColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <gridSelectorColor>FFFFFF</gridSelectorColor>
+         <gamelistLogoColor>881400</gamelistLogoColor>
          <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>0.8</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
@@ -160,17 +164,45 @@
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>666666</gamelistPrimaryColor>
          <gameMetadataColor>666666</gameMetadataColor>
+         <gamelistLogoColor>555555</gamelistLogoColor>
          <BadgeColor>555555</BadgeColor>
          <rowBadgeColor>FFFFFF</rowBadgeColor>
+         <gridNameColor>ffffff</gridNameColor>
          <backgroundArtPath>./wallpapers/light</backgroundArtPath>
          <backgroundArtOpacity>0.8</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
       </variables>
    </colorScheme>   
+   <colorScheme name="nes,nes-controller,nes-capsule,nes-logo,nes-screenshot">
+      <variables>
+         <helpTextColor>999999</helpTextColor>
+         <backgroundColor>373737</backgroundColor>
+         <gamescountColor>CECECE</gamescountColor>
+         <systemInfoColor>CECECE</systemInfoColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
+         <gridSelectorColor>6d1303</gridSelectorColor>
+         <gamelistCarouselBackground>carousel-background-dark</gamelistCarouselBackground>
+         <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
+         <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
+         <gamelistSelectorColor>6d1303</gamelistSelectorColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gamelistPrimaryColor>777777</gamelistPrimaryColor>
+         <gameMetadataColor>bbbbbb</gameMetadataColor>
+         <gamelistLogoColor>6E1010</gamelistLogoColor>
+         <BadgeColor>e5e5e5</BadgeColor>
+         <rowBadgeColor>e5e5e5</rowBadgeColor>
+         <gridNameColor>CECECE</gridNameColor>
+         <backgroundArtPath>./wallpapers/nes</backgroundArtPath>
+         <backgroundArtOpacity>1</backgroundArtOpacity>
+         <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
+      </variables>
+   </colorScheme>
    <colorScheme name="retro,retro-controller,retro-capsule,retro-logo,retro-screenshot">
       <variables>
          <helpTextColor>5b5a58</helpTextColor>
          <backgroundColor>00000000</backgroundColor>
+         <gamescountColor>5b5a58</gamescountColor>
          <systemInfoColor>5b5a58</systemInfoColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <gridSelectorColor>93cbb7</gridSelectorColor>
@@ -181,8 +213,10 @@
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>777777</gamelistPrimaryColor>
          <gameMetadataColor>777777</gameMetadataColor>
+         <gamelistLogoColor>5b5a58</gamelistLogoColor>
          <BadgeColor>777777</BadgeColor>
          <rowBadgeColor>FFFFFF</rowBadgeColor>
+         <gridNameColor>353534</gridNameColor>
          <backgroundArtPath>./wallpapers/retro</backgroundArtPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
@@ -192,6 +226,7 @@
       <variables>
          <helpTextColor>FFFFFF</helpTextColor>
          <backgroundColor>74006c</backgroundColor>
+         <gamescountColor>FFFFFF</gamescountColor>
          <systemInfoColor>FFFFFF</systemInfoColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <gridSelectorColor>74006c</gridSelectorColor>
@@ -202,8 +237,10 @@
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>FFFFFF</gamelistPrimaryColor>
          <gameMetadataColor>FFFFFF</gameMetadataColor>
+         <gamelistLogoColor>FFFFFF</gamelistLogoColor>
          <BadgeColor>FFFFFF</BadgeColor>
          <rowBadgeColor>FFFFFF</rowBadgeColor>
+         <gridNameColor>ffffff</gridNameColor>
          <backgroundArtPath>./wallpapers/neon</backgroundArtPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
@@ -213,6 +250,7 @@
       <variables>
          <helpTextColor>777777</helpTextColor>
          <backgroundColor>bbbbbb</backgroundColor>
+         <gamescountColor>777777</gamescountColor>
          <systemInfoColor>777777</systemInfoColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <gridSelectorColor>A7C7E7</gridSelectorColor>
@@ -223,8 +261,10 @@
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>777777</gamelistPrimaryColor>
          <gameMetadataColor>777777</gameMetadataColor>
+         <gamelistLogoColor>777777</gamelistLogoColor>
          <BadgeColor>777777</BadgeColor>
          <rowBadgeColor>FFFFFF</rowBadgeColor>
+         <gridNameColor>777777</gridNameColor>
          <backgroundArtPath>./wallpapers/pastel</backgroundArtPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
@@ -234,6 +274,7 @@
       <variables>
          <helpTextColor>e4e5ca</helpTextColor>
          <backgroundColor>846D21</backgroundColor>
+         <gamescountColor>e4e5ca</gamescountColor>
          <systemInfoColor>e4e5ca</systemInfoColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <gridSelectorColor>846D21</gridSelectorColor>
@@ -244,8 +285,10 @@
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>3b3b3b</gamelistPrimaryColor>
          <gameMetadataColor>3b3b3b</gameMetadataColor>
+         <gamelistLogoColor>e4e5ca</gamelistLogoColor>
          <BadgeColor>e4e5ca</BadgeColor>
          <rowBadgeColor>e4e5ca</rowBadgeColor>
+         <gridNameColor>ffffff</gridNameColor>
          <backgroundArtPath>./wallpapers/famicom</backgroundArtPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
@@ -255,7 +298,8 @@
       <variables>
          <helpTextColor>3c3b3b</helpTextColor>
          <backgroundColor>846D21</backgroundColor>
-         <systemInfoColor>3c3b3b</systemInfoColor>\
+         <gamescountColor>3c3b3b</gamescountColor>
+         <systemInfoColor>3c3b3b</systemInfoColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <gridSelectorColor>4a3580</gridSelectorColor>
          <gamelistBackgroundImage>gamelist-background-retro</gamelistBackgroundImage>
@@ -265,8 +309,10 @@
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>3c3b3b</gamelistPrimaryColor>
          <gameMetadataColor>3c3b3b</gameMetadataColor>
+         <gamelistLogoColor>5c528f</gamelistLogoColor>
          <BadgeColor>3c3b3b</BadgeColor>
          <rowBadgeColor>ffffff</rowBadgeColor>
+         <gridNameColor>3c3b3b</gridNameColor>
          <backgroundArtPath>./wallpapers/snes</backgroundArtPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
@@ -276,6 +322,7 @@
       <variables>
          <helpTextColor>ffffff</helpTextColor>
          <backgroundColor>ffffff</backgroundColor>
+         <gamescountColor>ffffff</gamescountColor>
          <systemInfoColor>ffffff</systemInfoColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <gridSelectorColor>ffffff</gridSelectorColor>
@@ -286,8 +333,10 @@
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>ffffff</gamelistPrimaryColor>
          <gameMetadataColor>ffffff</gameMetadataColor>
+         <gamelistLogoColor>ffffff</gamelistLogoColor>
          <BadgeColor>ffffff</BadgeColor>
          <rowBadgeColor>ffffff</rowBadgeColor>
+         <gridNameColor>ffffff</gridNameColor>
          <backgroundArtPath>./wallpapers/sony</backgroundArtPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
