@@ -4,7 +4,7 @@
 
 <themeCapabilities>
    
-   <themeName>Canvas-test</themeName>
+   <themeName>Canvas\</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
@@ -191,6 +191,10 @@
       <label>[Grid] Carousel: Boxart</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="grid-row">
+      <label>[Grid] Row</label>
+      <selectable>true</selectable>
+   </variant>
    <variant name="grid-grid-basic">
       <label>[Grid] Grid: Basic</label>
       <selectable>true</selectable>
@@ -201,10 +205,6 @@
    </variant>
    <variant name="grid-grid-detailed-flipped">
       <label>[Grid] Grid: Detailed - Flipped</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="grid-row">
-      <label>[Grid] Row</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-textlist">
@@ -223,6 +223,10 @@
       <label>[Carousel] Carousel: Boxart</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="carousel-row">
+      <label>[Carousel] Row</label>
+      <selectable>true</selectable>
+   </variant>
    <variant name="carousel-grid-basic">
       <label>[Carousel] Grid: Basic</label>
       <selectable>true</selectable>
@@ -233,10 +237,6 @@
    </variant>
    <variant name="carousel-grid-detailed-flipped">
       <label>[Carousel] Grid: Detailed - Flipped</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="carousel-row">
-      <label>[Carousel] Row</label>
       <selectable>true</selectable>
    </variant>
 </themeCapabilities>
