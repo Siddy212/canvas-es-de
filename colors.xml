@@ -149,6 +149,7 @@
          <rowBadgeColor>FFFFFF</rowBadgeColor>
          <gridNameColor>ffffff</gridNameColor>
          <backgroundArtPath>./wallpapers/dark</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/animated/dark</backgroundAnimationPath>
          <backgroundArtOpacity>1</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
@@ -174,6 +175,7 @@
          <rowBadgeColor>FFFFFF</rowBadgeColor>
          <gridNameColor>ffffff</gridNameColor>
          <backgroundArtPath>./wallpapers/light</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/animated/light</backgroundAnimationPath>
          <backgroundArtOpacity>0.8</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
       </variables>
@@ -199,6 +201,7 @@
          <rowBadgeColor>e5e5e5</rowBadgeColor>
          <gridNameColor>CECECE</gridNameColor>
          <backgroundArtPath>./wallpapers/nes</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/animated/nes</backgroundAnimationPath>
          <backgroundArtOpacity>1</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
@@ -223,6 +226,7 @@
          <rowBadgeColor>FFFFFF</rowBadgeColor>
          <gridNameColor>353534</gridNameColor>
          <backgroundArtPath>./wallpapers/retro</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/animated/retro</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
@@ -247,6 +251,7 @@
          <rowBadgeColor>FFFFFF</rowBadgeColor>
          <gridNameColor>ffffff</gridNameColor>
          <backgroundArtPath>./wallpapers/neon</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/animated/neon</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
@@ -271,6 +276,7 @@
          <rowBadgeColor>FFFFFF</rowBadgeColor>
          <gridNameColor>777777</gridNameColor>
          <backgroundArtPath>./wallpapers/pastel</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/animated/pastel</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
@@ -295,6 +301,7 @@
          <rowBadgeColor>e4e5ca</rowBadgeColor>
          <gridNameColor>ffffff</gridNameColor>
          <backgroundArtPath>./wallpapers/famicom</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/animated/famicom</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
       </variables>
@@ -319,6 +326,7 @@
          <rowBadgeColor>ffffff</rowBadgeColor>
          <gridNameColor>3c3b3b</gridNameColor>
          <backgroundArtPath>./wallpapers/snes</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/animated/snes</backgroundAnimationPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-medium.svg</backgroundArtGradientImage>
       </variables>
@@ -343,6 +351,7 @@
          <rowBadgeColor>ffffff</rowBadgeColor>
          <gridNameColor>ffffff</gridNameColor>
          <backgroundArtPath>./wallpapers/sony</backgroundArtPath>
+         <backgroundAnimationPath>./wallpapers/animated/sony</backgroundAnimationPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
       </variables>

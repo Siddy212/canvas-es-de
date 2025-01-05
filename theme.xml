@@ -57,7 +57,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <size>0 1</size>
          <interpolation>linear</interpolation>
          <zIndex>2</zIndex>
-         <path>${backgroundArtPath}.gif</path>
+         <path>${backgroundAnimationPath}.gif</path>
          <opacity>1</opacity>
       </animation>
       <image name="background-art">
