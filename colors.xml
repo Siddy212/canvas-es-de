@@ -92,7 +92,7 @@
 
    <!--   System View: Icons   -->
 
-   <colorScheme name="light-controller,dark-controller,nes-controller,retro-controller,neon-controller,pastel-controller,famicom-controller,snes-controller">
+   <colorScheme name="light-controller,dark-controller,retro-controller,neon-controller,pastel-controller,famicom-controller,snes-controller">
          <variables>
                   <selectorRelativeScaleSize>0.935</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0.97</backgroundRelativeScaleSize>
@@ -101,7 +101,7 @@
                   <gridsize>system-variables-capsule</gridsize>
       </variables>
    </colorScheme>
-   <colorScheme name="sony-controller,sony-logo,nes-logo">
+   <colorScheme name="sony-controller,sony-logo,nes-logo,nes-controller">
          <variables>
                   <selectorRelativeScaleSize>0.935</selectorRelativeScaleSize>
                   <backgroundRelativeScaleSize>0</backgroundRelativeScaleSize>
@@ -111,12 +111,12 @@
       </variables>
    </colorScheme>
 
-   <colorScheme name="sony-controller">
+   <colorScheme name="sony-controller,nes-controller">
       <variables>
           <staticImagePath>./_inc/carousel-icons-controller/clear/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
-   <colorScheme name="light-controller,nes-controller,retro-controller,pastel-controller,famicom-controller,snes-controller">
+   <colorScheme name="light-controller,retro-controller,pastel-controller,famicom-controller,snes-controller">
       <variables>
           <staticImagePath>./_inc/carousel-icons-controller/medium/${system.theme}.webp</staticImagePath>
       </variables>
