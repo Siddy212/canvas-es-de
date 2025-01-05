@@ -130,14 +130,14 @@ based on 1920x1440
    carousel-textlist,carousel-textlist-flipped,carousel-carousel,carousel-grid-detailed,carousel-grid-detailed-flipped">
       <view name="gamelist">   
          <badges name="badges">
-            <lines>3</lines>
-            <itemsPerLine>3</itemsPerLine>
+            <lines>1</lines>
+            <itemsPerLine>9</itemsPerLine>
             <size>${badgesize}</size>
-            <itemMargin>0.006 0.01</itemMargin>
+            <itemMargin>0.004 0.01</itemMargin>
             <visible>${metadataMin}</visible>
          </badges>
          <image name="system-logo">
-            <size>0.1875 0</size>
+            <maxSize>0.24 0.1</maxSize>
          </image>
          <video name="game-media">
             <maxSize>${imagemaxSize}</maxSize>
@@ -239,7 +239,7 @@ based on 1920x1440
             <descriptionLineSpacing>1.35</descriptionLineSpacing>
             <badgepos>0.0351875 0.865</badgepos>
             <badgeposFlipped>0.5571875 0.865</badgeposFlipped>
-            <badgesize>0.3 0.108</badgesize>
+            <badgesize>0.26 0.108</badgesize>
          </variables>
       </fontSize>
       <fontSize name="medium">
@@ -249,9 +249,9 @@ based on 1920x1440
             <descriptionHeight>0.11</descriptionHeight>
             <descriptionFontSize>0.026</descriptionFontSize>
             <descriptionLineSpacing>1.2</descriptionLineSpacing>
-            <badgepos>0.0351875 0.865</badgepos>
-            <badgeposFlipped>0.5351875 0.865</badgeposFlipped>
-            <badgesize>0.3 0.108</badgesize>
+            <badgepos>0.0351875 0.863</badgepos>
+            <badgeposFlipped>0.5351875 0.863</badgeposFlipped>
+            <badgesize>0.28 0.108</badgesize>
          </variables>
       </fontSize>
       <fontSize name="large">
@@ -261,9 +261,9 @@ based on 1920x1440
             <descriptionHeight>0.13</descriptionHeight>
             <descriptionFontSize>0.032</descriptionFontSize>
             <descriptionLineSpacing>1.6</descriptionLineSpacing>
-            <badgepos>0.0271875 0.895</badgepos>
-            <badgeposFlipped>0.5271875 0.895</badgeposFlipped>
-            <badgesize>0.30 0.16</badgesize>
+            <badgepos>0.0271875 0.888</badgepos>
+            <badgeposFlipped>0.5271875 0.888</badgeposFlipped>
+            <badgesize>0.31 0.16</badgesize>
          </variables>
       </fontSize>
       <fontSize name="x-large">
@@ -273,9 +273,9 @@ based on 1920x1440
             <descriptionHeight>0.11</descriptionHeight>
             <descriptionFontSize>0.027</descriptionFontSize>
             <descriptionLineSpacing>1.4</descriptionLineSpacing>
-            <badgepos>0.0271875 0.9</badgepos>
+            <badgepos>0.0271875 0.1</badgepos>
             <badgeposFlipped>0.5271875 0.9</badgeposFlipped>
-            <badgesize>0.35 0.18</badgesize>
+            <badgesize>0.32 0.16</badgesize>
          </variables>
       </fontSize>
       <fontSize name="small,medium">
@@ -308,7 +308,7 @@ based on 1920x1440
             <pos>${badgepos}</pos>
          </badges>
          <image name="system-logo">
-            <pos>0.25 0.88</pos>
+            <pos>0.25 0.90</pos>
          </image>
          <video name="game-media">
             <pos>${imagepos}</pos>
@@ -381,7 +381,7 @@ based on 1920x1440
             <pos>${badgeposFlipped}</pos>
          </badges>
          <image name="system-logo">
-            <pos>0.75 0.88</pos>
+            <pos>0.75 0.9</pos>
          </image>
          <video name="game-media">
             <pos>${imageposFlipped}</pos>
