@@ -210,7 +210,7 @@ based on 1920x1080
             <zIndex>4</zIndex>
          </image>
          <text name="game-name-base">
-            <size>.413 ${metaDatafontSize}</size>
+            <size>.41 ${metaDatafontSize}</size>
             <visible>${metadataBase}</visible>
             <lineSpacing>1.2</lineSpacing>
             <fontSize>${metaDatafontSize}</fontSize>
@@ -225,15 +225,14 @@ based on 1920x1080
             <fontSize>${metaDatafontSize}</fontSize>
          </datetime>
          <text name="game-genre-base">
-            <size>0.161 ${metaDatafontSize}</size>
+            <size>0.1585 ${metaDatafontSize}</size>
             <lineSpacing>1.2</lineSpacing>
             <visible>${metadataBase}</visible>
             <fontSize>${metaDatafontSize}</fontSize>
          </text>
          <!-- End: Base Metadata -->
          <text name="game-description">
-            <pos>0.2328125 ${descriptionPos}</pos>
-            <size>0.44 ${descriptionHeight}</size>
+            <size>0.43 ${descriptionHeight}</size>
             <fontSize>${descriptionFontSize}</fontSize>
             <lineSpacing>${descriptionLineSpacing}</lineSpacing>
             <visible>${metadataMin}</visible>
@@ -266,7 +265,7 @@ based on 1920x1080
       <fontSize name="large">
          <variables>
             <metaDatafontSize>0.033</metaDatafontSize>
-            <descriptionPos>0.65</descriptionPos>
+            <descriptionPos>0.652</descriptionPos>
             <descriptionHeight>0.170</descriptionHeight>
             <descriptionFontSize>0.032</descriptionFontSize>
             <descriptionLineSpacing>1.4</descriptionLineSpacing>
@@ -297,7 +296,7 @@ based on 1920x1080
       </fontSize>
       <fontSize name="large">
          <variables>
-            <logoPos>0.885</logoPos>
+            <logoPos>0.875</logoPos>
          </variables>
       </fontSize>
       <fontSize name="x-large">
@@ -334,28 +333,28 @@ based on 1920x1080
             <pos>0.0825 0.562</pos>
          </rating>
          <datetime name="game-releasedate-extended">
-            <pos>0.0471875 0.615</pos>
+            <pos>0.0482875 0.615</pos>
          </datetime>
          <text name="game-name-extended">
-            <pos>0.0471875 0.512</pos>
+            <pos>0.0482875 0.512</pos>
          </text>
          <text name="game-players-extended">
-            <pos>0.0471875 0.666</pos>
+            <pos>0.0481875 0.666</pos>
          </text>
          <text name="game-genre-extended">
-            <pos>0.1716875 0.563</pos>
+            <pos>0.1726875 0.563</pos>
          </text>
          <text name="game-developer-extended">
-            <pos>0.1716875 0.615</pos>
+            <pos>0.1726875 0.615</pos>
          </text>
          <text name="game-publisher-extended">
-            <pos>0.1716875 0.666</pos>
+            <pos>0.1726875 0.666</pos>
          </text>
          <datetime name="game-lastplayed-extended">
-            <pos>0.375475 0.615</pos>
+            <pos>0.376475 0.615</pos>
          </datetime>
          <text name="game-playcount-extended">
-            <pos>0.375475 0.666</pos>
+            <pos>0.376475 0.666</pos>
          </text>
          <!-- End: Extended Metadata -->
          <!-- Start: Base Metadata -->
@@ -366,16 +365,16 @@ based on 1920x1080
             <pos>0.25 0.6422</pos>
          </image>
          <text name="game-name-base">
-            <pos>0.061 0.525</pos>
+            <pos>0.063 0.525</pos>
          </text>
          <rating name="game-rating-base">
             <pos>0.079 0.602</pos>
          </rating>
          <datetime name="game-releasedate-base">
-            <pos>0.177 0.604</pos>
+            <pos>0.179 0.604</pos>
          </datetime>
          <text name="game-genre-base">
-            <pos>0.3125 0.604</pos>
+            <pos>0.3145 0.604</pos>
          </text>
          <!-- End: Base Metadata -->
          <text name="game-description">
@@ -409,28 +408,28 @@ based on 1920x1080
             <pos>0.5825 0.562</pos>
          </rating>
          <datetime name="game-releasedate-extended">
-            <pos>0.5471875 0.615</pos>
+            <pos>0.5482875 0.615</pos>
          </datetime>
          <text name="game-name-extended">
-            <pos>0.5471875 0.512</pos>
+            <pos>0.5482875 0.512</pos>
          </text>
          <text name="game-players-extended">
-            <pos>0.5471875 0.666</pos>
+            <pos>0.5481875 0.666</pos>
          </text>
          <text name="game-genre-extended">
-            <pos>0.6716875 0.563</pos>
+            <pos>0.6726875 0.563</pos>
          </text>
          <text name="game-developer-extended">
-            <pos>0.6716875 0.615</pos>
+            <pos>0.6726875 0.615</pos>
          </text>
          <text name="game-publisher-extended">
-            <pos>0.6716875 0.666</pos>
+            <pos>0.6726875 0.666</pos>
          </text>
          <datetime name="game-lastplayed-extended">
-            <pos>0.875475 0.615</pos>
+            <pos>0.876475 0.615</pos>
          </datetime>
          <text name="game-playcount-extended">
-            <pos>0.875475 0.666</pos>
+            <pos>0.876475 0.666</pos>
          </text>
          <!-- End: Extended Metadata -->
          <!-- Start: Base Metadata -->
@@ -441,16 +440,16 @@ based on 1920x1080
             <pos>0.75 0.6422</pos>
          </image>
          <text name="game-name-base">
-            <pos>0.561 0.525</pos>
+            <pos>0.563 0.525</pos>
          </text>
          <rating name="game-rating-base">
             <pos>0.579 0.602</pos>
          </rating>
          <datetime name="game-releasedate-base">
-            <pos>0.677 0.604</pos>
+            <pos>0.679 0.604</pos>
          </datetime>
          <text name="game-genre-base">
-            <pos>0.8125 0.604</pos>
+            <pos>0.8145 0.604</pos>
          </text>
          <!-- End: Base Metadata -->
          <text name="game-description">
