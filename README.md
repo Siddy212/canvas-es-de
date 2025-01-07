@@ -20,7 +20,7 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a minimal i
    - `21:9`
    - `3:2`
      
-- `Theme Variant` - Canvas features combinations of a grid/carousel system view that will scale based on font size. A gamelist view of either textlist or grid gamelist view. Additionally, two styles of system logos are available: Art or Icons. All variants will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens:
+- `Theme Variant` - Canvas features combinations of a grid/carousel system view that will scale based on font size. A gamelist view of textlist, carousel, or grid gamelist views. Additionally, five styles of system icons are available: Capsule, Controller, Logos, Screenshots, or Art. All variants will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `Large` and `X-Large` will reduce metadata shown on all screens, with `X-Large` just showing an image:
   
    - `[Grid] Textlist` - A system grid with a simple text list of games and metadata on the left.
      
