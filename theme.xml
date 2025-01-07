@@ -835,7 +835,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <origin>0 0.5</origin>
             <fontPath>${fontBold}</fontPath>
             <color>${gameMetadataColor}</color>
-            <lineSpacing>1</lineSpacing>
+            <lineSpacing>1.5</lineSpacing>
             <defaultValue>Unknown</defaultValue>
          </text>
          <datetime name="game-releasedate-extended">
