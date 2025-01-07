@@ -1,12 +1,11 @@
 # Canvas (ES-DE Version)
-Canvas is a theme for EmulationStation-DE theme that aims to provide a modern and easy to use interface with a variety of color schemes. It also provides easy customization for users to swap out wallpapers to their own liking.
+Canvas is a theme for EmulationStation-DE theme that aims to provide a minimal interface with a large variety of color schemes and styles. It also provides easy customization for users to swap out wallpapers to their own liking.
 
 ## **Preview**
 
 | System View | Gamelist View |
 | --- | --- |
-|![MainPastel](https://github.com/Siddy212/canvas-es-de/assets/60283021/ddeab158-b583-4fdc-82a6-b67a70f43a69)|![GamePastel](https://github.com/Siddy212/canvas-es-de/assets/60283021/b810a52b-ea17-4c7e-8b7b-d7cc040a760e)|
-
+|![MainPastel](https://github.com/user-attachments/assets/d2c937b8-00ac-4ddf-b811-4b55246fd996)|![GamePastel](https://github.com/user-attachments/assets/b28814bb-d533-4184-bc19-bcb0296d29eb)|
 
 
 ## **Configuration Options**
@@ -27,35 +26,43 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
      
    - `[Grid] Textlist - Flipped` - A system grid with a simple text list of games and metadata on the right.
 
-   - `[Grid] Carousel` - A system grid with a carousel of games and metadata on the left.
+   - `[Grid] Carousel: Marquee` - A system grid with a carousel of game logos and metadata on the left.
+              
+   - `[Grid] Carousel: Boxart` - A system grid with a carousel of game covers and minimal metadata.
      
    - `[Grid] Grid: Basic` - A system grid with a grid of boxart and minimal metadata for games.
      
    - `[Grid] Grid: Detailed` - A system grid with a grid of boxart and detailed metadata on the left for games.
  
    - `[Grid] Grid: Detailed - Flipped` - A system grid with a grid of boxart and detailed metadata on the right for games.
+      
+   - `[Grid] Grid: Row` - A system grid with a single row of boxart and a large video background.
      
   - `[Carousel] Textlist` - A system carousel with a simple text list of games and metadata on the left.
 
   - `[Carousel] Textlist - Flipped` - A system carousel with a simple text list of games and metadata on the right.
     
-   - `[Carousel] Carousel` - A system carousel with a carousel of games and metadata on the left.
+   - `[Carousel] Carousel: Marquee` - A system carousel with a carousel of game logos and metadata on the left.
+         
+   - `[Carousel] Carousel: Boxart` - A system carousel with a carousel of game covers and minimal metadata.
      
    - `[Carousel] Grid: Basic` - A system carousel with a grid of boxart and minimal metadata for games.
      
    - `[Carousel] Grid: Detailed` - A system carousel with a grid of boxart and detailed metadata on the left for games.
      
    - `[Carousel] Grid: Detailed - Flipped` - A system carousel with a grid of boxart and detailed metadata on the right for games.
+      
+   - `[Carousel] Grid: Row` - A system carousel with a single row of boxart and a large video background.
 
 
-
-- `Theme Color Scheme` - `Art/Icon/Capsule/Screenshots` There are 8 color schemes to choose from that each include an art, art "capsule", screenshots or icon variant for the system logos. Each color scheme changes the color palette and wallpaper of the theme across all views. Each wallpaper can easily be swapped out by the user for further customization. Alternate options are included within the theme as examples:
+- `Theme Color Scheme` - `Art/Icon/Capsule/Screenshots` There are 9 color schemes to choose from that each include an a Capsule, Controller, Logo, Screenshots or art variant for the system view. Each color scheme changes the color palette and wallpaper of the theme across all views. Each wallpaper can easily be swapped out by the user for further customization. Alternate options are included within the theme as examples:
   
    - `Light` - A light grayscale color scheme.
    - `Dark` - A dark grayscale color scheme.
    - `Neon` - A retro neon color scheme.
    - `Pastel` - A light and bright color scheme.
    - `Sony` - A blue/white style using PSP colors.
+   - `NES` - A black/red style using Nintendo colors.
    - `SNES` - A gray/purple style using Super Nintendo colors.
    - `Famicom` - A red/gold style using Nintendo Famicom colors.
    - `Retro` - A striped vintage color scheme.
@@ -66,23 +73,24 @@ Canvas is a theme for EmulationStation-DE theme that aims to provide a modern an
    - `Large` - good for display on large handheld screens at 6 inches or larger.
    - `Extra Large` - good for display on small handheld screens at 6 inches or below. Disables most metadata.
      
-### **Preview of Variants and Color Schemes**
+### **Preview of some Variants and Color Schemes**
 
 | Color | Variant | SystemView | GamelistView |
 | :---: | :---: | :---: | :---: |
-|Retro|[Grid] Grid: Simple|![MainRetro](https://github.com/Siddy212/canvas-es-de/assets/60283021/ffa38fa6-6aba-4563-a007-65621c5585a6)|![GameRetroLarge](https://github.com/Siddy212/canvas-es-de/assets/60283021/efd77be4-7e98-4e46-a4e8-8ad694df7f8f)|
-|[Icon] Dark| [Carousel] Textlist|![MainDarkIcon](https://github.com/Siddy212/canvas-es-de/assets/60283021/1a0442fc-dccc-4113-a394-5a70b58925d0)|![GameDark](https://github.com/Siddy212/canvas-es-de/assets/60283021/128df83f-62c2-4a00-be07-bcd1d125d219)|
-|[Screenshots] Sony| [Grid] Grid: Detailed - Flipped|![CanvasSonyScreenshots](https://github.com/user-attachments/assets/e6c4b68f-2091-4708-a5b6-89dbd728f373)|![CanvasSonyGrid-Detailed-Flipped](https://github.com/user-attachments/assets/bc661fb1-6e29-4cf0-8a4f-5e8e987ac9a6)|
-|[Capsule] Light| [Grid] Carousel|![CanvasLightCapsule](https://github.com/user-attachments/assets/36b69bc1-67f0-43a6-bbba-d605e5688a0d)|![CanvasLightCarousel](https://github.com/user-attachments/assets/2159c21e-d007-4987-83f7-99cd524877ce)|
+|[Capsule] Retro|[Grid] Grid: Basic|![MainRetro](https://github.com/user-attachments/assets/2d45a4cb-54a5-4e1f-9e37-a02cdeffcc9f)|![GameRetroLarge](https://github.com/user-attachments/assets/8c17f82f-3a38-4e28-be71-ab74aee488d1)|
+|[Icon] Dark| [Carousel] Textlist|![MainDarkIcon](https://github.com/user-attachments/assets/7d2e32e9-f6c4-4ce5-a62f-bec205936240)|![GameDark](https://github.com/user-attachments/assets/e04940b3-6f6d-4684-878a-1eddaade8513)|
+|[Logos] Sony| [Grid] Grid: Detailed|![CanvasSonyLogos](https://github.com/user-attachments/assets/efc19c5b-0f7a-4a00-894f-64dc6a52c80f)|![CanvasSonyGrid-Detailed](https://github.com/user-attachments/assets/67f2e87b-e9e6-462d-96c2-267967cc9890)|
+|[Art] NES| [Grid] Carousel: Boxart|![CanvasLightCapsule](https://github.com/user-attachments/assets/3b0ae979-33c9-4267-87eb-b52a571a0e69)|![CanvasNESBoxart](https://github.com/user-attachments/assets/615e0496-b847-4a6f-88c5-f74c227e9f10)|
+
 
 
 ### Preview of Font Sizes 
 
 | Small | Medium |
 | :---: | :---: |
-|![CanvasSmall](https://github.com/user-attachments/assets/84edc61e-3e31-4975-a646-c68aac1b7737)|![CanvasMedium](https://github.com/user-attachments/assets/64142e5d-af3b-4431-9120-644c76e6276b)|
+|![CanvasSmall](https://github.com/user-attachments/assets/262fdc5f-4c79-403d-9e7f-4fac9a64f545)|![CanvasMedium](https://github.com/user-attachments/assets/5e5c1322-24d0-4fa4-8e27-bbc12a8ab7be)|
 | **Large** | **X-Large** |
-|![CanvasLarge](https://github.com/user-attachments/assets/671ec1b4-849d-48ac-9676-ad92f47fe13b)|![CanvasXLarge](https://github.com/user-attachments/assets/c8e628fb-0ab7-4bee-8b5f-36a963e2409e)|
+|![CanvasLarge](https://github.com/user-attachments/assets/a7acac10-eec7-459e-b6b1-a5ced535b269)|![CanvasXLarge](https://github.com/user-attachments/assets/3bb16073-517a-4679-9109-c9102a01b597)|
 
 
 
@@ -95,6 +103,7 @@ This theme allows customizations to artwork without the need to edit the source 
 - Inside are .webp images named after the color schemes.
 - Save over any of these with your new wallpaper to change that color scheme look.
 - Alternate wallpapers are also stored in the "Alternate" folder as an example.
+- Animated wallpapers in a gif format can be saved into the "Animated" folder. These will be displayed instead of the corresponding wallpaper color. This can be VRAM/CPU intensive.
 
 
 ## **Acknowledgments**
