@@ -104,13 +104,13 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <customButtonIcon button="thumbstick_click">./_inc/images/help-left-stick-click.svg</customButtonIcon>
       </helpsystem>
       <clock name="clock">
-         <pos>0.016 0.01</pos>
+         <pos>0.012 0.01</pos>
          <fontPath>${fontBold}</fontPath>
          <fontSize>${games-count-font-size}</fontSize>
          <color>${helpTextColor}</color>
       </clock>
       <systemstatus name="systemstatus">
-         <pos>0.982 0.01</pos>
+         <pos>0.99 0.01</pos>
          <fontPath>${fontBold}</fontPath>
          <height>${games-count-font-size}</height>
          <color>${helpTextColor}</color>
