@@ -103,6 +103,19 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <customButtonIcon button="button_y_SNES">./_inc/images/help-button-north.svg</customButtonIcon>
          <customButtonIcon button="thumbstick_click">./_inc/images/help-left-stick-click.svg</customButtonIcon>
       </helpsystem>
+      <clock name="clock">
+         <pos>0.016 0.01</pos>
+         <fontPath>${fontBold}</fontPath>
+         <fontSize>${games-count-font-size}</fontSize>
+         <color>${helpTextColor}</color>
+      </clock>
+      <systemstatus name="systemstatus">
+         <pos>0.982 0.01</pos>
+         <fontPath>${fontBold}</fontPath>
+         <height>${games-count-font-size}</height>
+         <color>${helpTextColor}</color>
+      </systemstatus>
+
    </view>
 
    <variant name="grid-grid-detailed,
@@ -395,7 +408,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <fontPath>${fontLogo}</fontPath>
       </text>
       <badges name="badges">
-            <origin>0 0</origin>
+            <origin>0 1</origin>
             <pos>${badge-x} ${badge-y}</pos>
             <size>1 ${badge-size}</size>
             <lines>1</lines>
@@ -512,6 +525,12 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <badges name="badges">
             <badgeIconColor>${rowBadgeColor}</badgeIconColor>
       </badges> 
+      <clock name="clock">
+         <color>${rowBadgeColor}</color>
+      </clock>
+      <systemstatus name="systemstatus">
+         <color>${rowBadgeColor}</color>
+      </systemstatus>
       <video name="game-media">
             <origin>0.5 1</origin>
             <pos>0.5 ${media-y}</pos>
@@ -956,6 +975,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    </aspectRatio>
    <aspectRatio name="1:1">
       <include>./aspect-ratio-1-1.xml</include>
+   </aspectRatio>
+   <aspectRatio name="8:7">
+      <include>./aspect-ratio-8-7.xml</include>
    </aspectRatio>
    <aspectRatio name="3:2">
       <include>./aspect-ratio-3-2.xml</include>

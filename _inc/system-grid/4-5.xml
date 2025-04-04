@@ -195,4 +195,43 @@
          </variables>
       </fontSize>
    </aspectRatio>
+
+   <aspectRatio name="8:7">
+      <fontSize name="small">
+         <variables>
+            <gridItemSize>0.1974 0.2833</gridItemSize>
+            <gridItemPos>0.5926612903</gridItemPos>
+            <gridHeight>0.85</gridHeight>
+            <itemcount>3</itemcount>
+            <itemsize>0.256 0.32</itemsize>
+         </variables>
+      </fontSize>
+      <fontSize name="medium,large">
+         <variables>
+            <gridItemSize>0.2961 0.4250</gridItemSize>
+            <gridItemPos>0.5433064516</gridItemPos>
+            <gridHeight>0.85</gridHeight>
+            <itemcount>2.25</itemcount>
+            <itemsize>0.32 0.4</itemsize>
+         </variables>
+      </fontSize>
+      <fontSize name="">
+         <variables>
+            <gridItemSize>0.3484 0.5000</gridItemSize>
+            <gridItemPos>0.6391129032</gridItemPos>
+            <gridHeight>0.5</gridHeight>
+            <itemcount>2.25</itemcount>
+            <itemsize>0.36 0.45</itemsize>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize>0.4181 0.6000</gridItemSize>
+            <gridItemPos>0.5694354839</gridItemPos>
+            <gridHeight>0.6</gridHeight>
+            <itemcount>2</itemcount>
+            <itemsize>0.4 0.5</itemsize>
+         </variables>
+      </fontSize>
+   </aspectRatio>
 </theme>

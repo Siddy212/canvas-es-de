@@ -137,7 +137,7 @@ based on 1920x1080
    carousel-textlist-flipped,carousel-grid-detailed-flipped">
       <view name="gamelist">
          <badges name="badges">
-            <lines>3</lines>
+            <lines>2</lines>
             <itemsPerLine>3</itemsPerLine>
             <size>${badgesize}</size>
             <itemMargin>0.006 0.01</itemMargin>
@@ -283,20 +283,20 @@ based on 1920x1080
             <descriptionLineSpacing>1.8</descriptionLineSpacing>
             <badgepos>0.028 0.878</badgepos>
             <badgeposFlipped>0.528 0.878</badgeposFlipped>
-            <badgesize>0.3 0.14</badgesize>
+            <badgesize>0.3 0.10</badgesize>
          </variables>
       </fontSize>
       <fontSize name="small,medium,large">
          <variables>
-            <imagepos>0.25 0.265</imagepos>
-            <imageposFlipped>0.75 0.265</imageposFlipped>
-            <imagemaxSize>0.448958333333333 0.42</imagemaxSize>
-            <logoPos>0.885</logoPos>
+            <imagepos>0.25 0.27</imagepos>
+            <imageposFlipped>0.75 0.27</imageposFlipped>
+            <imagemaxSize>0.448958333333333 0.40</imagemaxSize>
+            <logoPos>0.9</logoPos>
          </variables>
       </fontSize>
       <fontSize name="large">
          <variables>
-            <logoPos>0.875</logoPos>
+            <logoPos>0.89</logoPos>
          </variables>
       </fontSize>
       <fontSize name="x-large">
