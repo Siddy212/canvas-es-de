@@ -15,8 +15,8 @@ based on 1240x1080
          <gamelistFontSize>0.021</gamelistFontSize>
          <gamelistSelectorHeight>0.030514814814815</gamelistSelectorHeight>
          <gamelistLineSpacing>1.763051851851852</gamelistLineSpacing>
-         <gamelistPos>0.528291666666667 0.105566666666667</gamelistPos>
-         <gamelistPosFlipped>0.058291666666667 0.105566666666667</gamelistPosFlipped>
+         <gamelistPos>0.528291666666667 0.115566666666667</gamelistPos>
+         <gamelistPosFlipped>0.058291666666667 0.115566666666667</gamelistPosFlipped>
          <itemsBeforeCenter>3.5</itemsBeforeCenter>
          <itemsAfterCenter>3.5</itemsAfterCenter>   
          <itemSize>0.23 0.175</itemSize>
@@ -28,8 +28,8 @@ based on 1240x1080
          <gamelistFontSize>0.025</gamelistFontSize>
          <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
          <gamelistLineSpacing>1.851851851851852</gamelistLineSpacing>
-         <gamelistPos>0.528291666666667 0.096666666666667</gamelistPos>
-         <gamelistPosFlipped>0.058291666666667 0.096666666666667</gamelistPosFlipped>
+         <gamelistPos>0.528291666666667 0.106666666666667</gamelistPos>
+         <gamelistPosFlipped>0.058291666666667 0.106666666666667</gamelistPosFlipped>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
          <itemSize>0.26 0.2</itemSize>
@@ -42,8 +42,8 @@ based on 1240x1080
          <gamelistFontSize>0.033333333333333</gamelistFontSize>
          <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
          <gamelistLineSpacing>1.736111111111111</gamelistLineSpacing>
-         <gamelistPos>0.528291666666667 0.1141</gamelistPos>
-         <gamelistPosFlipped>0.058291666666667 0.1141</gamelistPosFlipped>
+         <gamelistPos>0.528291666666667 0.1241</gamelistPos>
+         <gamelistPosFlipped>0.058291666666667 0.1241</gamelistPosFlipped>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
          <itemSize>0.26 0.2</itemSize>
@@ -104,7 +104,7 @@ based on 1240x1080
             <pos>${gamelistPos}</pos>
          </textlist>
          <image name="game-list-background-shadow,game-list-background">
-            <pos>0.735 0.48748148147</pos>
+            <pos>0.735 0.49748148147</pos>
          </image>
       </view>
    </variant>
@@ -115,7 +115,7 @@ based on 1240x1080
             <pos>${gamelistPosFlipped}</pos>
          </textlist>
          <image name="game-list-background-shadow,game-list-background">
-            <pos>0.265 0.48748148147</pos>
+            <pos>0.265 0.49748148147</pos>
          </image>
       </view>
    </variant>
