@@ -16,12 +16,12 @@
    </colorScheme>
 
 
-   <colorScheme name="sony,dark,neon,nes,pocket-dark">
+   <colorScheme name="sony,dark,neon,nes,pocket-dark,pocket-medium">
       <variables>
           <staticImagePath>./_inc/carousel-icons-art/light/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
-   <colorScheme name="light,pastel,retro,pocket-medium,snes">
+   <colorScheme name="light,pastel,retro,snes">
       <variables>
           <staticImagePath>./_inc/carousel-icons-art/medium/${system.theme}.webp</staticImagePath>
       </variables>
