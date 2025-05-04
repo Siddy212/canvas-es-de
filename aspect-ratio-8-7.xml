@@ -204,7 +204,7 @@ based on 1240x1080
             <zIndex>4</zIndex>
          </image>
          <text name="game-name-base">
-            <size>.388 ${metaDatafontSize}</size>
+            <size>.384 ${metaDatafontSize}</size>
             <visible>${metadataBase}</visible>
             <lineSpacing>1.2</lineSpacing>
             <fontSize>${metaDatafontSize}</fontSize>
@@ -220,7 +220,7 @@ based on 1240x1080
             <fontSize>${metaDatafontSize}</fontSize>
          </datetime>
          <text name="game-genre-base">
-            <size>0.39 ${metaDatafontSize}</size>
+            <size>0.384 ${metaDatafontSize}</size>
             <lineSpacing>1.2</lineSpacing>
             <visible>${metadataBase}</visible>
             <fontSize>${metaDatafontSize}</fontSize>
@@ -297,9 +297,9 @@ based on 1240x1080
       </fontSize>
       <fontSize name="large">
          <variables>
-            <imagepos>0.25 0.215</imagepos>
-            <imagemaxSize>0.44 0.31</imagemaxSize>
-            <imageposFlipped>0.75 0.215</imageposFlipped>
+            <imagepos>0.25 0.225</imagepos>
+            <imagemaxSize>0.44 0.28</imagemaxSize>
+            <imageposFlipped>0.75 0.225</imageposFlipped>
             <logomaxSize>0.25 0.12</logomaxSize>
             <logoPos>0.91</logoPos>
          </variables>
@@ -371,7 +371,7 @@ based on 1240x1080
             <pos>0.25 0.61</pos>
          </image>
          <text name="game-name-base">
-            <pos>0.082 0.415</pos>
+            <pos>0.086 0.415</pos>
          </text>
          <rating name="game-rating-base">
             <pos>0.113 0.497</pos>
@@ -380,7 +380,7 @@ based on 1240x1080
             <pos>0.274 0.497</pos>
          </datetime>
          <text name="game-genre-base">
-            <pos>0.082 0.582</pos>
+            <pos>0.086 0.582</pos>
          </text>
          <!-- End: Base Metadata -->
          <text name="game-description">
@@ -445,7 +445,7 @@ based on 1240x1080
             <pos>0.75 0.61</pos>
          </image>
          <text name="game-name-base">
-            <pos>0.582 0.415</pos>
+            <pos>0.586 0.415</pos>
          </text>
          <rating name="game-rating-base">
             <pos>0.613 0.497</pos>
@@ -454,7 +454,7 @@ based on 1240x1080
             <pos>0.774 0.497</pos>
          </datetime>
          <text name="game-genre-base">
-            <pos>0.582 0.582</pos>
+            <pos>0.586 0.582</pos>
          </text>
          <!-- End: Base Metadata -->
          <text name="game-description">
