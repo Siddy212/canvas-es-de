@@ -16,7 +16,7 @@
    </colorScheme>
 
 
-   <colorScheme name="sony,dark,neon,nes,pocket-dark,pocket-medium">
+   <colorScheme name="sony,dark,neon,nes,pocket-dark,pocket-medium,pocket-light">
       <variables>
           <staticImagePath>./_inc/carousel-icons-art/light/${system.theme}.webp</staticImagePath>
       </variables>
@@ -26,7 +26,7 @@
           <staticImagePath>./_inc/carousel-icons-art/medium/${system.theme}.webp</staticImagePath>
       </variables>
    </colorScheme>
-   <colorScheme name="famicom,pocket-light">
+   <colorScheme name="famicom">
       <variables>
           <staticImagePath>./_inc/carousel-icons-art/dark/${system.theme}.webp</staticImagePath>
       </variables>
