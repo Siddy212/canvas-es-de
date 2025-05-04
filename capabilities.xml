@@ -30,6 +30,15 @@
    <colorScheme name="retro-capsule">
       <label>[Capsule] Retro</label>
    </colorScheme>
+   <colorScheme name="pocket-light-capsule">
+      <label>[Capsule] Pocket Light</label>
+   </colorScheme>
+   <colorScheme name="pocket-medium-capsule">
+      <label>[Capsule] Pocket Medium</label>
+   </colorScheme>
+   <colorScheme name="pocket-dark-capsule">
+      <label>[Capsule] Pocket Dark</label>
+   </colorScheme>
    <colorScheme name="neon-capsule">
       <label>[Capsule] Neon</label>
    </colorScheme>
@@ -56,6 +65,15 @@
    </colorScheme>
    <colorScheme name="retro-controller">
       <label>[Controller] Retro</label>
+   </colorScheme>
+   <colorScheme name="pocket-light-controller">
+      <label>[Controller] Pocket Light</label>
+   </colorScheme>
+   <colorScheme name="pocket-medium-controller">
+      <label>[Controller] Pocket Medium</label>
+   </colorScheme>
+   <colorScheme name="pocket-dark-controller">
+      <label>[Controller] Pocket Dark</label>
    </colorScheme>
    <colorScheme name="neon-controller">
       <label>[Controller] Neon</label>
@@ -84,6 +102,15 @@
    <colorScheme name="retro-logo">
       <label>[Logo] Retro</label>
    </colorScheme>
+   <colorScheme name="pocket-light-logo">
+      <label>[Logo] Pocket Light</label>
+   </colorScheme>
+   <colorScheme name="pocket-medium-logo">
+      <label>[Logo] Pocket Medium</label>
+   </colorScheme>
+   <colorScheme name="pocket-dark-logo">
+      <label>[Logo] Pocket Dark</label>
+   </colorScheme>
    <colorScheme name="neon-logo">
       <label>[Logo] Neon</label>
    </colorScheme>
@@ -111,6 +138,15 @@
    <colorScheme name="retro-screenshot">
       <label>[Screenshot] Retro</label>
    </colorScheme>
+   <colorScheme name="pocket-light-screenshot">
+      <label>[Screenshot] Pocket Light</label>
+   </colorScheme>
+   <colorScheme name="pocket-medium-screenshot">
+      <label>[Screenshot] Pocket Medium</label>
+   </colorScheme>
+   <colorScheme name="pocket-dark-screenshot">
+      <label>[Screenshot] Pocket Dark</label>
+   </colorScheme>
    <colorScheme name="neon-screenshot">
       <label>[Screenshot] Neon</label>
    </colorScheme>
@@ -137,6 +173,15 @@
    </colorScheme>
    <colorScheme name="retro">
       <label>[Art] Retro</label>
+   </colorScheme>
+   <colorScheme name="pocket-light">
+      <label>[Art] Pocket Light</label>
+   </colorScheme>
+   <colorScheme name="pocket-medium">
+      <label>[Art] Pocket Medium</label>
+   </colorScheme>
+   <colorScheme name="pocket-dark">
+      <label>[Art] Pocket Dark</label>
    </colorScheme>
    <colorScheme name="neon">
       <label>[Art] Neon</label>
