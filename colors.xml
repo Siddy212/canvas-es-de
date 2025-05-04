@@ -197,9 +197,9 @@
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <gridSelectorColor>6d1303</gridSelectorColor>
          <gamelistCarouselBackground>carousel-background-dark</gamelistCarouselBackground>
-         <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
+         <gamelistBackgroundImage>gamelist-background-nes</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
-         <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-nes</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>560c0c</gamelistSelectorColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>777777</gamelistPrimaryColor>
@@ -246,12 +246,12 @@
 
    <colorScheme name="pocket-light,pocket-light-controller,pocket-light-capsule,pocket-light-logo,pocket-light-screenshot">
       <variables>
-         <helpTextColor>163e6e</helpTextColor>
-         <backgroundColor>ffffffcc</backgroundColor>
-         <gamescountColor>ffffff</gamescountColor>
-         <systemInfoColor>ffffff</systemInfoColor>
-         <clockColor>163e6e</clockColor>
-         <systemColor>163e6e</systemColor>
+         <helpTextColor>ffffffcc</helpTextColor>
+         <backgroundColor>00000000</backgroundColor>
+         <gamescountColor>ffffffcc</gamescountColor>
+         <systemInfoColor>ffffffcc</systemInfoColor>
+         <clockColor>ffffffcc</clockColor>
+         <systemColor>ffffffcc</systemColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <gridSelectorColor>60a09e</gridSelectorColor>
          <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
@@ -314,14 +314,14 @@
          <systemColor>ffffff</systemColor>
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <gridSelectorColor>93cbb7</gridSelectorColor>
-         <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
+         <gamelistBackgroundImage>gamelist-background-pocket-dark</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-pocket-dark</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>e48830cc</gamelistSelectorColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
          <gamelistPrimaryColor>ffffffcc</gamelistPrimaryColor>
          <gameMetadataColor>ffffff</gameMetadataColor>
-         <gamelistLogoColor>dd582d80</gamelistLogoColor>
+         <gamelistLogoColor>ffffffcc</gamelistLogoColor>
          <BadgeColor>ffffff</BadgeColor>
          <rowBadgeColor>ffffffcc</rowBadgeColor>
          <rowSystemColor>FFFFFFcc</rowSystemColor>
